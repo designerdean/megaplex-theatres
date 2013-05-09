@@ -1,27 +1,9 @@
-// Reasons Ad Blurb
-// ==========================================================================
-
-.reasons {
-  @extend .clear-after;
-  margin-top: -1.95em;
-  text-align: center;
-}
-
-  .reasons > h3 {
-    display: inline;
-  }
-
-    .reasons > h3 > a,
-    .reasons > h3 > a :visited {
-      @include font-source-semibold;
-    }
-
 // Movies Box
 // ==========================================================================
 
 .movies {
   @extend .clear-after;
-  @include border-radius(0.9em 0 0.9em 0.9em);
+  // @include border-radius(0.9em 0 0.9em 0.9em);
   @include font-source-light;
   background-color: $color-purple;
   color: #ffffff;

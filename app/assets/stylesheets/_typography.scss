@@ -6,18 +6,19 @@
 // Font Stacks & Global Font
 // ==========================================================================
 
+// For Body
 @mixin font-source-light {font-family: "source-sans-pro", sans-serif; font-style: normal; font-weight: 300;}
 @mixin font-source-regular {font-family: "source-sans-pro", sans-serif; font-style: normal; font-weight: 400;}
 @mixin font-source-semibold {font-family: "source-sans-pro", sans-serif; font-style: normal; font-weight: 600;}
 
-
+// For Headings
 @mixin font-etica-regular {font-family: "lft-etica", sans-serif; font-style: normal; font-weight: 400;}
 @mixin font-etica-semibold {font-family: "lft-etica", sans-serif; font-style: normal; font-weight: 600;}
 
 body {
   @include font-source-regular;
   @include rotate3d(0, 0, 0, 0); // Fixes the shifting font-weight during CSS transitions
-  color: $color-gray;
+  color: #333333;
   font-size: 1em;
   line-height: 1.5;
   -webkit-font-smoothing: subpixel-antialiased; // Fixes the inconsistent font-weight in Safari

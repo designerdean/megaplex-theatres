@@ -15,18 +15,36 @@ header {
     width: 24em;
   }
 
-  .tagline {
-    border-left: 0.3em solid #e7e7e7;
-    display: inline-block;
-    float: left;
-    margin-left: 1em;
-    padding: 0.5em 1em;
-    position: absolute;
-      top: 0;
-      left: auto;
-      bottom: 0;
-    vertical-align: middle;
+// Tagline / Reasons Ad Blurb
+// ==========================================================================
+
+.tagline {
+  border-left: 0.3em solid #e7e7e7;
+  display: inline-block;
+  float: left;
+  margin: 0 0 0 1em;
+  padding: 0.5em 1em;
+  position: absolute;
+    top: 0.8em;
+    left: auto;
+    bottom: 0.4em;
+  vertical-align: middle;
+}
+
+  .tagline > h2 {
+    @include font-source-semibold;
+    font-size: 1.1em;
   }
+
+  .tagline > h3 {
+    color: #888888;
+  }
+
+    .tagline > h3 > a,
+    .tagline > h3 > a:visited {
+      @include font-source-semibold;
+      color: #888888;
+    }
 
 // Login / Search Utilities
 // ==========================================================================

@@ -5,23 +5,26 @@ nav {
 
   nav > ul {
     @include inline-block-list;
-    font-size: 1.3em;
+    background-color: #bac4c5;
+    float: right;
+    font-size: 1.1em;
+    padding: 0.3em 0.7em 0.2em 0.7em;
   }
 
     nav > ul > li {
       @include inline-block-list-item;
-      padding: 0.2em 0.1em;
+      padding: 0;
     }
 
       nav a,
       nav a:visited {
-        @include border-radius(0.2em);
         @include single-transition(background, 0.3s, linear);
-        color: $color-gray;
-        padding: 0.05em 0.3em;
+        color: #ffffff;
+        padding: 0 0.5em;
         text-decoration: none;
+        text-transform: uppercase;
       }
 
         .no-touch nav a:hover {
-          background-color: #f0f0f0;
+
         }
