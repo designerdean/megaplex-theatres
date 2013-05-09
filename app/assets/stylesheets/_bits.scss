@@ -60,6 +60,15 @@
   }
 }
 
+.screen-reader {
+  position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
 // Sass Variables
 // ==========================================================================
 
+$color-gray: #333333;
+$color-purple: #6d2b90;
+$color-yellow: #ffcb07;

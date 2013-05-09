@@ -1,3 +1,68 @@
+// Movies Box
+// ==========================================================================
+
+.movies {
+  @extend .clear-after;
+  @include border-radius(0.9em 0 0.9em 0.9em);
+  @include font-source-light;
+  background-color: $color-purple;
+  font-size: 0.8em;
+  padding: 1em;
+  text-align: center;
+}
+
+  .moves > ul {
+    list-style-type: none;
+  }
+
+    .movies > ul > li {
+      display: inline-block;
+      padding: 0.8em;
+      width: 16%;
+    }
+
+      .movies a,
+      .movies a:visited {
+        @include single-transition(color, 0.3s, linear);
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+        .no-touch .movies a:hover {
+          color: $color-yellow;
+        }
+
+        .poster {
+          @include box-sizing(content-box);
+          @include single-transition(border-color, 0.3s, linear);
+          border: 0.3em solid #996ab1;
+          width: 120px;
+        }
+
+          .no-touch .movies a:hover .poster {
+            border-color: $color-yellow;
+          }
+
+        .movies > ul > li > a > span {
+          display: block;
+          margin-top: 0.4em;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+// A better looking default horizontal rule
+// ==========================================================================
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
 // Google Maps
 // ==========================================================================
 

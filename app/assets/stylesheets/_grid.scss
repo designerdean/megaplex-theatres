@@ -6,10 +6,20 @@
 }
 
 html {
+  // background-color: #313131;
   height: 100%;
 }
 
 body {
   height: 100%;
-  line-height: 1.5;
+}
+
+.wrapper {
+  @extend .clear-after;
+  margin: 0 auto;
+  max-width: 75em;
+}
+
+.content {
+  @extend .wrapper;
 }

@@ -1,12 +1,23 @@
 // @font-face
 // ==========================================================================
 
+// Through Typekit
+
 // Font Stacks & Global Font
 // ==========================================================================
 
+@mixin font-source-light {font-family: "source-sans-pro", sans-serif; font-style: normal; font-weight: 300;}
+@mixin font-source-regular {font-family: "source-sans-pro", sans-serif; font-style: normal; font-weight: 400;}
+
+@mixin font-etica-regular {font-family: "lft-etica", sans-serif; font-style: normal; font-weight: 400;}
+@mixin font-etica-semibold {font-family: "lft-etica", sans-serif; font-style: normal; font-weight: 600;}
+
 body {
+  @include font-source-regular;
   @include rotate3d(0, 0, 0, 0); // Fixes the shifting font-weight during CSS transitions
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $color-gray;
+  font-size: 1em;
+  line-height: 1.5;
   -webkit-font-smoothing: subpixel-antialiased; // Fixes the inconsistent font-weight in Safari
 }
 
@@ -14,8 +25,14 @@ body {
 // ==========================================================================
 
 h1, h2, h3, h4, h5, h6 {
-
+  @include font-etica-regular;
 }
+
+  h1 {
+    color: $color-purple;
+    font-size: 2.2em;
+    text-transform: uppercase;
+  }
 
 // Misc
 // ==========================================================================

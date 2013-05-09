@@ -1,0 +1,19 @@
+nav {
+  @extend .wrapper;
+  text-align: right;
+}
+
+  nav > ul {
+    @include inline-block-list;
+    font-size: 1.3em;
+  }
+
+    nav > ul > li {
+      @include inline-block-list-item(0.5em);
+    }
+
+      nav a,
+      nav a:visited {
+        color: $color-gray;
+        text-decoration: none;
+      }
