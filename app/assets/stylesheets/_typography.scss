@@ -8,6 +8,8 @@
 
 @mixin font-source-light {font-family: "source-sans-pro", sans-serif; font-style: normal; font-weight: 300;}
 @mixin font-source-regular {font-family: "source-sans-pro", sans-serif; font-style: normal; font-weight: 400;}
+@mixin font-source-semibold {font-family: "source-sans-pro", sans-serif; font-style: normal; font-weight: 600;}
+
 
 @mixin font-etica-regular {font-family: "lft-etica", sans-serif; font-style: normal; font-weight: 400;}
 @mixin font-etica-semibold {font-family: "lft-etica", sans-serif; font-style: normal; font-weight: 600;}

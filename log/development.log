@@ -12886,3 +12886,2015 @@ Served asset /jquery_ujs.js - 304 Not Modified (0ms)
 
 Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:06:25 -0600
 Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:14:22 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:14:22 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:14:22 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:14:22 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:14:22 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:14:22 -0600
+Served asset /main.css - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:14:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:14:22 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:14:22 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:14:28 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:14:29 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:14:29 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:14:29 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:14:29 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:14:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:14:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:14:29 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:15:34 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (804ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 840ms (Views: 840.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:15:35 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:15:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:15:35 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:15:35 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:15:35 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:15:35 -0600
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:15:35 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:15:35 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:15:49 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (843ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 863ms (Views: 862.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:15:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:15:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:15:50 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:15:50 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:15:50 -0600
+Served asset /main.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:15:51 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:15:51 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:16:20 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (800ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 821ms (Views: 820.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:16:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:21 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:21 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:21 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:16:21 -0600
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:16:21 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:16:21 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:16:26 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (777ms)  (pid 35232)
+Compiled application.css  (1ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 798ms (Views: 798.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:16:27 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:16:27 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:27 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:27 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:27 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:27 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:16:27 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:16:27 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:16:34 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (803ms)  (pid 35232)
+Compiled application.css  (1ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 826ms (Views: 825.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:16:35 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:16:35 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:35 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:35 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (29ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:35 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:16:35 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:16:35 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:16:46 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (783ms)  (pid 35232)
+Compiled application.css  (1ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 807ms (Views: 806.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:16:47 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:16:47 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:47 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:47 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:47 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:16:47 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:16:47 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:16:47 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:17:05 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.1ms)
+Compiled main.css  (769ms)  (pid 35232)
+Compiled application.css  (1ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 791ms (Views: 791.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:17:06 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:17:06 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:17:06 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:17:06 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:17:06 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+Served asset /main.css - 200 OK (2ms)
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:17:06 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:17:06 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:17:06 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:17:10 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (795ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 822ms (Views: 821.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:17:11 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:17:11 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:17:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:17:11 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:17:11 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:17:11 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:17:11 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:17:11 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:19:34 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.4ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:19:35 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:19:35 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:19:35 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:19:35 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:19:35 -0600
+Served asset /main.css - 304 Not Modified (2ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:19:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:19:35 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:20:07 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (803ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 850ms (Views: 849.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:20:08 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:20:08 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:20:08 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:20:08 -0600
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:20:08 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:20:08 -0600
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:20:08 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:20:08 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:20:33 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.4ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:20:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:20:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:20:33 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:20:33 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:20:33 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:20:33 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:20:33 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:21:17 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.6ms)
+Compiled main.css  (809ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 863ms (Views: 862.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:21:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:18 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:18 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:18 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:21:18 -0600
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:18 -0600
+Served asset /application.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:21:18 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:21:18 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:21:26 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (798ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 837ms (Views: 836.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:27 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:21:27 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:27 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:27 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:21:27 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:27 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:21:27 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:21:27 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:21:35 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (801ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 838ms (Views: 837.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:21:36 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:36 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:21:36 -0600
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:36 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:36 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:21:36 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:21:36 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:21:44 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (850ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 873ms (Views: 872.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:45 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:21:45 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:21:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:45 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:21:45 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:21:45 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:21:50 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (859ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 881ms (Views: 880.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:21:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:51 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:51 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:21:51 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /application.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:51 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:21:51 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:21:51 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:21:51 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:22:09 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.4ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:22:09 -0600
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:22:09 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:22:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:22:09 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:22:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:22:09 -0600
+Served asset /main.css - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:22:09 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:22:54 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (908ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 930ms (Views: 930.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:22:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:22:55 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:22:55 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:22:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:22:55 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:22:55 -0600
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:22:55 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:22:56 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:23:36 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.1ms)
+Compiled main.css  (916ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 940ms (Views: 940.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:23:37 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:23:37 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:23:37 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:23:37 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:23:37 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:23:37 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:23:37 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:23:37 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:23:51 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.4ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 42ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:23:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:23:51 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:23:51 -0600
+Served asset /main.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:23:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:23:51 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:23:51 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:23:52 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:23:52 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:23:52 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:24:20 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (822ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 843ms (Views: 842.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:24:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:21 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:24:21 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:21 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:21 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:24:21 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:24:21 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:24:31 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (870ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 890ms (Views: 890.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:24:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:32 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:32 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:32 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:24:32 -0600
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:32 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:32 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:24:33 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:24:33 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:24:35 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (798ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 837ms (Views: 836.5ms | ActiveRecord: 0.0ms)
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:24:36 -0600
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:24:36 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:36 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:36 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:36 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:24:36 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:24:36 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:24:40 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (845ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 865ms (Views: 864.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:24:41 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:24:41 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:41 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:41 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:41 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:24:42 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:24:42 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:24:44 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (795ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 818ms (Views: 818.2ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:24:45 -0600
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:24:45 -0600
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:45 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:45 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Served asset /application.js - 304 Not Modified (0ms)
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:45 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:24:45 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:24:45 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:24:48 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.1ms)
+Compiled main.css  (869ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 894ms (Views: 894.0ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:24:49 -0600
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:24:49 -0600
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:49 -0600
+Served asset /application.css - 304 Not Modified (7ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:49 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:49 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Served asset /application.js - 304 Not Modified (0ms)
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:24:49 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:24:49 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:24:49 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:26:20 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (814ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 837ms (Views: 836.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:26:21 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:26:21 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:26:21 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:26:21 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:26:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:26:21 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:26:21 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:26:21 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:26:41 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (825ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.1ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 876ms (Views: 875.5ms | ActiveRecord: 0.0ms)
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:26:42 -0600
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:26:42 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:26:42 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:26:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:26:42 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:26:42 -0600
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:26:42 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:26:42 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:26:47 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (872ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 895ms (Views: 895.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:26:48 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:26:48 -0600
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:26:48 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:26:48 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:26:48 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:26:48 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:26:48 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:26:48 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:27:04 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (880ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 902ms (Views: 902.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:27:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:27:05 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:27:05 -0600
+Served asset /application.css - 304 Not Modified (8ms)
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:27:05 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:27:05 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:27:05 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:27:05 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:27:05 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:27:19 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.1ms)
+Compiled main.css  (803ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 828ms (Views: 827.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:27:20 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:27:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:27:20 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:27:20 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:27:20 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:27:20 -0600
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:27:20 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:27:20 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:27:32 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.5ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:27:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:27:32 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:27:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:27:32 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:27:32 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:27:32 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:27:32 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:28:40 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.5ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:28:40 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:28:40 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:28:40 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:28:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:28:40 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:28:40 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:28:40 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:29:06 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (901ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 922ms (Views: 921.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:29:07 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:29:07 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:29:07 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:29:07 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:29:07 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:29:07 -0600
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:29:07 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:29:07 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:29:19 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (909ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 961ms (Views: 960.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:29:20 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:29:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:29:20 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:29:20 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:29:20 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:29:20 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:29:20 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:29:20 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:29:26 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (890ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 929ms (Views: 928.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:29:27 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:29:27 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:29:27 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:29:27 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:29:27 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:29:27 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:29:27 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:29:27 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:31:50 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.5ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:31:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:31:51 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:31:51 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:31:51 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:31:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:31:51 -0600
+Served asset /main.css - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:31:51 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:31:51 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:34:26 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.4ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:34:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:34:26 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:34:26 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:34:26 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:34:26 -0600
+Served asset /main.css - 304 Not Modified (2ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:34:26 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:34:26 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:34:28 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.5ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:34:29 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:34:29 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:34:29 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:34:29 -0600
+Served asset /main.css - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:34:29 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:34:29 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:34:29 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:38:19 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.5ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:38:19 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:38:19 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:38:19 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:38:19 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:38:19 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:38:19 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:38:19 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:42:53 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.4ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:42:53 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:42:53 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:42:53 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:42:53 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:42:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:42:53 -0600
+Served asset /main.css - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:42:53 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:44:49 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.4ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 36ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:44:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:44:50 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:44:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:44:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:44:50 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:44:50 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:44:50 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:45:01 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (803ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 842ms (Views: 842.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:45:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:45:02 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:45:02 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:45:02 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:45:02 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:45:02 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:45:02 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:45:02 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:46:43 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (852ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 872ms (Views: 872.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:46:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:46:44 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:46:44 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:46:44 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:46:44 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:46:44 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:46:44 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:46:44 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-08 23:47:24 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (836ms)  (pid 35232)
+Compiled application.css  (0ms)  (pid 35232)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 856ms (Views: 855.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-08 23:47:25 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-08 23:47:25 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-08 23:47:25 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-08 23:47:25 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-08 23:47:25 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-08 23:47:25 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-08 23:47:25 -0600
+Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-08 23:47:25 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
