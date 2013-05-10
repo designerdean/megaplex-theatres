@@ -24,7 +24,7 @@ body {
   -webkit-font-smoothing: subpixel-antialiased; // Fixes the inconsistent font-weight in Safari
 }
 
-// Icomoon
+// Icon Font
 // ==========================================================================
 
 @include font-face("Icomoon",
@@ -41,9 +41,9 @@ body {
   font-family: 'icomoon';
   content: attr(data-icon);
   speak: none;
-  font-weight: normal;
-  font-variant: normal;
   text-transform: none;
+  font-variant: normal;
+  font-weight: normal;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
 }
