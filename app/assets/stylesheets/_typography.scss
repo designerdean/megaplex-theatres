@@ -24,6 +24,30 @@ body {
   -webkit-font-smoothing: subpixel-antialiased; // Fixes the inconsistent font-weight in Safari
 }
 
+// Icomoon
+// ==========================================================================
+
+@include font-face("Icomoon",
+  font-files(
+    "Icomoon.ttf",
+    "Icomoon.woff",
+    "Icomoon.svg"
+  ),
+  "Icomoon.eot"
+);
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
 // Headings
 // ==========================================================================
 
