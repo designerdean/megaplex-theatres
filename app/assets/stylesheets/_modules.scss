@@ -99,14 +99,17 @@ hr {
 }
 
   .filmstrip {
-    background-color: #e7e7e7;
-    border-top: 0.5em solid #e7e7e7;
-    border-bottom: 0.5em solid #e7e7e7;
+    @include font-etica-regular;
+    background: #e7e7e7 url("/assets/texture-noise.png") repeat top left;
+    border-top: 0.7em solid #e7e7e7;
+    border-bottom: 0.7em solid #e7e7e7;
+    font-size: 16px; // For responsive sizing
     margin: 0 -5.6% 2em -5.6%;
+    line-height: 3em;
   }
 
     .filmstrip > hr {
-      border-top: 0.2em dashed #ffffff;
+      border-top: 0.2em dashed #f6f8f8;
       height: 0.1em;
       margin: 0;
     }
