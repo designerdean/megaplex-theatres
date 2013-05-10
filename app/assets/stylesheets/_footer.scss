@@ -1,13 +1,22 @@
 footer {
   @extend .clear-after;
-  color: #888888;
+  color: #999999;
   padding-bottom: 2em;
-  text-align: right;
 }
+
+  footer > div {
+    font-size: 0.8em;
+  }
+
+  footer h6 {
+    font-size: 1em;
+    text-transform: uppercase;
+  }
 
   footer a,
   footer a:visited {
-    color: #888888;
+    color: #999999;
+    text-decoration: none;
   }
 
   .footer-map {
@@ -16,5 +25,5 @@ footer {
 
   .footer-links {
     float: right;
-    padding: 0 1em;
+    padding: 0 2em;
   }
