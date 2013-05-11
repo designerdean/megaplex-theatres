@@ -346,6 +346,7 @@
         @include font-etica-semibold;
         background-color: #bac4c5;
         color: #4d4d4d;
+        cursor: pointer;
         display: block;
         height: 8.6em;
         padding: 1em;
@@ -397,7 +398,18 @@
   .quantity {
     border-top: 0.3em dashed $color-background;
     padding: 1.2em 0;
+    text-align: center;
   }
+
+    .quantity > label {
+      @include font-etica-regular;
+      color: $color-purple;
+      font-size: 1.3em;
+      letter-spacing: 1px;
+      line-height: 1em;
+      text-transform: uppercase;
+      vertical-align: middle;
+    }
 
 // Horizontal Rules
 // ==========================================================================
