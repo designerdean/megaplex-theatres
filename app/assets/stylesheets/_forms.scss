@@ -17,13 +17,13 @@ input[type="search"],
 input[type="text"],
 input[type="url"],
 textarea {
+  @include appearance(none);
   @include border-radius(0);
   border: 0;
   margin: 0;
   outline: 0;
   padding: 0.4em 0;
   word-break: normal;
-  -webkit-appearance: none;
 }
 
 input[type="button"],
@@ -45,15 +45,53 @@ textarea {
 // ==========================================================================
 
 input[type="search"] {
+  @include appearance(none);
+  @include border-radius(0.7em);
   @include box-sizing(content-box);
   @include font-source-regular;
-  @include single-transition(width, 0.1s, linear);
-  background-color: #f0f0f0;
+  @include transition(border-color 0.3s linear, width 0.1s linear);
+  background-color: #ffffff;
+  border: 2px solid #e7e7e7;
   font-size: 0.8em;
+  height: 2.2em;
+  padding: 0;
   width: 12em;
-  -webkit-appearance: textfield;
 }
 
   input[type="search"]:focus {
+    border-color: $color-gold;
     width: 16em;
+  }
+
+  input[type="search"]:moz-placeholder {
+    padding: 0;
+  }
+
+// Location Select Box
+// ==========================================================================
+
+.select-location {
+  @include appearance(none);
+  @include border-radius(0.6em 0.6em 0 0);
+  @include font-etica-regular;
+  background: $color-purple url('/assets/select-arrow.svg') no-repeat center right;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1em;
+  height: 2.8em;
+  outline: none;
+  margin: 0;
+  padding: 0.6em 3em 0.6em 1.2em;
+  position: absolute;
+    top: -2.8em;
+    right: 0;
+}
+
+  .no-svg .select-location {
+    padding-right: 1.2em;
+  }
+
+  .select-location:focus {
+
   }
