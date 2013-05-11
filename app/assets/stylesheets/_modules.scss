@@ -288,6 +288,7 @@
 
 .process {
   list-style-type: none;
+  margin-bottom: 1em;
 }
 
   .process > .row {
@@ -351,12 +352,49 @@
         text-align: center;
       }
 
+  .process-list {
+    margin-top: 1em;
+  }
+
+    .process-list > li {
+      @include border-radius(0.4em);
+      @include single-transition(all, 0.1s, linear);
+      background-color: $color-background;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 1.2em;
+      margin: 0 0.5em 0.5em 0;
+      padding: 0.3em 0.5em 0.2em 0.5em;
+    }
+
+      .no-touch .process-list > li:hover {
+        @include border-radius(0.7em);
+        background-color: #ffffff;
+      }
+
+      .process-list > .selected {
+        background-color: $color-purple;
+        color: #ffffff;
+      }
+
+        .no-touch .process-list > .selected:hover {
+          @include border-radius(0.4em);
+          background-color: $color-purple;
+          color: #ffffff;
+          cursor: default;
+        }
+
   .format {
     border-top: 0.3em dashed $color-background;
     padding: 1.2em 0;
   }
 
   .time {
+    border-top: 0.3em dashed $color-background;
+    padding: 1.2em 0;
+  }
+
+  .quantity {
     border-top: 0.3em dashed $color-background;
     padding: 1.2em 0;
   }
