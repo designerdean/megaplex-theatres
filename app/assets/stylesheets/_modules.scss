@@ -27,24 +27,23 @@
 
       .movies a,
       .movies a:visited {
-        @include single-transition(color, 0.3s, linear);
+        // @include single-transition(color, 0.2s, linear);
         color: #ffffff;
         text-decoration: none;
       }
 
-        .no-touch .movies a:hover {
-          color: $color-gold;
-        }
+        // .no-touch .movies a:hover {
+        //   color: $color-gold;
+        // }
 
         .poster {
-          // @extend .default-box-model;
-          @include single-transition(border-color, 0.3s, linear);
+          @include single-transition(border-color, 0.2s, linear);
           border: 0.3em solid lighten($color-purple, 22%);
           display: block;
         }
 
           .no-touch .movies a:hover .poster {
-            border-color: $color-gold;
+            border-color: lighten($color-purple, 38%);
           }
 
         .movies > ul > li > a > span {
