@@ -41,8 +41,6 @@
           @include single-transition(border-color, 0.3s, linear);
           border: 0.3em solid #996ab1;
           display: block;
-          // max-width: 98%
-          // width: 140px;
         }
 
           .no-touch .movies a:hover .poster {
@@ -56,6 +54,77 @@
           text-overflow: ellipsis;
           white-space: nowrap;
         }
+
+// Hot Deals (Promo List on Homepage)
+// ==========================================================================
+
+.hot-deals {
+  @extend .wide;
+  border-right: 4px solid #e7e7e7;
+}
+
+  .hot-deals > ul {
+    font-size: 1.4em;
+    list-style-type: none;
+  }
+
+    .hot-deals > ul > li {
+      @include background-size(4em);
+      background-position: 0.5em center;
+      background-repeat: no-repeat;
+      padding: 2em 2em 2em 5.5em;
+      position: relative;
+    }
+
+      .hot-deals > ul > .event {
+        background-image: url("/assets/icons/ticket.svg");
+      }
+
+      .hot-deals > ul > .concession {
+        background-image: url("/assets/icons/drink.svg");
+      }
+
+      .hot-deals > ul > .merchandise {
+        background-image: url("/assets/icons/shirt.svg");
+      }
+
+      // .hot-deals > ul > li:before {
+      //   background-color: black;
+      //   color: #ffffff;
+      //   content: '\02385';
+      //   font-family: 'Icomoon';
+      //   font-size: 3em;
+      //   height: 3em;
+      //   position: absolute;
+      //     top: 0;
+      //     left: 0;
+      //   width: 3em;
+      // }
+
+  .hot-deals a,
+  .hot-deals a:visited {
+    text-decoration: none;
+  }
+
+  .hot-deals span {
+    background-color: fuchsia;
+    color: $color-purple;
+    display: inline-block;
+    font-size: 3em;
+    height: 1.2em;
+    position: absolute;
+      top: 0;
+      left: 0;
+  }
+
+// What's Up (Social Media Posts on Homepage)
+// ==========================================================================
+
+.whats-up {
+  @extend .narrow;
+  border-left: 4px solid #e7e7e7;
+  margin-left: -4px;
+}
 
 // Horizontal Rules
 // ==========================================================================

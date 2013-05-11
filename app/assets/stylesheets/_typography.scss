@@ -38,7 +38,7 @@ body {
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
-  font-family: 'icomoon';
+  font-family: 'Icomoon';
   content: attr(data-icon);
   speak: none;
   text-transform: none;
@@ -56,6 +56,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
   h1 {
+    color: $color-purple;
+    font-size: 2.2em;
+    text-transform: uppercase;
+  }
+
+  h4 {
     color: $color-purple;
     font-size: 2.2em;
     text-transform: uppercase;
