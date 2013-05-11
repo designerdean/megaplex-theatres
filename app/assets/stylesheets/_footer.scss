@@ -5,14 +5,10 @@ footer {
   padding-bottom: 2em;
 }
 
-  footer > span {
-    float: left;
-  }
-
   footer > div {
-    font-size: 0.8em;
+    font-size: 0.9em;
     float: right;
-    padding: 0 2em;
+    padding: 1em 2em;
   }
 
     footer h6 {
@@ -25,3 +21,25 @@ footer {
       color: #999999;
       text-decoration: none;
     }
+
+// Locations Block
+
+footer > .locations {
+  float: left;
+}
+
+  footer > .locations > a > span {
+    @include single-transition(color, 0.1s, linear);
+    display: block;
+    font-size: 4em;
+    background: #333333 url("/assets/slc.jpg") no-repeat top left;
+    display: inline-block;
+    float: left;
+    line-height: 2.5em;
+    text-align: center;
+    width: 4em;
+  }
+
+  .no-touch footer > .locations > a:hover > span {
+    color: #ffffff;
+  }
