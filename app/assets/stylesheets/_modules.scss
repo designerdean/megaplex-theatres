@@ -8,7 +8,7 @@
   background-color: $color-purple;
   color: #ffffff;
   margin-bottom: 4em;
-  padding: 1.5em 1em;
+  padding: 2em 1em 1.5em 1em;
   position: relative;
   text-align: center;
 }
@@ -38,7 +38,7 @@
         }
 
           .no-touch .movies a:hover .poster {
-            border-color: lighten($color-purple, 38%);
+            border-color: lighten($color-purple, 46%);
           }
 
         .movies > ul > li > a > span {

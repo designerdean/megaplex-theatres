@@ -88008,3 +88008,2751 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/movies/the-darjeeling-limited.jpg" for 127.0.0.1 at 2013-05-11 00:20:45 -0600
 Served asset /movies/the-darjeeling-limited.jpg - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 00:40:39 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (1.9ms)
+  Rendered shim/_header.html.erb (0.2ms)
+  Rendered shim/_nav.html.erb (0.2ms)
+  Rendered shim/_footer.html.erb (0.2ms)
+Completed 200 OK in 50ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 00:40:40 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 00:40:40 -0600
+Served asset /respond.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 00:40:40 -0600
+Served asset /main.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 00:40:40 -0600
+Served asset /application.js - 304 Not Modified (3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies/cloudy-with-a-chance-of-meatballs.jpg" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+
+
+Started GET "/assets/movies/mud.jpg" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+Served asset /movies/cloudy-with-a-chance-of-meatballs.jpg - 404 Not Found (5ms)
+Served asset /movies/mud.jpg - 404 Not Found (5ms)
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/cloudy-with-a-chance-of-meatballs.jpg"}
+Completed 404 Not Found in 7ms
+
+ActionController::RoutingError (No such page: assets/movies/cloudy-with-a-chance-of-meatballs.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1196235158544627111__call__3431946512835033968__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/mud.jpg"}
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/movies/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+Served asset /movies/iron-man-3.jpg - 404 Not Found (6ms)
+Completed 404 Not Found in 14ms
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/iron-man-3.jpg"}
+
+ActionController::RoutingError (No such page: assets/movies/mud.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2462471450606902327__call__2508649327694070220__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+Completed 404 Not Found in 8ms
+
+ActionController::RoutingError (No such page: assets/movies/iron-man-3.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1196235158544627111__call__3431946512835033968__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/movies/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+Served asset /movies/man-of-steel.jpg - 404 Not Found (5ms)
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/man-of-steel.jpg"}
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (29.3ms)
+
+
+Started GET "/assets/movies/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+Completed 404 Not Found in 10ms
+
+ActionController::RoutingError (No such page: assets/movies/man-of-steel.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1196235158544627111__call__3431946512835033968__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+Served asset /movies/monsters-university.jpg - 404 Not Found (6ms)
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/monsters-university.jpg"}
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+Completed 404 Not Found in 9ms
+Served asset /Icomoon.ttf - 304 Not Modified (1ms)
+
+ActionController::RoutingError (No such page: assets/movies/monsters-university.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2462471450606902327__call__2508649327694070220__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/movies/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+
+
+Started GET "/assets/movies/forty-two.jpg" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+Served asset /movies/forty-two.jpg - 404 Not Found (5ms)
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/forty-two.jpg"}
+Completed 404 Not Found in 10ms
+
+ActionController::RoutingError (No such page: assets/movies/forty-two.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2462471450606902327__call__2508649327694070220__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/movies/oblivion.jpg" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+Served asset /movies/star-trek-into-darkness.jpg - 404 Not Found (38ms)
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/star-trek-into-darkness.jpg"}
+Served asset /movies/oblivion.jpg - 404 Not Found (6ms)
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/oblivion.jpg"}
+Completed 404 Not Found in 9ms
+Completed 404 Not Found in 8ms
+
+ActionController::RoutingError (No such page: assets/movies/star-trek-into-darkness.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1196235158544627111__call__3431946512835033968__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+
+ActionController::RoutingError (No such page: assets/movies/oblivion.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2462471450606902327__call__2508649327694070220__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/movies/oz-the-great-and-powerful.jpg" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+
+
+Started GET "/assets/movies/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+Served asset /movies/oz-the-great-and-powerful.jpg - 404 Not Found (5ms)
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/oz-the-great-and-powerful.jpg"}
+Served asset /movies/the-great-gatsby.jpg - 404 Not Found (5ms)
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/the-great-gatsby.jpg"}
+Completed 404 Not Found in 11ms
+Completed 404 Not Found in 11ms
+
+ActionController::RoutingError (No such page: assets/movies/oz-the-great-and-powerful.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2462471450606902327__call__2508649327694070220__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+
+ActionController::RoutingError (No such page: assets/movies/the-great-gatsby.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1196235158544627111__call__3431946512835033968__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/movies/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+
+
+Started GET "/assets/movies/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+Served asset /movies/the-hangover.jpg - 404 Not Found (5ms)
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/the-hangover.jpg"}
+Served asset /movies/the-hunger-games-catching-fire.jpg - 404 Not Found (6ms)
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/the-hunger-games-catching-fire.jpg"}
+Completed 404 Not Found in 8ms
+
+ActionController::RoutingError (No such page: assets/movies/the-hangover.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2462471450606902327__call__2508649327694070220__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+Completed 404 Not Found in 9ms
+
+ActionController::RoutingError (No such page: assets/movies/the-hunger-games-catching-fire.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1196235158544627111__call__3431946512835033968__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/movies/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+Served asset /logo.svg - 304 Not Modified (1ms)
+Served asset /movies/the-wolverine.jpg - 404 Not Found (5ms)
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/the-wolverine.jpg"}
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+Served asset /texture-noise.png - 304 Not Modified (1ms)
+Completed 404 Not Found in 8ms
+
+ActionController::RoutingError (No such page: assets/movies/the-wolverine.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2462471450606902327__call__2508649327694070220__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 00:40:42 -0600
+Served asset /select-arrow.svg - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.5ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Served asset /respond.js - 304 Not Modified (2ms)
+Served asset /modernizr.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Served asset /main.css - 304 Not Modified (3ms)
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Served asset /application.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs.jpg" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs.jpg - 404 Not Found (3ms)
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/small/cloudy-with-a-chance-of-meatballs.jpg"}
+Served asset /movies/small/man-of-steel.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/movies/small/forty-two.jpg" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Completed 404 Not Found in 10ms
+
+ActionController::RoutingError (No such page: assets/movies/small/cloudy-with-a-chance-of-meatballs.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1196235158544627111__call__3431946512835033968__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+Served asset /movies/small/forty-two.jpg - 200 OK (9ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Served asset /movies/small/monsters-university.jpg - 200 OK (7ms)
+Served asset /movies/small/iron-man-3.jpg - 200 OK (8ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+
+
+Started GET "/assets/movies/small/oz-the-great-and-powerful.jpg" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Served asset /movies/small/oz-the-great-and-powerful.jpg - 200 OK (8ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 200 OK (8ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Served asset /movies/small/mud.jpg - 200 OK (48ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Served asset /movies/small/the-hangover.jpg - 200 OK (8ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Served asset /movies/small/oblivion.jpg - 200 OK (10ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Served asset /movies/small/the-wolverine.jpg - 200 OK (7ms)
+Served asset /movies/small/the-great-gatsby.jpg - 200 OK (6ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 00:41:00 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 200 OK (7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 00:41:34 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.5ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs.jpg" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs.jpg - 404 Not Found (6ms)
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/small/cloudy-with-a-chance-of-meatballs.jpg"}
+Served asset /movies/small/mud.jpg - 304 Not Modified (1ms)
+Completed 404 Not Found in 12ms
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+
+ActionController::RoutingError (No such page: assets/movies/small/cloudy-with-a-chance-of-meatballs.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1196235158544627111__call__3431946512835033968__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (1ms)
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/movies/small/forty-two.jpg" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+Served asset /movies/small/forty-two.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (1ms)
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 00:41:35 -0600
+Served asset /texture-noise.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs.jpg" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs.jpg - 404 Not Found (3ms)
+Processing by Shim::PagesController#show as */*
+  Parameters: {"id"=>"assets/movies/small/cloudy-with-a-chance-of-meatballs.jpg"}
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+Completed 404 Not Found in 11ms
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+
+ActionController::RoutingError (No such page: assets/movies/small/cloudy-with-a-chance-of-meatballs.jpg):
+  /usr/local/lib/ruby/gems/1.9.1/gems/shim-0.1.5/app/controllers/shim/pages_controller.rb:15:in `block in <class:PagesController>'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (3.2.13) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__1196235158544627111__call__3431946512835033968__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  railties (3.2.13) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/josh/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+  Rendered /usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies/small/forty-two.jpg" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Served asset /movies/small/forty-two.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Served asset /select-arrow.svg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 00:42:11 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.5ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 200 OK (8ms)
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/forty-two.jpg" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /movies/small/forty-two.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /logo.svg - 304 Not Modified (1ms)
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 00:42:33 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 00:43:31 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.4ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 00:43:31 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 00:43:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 00:43:31 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 00:43:31 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 00:43:31 -0600
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 00:43:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 00:43:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 00:43:31 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 00:43:31 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 00:43:31 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 00:43:31 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 00:43:31 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/forty-two.jpg" for 127.0.0.1 at 2013-05-11 00:43:32 -0600
+Served asset /movies/small/forty-two.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 00:43:32 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 00:43:32 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 00:43:32 -0600
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 00:43:32 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 00:43:32 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 00:43:32 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 00:43:32 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 00:43:32 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 00:43:32 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 00:43:32 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.5ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+Served asset /main.css - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+
+
+Started GET "/assets/movies/small/forty-two.jpg" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/forty-two.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 00:44:39 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 00:45:24 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (908ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 959ms (Views: 958.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/forty-two.jpg" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /movies/small/forty-two.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 00:45:25 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 00:45:32 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (890ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 912ms (Views: 912.2ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+Served asset /main.css - 200 OK (3ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+
+
+Started GET "/assets/movies/small/forty-two.jpg" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/forty-two.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 00:45:33 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 00:45:39 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (906ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 929ms (Views: 928.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+Served asset /jquery.js - 304 Not Modified (3ms)
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+
+
+Started GET "/assets/movies/small/forty-two.jpg" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/forty-two.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 00:45:40 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 00:45:44 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (919ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 942ms (Views: 941.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /application.css - 304 Not Modified (5ms)
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+
+
+Started GET "/assets/movies/small/forty-two.jpg" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/forty-two.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 00:45:45 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 00:46:35 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (918ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 940ms (Views: 940.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/forty-two.jpg" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /movies/small/forty-two.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 00:46:36 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 00:46:42 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (911ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 962ms (Views: 961.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+
+
+Started GET "/assets/movies/small/forty-two.jpg" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/forty-two.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 00:46:43 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 00:46:54 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (900ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 923ms (Views: 922.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 00:46:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 00:46:55 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 00:46:55 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 00:46:55 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 00:46:55 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 00:46:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 00:46:55 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+
+
+Started GET "/assets/movies/small/forty-two.jpg" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+Served asset /movies/small/forty-two.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 00:46:56 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
