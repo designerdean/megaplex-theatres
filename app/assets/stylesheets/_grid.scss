@@ -6,9 +6,8 @@
 }
 
 html {
-  // background-color: #f6f8f8;
   background: #f6f8f8 url("/assets/texture-noise-1.png") repeat top left;
-  @include image-2x("/assets/texture-noise-1@2x.png", 100px, 100px);
+    @include image-2x("/assets/texture-noise-1@2x.png", 100px, 100px);
   height: 100%;
 }
 
