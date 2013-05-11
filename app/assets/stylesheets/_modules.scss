@@ -240,50 +240,47 @@
 .tickets {
   @extend .narrow;
   @extend .right;
+  background: url("/assets/ticket-edges.svg") top right no-repeat;
+    // @include background-size(100%);
   padding: 5em 0;
   position: relative;
 }
 
-  .tickets:before,
   .tickets:after {
-    background: url("/assets/ticket-edges.svg") no-repeat;
+    background: url("/assets/ticket-edges.svg") bottom right no-repeat;
       @include background-size(cover);
     content: "";
     height: 5em;
     position: absolute;
       right: 0;
-      left: 0;
-    z-index: -1;
-  }
-
-    .tickets:before {
-      background-position: top right;
-      top: 0;
-    }
-
-    .tickets:after {
-      background-position: bottom right;
       bottom: 0;
-    }
+      left: 0;
+  }
+  
+  // .tickets:before,
+  // .tickets:after {
+  //   background: url("/assets/ticket-edges.svg") no-repeat;
+  //     @include background-size(cover);
+  //   content: "";
+  //   height: 5em;
+  //   position: absolute;
+  //     right: 0;
+  //     left: 0;
+  //   z-index: -1;
+  // }
+
+  //   .tickets:before {
+  //     background-position: top right;
+  //     top: 0;
+  //   }
+
+  //   .tickets:after {
+  //     background-position: bottom right;
+  //     bottom: 0;
+  //   }
 
 // Tickets Sidebar Form
 // ==========================================================================
-
-.tickets legend {
-  @include font-etica-regular;
-  color: $color-purple;
-  font-size: 1.5em;
-  letter-spacing: 1px;
-  line-height: 1em;
-  margin-bottom: 0.5em;
-  padding-top: 0.5em;
-  position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-  text-align: center;
-  text-transform: uppercase;
-}
 
 .tickets form {
   background-color: #e7e7e7;
@@ -294,6 +291,22 @@
   .tickets fieldset {
     margin-bottom: 1em;
   }
+
+    .tickets legend {
+      @include font-etica-regular;
+      color: $color-purple;
+      font-size: 1.5em;
+      letter-spacing: 1px;
+      line-height: 1em;
+      margin-bottom: 0.5em;
+      padding-top: 0.5em;
+      position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+      text-align: center;
+      text-transform: uppercase;
+    }
 
     .tickets label {
       @include font-etica-regular;
