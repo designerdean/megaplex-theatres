@@ -33,36 +33,34 @@
     </div>
   </section>
 
-  <section class="showtimes">
-    <div>
-      <h3>Tickets</h3>
-      
-      <ol class="process">
-        
-        <li class="row">
-          
-          <div class="when">
-            <h4>When</h4>
-            <span class="calendar">
-              <i>May</i>
-              <em>20</em>
-            </span>
-            <a href="">Change Date</a>
-          </div>
+  <section class="tickets">
+    <legend>Tickets</legend>
 
-          <div class="where">
-            <h4>Where</h4>
-            <span>
-              The Junction<br>
-              Ogden, UT
-            </span>
-            <a href="">Change Location</a>
-          </div>
+    <form>
 
-        </li>
+      <fieldset>
         
-        <li class="format">
-          <h4>Choose a Format</h4>
+        <div class="when">
+          <label>When</label>
+          <span class="calendar">
+            <i>May</i>
+            <em>20</em>
+          </span>
+          <a href="">Change Date</a>
+        </div>
+
+        <div class="where">
+          <label>Where</label>
+          <span class="location">
+            The Junction<br>
+            Ogden, UT
+          </span>
+          <a href="">Change Location</a>
+        </div>
+
+        <div class="format">
+          <label>Choose a Format</label>
+          <!-- CHANGE TO RADIOS -->
           <ul class="process-list">
             <li>2D</li>
             <li class="selected">3D</li>
@@ -72,10 +70,11 @@
           <p class="hint">
             <a href="">What do these mean?</a>
           </p>
-        </li>
-        
-        <li class="time">
-          <h4>Choose a Time</h4>
+        </div>
+
+        <div class="time">
+          <label>Choose a Time</label>
+          <!-- CHANGE TO RADIOS -->
           <ul class="process-list">
             <li>11:15 AM</li>
             <li>12:15 AM</li>
@@ -84,9 +83,9 @@
             <li>6:00 PM</li>
             <li>7:45 PM</li>
           </ul>
-        </li>
+        </div>
 
-        <li class="quantity">
+        <div class="quantity">
           <label>Select Quantity:</label>
           <select>
             <option>1</option>
@@ -110,15 +109,15 @@
             <option>19</option>
             <option>20</option>
           </select>
-        </li>
+        </div>
 
-      </ol>
+      </fieldset>
 
       <p class="button-row">
         <a href="" class="button">Buy Tickets</a>
       </p>
 
-    </div>
+    </form>
   </section>
 
 </div>

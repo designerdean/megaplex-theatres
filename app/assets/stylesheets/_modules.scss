@@ -237,19 +237,15 @@
 // Individual Movie Page - Right Sidebar
 // ==========================================================================
 
-.showtimes {
+.tickets {
   @extend .narrow;
   @extend .right;
   padding: 5em 0;
   position: relative;
 }
 
-  // .no-svg .showtimes {
-  //   background-color: #e7e7e7;
-  // }
-
-  .showtimes:before,
-  .showtimes:after {
+  .tickets:before,
+  .tickets:after {
     background: url("/assets/ticket-edges.svg") no-repeat;
       @include background-size(cover);
     content: "";
@@ -260,156 +256,193 @@
     z-index: -1;
   }
 
-    .showtimes:before {
+    .tickets:before {
       background-position: top right;
       top: 0;
     }
 
-    .showtimes:after {
+    .tickets:after {
       background-position: bottom right;
       bottom: 0;
     }
 
-  .showtimes > div {
-    background-color: #e7e7e7;
-    padding: 1em 2em;
-  }
+// Tickets Sidebar Form
+// ==========================================================================
 
-    .showtimes > div > h3 {
-      padding-top: 0.5em;
-      position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-      text-align: center;
-    }
-
-// Process
-
-.process {
-  list-style-type: none;
-  margin-bottom: 1em;
+.tickets legend {
+  @include font-etica-regular;
+  color: $color-purple;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+  padding-top: 0.5em;
+  position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-  .process > .row {
-    margin-bottom: 1.2em;
+.tickets form {
+  background-color: #e7e7e7;
+  list-style-type: none;
+  padding: 1em 2em;
+}
+
+  .tickets fieldset {
+    margin-bottom: 1em;
   }
 
-  .process > .row a {
+    .tickets label {
+      @include font-etica-regular;
+      color: $color-purple;
+      display: block;
+      font-size: 1.3em;
+      letter-spacing: 1px;
+      line-height: 1em;
+      margin-bottom: 0.5em;
+      text-transform: uppercase;
+
+    }
+
+  .tickets .calendar + a,
+  .tickets .location + a {
     display: block;
     margin-top: 0.2em;
     text-align: center;
   }
 
-    .when {
-      float: left;
-      vertical-align: middle;
-      width: 34%;
-    }
+// When
 
-      .calendar {
-        @include font-etica-regular;
-        background-color: #bac4c5;
-        color: #4d4d4d;
-        cursor: pointer;
-        display: block;
-        height: 8.6em;
-        letter-spacing: 1px;
-        padding: 1.5em 1em;
-        text-align: center;
-        text-transform: uppercase;
-      }
+.when {
+  float: left;
+  vertical-align: middle;
+  width: 34%;
+}
 
-        .calendar > i {
-          display: block;
-          font-size: 2.2em;
-          font-style: normal;
-          line-height: 0.6em;
-          margin-bottom: 0.4em;
-        }
-
-        .calendar > em {
-          @include font-etica-semibold;
-          display: block;
-          font-size: 5em;
-          line-height: 0.7em;
-        }
-
-    .where {
-      @extend .right;
-      float: left;
-      vertical-align: middle;
-      width: 66%;
-    }
-
-      .where > span {
-        @include font-etica-semibold;
-        background-color: #bac4c5;
-        color: #4d4d4d;
-        cursor: pointer;
-        display: block;
-        height: 8.6em;
-        padding: 1em;
-        text-align: center;
-      }
-
-  .process-list {
-    margin-top: 1em;
+  .calendar {
+    @include font-etica-regular;
+    background-color: #bac4c5;
+    color: #4d4d4d;
+    cursor: pointer;
+    display: block;
+    height: 8.6em;
+    letter-spacing: 1px;
+    margin-bottom: 0.2em;
+    padding: 1.5em 1em;
+    text-align: center;
+    text-transform: uppercase;
   }
 
-    .process-list > li {
-      @include border-radius(0.4em);
-      @include single-transition(all, 0.1s, linear);
-      background-color: $color-background;
-      cursor: pointer;
-      display: inline-block;
-      font-size: 1.2em;
-      margin: 0 0.5em 0.5em 0;
-      padding: 0.3em 0.5em 0.2em 0.5em;
+    .calendar > i {
+      display: block;
+      font-size: 2.2em;
+      font-style: normal;
+      line-height: 0.6em;
+      margin-bottom: 0.4em;
     }
 
-      .no-touch .process-list > li:hover {
-        @include border-radius(0.7em);
-        background-color: #ffffff;
-      }
+    .calendar > em {
+      @include font-etica-semibold;
+      display: block;
+      font-size: 5em;
+      line-height: 0.7em;
+    }
 
-      .process-list > .selected {
-        background-color: $color-purple;
-        color: #ffffff;
-      }
+// Where
 
-        .no-touch .process-list > .selected:hover {
-          @include border-radius(0.4em);
-          background-color: $color-purple;
-          color: #ffffff;
-          cursor: default;
-        }
+.where {
+  @extend .clear-after;
+  @extend .right;
+  float: left;
+  margin-bottom: 1.2em;
+  vertical-align: middle;
+  width: 66%;
+}
 
-  .format {
-    border-top: 0.3em dashed $color-background;
-    padding: 1.2em 0;
-  }
-
-  .time {
-    border-top: 0.3em dashed $color-background;
-    padding: 1.2em 0;
-  }
-
-  .quantity {
-    border-top: 0.3em dashed $color-background;
-    padding: 1.2em 0;
+  .location {
+    @include font-etica-semibold;
+    background-color: #bac4c5;
+    color: #4d4d4d;
+    cursor: pointer;
+    display: block;
+    height: 8.6em;
+    margin-bottom: 0.2em;
+    padding: 1em;
     text-align: center;
   }
 
-    .quantity > label {
-      @include font-etica-regular;
-      color: $color-purple;
-      font-size: 1.3em;
-      letter-spacing: 1px;
-      line-height: 1em;
-      text-transform: uppercase;
-      vertical-align: middle;
+// Radios for Format & Time Sections
+
+.tickets .process-list {
+  margin-top: 1em;
+}
+
+  .tickets .process-list > li {
+    @include border-radius(0.4em);
+    @include single-transition(all, 0.1s, linear);
+    background-color: $color-background;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0 0.5em 0.5em 0;
+    padding: 0.3em 0.5em 0.2em 0.5em;
+  }
+
+    .no-touch .tickets .process-list > li:hover {
+      @include border-radius(0.7em);
+      background-color: #ffffff;
     }
+
+    .tickets .process-list > .selected {
+      background-color: $color-purple;
+      color: #ffffff;
+    }
+
+      .no-touch .tickets .process-list > .selected:hover {
+        @include border-radius(0.4em);
+        background-color: $color-purple;
+        color: #ffffff;
+        cursor: default;
+      }
+
+// Format
+
+.format {
+  border-top: 0.3em dashed $color-background;
+  clear: both;
+  padding: 1.2em 0;
+}
+
+// Time
+
+.time {
+  border-top: 0.3em dashed $color-background;
+  padding: 1.2em 0;
+}
+
+// Quantity
+
+.quantity {
+  border-top: 0.3em dashed $color-background;
+  padding: 1.2em 0;
+  text-align: center;
+}
+
+  .quantity > label {
+    @include font-etica-regular;
+    color: $color-purple;
+    display: inline;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    line-height: 1em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+
+// Misc
 
 .hint {
   margin-top: 0.5em;
