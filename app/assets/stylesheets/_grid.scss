@@ -38,12 +38,18 @@ body {
   .wide {
     @extend .clear-after;
     float: left;
-    padding-right: 3em;
     width: 60%;
   }
 
   .narrow {
     float: left;
-    padding-left: 3em;
     width: 40%;
+  }
+
+  .left {
+    padding-right: 3.5%;
+  }
+
+  .right {
+    padding-left: 3.5%;
   }

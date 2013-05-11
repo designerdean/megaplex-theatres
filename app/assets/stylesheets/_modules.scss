@@ -119,6 +119,7 @@
 
 .hot-deals {
   @extend .wide;
+  @extend .left;
   border-right: 4px solid #e7e7e7;
 }
 
@@ -140,6 +141,7 @@
 
 .whats-up {
   @extend .narrow;
+  @extend .right;
   border-left: 4px solid #e7e7e7;
   margin-left: -4px;
 }
@@ -172,7 +174,8 @@
 // ==========================================================================
 
 .movie {
-  @extend .wide;  
+  @extend .wide;
+  @extend .left;  
 }
 
   .poster-container {
@@ -236,6 +239,7 @@
 
 .showtimes {
   @extend .narrow;
+  @extend .right;
   padding: 5em 0;
   position: relative;
 }
@@ -279,6 +283,57 @@
         left: 0;
       text-align: center;
     }
+
+// Process
+
+.process {
+  list-style-type: none;
+}
+
+  .process > .row a {
+    display: block;
+    margin-top: 0.2em;
+    text-align: center;
+  }
+
+    .when {
+      @extend .left;
+      float: left;
+      width: 34%;
+    }
+
+      .calendar {
+        @include font-etica-regular;
+        background-color: #bac4c5;
+        color: #4d4d4d;
+        cursor: pointer;
+        display: block;
+        font-size: 2.2em;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+        padding: 0.2em;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+        .calendar > em {
+          @include font-etica-semibold;
+          font-size: 2.5em;
+        }
+
+    .where {
+      @extend .right;
+      float: left;
+      width: 66%;
+    }
+
+  .format {
+    border-top: 0.5em dashed $color-background;
+  }
+
+  .time {
+
+  }
 
 // Horizontal Rules
 // ==========================================================================
