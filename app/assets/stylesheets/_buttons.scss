@@ -10,6 +10,7 @@ a.button:visited {
   @include font-etica-semibold;
   @include single-transition(background-color, 0.1s, linear);
   background-color: $color-gold;
+  color: darken($color-gold, 28%);
   display: inline-block;
   font-size: 1.3em;
   padding: 0.5em 2em 0.4em 2em;
