@@ -34,15 +34,15 @@ body {
   margin-bottom: 4em;
 }
 
-.wide {
-  @extend .clear-after;
-  float: left;
-  padding-right: 3em;
-  width: 57%;
-}
+  .wide {
+    @extend .clear-after;
+    float: left;
+    padding-right: 3em;
+    width: 57%;
+  }
 
-.narrow {
-  float: left;
-  padding-left: 3em;
-  width: 43%;
-}
+  .narrow {
+    float: left;
+    padding-left: 3em;
+    width: 43%;
+  }

@@ -69,52 +69,58 @@
   }
 
     .hot-deals > ul > li {
-      @include background-size(4em);
-      background-position: 0.5em center;
-      background-repeat: no-repeat;
-      padding: 2em 2em 2em 5.5em;
+      padding: 2em;
       position: relative;
     }
 
-      .hot-deals > ul > .event {
-        background-image: url("/assets/icons/ticket.svg");
+      .hot-deals a,
+      .hot-deals a:visited {
+        text-decoration: none;
       }
 
-      .hot-deals > ul > .concession {
-        background-image: url("/assets/icons/drink.svg");
-      }
+        .no-touch .hot-deals a:hover {
 
-      .hot-deals > ul > .merchandise {
-        background-image: url("/assets/icons/shirt.svg");
-      }
+        }
 
-      // .hot-deals > ul > li:before {
-      //   background-color: black;
-      //   color: #ffffff;
-      //   content: '\02385';
-      //   font-family: 'Icomoon';
-      //   font-size: 3em;
-      //   height: 3em;
-      //   position: absolute;
-      //     top: 0;
-      //     left: 0;
-      //   width: 3em;
-      // }
+// Icon
 
-  .hot-deals a,
-  .hot-deals a:visited {
-    text-decoration: none;
+.hot-deals span {
+  @include transition(color 0.1s linear, font-size 0.1s linear);
+  color: $color-purple;
+  display: table-cell;
+  font-size: 4em;
+  height: 100%;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+  .no-touch .hot-deals a:hover span {
+    color: #996ab1;
+    font-size: 4.2em;
   }
 
-  .hot-deals span {
-    background-color: fuchsia;
-    color: $color-purple;
-    display: inline-block;
-    font-size: 3em;
-    height: 1.2em;
-    position: absolute;
-      top: 0;
-      left: 0;
+// Title & Description
+
+.hot-deals p {
+  display: table-cell;
+  height: 100%;
+  padding-left: 1em;
+  vertical-align: middle;
+}
+
+  .hot-deals b {
+    @include single-transition(color, 0.1s, linear);
+    @include font-source-semibold;
+    color: #996ab1;
+    display: block;
+  }
+
+    .no-touch .hot-deals a:hover b {
+      color: $color-purple;
+    }
+
+  .hot-deals i {
+    font-style: normal;
   }
 
 // What's Up (Social Media Posts on Homepage)
