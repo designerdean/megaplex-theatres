@@ -124,7 +124,9 @@
     }
 
   .hot-deals i {
+    @include font-source-semibold;
     font-style: normal;
+    text-decoration: underline;
   }
 
 // What's Up (Social Media Posts on Homepage)
