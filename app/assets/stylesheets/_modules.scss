@@ -27,14 +27,9 @@
 
       .movies a,
       .movies a:visited {
-        // @include single-transition(color, 0.2s, linear);
         color: #ffffff;
         text-decoration: none;
       }
-
-        // .no-touch .movies a:hover {
-        //   color: $color-gold;
-        // }
 
         .poster {
           @include single-transition(border-color, 0.2s, linear);
@@ -113,7 +108,7 @@
   .hot-deals b {
     @include single-transition(color, 0.2s, linear);
     @include font-source-semibold;
-    color: lighten($color-purple, 10%);
+    color: $color-purple;
     display: block;
     font-size: 1.1em;
     line-height: 1.2em;
@@ -121,7 +116,7 @@
   }
 
     .no-touch .hot-deals a:hover b {
-      color: $color-purple;
+      color: lighten($color-purple, 10%);
     }
 
   .hot-deals i {
