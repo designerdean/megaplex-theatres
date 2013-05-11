@@ -31,13 +31,13 @@
         text-decoration: none;
       }
 
-        .poster {
+        .poster-thumb {
           @include single-transition(border-color, 0.2s, linear);
           border: 0.3em solid lighten($color-purple, 22%);
           display: block;
         }
 
-          .no-touch .movies a:hover .poster {
+          .no-touch .movies a:hover .poster-thumb {
             border-color: lighten($color-purple, 46%);
           }
 
@@ -166,6 +166,31 @@
         // .no-touch .latest.social > li > a:hover span.facebook {
         //   color: lighten($color-facebook, 10%);
         // }
+
+// Individual Movie Page
+// ==========================================================================
+
+.description {
+  @extend .wide;  
+}
+
+  .poster {
+    display: block;
+    float: left;
+    width: 45%;
+  }
+
+  .description > div {
+    float: left;
+    padding-left: 1.5em;
+    width: 55%;
+  }
+
+.showtimes {
+  @extend .narrow;
+  background-color: #e7e7e7;
+  padding: 2em;
+}
 
 // Horizontal Rules
 // ==========================================================================

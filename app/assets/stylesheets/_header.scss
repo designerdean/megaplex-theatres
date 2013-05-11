@@ -21,24 +21,24 @@ header {
 // ==========================================================================
 
 .tagline {
+  @include font-etica-regular;
+  color: #888888;
   display: inline-block;
   float: left;
   padding: 0.5em 1em;
   vertical-align: middle;
 }
 
-  .tagline > h2 {
+  .tagline > b {
     @include font-source-semibold;
+    color: #333333;
+    display: block;
     font-size: 1.2em;
     line-height: 1.3em;
   }
 
-  .tagline > h3 {
-    color: #888888;
-  }
-
-    .tagline > h3 > a,
-    .tagline > h3 > a:visited {
+    .tagline a,
+    .tagline a:visited {
       color: #888888;
     }
 
