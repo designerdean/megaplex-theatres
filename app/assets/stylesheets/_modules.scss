@@ -170,21 +170,69 @@
 // Individual Movie Page
 // ==========================================================================
 
-.description {
+// Left Content Area
+
+.movie {
   @extend .wide;  
 }
 
-  .poster {
+  .poster-container {
     display: block;
     float: left;
     width: 45%;
   }
 
-  .description > div {
+    .poster {
+      margin-bottom: 0.8em;
+    }
+
+  .rating {
+    display: block;
+    padding: 0 0.5em;
+  }
+
+    .rating > span {
+      display: table-cell;
+      font-size: 2em;
+      height: 100%;
+      line-height: 0;
+      padding-right: 0.4em;
+      vertical-align: middle;
+    }
+
+    .rating > p {
+      display: table-cell;
+      font-size: 0.8em;
+      height: 100%;
+      line-height: 1.3em;
+      vertical-align: middle;
+    }
+
+  .movie > .description {
     float: left;
     padding-left: 1.5em;
     width: 55%;
   }
+
+    .movie dl {
+      @extend .clear-after;
+    }
+
+    .movie dl dt {
+      @include font-source-semibold;
+      display: inline;
+      float: left;
+      width: 50%;
+    }
+
+    .movie dl dd {
+      display: inline;
+      float: left;
+      text-align: right;
+      width: 50%;
+    }
+
+// Right Sidebar
 
 .showtimes {
   @extend .narrow;

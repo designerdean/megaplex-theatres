@@ -54,6 +54,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   @include font-etica-regular;
   color: $color-purple;
+  letter-spacing: 1px;
   line-height: 1em;
   margin-bottom: 0.5em;
   text-transform: uppercase;
@@ -80,4 +81,8 @@ ul, ol {
 
 blockquote {
 
+}
+
+dl {
+  margin-bottom: 0.8em;
 }

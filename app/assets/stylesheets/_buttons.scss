@@ -13,6 +13,7 @@ a.button:visited {
   display: inline-block;
   font-size: 1.3em;
   padding: 0.5em 2em 0.4em 2em;
+  position: relative;
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
@@ -30,3 +31,10 @@ a.button:visited {
   .button-row .button {
     margin-top: 1em;
   }
+
+.button > span {
+  font-size: 1.3em;
+  position: absolute;
+    top: 0;
+    left: 0;
+}
