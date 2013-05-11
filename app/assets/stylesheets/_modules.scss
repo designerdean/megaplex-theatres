@@ -168,10 +168,8 @@
         //   color: lighten($color-facebook, 10%);
         // }
 
-// Individual Movie Page
+// Individual Movie Page - Left Content Area
 // ==========================================================================
-
-// Left Content Area
 
 .movie {
   @extend .wide;  
@@ -233,13 +231,54 @@
       width: 50%;
     }
 
-// Right Sidebar
+// Individual Movie Page - Right Sidebar
+// ==========================================================================
 
 .showtimes {
   @extend .narrow;
-  background-color: #e7e7e7;
-  padding: 2em;
+  padding: 5em 0;
+  position: relative;
 }
+
+  // .no-svg .showtimes {
+  //   background-color: #e7e7e7;
+  // }
+
+  .showtimes:before,
+  .showtimes:after {
+    background: url("/assets/ticket-edges.svg") no-repeat;
+      @include background-size(cover);
+    content: "";
+    height: 5em;
+    position: absolute;
+      right: 0;
+      left: 0;
+    z-index: -1;
+  }
+
+    .showtimes:before {
+      background-position: top right;
+      top: 0;
+    }
+
+    .showtimes:after {
+      background-position: bottom right;
+      bottom: 0;
+    }
+
+  .showtimes > div {
+    background-color: #e7e7e7;
+    padding: 1em 2em;
+  }
+
+    .showtimes > div > h3 {
+      padding-top: 0.5em;
+      position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+      text-align: center;
+    }
 
 // Horizontal Rules
 // ==========================================================================
@@ -265,7 +304,7 @@ hr {
   }
 
     .filmstrip > hr {
-      border-top: 0.2em dashed #f6f8f8;
+      border-top: 0.2em dashed $color-background;
       height: 0.1em;
       margin: 0;
     }
