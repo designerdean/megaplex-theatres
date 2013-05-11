@@ -49,63 +49,51 @@
           white-space: nowrap;
         }
 
-// Hot Deals (Promo List on Homepage)
+// Latest Section on Homepage (container for Hot Deals & What's Up)
 // ==========================================================================
 
-.hot-deals {
-  @extend .wide;
-  border-right: 4px solid #e7e7e7;
-}
+.latest {
+  list-style-type: none;
+} 
 
-  .hot-deals > ul {
-    font-size: 1.4em;
-    list-style-type: none;
+  .latest > li {
+    position: relative;
   }
 
-    .hot-deals > ul > li {
-      position: relative;
+    .latest > li > .latest-item {
+      @include border-radius(0.8em);
+      @include single-transition(background, 0.3s, linear);
+      display: block;
+      padding: 1.5em 1em;
+      text-decoration: none;
     }
 
-      .hot-deals ul a,
-      .hot-deals ul a:visited {
-        @include border-radius(0.8em);
-        @include single-transition(background, 0.3s, linear);
-        display: block;
-        padding: 1.5em;
-        text-decoration: none;
+      .no-touch .latest > li > a:hover {
+        background-color: #ededed;
       }
-
-        .no-touch .hot-deals ul a:hover {
-          background-color: #f0f0f0;
-        }
 
 // Icon
 
-.hot-deals span {
+.latest span {
   @include single-transition(color, 0.3s, linear);
-  color: $color-purple;
   display: table-cell;
-  font-size: 4em;
+  font-size: 2em;
   height: 100%;
   line-height: 0;
   padding: 0.1em;
   vertical-align: middle;
 }
 
-  .no-touch .hot-deals ul a:hover span {
-    color: lighten($color-purple, 10%);
-  }
-
 // Title & Description
 
-.hot-deals p {
+.latest p {
   display: table-cell;
   height: 100%;
   padding-left: 1em;
   vertical-align: middle;
 }
 
-  .hot-deals b {
+  .latest b {
     @include single-transition(color, 0.2s, linear);
     @include font-source-semibold;
     color: $color-purple;
@@ -115,15 +103,36 @@
     margin-bottom: 0.1em;
   }
 
-    .no-touch .hot-deals a:hover b {
+    .no-touch .latest > li > a:hover b {
       color: lighten($color-purple, 10%);
     }
 
-  .hot-deals i {
+  .latest i {
     @include font-source-semibold;
     font-style: normal;
     text-decoration: underline;
   }
+
+// Hot Deals (Promo List on Homepage)
+// ==========================================================================
+
+.hot-deals {
+  @extend .wide;
+  border-right: 4px solid #e7e7e7;
+}
+
+  .latest.deals {
+    font-size: 1.4em;
+  }
+
+    .latest.deals span {
+      color: $color-purple;
+      font-size: 4em;
+    }
+
+      .no-touch .latest.deals > li > a:hover span {
+        color: lighten($color-purple, 10%);
+      }
 
 // What's Up (Social Media Posts on Homepage)
 // ==========================================================================
@@ -133,6 +142,30 @@
   border-left: 4px solid #e7e7e7;
   margin-left: -4px;
 }
+
+  .latest.social {
+    font-size: 1.2em;
+  }
+
+    .latest.social span {
+      font-size: 1.8em;
+    }
+
+      .latest.social span.twitter {
+        color: $color-twitter;
+      }
+
+        // .no-touch .latest.social > li > a:hover span.twitter {
+        //   color: lighten($color-twitter, 10%);
+        // }
+
+      .latest.social span.facebook {
+        color: $color-facebook;
+      }
+
+        // .no-touch .latest.social > li > a:hover span.facebook {
+        //   color: lighten($color-facebook, 10%);
+        // }
 
 // Horizontal Rules
 // ==========================================================================

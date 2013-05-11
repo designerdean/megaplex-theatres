@@ -29,7 +29,8 @@ header {
 
   .tagline > h2 {
     @include font-source-semibold;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    line-height: 1.3em;
   }
 
   .tagline > h3 {
