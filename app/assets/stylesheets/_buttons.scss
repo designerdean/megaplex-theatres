@@ -20,7 +20,7 @@ a.button:visited {
 
   .no-touch .button:hover,
   .no-touch a.button:hover {
-    background-color: #ffd94b;
+    background-color: lighten($color-gold, 10%);
   }
 
 .button-row {
