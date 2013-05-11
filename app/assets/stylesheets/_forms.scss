@@ -1,3 +1,25 @@
+// Mixins - Form-Specific
+// ==========================================================================
+
+// Placeholder Styling
+@mixin input-placeholder($color) {
+  &.placeholder {
+    color: $color;
+  }
+  &::-moz-placeholder {
+    color: $color;
+  }
+  &:-moz-placeholder {
+    color: $color;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+}
+
 // Reset Form Elements
 // ==========================================================================
 
@@ -61,10 +83,6 @@ input[type="search"] {
   input[type="search"]:focus {
     border-color: $color-gold;
     width: 16em;
-  }
-
-  input[type="search"]:moz-placeholder {
-    padding: 0;
   }
 
 // Location Select Box
