@@ -69,34 +69,38 @@
   }
 
     .hot-deals > ul > li {
-      padding: 2em;
       position: relative;
     }
 
+
       .hot-deals a,
       .hot-deals a:visited {
+        @include border-radius(0.8em);
+        @include single-transition(background, 0.3s, linear);
+        display: block;
+        padding: 1.5em;
         text-decoration: none;
       }
 
         .no-touch .hot-deals a:hover {
-
+          background-color: #f0f0f0;
         }
 
 // Icon
 
 .hot-deals span {
-  @include transition(color 0.1s linear, font-size 0.1s linear);
+  @include single-transition(color, 0.3s, linear);
   color: $color-purple;
   display: table-cell;
   font-size: 4em;
   height: 100%;
   line-height: 0;
+  padding: 0.1em;
   vertical-align: middle;
 }
 
   .no-touch .hot-deals a:hover span {
     color: #996ab1;
-    font-size: 4.2em;
   }
 
 // Title & Description
@@ -109,7 +113,7 @@
 }
 
   .hot-deals b {
-    @include single-transition(color, 0.1s, linear);
+    @include single-transition(color, 0.2s, linear);
     @include font-source-semibold;
     color: #996ab1;
     display: block;
