@@ -53,25 +53,25 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   @include font-etica-regular;
+  color: $color-purple;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
 }
 
-  h1 {
-    color: $color-purple;
+  h1, h2 {
     font-size: 2.2em;
-    text-transform: uppercase;
   }
 
-  h4 {
-    color: $color-purple;
-    font-size: 2.2em;
-    text-transform: uppercase;
+  h3 {
+    font-size: 1.5em;
   }
 
 // Misc
 // ==========================================================================
 
 p {
-
+  margin-bottom: 0.8em;
 }
 
 ul, ol {

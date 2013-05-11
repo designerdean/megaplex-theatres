@@ -7,7 +7,7 @@
   @include font-source-light;
   background-color: $color-purple;
   color: #ffffff;
-  margin-bottom: 4em;
+  margin: -0.6em 0 4em 0;
   padding: 2em 1em 1.5em 1em;
   position: relative;
   text-align: center;
@@ -64,7 +64,7 @@
       @include border-radius(0.8em);
       @include single-transition(background, 0.3s, linear);
       display: block;
-      padding: 1.5em 1em;
+      padding: 1.2em 1em;
       text-decoration: none;
     }
 

@@ -93784,3 +93784,3275 @@ Served asset /select-arrow.svg - 304 Not Modified (0ms)
 
 Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:15:08 -0600
 Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:15:40 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:15:41 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:15:41 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:15:41 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:15:41 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:15:41 -0600
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:15:41 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:15:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:15:41 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:15:41 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:15:41 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.6ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+
+
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:16:23 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:17:13 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.5ms)
+Compiled main.css  (886ms)  (pid 70633)
+Compiled application.css  (1ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 961ms (Views: 961.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:17:14 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:14 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:17:14 -0600
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:14 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:14 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:14 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:14 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:17:15 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:17:19 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (865ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 917ms (Views: 916.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:17:20 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:20 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Served asset /application.css - 304 Not Modified (4ms)
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:20 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:20 -0600
+
+
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:17:20 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:20 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:20 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:17:21 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:17:29 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:17:29 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:29 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:29 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:17:29 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:29 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:29 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:17:29 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:17:29 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:17:29 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:17:50 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.3ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:17:50 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:50 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:17:50 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:50 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:50 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:17:50 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:17:50 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:18:30 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+Compiled main.css  (878ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 900ms (Views: 899.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:18:31 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:31 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:31 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:18:31 -0600
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:32 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:18:32 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:18:32 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:18:32 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:18:36 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+Compiled main.css  (855ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 877ms (Views: 876.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:18:37 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:18:37 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:37 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:37 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:37 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:37 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:37 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:18:37 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:18:37 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:18:37 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:18:45 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.3ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:18:45 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:45 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:45 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:18:45 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:45 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:45 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:18:45 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:18:51 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+Compiled main.css  (853ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 893ms (Views: 892.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:18:52 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:18:52 -0600
+Served asset /main.css - 200 OK (3ms)
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:52 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:52 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:52 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:52 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:52 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:18:52 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:18:52 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:18:52 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:18:57 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+Compiled main.css  (869ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 893ms (Views: 892.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:18:58 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:18:58 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:58 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:58 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:58 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:58 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:18:58 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:18:58 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:18:58 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:18:58 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:19:43 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+Compiled main.css  (880ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 919ms (Views: 918.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:19:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:19:44 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:19:44 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:19:44 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:19:44 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:19:44 -0600
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:19:44 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:19:45 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:19:45 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:19:45 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+Served asset /main.css - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+
+
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:19:48 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:21:17 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (926ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.1ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 954ms (Views: 954.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:21:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:21:18 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:21:18 -0600
+Served asset /application.css - 304 Not Modified (4ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:21:18 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:21:18 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:21:18 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:21:18 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:21:19 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.5ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+Served asset /main.css - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:21:40 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:21:47 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:21:47 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:21:47 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:21:47 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:21:47 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:21:47 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:21:47 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:21:47 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:21:47 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:21:47 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:21:47 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:22:10 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+Compiled main.css  (906ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 928ms (Views: 928.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (1ms)
+  Rendered shim/_header.html.erb (0.1ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:22:11 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:22:12 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:22:44 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (866ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 888ms (Views: 887.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:22:45 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:23:08 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (913ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 963ms (Views: 963.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+
+
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+
+
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:23:09 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:23:29 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (882ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 937ms (Views: 937.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:23:30 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:23:45 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (880ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 930ms (Views: 929.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:23:46 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:24:40 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (888ms)  (pid 70633)
+Compiled application.css  (1ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 940ms (Views: 940.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:24:41 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:24:55 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (861ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 912ms (Views: 912.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+
+
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:24:56 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:25:25 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (873ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 923ms (Views: 922.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:25:26 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:25:44 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:25:44 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:25:44 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:25:44 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:25:44 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:25:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:25:44 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:25:44 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:25:44 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:25:44 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:25:44 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:26:09 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:26:09 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:26:09 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:09 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:10 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:10 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:10 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:26:10 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:26:23 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (924ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 977ms (Views: 977.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:26:24 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:26:29 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (859ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 882ms (Views: 882.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:26:30 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:26:36 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (860ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 929ms (Views: 929.3ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (2ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+
+
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:26:37 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:26:45 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:26:46 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:26:46 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:46 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:46 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:46 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:46 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:26:46 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:26:46 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:26:46 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+Served asset /main.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:26:54 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:27:23 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.3ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:27:23 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:27:23 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:27:23 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:27:23 -0600
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:27:23 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:27:23 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:27:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:27:23 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:27:36 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.3ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:27:36 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:27:36 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:27:36 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:27:36 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:27:36 -0600
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:27:36 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:27:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:27:36 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:28:13 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+Compiled main.css  (852ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 904ms (Views: 903.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:28:14 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:14 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:28:14 -0600
+Served asset /main.css - 200 OK (2ms)
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:14 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:14 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:14 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:28:14 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:28:14 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:28:14 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:28:18 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:28:30 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+Compiled main.css  (878ms)  (pid 70633)
+Compiled application.css  (0ms)  (pid 70633)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 899ms (Views: 899.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:28:31 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:31 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:31 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:28:31 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:31 -0600
+Served asset /main.css - 200 OK (3ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:28:32 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:28:34 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:34 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:28:34 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:28:34 -0600
+Served asset /main.css - 200 OK (0ms)
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:34 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:34 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:34 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:34 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:28:34 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:28:34 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:28:34 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:28:57 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:28:57 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:28:57 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:57 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:57 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:57 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:58 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:28:58 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:28:58 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:29:14 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:29:14 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:29:14 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:29:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:29:14 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:29:14 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:29:14 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:29:14 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:29:14 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:29:59 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:29:59 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:29:59 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:29:59 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:29:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:29:59 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:29:59 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:29:59 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:29:59 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"index"}
+  Rendered shim/index.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/after-earth.jpg" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+
+
+Started GET "/assets/movies/small/monsters-university.jpg" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Served asset /movies/small/after-earth.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/monsters-university.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/man-of-steel.jpg" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+
+
+Started GET "/assets/movies/small/mud.jpg" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Served asset /movies/small/man-of-steel.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/mud.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+
+
+Started GET "/assets/movies/small/iron-man-3.jpg" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Served asset /movies/small/cloudy-with-a-chance-of-meatballs-2.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/iron-man-3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/oblivion.jpg" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Served asset /movies/small/oblivion.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/star-trek-into-darkness.jpg" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Served asset /movies/small/star-trek-into-darkness.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-hangover.jpg" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+
+
+Started GET "/assets/movies/small/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Served asset /movies/small/the-hangover.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-great-gatsby.jpg" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Served asset /movies/small/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
+Served asset /movies/small/the-great-gatsby.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/small/the-wolverine.jpg" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Served asset /movies/small/the-wolverine.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/select-arrow.svg" for 127.0.0.1 at 2013-05-11 01:30:51 -0600
+Served asset /select-arrow.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Icomoon.ttf" for 127.0.0.1 at 2013-05-11 01:30:52 -0600
+Served asset /Icomoon.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:30:54 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:30:54 -0600
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:30:54 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:30:54 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:30:54 -0600
+Served asset /main.css - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:30:54 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:30:54 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:30:54 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.svg" for 127.0.0.1 at 2013-05-11 01:30:54 -0600
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:30:54 -0600
+Served asset /logo.svg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/texture-noise.png" for 127.0.0.1 at 2013-05-11 01:30:54 -0600
+Served asset /texture-noise.png - 304 Not Modified (0ms)
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 200 OK (13ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:32:30 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:32:31 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:32:31 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:32:31 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:32:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:32:31 -0600
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:32:31 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:32:31 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:32:31 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 200 OK (5ms)
+
+
+Started GET "/movies/the-hunger-games-catching-fire" for 127.0.0.1 at 2013-05-11 01:32:42 -0600
+Processing by Shim::PagesController#show as HTML
+  Parameters: {"id"=>"movies/the-hunger-games-catching-fire"}
+  Rendered shim/movies/the-hunger-games-catching-fire.html.erb within layouts/application (0.0ms)
+  Rendered shim/_header.html.erb (0.0ms)
+  Rendered shim/_nav.html.erb (0.0ms)
+  Rendered shim/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-11 01:32:43 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-11 01:32:43 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/respond.js?body=1" for 127.0.0.1 at 2013-05-11 01:32:43 -0600
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-05-11 01:32:43 -0600
+Served asset /respond.js - 304 Not Modified (0ms)
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-05-11 01:32:43 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-11 01:32:43 -0600
+Served asset /modernizr.js - 304 Not Modified (0ms)
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-11 01:32:43 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies/large/the-hunger-games-catching-fire.jpg" for 127.0.0.1 at 2013-05-11 01:32:43 -0600
+Served asset /movies/large/the-hunger-games-catching-fire.jpg - 304 Not Modified (0ms)
