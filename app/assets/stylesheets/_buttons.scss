@@ -2,3 +2,31 @@ a,
 a:visited {
   color: #333333;
 }
+
+.button,
+a.button,
+a.button:visited {
+  @include border-radius(0.7em);
+  @include font-etica-semibold;
+  @include single-transition(background-color, 0.1s, linear);
+  background-color: $color-gold;
+  display: inline-block;
+  font-size: 1.3em;
+  padding: 0.5em 2em 0.4em 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+  .no-touch .button:hover,
+  .no-touch a.button:hover {
+    background-color: #ffd94b;
+  }
+
+.button-row {
+  text-align: center;
+}
+
+  .button-row .button {
+    margin-top: 1em;
+  }

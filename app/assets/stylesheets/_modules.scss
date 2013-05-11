@@ -73,8 +73,8 @@
     }
 
 
-      .hot-deals a,
-      .hot-deals a:visited {
+      .hot-deals ul a,
+      .hot-deals ul a:visited {
         @include border-radius(0.8em);
         @include single-transition(background, 0.3s, linear);
         display: block;
@@ -82,7 +82,7 @@
         text-decoration: none;
       }
 
-        .no-touch .hot-deals a:hover {
+        .no-touch .hot-deals ul a:hover {
           background-color: #f0f0f0;
         }
 
@@ -99,7 +99,7 @@
   vertical-align: middle;
 }
 
-  .no-touch .hot-deals a:hover span {
+  .no-touch .hot-deals ul a:hover span {
     color: #996ab1;
   }
 
