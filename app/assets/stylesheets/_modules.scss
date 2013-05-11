@@ -290,6 +290,10 @@
   list-style-type: none;
 }
 
+  .process > .row {
+    margin-bottom: 1.2em;
+  }
+
   .process > .row a {
     display: block;
     margin-top: 0.2em;
@@ -297,8 +301,8 @@
   }
 
     .when {
-      @extend .left;
       float: left;
+      vertical-align: middle;
       width: 34%;
     }
 
@@ -308,31 +312,53 @@
         color: #4d4d4d;
         cursor: pointer;
         display: block;
-        font-size: 2.2em;
+        height: 8.6em;
         letter-spacing: 1px;
-        line-height: 1.5em;
-        padding: 0.2em;
+        padding: 1.5em 1em;
         text-align: center;
         text-transform: uppercase;
       }
 
+        .calendar > i {
+          display: block;
+          font-size: 2.2em;
+          font-style: normal;
+          line-height: 0.6em;
+          margin-bottom: 0.4em;
+        }
+
         .calendar > em {
           @include font-etica-semibold;
-          font-size: 2.5em;
+          display: block;
+          font-size: 5em;
+          line-height: 0.7em;
         }
 
     .where {
       @extend .right;
       float: left;
+      vertical-align: middle;
       width: 66%;
     }
 
+      .where > span {
+        @include font-etica-semibold;
+        background-color: #bac4c5;
+        color: #4d4d4d;
+        display: block;
+        height: 8.6em;
+        padding: 1em;
+        text-align: center;
+      }
+
   .format {
-    border-top: 0.5em dashed $color-background;
+    border-top: 0.3em dashed $color-background;
+    padding: 1.2em 0;
   }
 
   .time {
-
+    border-top: 0.3em dashed $color-background;
+    padding: 1.2em 0;
   }
 
 // Horizontal Rules
