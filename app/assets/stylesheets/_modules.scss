@@ -72,7 +72,6 @@
       position: relative;
     }
 
-
       .hot-deals ul a,
       .hot-deals ul a:visited {
         @include border-radius(0.8em);
@@ -117,6 +116,9 @@
     @include font-source-semibold;
     color: #996ab1;
     display: block;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    margin-bottom: 0.1em;
   }
 
     .no-touch .hot-deals a:hover b {
