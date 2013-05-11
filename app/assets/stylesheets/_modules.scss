@@ -190,6 +190,7 @@
 
   .rating {
     display: block;
+    margin-bottom: 2em;
     padding: 0 0.5em;
   }
 
@@ -233,6 +234,12 @@
       text-align: right;
       width: 50%;
     }
+
+    .movie > .description > .button-row {
+      margin-bottom: 2em;
+      text-align: left;
+    }
+
 
 // Individual Movie Page - Right Sidebar
 // ==========================================================================
@@ -459,6 +466,16 @@
   .hint a:visited {
 
   }
+
+// Ads
+// ==========================================================================
+
+.ad {
+  background-color: #e7e7e7;
+  clear: both;
+  margin-top: 2em;
+  padding: 1.5em 2em;
+}
 
 // Horizontal Rules
 // ==========================================================================
