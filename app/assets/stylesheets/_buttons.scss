@@ -24,17 +24,21 @@ a.button:visited {
     background-color: lighten($color-gold, 10%);
   }
 
+  .button.pair {
+    margin-right: 0.2em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
+  .button.pair + .button.pair {
+    margin-left: 0.2em;
+    margin-right: 0;
+  }
+
 .button-row {
   text-align: center;
 }
 
-  .button-row .button {
-    margin-top: 1em;
-  }
-
 .button > span {
-  font-size: 1.3em;
-  position: absolute;
-    top: 0;
-    left: 0;
+  margin-right: 0.4em;
 }
