@@ -5,7 +5,8 @@
   @extend .clear-after;
   @include border-radius(0.8em 0 0.8em 0.8em);
   @include font-source-light;
-  background-color: $color-purple;
+  background: $color-purple url("/assets/locations/ogden-the-junction.jpg") no-repeat center center;
+  border-top: 0.5em solid $color-purple;
   color: #ffffff;
   margin: -0.6em 0 4em 0;
   padding: 2em 1em 1.5em 1em;
@@ -31,23 +32,32 @@
         text-decoration: none;
       }
 
-        .poster-thumb {
-          @include single-transition(border-color, 0.2s, linear);
-          border: 0.3em solid lighten($color-purple, 22%);
-          display: block;
-        }
+        // .poster-thumb {
+        //   @include single-transition(border-color, 0.2s, linear);
+        //   // border: 0.3em solid lighten($color-purple, 22%);
+        //   border: 0.3em solid rgba(#e7e7e7, 0.9);
+        //   display: block;
+        // }
 
-          .no-touch .movies a:hover .poster-thumb {
-            border-color: lighten($color-purple, 46%);
-          }
+        //   .no-touch .movies a:hover .poster-thumb {
+        //     border-color: lighten($color-purple, 46%);
+        //   }
 
         .movies > ul > li > a > span {
+          @include font-source-semibold;
+          @include single-transition(background-color, 0.2s, linear);
+          background-color: rgba(#e7e7e7, 0.9);
+          color: $color-purple;
           display: block;
-          margin-top: 0.4em;
           overflow: hidden;
+          padding: 0.6em 0.8em 0.5em 0.8em;
           text-overflow: ellipsis;
           white-space: nowrap;
         }
+
+          .no-touch .movies > ul > li > a:hover > span {
+            background-color: lighten($color-purple, 46%);
+          }
 
 // Latest Section on Homepage (container for Hot Deals & What's Up)
 // ==========================================================================
