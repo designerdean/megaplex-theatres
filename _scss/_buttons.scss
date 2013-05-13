@@ -8,7 +8,7 @@ a.button,
 a.button:visited {
   @include border-radius(0.7em);
   @include font-etica-semibold;
-  @include single-transition(background-color, 0.1s, linear);
+  @include transition(background-color 0.15s linear, color 0.15s linear);
   background-color: $color-gold;
   color: darken($color-gold, 28%);
   display: inline-block;
@@ -22,7 +22,8 @@ a.button:visited {
 
   .no-touch .button:hover,
   .no-touch a.button:hover {
-    background-color: lighten($color-gold, 10%);
+    background-color: lighten($color-gold, 15%);
+    color: darken($color-gold, 34%);
   }
 
   .button.pair {
