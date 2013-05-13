@@ -97,13 +97,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 8, ../_scss/_grid.scss */
 html {
-  background: #f6f8f8 url("/images/texture-noise-1.png") repeat top left;
+  background: #f6f8f8 url(/images/texture-noise-1.png) repeat top left;
   height: 100%;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
   /* line 8, ../_scss/_grid.scss */
   html {
-    background-image: url("/assets/texture-noise-1@2x.png");
+    background-image: url("/images/texture-noise-1@2x.png");
     background-size: 100px 100px;
   }
 }
@@ -418,7 +418,7 @@ header {
 
 /* line 7, ../_scss/_header.scss */
 #logo {
-  background: url("/images/logo.svg") no-repeat top left;
+  background: url(/images/logo.svg) no-repeat top left;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -598,7 +598,7 @@ footer > .locations > a > span {
   transition: color 0.1s linear;
   display: block;
   font-size: 4em;
-  background: #333333 url("/images/slc.jpg") no-repeat top left;
+  background: #333333 url(/images/slc.jpg) no-repeat top left;
   display: inline-block;
   float: left;
   line-height: 2.5em;
@@ -621,7 +621,7 @@ footer > .locations > a > span {
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
   font-weight: 300;
-  background: #6d2b90 url("/images/locations/ogden-the-junction.jpg") no-repeat bottom center;
+  background: #6d2b90 url(/images/locations/ogden-the-junction.jpg) no-repeat bottom center;
   color: #ffffff;
   margin: -0.6em 0 4em 0;
   padding: 2em 1em 1.5em 1em;
@@ -897,7 +897,7 @@ footer > .locations > a > span {
 
 /* line 274, ../_scss/_modules.scss */
 .tickets:before {
-  background: url("/images/ticket-edges.svg") no-repeat;
+  background: url(/images/ticket-edges.svg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -908,7 +908,7 @@ footer > .locations > a > span {
 
 /* line 281, ../_scss/_modules.scss */
 .tickets:after {
-  background: url("/images/ticket-edges.svg") no-repeat;
+  background: url(/images/ticket-edges.svg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1155,7 +1155,7 @@ hr {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
   font-weight: 400;
-  background: #e7e7e7 url("/images/texture-noise-2.png") repeat top left;
+  background: #e7e7e7 url(/images/texture-noise-2.png) repeat top left;
   border-top: 0.7em solid #e7e7e7;
   border-bottom: 0.7em solid #e7e7e7;
   font-size: 16px;

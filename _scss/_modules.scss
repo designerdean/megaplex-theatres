@@ -5,7 +5,7 @@
   @extend .clear-after;
   @include border-radius(0.8em 0 0.8em 0.8em);
   @include font-source-light;
-  background: $color-purple url("/images/locations/ogden-the-junction.jpg") no-repeat bottom center;
+  background: $color-purple image-url("/images/locations/ogden-the-junction.jpg") no-repeat bottom center;
   color: #ffffff;
   margin: -0.6em 0 4em 0;
   padding: 2em 1em 1.5em 1em;
@@ -272,14 +272,14 @@
   }
 
     .tickets:before {
-      background: url("/images/ticket-edges.svg") no-repeat;
+      background: image-url("/images/ticket-edges.svg") no-repeat;
         @include background-size(cover);
       background-position: top right;
       top: 0;
     }
 
     .tickets:after {
-      background: url("/images/ticket-edges.svg") no-repeat;
+      background: image-url("/images/ticket-edges.svg") no-repeat;
         @include background-size(cover);
       background-position: bottom right;
       bottom: 0;
@@ -500,7 +500,7 @@ hr {
 
   .filmstrip {
     @include font-etica-regular;
-    background: #e7e7e7 url("/images/texture-noise-2.png") repeat top left;
+    background: #e7e7e7 image-url("/images/texture-noise-2.png") repeat top left;
       @include image-2x("/assets/texture-noise-2@2x.png", 100px, 100px);
     border-top: 0.7em solid #e7e7e7;
     border-bottom: 0.7em solid #e7e7e7;

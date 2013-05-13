@@ -5,7 +5,7 @@ header {
 }
 
   #logo {
-    background: url("/images/logo.svg") no-repeat top left;
+    background: image-url("/images/logo.svg") no-repeat top left;
       @include background-size(contain);
     border-right: 4px solid #e7e7e7;
     display: inline-block;
