@@ -392,7 +392,7 @@ input[type="search"]:focus {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
   font-weight: 400;
-  background: #6d2b90 url("/assets/select-arrow.svg") no-repeat center right;
+  background: #6d2b90 url(/images/select-arrow.svg) no-repeat center right;
   border: 0;
   color: #ffffff;
   cursor: pointer;
@@ -598,7 +598,6 @@ footer > .locations > a > span {
   transition: color 0.1s linear;
   display: block;
   font-size: 4em;
-  background: #333333 url(/images/slc.jpg) no-repeat top left;
   display: inline-block;
   float: left;
   line-height: 2.5em;

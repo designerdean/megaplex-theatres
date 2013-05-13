@@ -92,7 +92,7 @@ input[type="search"] {
   @include appearance(none);
   @include border-radius(0.6em 0.6em 0 0);
   @include font-etica-regular;
-  background: $color-purple url('/assets/select-arrow.svg') no-repeat center right;
+  background: $color-purple image-url("/images/select-arrow.svg") no-repeat center right;
   border: 0;
   color: #ffffff;
   cursor: pointer;
