@@ -2,9 +2,7 @@
 /log/*.log
 /tmp
 
-# Mac
 .DS_Store
 
-# sass
 .sass-cache
 .sass-cache/*
