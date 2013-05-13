@@ -1,46 +1,44 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    
+    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="/css/main.css">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <script type="text/javascript" src="//use.typekit.net/kfx7mad.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+  </head>
 
-    </head>
-    <body>
+  <body>
+    <!--[if lt IE 8]>
+      <p class="ancient">You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true" target="_blank">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
-     
-                {{ content }}
+    {% include _header.html %}
+    {% include _nav.html %}
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /container -->
+    <div id="content" class="content">
+      {{ content }}
+    </div>
 
-    </body>
+    {% include _footer.html %}
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+  </body>
 </html>

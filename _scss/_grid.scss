@@ -1,0 +1,55 @@
+// Apply box-sizing: border-box to all elements - http://paulirish.com/2012/box-sizing-border-box-ftw
+*,
+*:after,
+*:before {
+  @include box-sizing(border-box);
+}
+
+html {
+  background: $color-background url("/assets/texture-noise-1.png") repeat top left;
+    @include image-2x("/assets/texture-noise-1@2x.png", 100px, 100px);
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+  padding: 0 5%;
+}
+
+.wrapper {
+  @extend .clear-after;
+  margin: 0 auto;
+  max-width: 82em;
+}
+
+.content {
+  @extend .wrapper;
+}
+
+// Rows & Columns
+// ==========================================================================
+
+.row {
+  @extend .clear-after;
+  margin-bottom: 4em;
+}
+
+  .wide {
+    @extend .clear-after;
+    float: left;
+    width: 60%;
+  }
+
+  .narrow {
+    float: left;
+    width: 40%;
+  }
+
+  .left {
+    padding-right: 3.5%;
+  }
+
+  .right {
+    padding-left: 3.5%;
+  }

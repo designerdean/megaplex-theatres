@@ -1,0 +1,33 @@
+nav {
+  @extend .wrapper;
+  margin-bottom: 1.4em;
+  text-align: right;
+}
+
+  nav > ul {
+    @include inline-block-list;
+    background-color: #bac4c5;
+    float: right;
+    font-size: 1.1em;
+    padding: 0 0.7em;
+  }
+
+    nav > ul > li {
+      @include inline-block-list-item;
+      padding: 0;
+    }
+
+      nav a,
+      nav a:visited {
+        @include single-transition(background, 0.3s, linear);
+        color: #ffffff;
+        display: inline-block;
+        letter-spacing: 1px;
+        padding: 0.4em 0.5em 0.3em 0.5em;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+        .no-touch nav a:hover {
+
+        }
