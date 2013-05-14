@@ -32,6 +32,7 @@ footer > .locations {
     @include single-transition(color, 0.1s, linear);
     display: block;
     font-size: 4em;
+    background-color: #333333;
     // background: #333333 image-url("slc.jpg") no-repeat top left;
     display: inline-block;
     float: left;
