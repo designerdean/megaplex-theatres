@@ -272,14 +272,14 @@
   }
 
     .tickets:before {
-      background: image-url("/images/ticket-edges.svg") no-repeat;
+      background: image-url("ticket-edges.svg") no-repeat;
         @include background-size(cover);
       background-position: top right;
       top: 0;
     }
 
     .tickets:after {
-      background: image-url("/images/ticket-edges.svg") no-repeat;
+      background: image-url("ticket-edges.svg") no-repeat;
         @include background-size(cover);
       background-position: bottom right;
       bottom: 0;
@@ -500,8 +500,8 @@ hr {
 
   .filmstrip {
     @include font-etica-regular;
-    background: #e7e7e7 image-url("/images/texture-noise-2.png") repeat top left;
-      @include image-2x("/assets/texture-noise-2@2x.png", 100px, 100px);
+    background: #e7e7e7 image-url("texture-noise-2.png") repeat top left;
+      @include image-2x("texture-noise-2@2x.png", 100px, 100px);
     border-top: 0.7em solid #e7e7e7;
     border-bottom: 0.7em solid #e7e7e7;
     font-size: 16px; // For responsive sizing
