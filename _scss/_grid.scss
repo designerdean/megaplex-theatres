@@ -18,7 +18,7 @@ body {
 }
 
 .wrapper {
-  @extend .clear-after;
+  @extend %clear-after;
   margin: 0 auto;
   max-width: 82em;
 }
@@ -31,12 +31,12 @@ body {
 // ==========================================================================
 
 .row {
-  @extend .clear-after;
+  @extend %clear-after;
   margin-bottom: 4em;
 }
 
   .wide {
-    @extend .clear-after;
+    @extend %clear-after;
     float: left;
     width: 60%;
   }

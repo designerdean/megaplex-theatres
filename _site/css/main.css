@@ -64,14 +64,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 58, ../_scss/_bits.scss */
-.clear-after:after, .wrapper:after, .content:after, header:after, nav:after, footer:after, .row:after, .wide:after, .hot-deals:after, .movie:after, .movies:after, .movie dl:after, .where:after {
+.wrapper:after, .content:after, header:after, nav:after, footer:after, .row:after, .wide:after, .hot-deals:after, .movie:after, .select-location:after, .movies:after, .movie dl:after, .where:after {
   content: "";
   display: table;
   clear: both;
 }
 
 /* line 65, ../_scss/_bits.scss */
-.default-box-model, .map *,
+.map *,
 .map *:before,
 .map *:after {
   -webkit-box-sizing: content-box;
@@ -381,7 +381,7 @@ input[type="search"]:focus {
 }
 
 /* line 91, ../_scss/_forms.scss */
-.select-location {
+.select-location > select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -401,13 +401,10 @@ input[type="search"]:focus {
   outline: none;
   margin: 0;
   padding: 0.8em 3em 1.1em 1.2em;
-  position: absolute;
-  top: -2em;
-  right: 0;
 }
 
 /* line 109, ../_scss/_forms.scss */
-.no-svg .select-location {
+.no-svg .select-location > select {
   padding-right: 1.2em;
 }
 
@@ -613,6 +610,17 @@ footer > .locations > a > span {
 }
 
 /* line 4, ../_scss/_modules.scss */
+.select-location {
+  margin-top: -3em;
+  text-align: right;
+}
+
+/* line 10, ../_scss/_modules.scss */
+.select-location > label {
+  margin-right: 0.5em;
+}
+
+/* line 17, ../_scss/_modules.scss */
 .movies {
   -webkit-border-radius: 0.8em 0 0.8em 0.8em;
   -moz-border-radius: 0.8em 0 0.8em 0.8em;
@@ -624,19 +632,19 @@ footer > .locations > a > span {
   font-weight: 300;
   background: #6d2b90 url('../images/locations/ogden-the-junction.jpg?1368318256') no-repeat bottom center;
   color: #ffffff;
-  margin: -0.6em 0 4em 0;
-  padding: 2em 1em 1.5em 1em;
+  margin: -0.7em 0 4em 0;
+  padding: 1.5em 1em;
   position: relative;
   text-align: center;
 }
 
-/* line 16, ../_scss/_modules.scss */
+/* line 29, ../_scss/_modules.scss */
 .movies > ul {
   font-size: 0.8em;
   list-style-type: none;
 }
 
-/* line 21, ../_scss/_modules.scss */
+/* line 34, ../_scss/_modules.scss */
 .movies > ul > li {
   display: inline-block;
   margin: 0 0.25%;
@@ -644,14 +652,14 @@ footer > .locations > a > span {
   width: 15.5%;
 }
 
-/* line 29, ../_scss/_modules.scss */
+/* line 42, ../_scss/_modules.scss */
 .movies a,
 .movies a:visited {
   color: #ffffff;
   text-decoration: none;
 }
 
-/* line 45, ../_scss/_modules.scss */
+/* line 58, ../_scss/_modules.scss */
 .movies > ul > li > a > span {
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
@@ -670,23 +678,23 @@ footer > .locations > a > span {
   white-space: nowrap;
 }
 
-/* line 57, ../_scss/_modules.scss */
+/* line 70, ../_scss/_modules.scss */
 .no-touch .movies > ul > li > a:hover > span {
   background-color: #dabbeb;
 }
 
-/* line 64, ../_scss/_modules.scss */
+/* line 79, ../_scss/_modules.scss */
 .latest {
   list-style-type: none;
   margin-bottom: 1em;
 }
 
-/* line 69, ../_scss/_modules.scss */
+/* line 84, ../_scss/_modules.scss */
 .latest > li {
   position: relative;
 }
 
-/* line 73, ../_scss/_modules.scss */
+/* line 88, ../_scss/_modules.scss */
 .latest > li > .latest-item {
   -webkit-border-radius: 0.8em;
   -moz-border-radius: 0.8em;
@@ -703,12 +711,12 @@ footer > .locations > a > span {
   text-decoration: none;
 }
 
-/* line 81, ../_scss/_modules.scss */
+/* line 96, ../_scss/_modules.scss */
 .no-touch .latest > li > a:hover {
   background-color: #e5e5e5;
 }
 
-/* line 87, ../_scss/_modules.scss */
+/* line 102, ../_scss/_modules.scss */
 .latest span {
   -webkit-transition: color 0.3s linear;
   -moz-transition: color 0.3s linear;
@@ -723,7 +731,7 @@ footer > .locations > a > span {
   vertical-align: middle;
 }
 
-/* line 99, ../_scss/_modules.scss */
+/* line 114, ../_scss/_modules.scss */
 .latest p {
   display: table-cell;
   height: 100%;
@@ -731,7 +739,7 @@ footer > .locations > a > span {
   vertical-align: middle;
 }
 
-/* line 106, ../_scss/_modules.scss */
+/* line 121, ../_scss/_modules.scss */
 .latest b {
   -webkit-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
@@ -748,12 +756,12 @@ footer > .locations > a > span {
   margin-bottom: 0.1em;
 }
 
-/* line 116, ../_scss/_modules.scss */
+/* line 131, ../_scss/_modules.scss */
 .no-touch .latest > li > a:hover b {
   color: #8b37b7;
 }
 
-/* line 120, ../_scss/_modules.scss */
+/* line 135, ../_scss/_modules.scss */
 .latest i {
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
@@ -762,73 +770,73 @@ footer > .locations > a > span {
   text-decoration: underline;
 }
 
-/* line 129, ../_scss/_modules.scss */
+/* line 144, ../_scss/_modules.scss */
 .hot-deals {
   border-right: 4px solid #e7e7e7;
 }
 
-/* line 135, ../_scss/_modules.scss */
+/* line 150, ../_scss/_modules.scss */
 .latest.deals {
   font-size: 1.4em;
 }
 
-/* line 139, ../_scss/_modules.scss */
+/* line 154, ../_scss/_modules.scss */
 .latest.deals span {
   color: #6d2b90;
   font-size: 4em;
 }
 
-/* line 144, ../_scss/_modules.scss */
+/* line 159, ../_scss/_modules.scss */
 .no-touch .latest.deals > li > a:hover span {
   color: #8b37b7;
 }
 
-/* line 151, ../_scss/_modules.scss */
+/* line 166, ../_scss/_modules.scss */
 .whats-up {
   border-left: 4px solid #e7e7e7;
   margin-left: -4px;
 }
 
-/* line 158, ../_scss/_modules.scss */
+/* line 173, ../_scss/_modules.scss */
 .latest.social {
   font-size: 1.2em;
 }
 
-/* line 162, ../_scss/_modules.scss */
+/* line 177, ../_scss/_modules.scss */
 .latest.social span {
   font-size: 1.8em;
 }
 
-/* line 166, ../_scss/_modules.scss */
+/* line 181, ../_scss/_modules.scss */
 .latest.social span.twitter {
   color: #00aced;
 }
 
-/* line 174, ../_scss/_modules.scss */
+/* line 189, ../_scss/_modules.scss */
 .latest.social span.facebook {
   color: #3b5998;
 }
 
-/* line 190, ../_scss/_modules.scss */
+/* line 205, ../_scss/_modules.scss */
 .poster-container {
   display: block;
   float: left;
   width: 45%;
 }
 
-/* line 196, ../_scss/_modules.scss */
+/* line 211, ../_scss/_modules.scss */
 .poster {
   margin-bottom: 0.8em;
 }
 
-/* line 200, ../_scss/_modules.scss */
+/* line 215, ../_scss/_modules.scss */
 .rating {
   display: block;
   margin-bottom: 2em;
   padding: 0 0.5em;
 }
 
-/* line 206, ../_scss/_modules.scss */
+/* line 221, ../_scss/_modules.scss */
 .rating > span {
   display: table-cell;
   font-size: 2em;
@@ -838,7 +846,7 @@ footer > .locations > a > span {
   vertical-align: middle;
 }
 
-/* line 215, ../_scss/_modules.scss */
+/* line 230, ../_scss/_modules.scss */
 .rating > p {
   display: table-cell;
   font-size: 0.8em;
@@ -847,14 +855,14 @@ footer > .locations > a > span {
   vertical-align: middle;
 }
 
-/* line 223, ../_scss/_modules.scss */
+/* line 238, ../_scss/_modules.scss */
 .movie > .description {
   float: left;
   padding-left: 1.5em;
   width: 55%;
 }
 
-/* line 233, ../_scss/_modules.scss */
+/* line 248, ../_scss/_modules.scss */
 .movie dl dt {
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
@@ -864,7 +872,7 @@ footer > .locations > a > span {
   width: 50%;
 }
 
-/* line 240, ../_scss/_modules.scss */
+/* line 255, ../_scss/_modules.scss */
 .movie dl dd {
   display: inline;
   float: left;
@@ -872,19 +880,19 @@ footer > .locations > a > span {
   width: 50%;
 }
 
-/* line 247, ../_scss/_modules.scss */
+/* line 262, ../_scss/_modules.scss */
 .movie > .description > .button-row {
   margin-bottom: 2em;
   text-align: left;
 }
 
-/* line 256, ../_scss/_modules.scss */
+/* line 271, ../_scss/_modules.scss */
 .tickets {
   padding: 5em 0;
   position: relative;
 }
 
-/* line 264, ../_scss/_modules.scss */
+/* line 279, ../_scss/_modules.scss */
 .tickets:before,
 .tickets:after {
   content: "";
@@ -896,7 +904,7 @@ footer > .locations > a > span {
   z-index: -1;
 }
 
-/* line 274, ../_scss/_modules.scss */
+/* line 289, ../_scss/_modules.scss */
 .tickets:before {
   background: url('../images/ticket-edges.svg?1368311074') no-repeat;
   -webkit-background-size: cover;
@@ -907,7 +915,7 @@ footer > .locations > a > span {
   top: 0;
 }
 
-/* line 281, ../_scss/_modules.scss */
+/* line 296, ../_scss/_modules.scss */
 .tickets:after {
   background: url('../images/ticket-edges.svg?1368311074') no-repeat;
   -webkit-background-size: cover;
@@ -918,19 +926,19 @@ footer > .locations > a > span {
   bottom: 0;
 }
 
-/* line 291, ../_scss/_modules.scss */
+/* line 306, ../_scss/_modules.scss */
 .tickets form {
   background-color: #e7e7e7;
   list-style-type: none;
   padding: 1em 2em;
 }
 
-/* line 297, ../_scss/_modules.scss */
+/* line 312, ../_scss/_modules.scss */
 .tickets fieldset {
   margin-bottom: 1em;
 }
 
-/* line 301, ../_scss/_modules.scss */
+/* line 316, ../_scss/_modules.scss */
 .tickets legend {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -951,7 +959,7 @@ footer > .locations > a > span {
   width: 100%;
 }
 
-/* line 319, ../_scss/_modules.scss */
+/* line 334, ../_scss/_modules.scss */
 .tickets label {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -965,7 +973,7 @@ footer > .locations > a > span {
   text-transform: uppercase;
 }
 
-/* line 332, ../_scss/_modules.scss */
+/* line 347, ../_scss/_modules.scss */
 .tickets .calendar + a,
 .tickets .location + a {
   display: block;
@@ -973,14 +981,14 @@ footer > .locations > a > span {
   text-align: center;
 }
 
-/* line 340, ../_scss/_modules.scss */
+/* line 355, ../_scss/_modules.scss */
 .when {
   float: left;
   vertical-align: middle;
   width: 34%;
 }
 
-/* line 346, ../_scss/_modules.scss */
+/* line 361, ../_scss/_modules.scss */
 .calendar {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -997,7 +1005,7 @@ footer > .locations > a > span {
   text-transform: uppercase;
 }
 
-/* line 360, ../_scss/_modules.scss */
+/* line 375, ../_scss/_modules.scss */
 .calendar > i {
   display: block;
   font-size: 2.2em;
@@ -1006,7 +1014,7 @@ footer > .locations > a > span {
   margin-bottom: 0.4em;
 }
 
-/* line 368, ../_scss/_modules.scss */
+/* line 383, ../_scss/_modules.scss */
 .calendar > em {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -1016,7 +1024,7 @@ footer > .locations > a > span {
   line-height: 0.7em;
 }
 
-/* line 377, ../_scss/_modules.scss */
+/* line 392, ../_scss/_modules.scss */
 .where {
   float: left;
   margin-bottom: 1.2em;
@@ -1024,7 +1032,7 @@ footer > .locations > a > span {
   width: 66%;
 }
 
-/* line 386, ../_scss/_modules.scss */
+/* line 401, ../_scss/_modules.scss */
 .location {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -1039,12 +1047,12 @@ footer > .locations > a > span {
   text-align: center;
 }
 
-/* line 400, ../_scss/_modules.scss */
+/* line 415, ../_scss/_modules.scss */
 .tickets .process-list {
   margin-top: 1em;
 }
 
-/* line 404, ../_scss/_modules.scss */
+/* line 419, ../_scss/_modules.scss */
 .tickets .process-list > li {
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
@@ -1064,7 +1072,7 @@ footer > .locations > a > span {
   padding: 0.3em 0.5em 0.2em 0.5em;
 }
 
-/* line 415, ../_scss/_modules.scss */
+/* line 430, ../_scss/_modules.scss */
 .no-touch .tickets .process-list > li:hover {
   -webkit-border-radius: 0.7em;
   -moz-border-radius: 0.7em;
@@ -1074,13 +1082,13 @@ footer > .locations > a > span {
   background-color: #ffffff;
 }
 
-/* line 420, ../_scss/_modules.scss */
+/* line 435, ../_scss/_modules.scss */
 .tickets .process-list > .selected {
   background-color: #6d2b90;
   color: #ffffff;
 }
 
-/* line 425, ../_scss/_modules.scss */
+/* line 440, ../_scss/_modules.scss */
 .no-touch .tickets .process-list > .selected:hover {
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
@@ -1092,27 +1100,27 @@ footer > .locations > a > span {
   cursor: default;
 }
 
-/* line 434, ../_scss/_modules.scss */
+/* line 449, ../_scss/_modules.scss */
 .format {
   border-top: 0.3em dashed #f6f8f8;
   clear: both;
   padding: 1.2em 0;
 }
 
-/* line 442, ../_scss/_modules.scss */
+/* line 457, ../_scss/_modules.scss */
 .time {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
 }
 
-/* line 449, ../_scss/_modules.scss */
+/* line 464, ../_scss/_modules.scss */
 .quantity {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
   text-align: center;
 }
 
-/* line 455, ../_scss/_modules.scss */
+/* line 470, ../_scss/_modules.scss */
 .quantity > label {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -1126,14 +1134,14 @@ footer > .locations > a > span {
   vertical-align: middle;
 }
 
-/* line 468, ../_scss/_modules.scss */
+/* line 483, ../_scss/_modules.scss */
 .hint {
   margin-top: 0.5em;
   margin-bottom: 0;
   text-align: right;
 }
 
-/* line 482, ../_scss/_modules.scss */
+/* line 497, ../_scss/_modules.scss */
 .ad {
   background-color: #e7e7e7;
   clear: both;
@@ -1141,7 +1149,7 @@ footer > .locations > a > span {
   padding: 1.5em 2em;
 }
 
-/* line 492, ../_scss/_modules.scss */
+/* line 507, ../_scss/_modules.scss */
 hr {
   display: block;
   height: 1px;
@@ -1151,7 +1159,7 @@ hr {
   padding: 0;
 }
 
-/* line 501, ../_scss/_modules.scss */
+/* line 516, ../_scss/_modules.scss */
 .filmstrip {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -1164,28 +1172,28 @@ hr {
   line-height: 3em;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 501, ../_scss/_modules.scss */
+  /* line 516, ../_scss/_modules.scss */
   .filmstrip {
     background-image: url("texture-noise-2@2x.png");
     background-size: 100px 100px;
   }
 }
 
-/* line 512, ../_scss/_modules.scss */
+/* line 527, ../_scss/_modules.scss */
 .filmstrip > hr {
   border-top: 0.2em dashed #f6f8f8;
   height: 0.1em;
   margin: 0;
 }
 
-/* line 525, ../_scss/_modules.scss */
+/* line 540, ../_scss/_modules.scss */
 .map * img,
 .map *:before img,
 .map *:after img {
   max-width: none;
 }
 
-/* line 531, ../_scss/_modules.scss */
+/* line 546, ../_scss/_modules.scss */
 .ancient {
   background: #666666;
   border-bottom: 1px solid #ffffff;
@@ -1200,7 +1208,7 @@ hr {
   z-index: 1000000;
 }
 
-/* line 546, ../_scss/_modules.scss */
+/* line 561, ../_scss/_modules.scss */
 .ancient a,
 .ancient a:visited {
   color: #ffffff;

@@ -1,14 +1,27 @@
+// Location Select Above Movies Box
+// ==========================================================================
+
+.select-location {
+  @extend %clear-after;
+  margin-top: -3em;
+  text-align: right;
+}
+
+  .select-location > label {
+    margin-right: 0.5em;
+  }
+
 // Movies Box
 // ==========================================================================
 
 .movies {
-  @extend .clear-after;
+  @extend %clear-after;
   @include border-radius(0.8em 0 0.8em 0.8em);
   @include font-source-light;
   background: $color-purple image-url("locations/ogden-the-junction.jpg") no-repeat bottom center;
   color: #ffffff;
-  margin: -0.6em 0 4em 0;
-  padding: 2em 1em 1.5em 1em;
+  margin: -0.7em 0 4em 0;
+  padding: 1.5em 1em;
   position: relative;
   text-align: center;
 }
@@ -57,6 +70,8 @@
           .no-touch .movies > ul > li > a:hover > span {
             background-color: lighten($color-purple, 46%);
           }
+
+
 
 // Latest Section on Homepage (container for Hot Deals & What's Up)
 // ==========================================================================
@@ -227,7 +242,7 @@
   }
 
     .movie dl {
-      @extend .clear-after;
+      @extend %clear-after;
     }
 
     .movie dl dt {
@@ -375,7 +390,7 @@
 // Where
 
 .where {
-  @extend .clear-after;
+  @extend %clear-after;
   @extend .right;
   float: left;
   margin-bottom: 1.2em;
@@ -521,7 +536,7 @@ hr {
 .map *,
 .map *:before,
 .map *:after {
-  @extend .default-box-model;
+  @extend %default-box-model;
   & img {max-width: none;}
 }
 

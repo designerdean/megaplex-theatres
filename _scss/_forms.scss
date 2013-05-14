@@ -88,7 +88,7 @@ input[type="search"] {
 // Location Select Box
 // ==========================================================================
 
-.select-location {
+.select-location > select {
   @include appearance(none);
   @include border-radius(0.6em 0.6em 0 0);
   @include font-etica-regular;
@@ -101,15 +101,15 @@ input[type="search"] {
   outline: none;
   margin: 0;
   padding: 0.8em 3em 1.1em 1.2em;
-  position: absolute;
-    top: -2em;
-    right: 0;
+  // position: absolute;
+  //   top: -2em;
+  //   right: 0;
 }
 
-  .no-svg .select-location {
+  .no-svg .select-location > select {
     padding-right: 1.2em;
   }
 
-  .select-location:focus {
+  .select-location  > select:focus {
 
   }
