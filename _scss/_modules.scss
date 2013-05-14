@@ -5,7 +5,7 @@
   @extend .clear-after;
   @include border-radius(0.8em 0 0.8em 0.8em);
   @include font-source-light;
-  background: $color-purple image-url("/images/locations/ogden-the-junction.jpg") no-repeat bottom center;
+  background: $color-purple image-url("locations/ogden-the-junction.jpg") no-repeat bottom center;
   color: #ffffff;
   margin: -0.6em 0 4em 0;
   padding: 2em 1em 1.5em 1em;
