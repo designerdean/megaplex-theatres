@@ -419,7 +419,11 @@ header {
 
 /* line 7, ../_scss/_header.scss */
 #logo {
-  background: #6d2b90 url('../images/locations/ogden-the-junction.jpg?1368318256') no-repeat bottom center;
+  background: url('../images/logo.svg?1368066442') no-repeat top left;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   border-right: 4px solid #e7e7e7;
   display: inline-block;
   float: left;
@@ -430,7 +434,7 @@ header {
   width: 24em;
 }
 
-/* line 25, ../_scss/_header.scss */
+/* line 24, ../_scss/_header.scss */
 .tagline {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -442,7 +446,7 @@ header {
   vertical-align: middle;
 }
 
-/* line 34, ../_scss/_header.scss */
+/* line 33, ../_scss/_header.scss */
 .tagline > b {
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
@@ -453,13 +457,13 @@ header {
   line-height: 1.3em;
 }
 
-/* line 43, ../_scss/_header.scss */
+/* line 42, ../_scss/_header.scss */
 .tagline a,
 .tagline a:visited {
   color: #888888;
 }
 
-/* line 50, ../_scss/_header.scss */
+/* line 49, ../_scss/_header.scss */
 .utilities {
   position: absolute;
   top: 0.5em;
@@ -467,18 +471,18 @@ header {
   text-align: right;
 }
 
-/* line 57, ../_scss/_header.scss */
+/* line 56, ../_scss/_header.scss */
 .utilities > p {
   float: left;
   padding: 0.25em 1em 0 0;
 }
 
-/* line 62, ../_scss/_header.scss */
+/* line 61, ../_scss/_header.scss */
 .utilities > form {
   float: right;
 }
 
-/* line 66, ../_scss/_header.scss */
+/* line 65, ../_scss/_header.scss */
 .clarify-field {
   clear: both;
   display: block;
