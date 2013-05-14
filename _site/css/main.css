@@ -97,13 +97,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 8, ../_scss/_grid.scss */
 html {
-  background: #f6f8f8 url(/images/texture-noise-1.png) repeat top left;
+  background: #f6f8f8 url('../images/texture-noise-1.png?1368289825') repeat top left;
   height: 100%;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
   /* line 8, ../_scss/_grid.scss */
   html {
-    background-image: url("/images/texture-noise-1@2x.png");
+    background-image: url("texture-noise-1@2x.png");
     background-size: 100px 100px;
   }
 }
@@ -393,7 +393,7 @@ input[type="search"]:focus {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
   font-weight: 400;
-  background: #6d2b90 url(/images/select-arrow.svg) no-repeat center right;
+  background: #6d2b90 url('../images/select-arrow.svg?1368146989') no-repeat center right;
   border: 0;
   color: #ffffff;
   cursor: pointer;
@@ -419,11 +419,7 @@ header {
 
 /* line 7, ../_scss/_header.scss */
 #logo {
-  background: url(/images/logo.svg) no-repeat top left;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  background: #6d2b90 url('../images/locations/ogden-the-junction.jpg?1368318256') no-repeat bottom center;
   border-right: 4px solid #e7e7e7;
   display: inline-block;
   float: left;
@@ -434,7 +430,7 @@ header {
   width: 24em;
 }
 
-/* line 23, ../_scss/_header.scss */
+/* line 25, ../_scss/_header.scss */
 .tagline {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -446,7 +442,7 @@ header {
   vertical-align: middle;
 }
 
-/* line 32, ../_scss/_header.scss */
+/* line 34, ../_scss/_header.scss */
 .tagline > b {
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
@@ -457,13 +453,13 @@ header {
   line-height: 1.3em;
 }
 
-/* line 41, ../_scss/_header.scss */
+/* line 43, ../_scss/_header.scss */
 .tagline a,
 .tagline a:visited {
   color: #888888;
 }
 
-/* line 48, ../_scss/_header.scss */
+/* line 50, ../_scss/_header.scss */
 .utilities {
   position: absolute;
   top: 0.5em;
@@ -471,18 +467,18 @@ header {
   text-align: right;
 }
 
-/* line 55, ../_scss/_header.scss */
+/* line 57, ../_scss/_header.scss */
 .utilities > p {
   float: left;
   padding: 0.25em 1em 0 0;
 }
 
-/* line 60, ../_scss/_header.scss */
+/* line 62, ../_scss/_header.scss */
 .utilities > form {
   float: right;
 }
 
-/* line 64, ../_scss/_header.scss */
+/* line 66, ../_scss/_header.scss */
 .clarify-field {
   clear: both;
   display: block;
@@ -599,7 +595,6 @@ footer > .locations > a > span {
   transition: color 0.1s linear;
   display: block;
   font-size: 4em;
-  background: #333333 url('../images/slc.jpg') no-repeat top left;
   display: inline-block;
   float: left;
   line-height: 2.5em;
@@ -898,7 +893,7 @@ footer > .locations > a > span {
 
 /* line 274, ../_scss/_modules.scss */
 .tickets:before {
-  background: url(/images/ticket-edges.svg) no-repeat;
+  background: url('../images/ticket-edges.svg?1368311074') no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -909,7 +904,7 @@ footer > .locations > a > span {
 
 /* line 281, ../_scss/_modules.scss */
 .tickets:after {
-  background: url(/images/ticket-edges.svg) no-repeat;
+  background: url('../images/ticket-edges.svg?1368311074') no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1156,7 +1151,7 @@ hr {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
   font-weight: 400;
-  background: #e7e7e7 url(/images/texture-noise-2.png) repeat top left;
+  background: #e7e7e7 url('../images/texture-noise-2.png?1368290307') repeat top left;
   border-top: 0.7em solid #e7e7e7;
   border-bottom: 0.7em solid #e7e7e7;
   font-size: 16px;
@@ -1166,7 +1161,7 @@ hr {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
   /* line 501, ../_scss/_modules.scss */
   .filmstrip {
-    background-image: url("/assets/texture-noise-2@2x.png");
+    background-image: url("texture-noise-2@2x.png");
     background-size: 100px 100px;
   }
 }
