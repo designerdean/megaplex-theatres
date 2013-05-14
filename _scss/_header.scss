@@ -5,7 +5,8 @@ header {
 }
 
   #logo {
-    background: url("{{ site.baseurl }}/images/logo.svg") no-repeat top left;
+    background: $color-purple image-url("locations/ogden-the-junction.jpg") no-repeat top left;
+    // background: image-url("logo.svg") no-repeat top left;
       @include background-size(contain);
     border-right: 4px solid #e7e7e7;
     display: inline-block;
