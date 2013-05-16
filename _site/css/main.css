@@ -927,39 +927,29 @@ footer > .locations > a > span {
 }
 
 /* line 306, ../_scss/_modules.scss */
-.tickets form {
+.tickets > div {
   background-color: #e7e7e7;
-  list-style-type: none;
+  min-height: 40em;
   padding: 1em 2em;
 }
 
 /* line 312, ../_scss/_modules.scss */
-.tickets fieldset {
-  margin-bottom: 1em;
-}
-
-/* line 316, ../_scss/_modules.scss */
-.tickets legend {
-  font-family: "lft-etica", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color: #6d2b90;
-  display: block;
-  font-size: 1.5em;
-  letter-spacing: 1px;
-  line-height: 1em;
-  margin-bottom: 0.5em;
+.tickets > div > h3 {
   padding-top: 0.5em;
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   text-align: center;
-  text-transform: uppercase;
   width: 100%;
 }
 
-/* line 334, ../_scss/_modules.scss */
+/* line 322, ../_scss/_modules.scss */
+.tickets fieldset {
+  margin-bottom: 1em;
+}
+
+/* line 326, ../_scss/_modules.scss */
 .tickets label {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -973,7 +963,7 @@ footer > .locations > a > span {
   text-transform: uppercase;
 }
 
-/* line 347, ../_scss/_modules.scss */
+/* line 339, ../_scss/_modules.scss */
 .tickets .calendar + a,
 .tickets .location + a {
   display: block;
@@ -981,14 +971,14 @@ footer > .locations > a > span {
   text-align: center;
 }
 
-/* line 355, ../_scss/_modules.scss */
+/* line 347, ../_scss/_modules.scss */
 .when {
   float: left;
   vertical-align: middle;
   width: 34%;
 }
 
-/* line 361, ../_scss/_modules.scss */
+/* line 353, ../_scss/_modules.scss */
 .calendar {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -1005,7 +995,7 @@ footer > .locations > a > span {
   text-transform: uppercase;
 }
 
-/* line 375, ../_scss/_modules.scss */
+/* line 367, ../_scss/_modules.scss */
 .calendar > i {
   display: block;
   font-size: 2.2em;
@@ -1014,7 +1004,7 @@ footer > .locations > a > span {
   margin-bottom: 0.4em;
 }
 
-/* line 383, ../_scss/_modules.scss */
+/* line 375, ../_scss/_modules.scss */
 .calendar > em {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -1024,7 +1014,7 @@ footer > .locations > a > span {
   line-height: 0.7em;
 }
 
-/* line 392, ../_scss/_modules.scss */
+/* line 384, ../_scss/_modules.scss */
 .where {
   float: left;
   margin-bottom: 1.2em;
@@ -1032,7 +1022,7 @@ footer > .locations > a > span {
   width: 66%;
 }
 
-/* line 401, ../_scss/_modules.scss */
+/* line 393, ../_scss/_modules.scss */
 .location {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -1047,12 +1037,12 @@ footer > .locations > a > span {
   text-align: center;
 }
 
-/* line 415, ../_scss/_modules.scss */
+/* line 407, ../_scss/_modules.scss */
 .tickets .process-list {
   margin-top: 1em;
 }
 
-/* line 419, ../_scss/_modules.scss */
+/* line 411, ../_scss/_modules.scss */
 .tickets .process-list > li {
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
@@ -1072,7 +1062,7 @@ footer > .locations > a > span {
   padding: 0.3em 0.5em 0.2em 0.5em;
 }
 
-/* line 430, ../_scss/_modules.scss */
+/* line 422, ../_scss/_modules.scss */
 .no-touch .tickets .process-list > li:hover {
   -webkit-border-radius: 0.7em;
   -moz-border-radius: 0.7em;
@@ -1082,13 +1072,13 @@ footer > .locations > a > span {
   background-color: #ffffff;
 }
 
-/* line 435, ../_scss/_modules.scss */
+/* line 427, ../_scss/_modules.scss */
 .tickets .process-list > .selected {
   background-color: #6d2b90;
   color: #ffffff;
 }
 
-/* line 440, ../_scss/_modules.scss */
+/* line 432, ../_scss/_modules.scss */
 .no-touch .tickets .process-list > .selected:hover {
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
@@ -1100,27 +1090,27 @@ footer > .locations > a > span {
   cursor: default;
 }
 
-/* line 449, ../_scss/_modules.scss */
+/* line 441, ../_scss/_modules.scss */
 .format {
   border-top: 0.3em dashed #f6f8f8;
   clear: both;
   padding: 1.2em 0;
 }
 
-/* line 457, ../_scss/_modules.scss */
+/* line 449, ../_scss/_modules.scss */
 .time {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
 }
 
-/* line 464, ../_scss/_modules.scss */
+/* line 456, ../_scss/_modules.scss */
 .quantity {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
   text-align: center;
 }
 
-/* line 470, ../_scss/_modules.scss */
+/* line 462, ../_scss/_modules.scss */
 .quantity > label {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -1134,14 +1124,14 @@ footer > .locations > a > span {
   vertical-align: middle;
 }
 
-/* line 483, ../_scss/_modules.scss */
+/* line 475, ../_scss/_modules.scss */
 .hint {
   margin-top: 0.5em;
   margin-bottom: 0;
   text-align: right;
 }
 
-/* line 497, ../_scss/_modules.scss */
+/* line 489, ../_scss/_modules.scss */
 .ad {
   background-color: #e7e7e7;
   clear: both;
@@ -1149,7 +1139,7 @@ footer > .locations > a > span {
   padding: 1.5em 2em;
 }
 
-/* line 507, ../_scss/_modules.scss */
+/* line 499, ../_scss/_modules.scss */
 hr {
   display: block;
   height: 1px;
@@ -1159,7 +1149,7 @@ hr {
   padding: 0;
 }
 
-/* line 516, ../_scss/_modules.scss */
+/* line 508, ../_scss/_modules.scss */
 .filmstrip {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -1172,28 +1162,28 @@ hr {
   line-height: 3em;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 516, ../_scss/_modules.scss */
+  /* line 508, ../_scss/_modules.scss */
   .filmstrip {
     background-image: url("texture-noise-2@2x.png");
     background-size: 100px 100px;
   }
 }
 
-/* line 527, ../_scss/_modules.scss */
+/* line 519, ../_scss/_modules.scss */
 .filmstrip > hr {
   border-top: 0.2em dashed #f6f8f8;
   height: 0.1em;
   margin: 0;
 }
 
-/* line 540, ../_scss/_modules.scss */
+/* line 532, ../_scss/_modules.scss */
 .map * img,
 .map *:before img,
 .map *:after img {
   max-width: none;
 }
 
-/* line 546, ../_scss/_modules.scss */
+/* line 538, ../_scss/_modules.scss */
 .ancient {
   background: #666666;
   border-bottom: 1px solid #ffffff;
@@ -1208,7 +1198,7 @@ hr {
   z-index: 1000000;
 }
 
-/* line 561, ../_scss/_modules.scss */
+/* line 553, ../_scss/_modules.scss */
 .ancient a,
 .ancient a:visited {
   color: #ffffff;

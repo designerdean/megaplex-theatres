@@ -303,33 +303,25 @@
 // Tickets Sidebar Form
 // ==========================================================================
 
-.tickets form {
+.tickets > div {
   background-color: #e7e7e7;
-  list-style-type: none;
+  min-height: 40em;
   padding: 1em 2em;
 }
+
+  .tickets > div > h3 {
+    padding-top: 0.5em;
+    position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+    text-align: center;
+    width: 100%;
+  }
 
   .tickets fieldset {
     margin-bottom: 1em;
   }
-
-    .tickets legend {
-      @include font-etica-regular;
-      color: $color-purple;
-      display: block;
-      font-size: 1.5em;
-      letter-spacing: 1px;
-      line-height: 1em;
-      margin-bottom: 0.5em;
-      padding-top: 0.5em;
-      position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-      text-align: center;
-      text-transform: uppercase;
-      width: 100%;
-    }
 
     .tickets label {
       @include font-etica-regular;
