@@ -9,5 +9,5 @@ pygments: true
 # url: "http://designerdean.github.io/megaplex-theatres/"
 # baseurl: "/"
 
-baseurl: "/megaplex-theatres"
+baseurl: "/megaplex-theatres/"
 
