@@ -3,11 +3,5 @@ safe: true
 lsi: false
 pygments: true
 
-# baseurl: "/megaplex-theatres"
-# url: "http://localhost:4000/megaplex-theatres"
-
-# url: "http://designerdean.github.io/megaplex-theatres/"
-# baseurl: "/"
-
 baseurl: "/megaplex-theatres/"
 
