@@ -11,7 +11,7 @@
     margin-right: 0.5em;
   }
 
-// Movies Box - Grid View (Default)
+// Movies - Grid View (Default)
 // ==========================================================================
 
 .movies {
@@ -69,20 +69,24 @@
             background-color: lighten($color-purple, 46%);
           }
 
-// Movies Box - List View
+// Movies - List View
 // ==========================================================================
 
 .movies.list {
   background-color: transparent;
 }
 
-.movies.list > ul > li {
-  display: block;
-  text-align: left;
-  width: auto;
-}
+  .movies.list > ul {
 
-// Movies Box - Homepage-Specific Styling
+  }
+
+    .movies.list > ul > li {
+      display: block;
+      text-align: left;
+      width: auto;
+    }
+
+// Movies - Homepage-Specific Styling
 // ==========================================================================
 
 .select-location + .movies {
@@ -91,6 +95,14 @@
     @include background-size(cover);
   // border-top: 0.7em solid $color-purple;
 }
+
+// Movies with Times
+// ==========================================================================
+
+.movies-times {
+
+}
+
 
 // Icon Lists
 // ==========================================================================
@@ -326,7 +338,7 @@
     margin-bottom: 1em;
   }
 
-    .tickets label {
+    .tickets .label-large {
       @include font-etica-regular;
       color: $color-purple;
       display: block;
@@ -335,7 +347,6 @@
       line-height: 1em;
       margin-bottom: 0.5em;
       text-transform: uppercase;
-
     }
 
   .tickets .calendar + a,
@@ -405,40 +416,6 @@
     text-align: center;
   }
 
-// Radios for Format & Time Sections
-
-.tickets .tickets-list {
-  margin-top: 1em;
-}
-
-  .tickets .tickets-list > li {
-    @include border-radius(0.4em);
-    @include single-transition(all, 0.1s, linear);
-    background-color: $color-background;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1.2em;
-    margin: 0 0.5em 0.5em 0;
-    padding: 0.3em 0.5em 0.2em 0.5em;
-  }
-
-    .no-touch .tickets .tickets-list > li:hover {
-      @include border-radius(0.7em);
-      background-color: #ffffff;
-    }
-
-    .tickets .tickets-list > .selected {
-      background-color: $color-purple;
-      color: #ffffff;
-    }
-
-      .no-touch .tickets .tickets-list > .selected:hover {
-        @include border-radius(0.4em);
-        background-color: $color-purple;
-        color: #ffffff;
-        cursor: default;
-      }
-
 // Format
 
 .tickets-format {
@@ -462,14 +439,8 @@
   text-align: center;
 }
 
-  .tickets-quantity > label {
-    @include font-etica-regular;
-    color: $color-purple;
+  .tickets-quantity > .label-large {
     display: inline;
-    font-size: 1.3em;
-    letter-spacing: 1px;
-    line-height: 1em;
-    text-transform: uppercase;
     vertical-align: middle;
   }
 

@@ -8,8 +8,11 @@
   
         <!-- <legend>Tickets</legend> -->
 
+
+        <!-- When -->
+
         <div class="tickets-when">
-          <label>When</label>
+          <label class="label-large">When</label>
           <span class="calendar">
             <i>Jun</i>
             <em>10</em>
@@ -17,8 +20,10 @@
           <a href="">Change Date</a>
         </div>
 
+        <!-- Where -->
+
         <div class="tickets-where">
-          <label>Where</label>
+          <label class="label-large">Where</label>
           <span class="tickets-location">
             The Junction<br>
             Ogden, UT
@@ -26,36 +31,69 @@
           <a href="">Change Location</a>
         </div>
   
+        <!-- Format -->
+
         <div class="tickets-format">
-          <label>Choose a Format</label>
-          <!-- CHANGE TO RADIOS -->
-          <ul class="tickets-list">
-            <li>2D</li>
-            <li class="selected">3D</li>
-            <li>IMAX 3D</li>
-            <li>VIP Theatre</li>
-            <li>D-BOX</li>
-          </ul>
+          <label class="label-large">Choose a Format</label>
+
+          <div class="boxy-list">
+            
+            <input type="radio" id="format-2d" name="choose-format" value="2D">
+            <label class="boxy-list-item" for="format-2d">2D</label>
+            
+            <input type="radio" id="format-3d" name="choose-format" value="3D">
+            <label class="boxy-list-item" for="format-3d">3D</label>
+            
+            <input type="radio" id="format-imax-3d" name="choose-format" value="IMAX 3D">
+            <label class="boxy-list-item" for="format-imax-3d">IMAX 3D</label>
+            
+            <input type="radio" id="format-vip-theatre" name="choose-format" value="VIP Theatre">
+            <label class="boxy-list-item" for="format-vip-theatre">VIP Theatre</label>
+            
+            <input type="radio" id="format-d-box" name="choose-format" value="D-BOX">
+            <label class="boxy-list-item" for="format-d-box">D-BOX</label>
+            
+          </div>
+
           <p class="tickets-hint">
             <a href="{{ site.baseurl }}work-in-progress" target="_blank">What do these mean?</a>
           </p>
+
         </div>
   
+        <!-- Time -->
+
         <div class="time">
-          <label>Choose a Time</label>
-          <!-- CHANGE TO RADIOS -->
-          <ul class="tickets-list">
-            <li>11:15 AM</li>
-            <li>12:15 AM</li>
-            <li class="selected">2:45 PM</li>
-            <li>4:25 PM</li>
-            <li>6:00 PM</li>
-            <li>7:45 PM</li>
-          </ul>
+          <label class="label-large">Choose a Time</label>
+          
+          <div class="boxy-list">
+            
+            <input type="radio" id="time-11-15-am" name="choose-time" value="11:15">
+            <label class="boxy-list-item" for="time-11-15-am">11:15 AM</label>
+            
+            <input type="radio" id="time-12-15-pm" name="choose-time" value="12:15">
+            <label class="boxy-list-item" for="time-12-15-pm">12:15 PM</label>
+            
+            <input type="radio" id="time-2-45-pm" name="choose-time" value="2:45">
+            <label class="boxy-list-item" for="time-2-45-pm">2:45 PM</label>
+            
+            <input type="radio" id="time-4-25-pm" name="choose-time" value="4:25">
+            <label class="boxy-list-item" for="time-4-25-pm">4:25 PM</label>
+            
+            <input type="radio" id="time-6-00-pm" name="choose-time" value="6:00">
+            <label class="boxy-list-item" for="time-6-00-pm">6:00 PM</label>
+            
+            <input type="radio" id="time-7-45-pm" name="choose-time" value="7:45">
+            <label class="boxy-list-item" for="time-7-45-pm">7:45 PM</label>
+          
+          </div>
+
         </div>
   
+        <!-- Quantity -->
+
         <div class="tickets-quantity">
-          <label>Select Quantity:</label>
+          <label class="label-large">Select Quantity:</label>
           <select>
             <option>1</option>
             <option>2</option>
@@ -80,6 +118,8 @@
           </select>
         </div>
   
+        <!-- Button -->
+
         <p class="button-row">
           <a href="{{ site.baseurl }}work-in-progress" class="button">Buy Tickets</a>
         </p>
