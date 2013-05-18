@@ -144,7 +144,7 @@
 .hot-deals {
   @extend .wide;
   @extend .left;
-  border-right: 4px solid #e7e7e7;
+  border-right: 4px solid #dddddd;
 }
 
   .latest.deals {
@@ -166,7 +166,7 @@
 .whats-up {
   @extend .narrow;
   @extend .right;
-  border-left: 4px solid #e7e7e7;
+  border-left: 4px solid #dddddd;
   margin-left: -4px;
 }
 
@@ -304,7 +304,7 @@
 // ==========================================================================
 
 .tickets > div {
-  background-color: #e7e7e7;
+  background-color: #dddddd;
   min-height: 40em;
   padding: 1em 2em;
 }
@@ -487,7 +487,7 @@
 // ==========================================================================
 
 .ad {
-  background-color: #e7e7e7;
+  background-color: #dddddd;
   clear: both;
   margin-top: 2em;
   padding: 1.5em 2em;
@@ -507,10 +507,10 @@ hr {
 
   .filmstrip {
     @include font-etica-regular;
-    background: #e7e7e7 image-url("texture-noise-2.png") repeat top left;
+    background: #dddddd image-url("texture-noise-2.png") repeat top left;
       @include image-2x("texture-noise-2@2x.png", 100px, 100px);
-    border-top: 0.7em solid #e7e7e7;
-    border-bottom: 0.7em solid #e7e7e7;
+    border-top: 0.7em solid #dddddd;
+    border-bottom: 0.7em solid #dddddd;
     font-size: 16px; // For responsive sizing
     margin: 0 -5.6% 2em -5.6%;
     line-height: 3em;
