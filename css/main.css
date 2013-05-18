@@ -121,29 +121,34 @@ body {
   max-width: 82em;
 }
 
-/* line 33, ../_scss/_grid.scss */
+/* line 26, ../_scss/_grid.scss */
+.content {
+  padding: 0 0 3em 0;
+}
+
+/* line 34, ../_scss/_grid.scss */
 .row {
   margin-bottom: 4em;
 }
 
-/* line 38, ../_scss/_grid.scss */
+/* line 39, ../_scss/_grid.scss */
 .wide, .hot-deals, .movie {
   float: left;
   width: 60%;
 }
 
-/* line 44, ../_scss/_grid.scss */
+/* line 45, ../_scss/_grid.scss */
 .narrow, .whats-up, .tickets {
   float: left;
   width: 40%;
 }
 
-/* line 49, ../_scss/_grid.scss */
+/* line 50, ../_scss/_grid.scss */
 .left, .hot-deals, .movie {
   padding-right: 3.5%;
 }
 
-/* line 53, ../_scss/_grid.scss */
+/* line 54, ../_scss/_grid.scss */
 .right, .whats-up, .tickets, .where {
   padding-left: 3.5%;
 }
