@@ -18,7 +18,6 @@ nav {
     nav > ul > li {
       @include inline-block-list-item;
       color: #ffffff;
-      cursor: pointer;
       letter-spacing: 1px;
       padding: 0.4em 0.5em 0.3em 0.5em;
       position: relative;
@@ -31,6 +30,11 @@ nav {
         color: #ffffff;
         display: inline-block;
         text-decoration: none;
+      }
+
+      nav > ul > li > b {
+        cursor: pointer;
+        font-weight: normal;
       }
 
         .no-touch nav a:hover {
@@ -63,10 +67,6 @@ nav {
       padding: 0;
       text-transform: none;
     }
-
-
-
-
 
 // Show on Hover
 

@@ -566,7 +566,6 @@ nav > ul > li {
   *vertical-align: auto;
   white-space: nowrap;
   color: #ffffff;
-  cursor: pointer;
   letter-spacing: 1px;
   padding: 0.4em 0.5em 0.3em 0.5em;
   position: relative;
@@ -577,7 +576,7 @@ nav > ul > li {
   *display: inline;
 }
 
-/* line 29, ../_scss/_nav.scss */
+/* line 28, ../_scss/_nav.scss */
 nav a,
 nav a:visited {
   -webkit-transition: background 0.3s linear;
@@ -590,7 +589,13 @@ nav a:visited {
   text-decoration: none;
 }
 
-/* line 43, ../_scss/_nav.scss */
+/* line 35, ../_scss/_nav.scss */
+nav > ul > li > b {
+  cursor: pointer;
+  font-weight: normal;
+}
+
+/* line 47, ../_scss/_nav.scss */
 .nav-sub {
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
@@ -607,12 +612,12 @@ nav a:visited {
   visibility: hidden;
 }
 
-/* line 55, ../_scss/_nav.scss */
+/* line 59, ../_scss/_nav.scss */
 .nav-sub > ul {
   margin-bottom: 1.3em;
 }
 
-/* line 59, ../_scss/_nav.scss */
+/* line 63, ../_scss/_nav.scss */
 .nav-sub > ul > li {
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
