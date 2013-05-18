@@ -29,10 +29,9 @@ footer > .locations {
 }
 
   footer > .locations > a > span {
-    background: image-url("slc.jpg") no-repeat top center;
-      @include image-2x("slc@2x.jpg", 512px, 320px);
+    background: image-url("slc.jpg") no-repeat bottom center;
+      @include image-2x("slc@2x.jpg", 324px, 158px);
     @include single-transition(color, 0.1s, linear);
-    @include background-size(cover);
     color: #e5e5e5;
     display: inline-block;
     float: left;

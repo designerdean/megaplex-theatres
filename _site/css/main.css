@@ -675,16 +675,12 @@ footer > .locations {
 
 /* line 31, ../_scss/_footer.scss */
 footer > .locations > a > span {
-  background: url('../images/slc.jpg?1368900221') no-repeat top center;
+  background: url('../images/slc.jpg?1368902374') no-repeat bottom center;
   -webkit-transition: color 0.1s linear;
   -moz-transition: color 0.1s linear;
   -ms-transition: color 0.1s linear;
   -o-transition: color 0.1s linear;
   transition: color 0.1s linear;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   color: #e5e5e5;
   display: inline-block;
   float: left;
@@ -696,12 +692,12 @@ footer > .locations > a > span {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
   /* line 31, ../_scss/_footer.scss */
   footer > .locations > a > span {
-    background-image: url('../images/slc@2x.jpg');
-    background-size: 512px 320px;
+    background-image: url('../images/slc@2x.jpg?1368902374');
+    background-size: 324px 158px;
   }
 }
 
-/* line 45, ../_scss/_footer.scss */
+/* line 44, ../_scss/_footer.scss */
 .no-touch footer > .locations > a:hover > span {
   color: #ffffff;
 }
