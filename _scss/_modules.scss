@@ -103,82 +103,6 @@
 
 }
 
-
-// Icon Lists
-// ==========================================================================
-
-.icon-list {
-  font-size: 1.2em;
-  list-style-type: none;
-  margin-bottom: 1em;
-}
-
-  .icon-list > li {
-    position: relative;
-  }
-
-    .icon-list .icon-list-item {
-      @include border-radius(0.8em);
-      @include single-transition(background, 0.3s, linear);
-      display: block;
-      padding: 1.2em 1em;
-      text-decoration: none;
-    }
-
-      .no-touch .icon-list > li > a:hover {
-        background-color: #e5e5e5;
-      }
-
-// Icon
-
-.icon-list span {
-  @include single-transition(color, 0.3s, linear);
-  color: $color-purple;
-  display: table-cell;
-  font-size: 1.8em;
-  height: 100%;
-  line-height: 0;
-  padding: 0.1em;
-  vertical-align: middle;
-}
-
-  .icon-list span.twitter {
-    color: $color-twitter;
-  }
-
-  .icon-list span.facebook {
-    color: $color-facebook;
-  }
-
-// Title & Description
-
-.icon-list .icon-list-content {
-  display: table-cell;
-  height: 100%;
-  padding-left: 1em;
-  vertical-align: middle;
-}
-
-  .icon-list b {
-    @include single-transition(color, 0.2s, linear);
-    @include font-source-semibold;
-    color: $color-purple;
-    display: block;
-    font-size: 1.1em;
-    line-height: 1.2em;
-    margin-bottom: 0.1em;
-  }
-
-    .no-touch .icon-list > li > a:hover b {
-      color: lighten($color-purple, 10%);
-    }
-
-  .icon-list .icon-list-cta {
-    @include font-source-semibold;
-    font-style: normal;
-    text-decoration: underline;
-  }
-
 // Hot Deals (Promo List on Homepage)
 // ==========================================================================
 
@@ -187,18 +111,6 @@
   @extend .left;
   border-right: 4px solid #dddddd;
 }
-
-  .icon-list.large {
-    font-size: 1.4em;
-  }
-
-    .icon-list.large span {
-      font-size: 4em;
-    }
-
-      .no-touch .icon-list.large > li > a:hover span {
-        color: lighten($color-purple, 10%);
-      }
 
 // What's Up (Social Media Posts on Homepage)
 // ==========================================================================
@@ -297,147 +209,21 @@
       bottom: 0;
     }
 
-// Tickets Sidebar Form
-// ==========================================================================
-
-.tickets > div {
-  background-color: #dddddd;
-  min-height: 40em;
-  padding: 1em 2em;
-}
-
-  .tickets > div > h3 {
-    padding-top: 0.5em;
-    position: absolute;
-      top: 0;
-      right: 0;
-      left: 0;
-    text-align: center;
-    width: 100%;
+  .tickets > div {
+    background-color: #dddddd;
+    min-height: 40em;
+    padding: 1em 2em;
   }
 
-  .tickets fieldset {
-    margin-bottom: 1em;
-  }
-
-    .tickets .label-large {
-      @include font-etica-regular;
-      color: $color-purple;
-      display: block;
-      font-size: 1.3em;
-      letter-spacing: 1px;
-      line-height: 1em;
-      margin-bottom: 0.5em;
-      text-transform: uppercase;
+    .tickets > div > h3 {
+      padding-top: 0.5em;
+      position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+      text-align: center;
+      width: 100%;
     }
-
-  .tickets .calendar + a,
-  .tickets .tickets-location + a {
-    display: block;
-    margin-top: 0.2em;
-    text-align: center;
-  }
-
-// When
-
-.tickets-when {
-  float: left;
-  vertical-align: middle;
-  width: 34%;
-}
-
-  .calendar {
-    @include font-etica-regular;
-    background-color: #bac4c5;
-    color: #4d4d4d;
-    cursor: pointer;
-    display: block;
-    height: 8.6em;
-    letter-spacing: 1px;
-    margin-bottom: 0.2em;
-    padding: 1.5em 1em;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-    .calendar > i {
-      display: block;
-      font-size: 2.2em;
-      font-style: normal;
-      line-height: 0.6em;
-      margin-bottom: 0.4em;
-    }
-
-    .calendar > em {
-      @include font-etica-semibold;
-      display: block;
-      font-size: 5em;
-      line-height: 0.7em;
-    }
-
-// Where
-
-.tickets-where {
-  @extend %clear-after;
-  @extend .right;
-  float: left;
-  margin-bottom: 1.2em;
-  vertical-align: middle;
-  width: 66%;
-}
-
-  .tickets-location {
-    @include font-etica-semibold;
-    background-color: #bac4c5;
-    color: #4d4d4d;
-    cursor: pointer;
-    display: block;
-    height: 8.6em;
-    margin-bottom: 0.2em;
-    padding: 1em;
-    text-align: center;
-  }
-
-// Format
-
-.tickets-format {
-  border-top: 0.3em dashed $color-background;
-  clear: both;
-  padding: 1.2em 0;
-}
-
-// Time
-
-.time {
-  border-top: 0.3em dashed $color-background;
-  padding: 1.2em 0;
-}
-
-// Quantity
-
-.tickets-quantity {
-  border-top: 0.3em dashed $color-background;
-  padding: 1.2em 0;
-  text-align: center;
-}
-
-  .tickets-quantity > .label-large {
-    display: inline;
-    vertical-align: middle;
-  }
-
-// Misc
-
-.tickets-hint {
-  margin-top: 0.5em;
-  margin-bottom: 0;
-  text-align: right;
-}
-
-  .tickets-hint a,
-  .tickets-hint a:visited {
-
-  }
 
 // Ads
 // ==========================================================================

@@ -106,7 +106,96 @@ dl {
     width: 50%;
   }
 
-// Lists for Format & Time Sections (Radio or Simple List)
+// Icon Lists
+// ==========================================================================
+
+.icon-list {
+  font-size: 1.2em;
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
+  .icon-list > li {
+    position: relative;
+  }
+
+    .icon-list .icon-list-item {
+      @include border-radius(0.8em);
+      @include single-transition(background, 0.3s, linear);
+      display: block;
+      padding: 1.2em 1em;
+      text-decoration: none;
+    }
+
+      .no-touch .icon-list > li > a:hover {
+        background-color: #e5e5e5;
+      }
+
+// Icon
+
+.icon-list span {
+  @include single-transition(color, 0.3s, linear);
+  color: $color-purple;
+  display: table-cell;
+  font-size: 1.8em;
+  height: 100%;
+  line-height: 0;
+  padding: 0.1em;
+  vertical-align: middle;
+}
+
+  .icon-list span.twitter {
+    color: $color-twitter;
+  }
+
+  .icon-list span.facebook {
+    color: $color-facebook;
+  }
+
+// Title & Description
+
+.icon-list .icon-list-content {
+  display: table-cell;
+  height: 100%;
+  padding-left: 1em;
+  vertical-align: middle;
+}
+
+  .icon-list b {
+    @include single-transition(color, 0.2s, linear);
+    @include font-source-semibold;
+    color: $color-purple;
+    display: block;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    margin-bottom: 0.1em;
+  }
+
+    .no-touch .icon-list > li > a:hover b {
+      color: lighten($color-purple, 10%);
+    }
+
+  .icon-list .icon-list-cta {
+    @include font-source-semibold;
+    font-style: normal;
+    text-decoration: underline;
+  }
+
+// Large Style
+
+.icon-list.large {
+  font-size: 1.4em;
+}
+
+  .icon-list.large span {
+    font-size: 4em;
+  }
+
+    .no-touch .icon-list.large > li > a:hover span {
+      color: lighten($color-purple, 10%);
+    }
+
+// Boxy Style Lists (Format/Time Sections)
 // ==========================================================================
 
 .boxy-list {

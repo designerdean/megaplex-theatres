@@ -110,3 +110,129 @@ input[type="search"] {
   .select-location  > select:focus {
 
   }
+
+// Ticket-Selection Form
+// ==========================================================================
+
+.tickets fieldset {
+  margin-bottom: 1em;
+}
+
+  .tickets .label-large {
+    @include font-etica-regular;
+    color: $color-purple;
+    display: block;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+
+.tickets .calendar + a,
+.tickets .tickets-location + a {
+  display: block;
+  margin-top: 0.2em;
+  text-align: center;
+}
+
+// When
+
+.tickets-when {
+  float: left;
+  vertical-align: middle;
+  width: 34%;
+}
+
+  .calendar {
+    @include font-etica-regular;
+    background-color: #bac4c5;
+    color: #4d4d4d;
+    cursor: pointer;
+    display: block;
+    height: 8.6em;
+    letter-spacing: 1px;
+    margin-bottom: 0.2em;
+    padding: 1.5em 1em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+    .calendar > i {
+      display: block;
+      font-size: 2.2em;
+      font-style: normal;
+      line-height: 0.6em;
+      margin-bottom: 0.4em;
+    }
+
+    .calendar > em {
+      @include font-etica-semibold;
+      display: block;
+      font-size: 5em;
+      line-height: 0.7em;
+    }
+
+// Where
+
+.tickets-where {
+  @extend %clear-after;
+  @extend .right;
+  float: left;
+  margin-bottom: 1.2em;
+  vertical-align: middle;
+  width: 66%;
+}
+
+  .tickets-location {
+    @include font-etica-semibold;
+    background-color: #bac4c5;
+    color: #4d4d4d;
+    cursor: pointer;
+    display: block;
+    height: 8.6em;
+    margin-bottom: 0.2em;
+    padding: 1em;
+    text-align: center;
+  }
+
+// Format
+
+.tickets-format {
+  border-top: 0.3em dashed $color-background;
+  clear: both;
+  padding: 1.2em 0;
+}
+
+// Time
+
+.time {
+  border-top: 0.3em dashed $color-background;
+  padding: 1.2em 0;
+}
+
+// Quantity
+
+.tickets-quantity {
+  border-top: 0.3em dashed $color-background;
+  padding: 1.2em 0;
+  text-align: center;
+}
+
+  .tickets-quantity > .label-large {
+    display: inline;
+    vertical-align: middle;
+  }
+
+// Misc
+
+.tickets-hint {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+  .tickets-hint a,
+  .tickets-hint a:visited {
+
+  }
