@@ -80,7 +80,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 69, ../_scss/_bits.scss */
-.screen-reader {
+.screen-reader, .boxy-list > input[type="radio"] {
   position: absolute;
   top: -9999px;
   left: -9999px;
@@ -387,11 +387,6 @@ dl > dd {
   padding: 0.3em 0.5em 0.2em 0.5em;
 }
 
-/* line 216, ../_scss/_typography.scss */
-.boxy-list > input[type="radio"] {
-  display: none;
-}
-
 /* line 220, ../_scss/_typography.scss */
 .boxy-list > input[type="radio"]:checked + label {
   -webkit-user-select: none;
@@ -691,46 +686,72 @@ input[type="search"]:focus {
 
 /* line 187, ../_scss/_forms.scss */
 .tickets-location {
-  font-family: "lft-etica", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  background-color: #bac4c5;
-  color: #4d4d4d;
+  color: #e5e5e5;
   cursor: pointer;
   display: block;
   height: 10.3em;
   margin-bottom: 0.2em;
-  padding: 1em;
+  padding-top: 2.3em;
   text-align: center;
 }
 
-/* line 201, ../_scss/_forms.scss */
+/* line 198, ../_scss/_forms.scss */
+.tickets-location.ogden-the-junction {
+  background: url('../images/locations/small/ogden-the-junction.jpg?1368908104') no-repeat bottom center;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+  /* line 198, ../_scss/_forms.scss */
+  .tickets-location.ogden-the-junction {
+    background-image: url('../images/locations/small/ogden-the-junction@2x.jpg?1368908104');
+    background-size: 288px 165px;
+  }
+}
+
+/* line 203, ../_scss/_forms.scss */
+.tickets-location > span {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+  font-size: 1.8em;
+  font-style: normal;
+  line-height: 1.2em;
+  padding: 0.4em;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* line 215, ../_scss/_forms.scss */
+.no-rgba .tickets-location > span {
+  background-color: #000000;
+}
+
+/* line 221, ../_scss/_forms.scss */
 .tickets-format {
   border-top: 0.3em dashed #f6f8f8;
   clear: both;
   padding: 1.2em 0;
 }
 
-/* line 209, ../_scss/_forms.scss */
+/* line 229, ../_scss/_forms.scss */
 .time {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
 }
 
-/* line 216, ../_scss/_forms.scss */
+/* line 236, ../_scss/_forms.scss */
 .tickets-quantity {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
   text-align: center;
 }
 
-/* line 222, ../_scss/_forms.scss */
+/* line 242, ../_scss/_forms.scss */
 .tickets-quantity > .label-large {
   display: inline;
   vertical-align: middle;
 }
 
-/* line 229, ../_scss/_forms.scss */
+/* line 249, ../_scss/_forms.scss */
 .tickets-hint {
   margin-top: 0.5em;
   margin-bottom: 0;

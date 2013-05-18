@@ -214,7 +214,7 @@ dl {
   }
 
     .boxy-list > input[type="radio"] {
-      display: none;
+      @extend .screen-reader;
     }
 
     .boxy-list > input[type="radio"]:checked + label {
