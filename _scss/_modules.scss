@@ -16,11 +16,9 @@
 
 .movies {
   @extend %clear-after;
-  @include border-radius(0.8em 0 0.8em 0.8em);
+  @include border-radius(0.8em);
   @include font-source-light;
-  background: image-url("locations/blurry/ogden-the-junction.jpg") no-repeat bottom center;
-    @include background-size(cover);
-  border-top: 0.7em solid $color-purple;
+  background-color: $color-purple;
   color: #ffffff;
   margin: 0 0 4em 0;
   padding: 1.5em 1em;
@@ -65,6 +63,15 @@
           .no-touch .movies > ul > li > a:hover > span {
             background-color: lighten($color-purple, 46%);
           }
+
+// Homepage-Specific Styling of Movies Box
+
+.select-location + .movies {
+  @include border-radius(0.8em 0 0.8em 0.8em);
+  background: image-url("locations/blurry/ogden-the-junction.jpg") no-repeat bottom center;
+    @include background-size(cover);
+  border-top: 0.7em solid $color-purple;
+}
 
 // Icon Lists
 // ==========================================================================
