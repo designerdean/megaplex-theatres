@@ -29,18 +29,19 @@ footer > .locations {
 }
 
   footer > .locations > a > span {
+    background: image-url("slc.jpg") no-repeat top center;
+      @include image-2x("slc@2x.jpg", 512px, 320px);
     @include single-transition(color, 0.1s, linear);
-    display: block;
-    font-size: 4em;
-    background-color: #333333;
-    // background: #333333 image-url("slc.jpg") no-repeat top left;
+    @include background-size(cover);
+    color: #e5e5e5;
     display: inline-block;
     float: left;
-    line-height: 2.5em;
+    font-size: 4.5em;
+    line-height: 2.2em;
     text-align: center;
-    width: 4em;
+    width: 4.5em;
   }
 
-  .no-touch footer > .locations > a:hover > span {
-    color: #ffffff;
-  }
+    .no-touch footer > .locations > a:hover > span {
+      color: #ffffff;
+    }

@@ -103,7 +103,7 @@ html {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
   /* line 8, ../_scss/_grid.scss */
   html {
-    background-image: url("texture-noise-1@2x.png");
+    background-image: url('../images/texture-noise-1@2x.png?1368289799');
     background-size: 100px 100px;
   }
 }
@@ -675,22 +675,33 @@ footer > .locations {
 
 /* line 31, ../_scss/_footer.scss */
 footer > .locations > a > span {
+  background: url('../images/slc.jpg?1368900221') no-repeat top center;
   -webkit-transition: color 0.1s linear;
   -moz-transition: color 0.1s linear;
   -ms-transition: color 0.1s linear;
   -o-transition: color 0.1s linear;
   transition: color 0.1s linear;
-  display: block;
-  font-size: 4em;
-  background-color: #333333;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #e5e5e5;
   display: inline-block;
   float: left;
-  line-height: 2.5em;
+  font-size: 4.5em;
+  line-height: 2.2em;
   text-align: center;
-  width: 4em;
+  width: 4.5em;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+  /* line 31, ../_scss/_footer.scss */
+  footer > .locations > a > span {
+    background-image: url('../images/slc@2x.jpg');
+    background-size: 512px 320px;
+  }
 }
 
-/* line 44, ../_scss/_footer.scss */
+/* line 45, ../_scss/_footer.scss */
 .no-touch footer > .locations > a:hover > span {
   color: #ffffff;
 }
@@ -793,7 +804,7 @@ footer > .locations > a > span {
   -ms-border-radius: 0.8em 0 0.8em 0.8em;
   -o-border-radius: 0.8em 0 0.8em 0.8em;
   border-radius: 0.8em 0 0.8em 0.8em;
-  background: url('../images/locations/blurry/ogden-the-junction.jpg?1368847023') no-repeat bottom center;
+  background: url('../images/locations/blurry/ogden-the-junction.jpg?1368899028') no-repeat bottom center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1261,7 +1272,7 @@ hr {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
   /* line 537, ../_scss/_modules.scss */
   .filmstrip {
-    background-image: url("texture-noise-2@2x.png");
+    background-image: url('../images/texture-noise-2@2x.png?1368290288');
     background-size: 100px 100px;
   }
 }
