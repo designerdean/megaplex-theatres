@@ -4,14 +4,9 @@
 
   <div class="picker-container">
     <label id="search-label" for="picker-label">Date:</label>
-    <input id="picker-label" class="datepicker" type="text" placeholder="14 June, 2013" readonly="">
+    <input id="picker-label" class="datepicker" type="text" placeholder="Today" readonly="">
     <script type="text/javascript">
-      $('.datepicker').pickadate({
-          disable: [
-              true,
-              [2013,5,14]
-          ]
-      })
+      $('.datepicker').pickadate()
     </script>
   </div>
 

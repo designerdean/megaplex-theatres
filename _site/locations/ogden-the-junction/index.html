@@ -145,14 +145,9 @@
 
   <div class="picker-container">
     <label id="search-label" for="picker-label">Date:</label>
-    <input id="picker-label" class="datepicker" type="text" placeholder="14 June, 2013" readonly="">
+    <input id="picker-label" class="datepicker" type="text" placeholder="Today" readonly="">
     <script type="text/javascript">
-      $('.datepicker').pickadate({
-          disable: [
-              true,
-              [2013,5,14]
-          ]
-      })
+      $('.datepicker').pickadate()
     </script>
   </div>
 
@@ -451,7 +446,7 @@
 
   <span class="locations">
     <h5>Megaplex Locations</h5>
-    <a href="/work-in-progress">
+    <a href="/locations/ogden-the-junction">
       <span aria-hidden="true" data-icon="&#x25bd;"></span>
     </a>
   </span>
