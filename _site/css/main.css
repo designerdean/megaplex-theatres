@@ -603,8 +603,10 @@ nav > ul > li > b {
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
   background-color: #a1aaab;
+  border-top: 0.5em solid #ffcb07;
+  border-bottom: 0.5em solid #ffcb07;
   opacity: 0;
-  padding: 1em 2em;
+  padding: 1.3em 2em 0 2em;
   position: absolute;
   top: 100%;
   left: 0;
@@ -612,12 +614,12 @@ nav > ul > li > b {
   visibility: hidden;
 }
 
-/* line 59, ../_scss/_nav.scss */
+/* line 61, ../_scss/_nav.scss */
 .nav-sub > ul {
   margin-bottom: 1.3em;
 }
 
-/* line 63, ../_scss/_nav.scss */
+/* line 65, ../_scss/_nav.scss */
 .nav-sub > ul > li {
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
@@ -628,7 +630,7 @@ nav > ul > li > b {
   text-transform: none;
 }
 
-/* line 73, ../_scss/_nav.scss */
+/* line 75, ../_scss/_nav.scss */
 nav > ul > li:hover > .nav-sub {
   opacity: 1;
   visibility: visible;
