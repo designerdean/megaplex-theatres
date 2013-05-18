@@ -68,7 +68,13 @@
 // ==========================================================================
 
 .movies.list {
-  
+  background-color: transparent;
+}
+
+.movies.list > ul > li {
+  display: block;
+  text-align: left;
+  width: auto;
 }
 
 // Movies Box - Homepage-Specific Styling

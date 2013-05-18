@@ -1,20 +1,28 @@
 nav {
   @extend .wrapper;
   margin-bottom: 1.4em;
+  position: relative;
   text-align: right;
+  z-index: 1;
 }
 
   nav > ul {
     @include inline-block-list;
-    background-color: #bac4c5;
+    background-color: #a1aaab;
     float: right;
     font-size: 1.1em;
+    overflow: visible;
     padding: 0 0.7em;
   }
 
     nav > ul > li {
       @include inline-block-list-item;
-      padding: 0;
+      color: #ffffff;
+      cursor: pointer;
+      letter-spacing: 1px;
+      padding: 0.4em 0.5em 0.3em 0.5em;
+      position: relative;
+      text-transform: uppercase;
     }
 
       nav a,
@@ -22,12 +30,47 @@ nav {
         @include single-transition(background, 0.3s, linear);
         color: #ffffff;
         display: inline-block;
-        letter-spacing: 1px;
-        padding: 0.4em 0.5em 0.3em 0.5em;
         text-decoration: none;
-        text-transform: uppercase;
       }
 
         .no-touch nav a:hover {
 
         }
+
+// Sub Nav
+// ==========================================================================
+
+.nav-sub {
+  @include single-transition(all, 0.3s, linear);
+  background-color: #a1aaab;
+  opacity: 0;
+  padding: 1em 2em;
+  position: absolute;
+    top: 100%;
+    left: 0;
+  text-align: left;
+  visibility: hidden;
+}
+
+  .nav-sub > ul {
+    margin-bottom: 1.3em;
+  }
+
+    .nav-sub > ul > li {
+      @include font-source-light;
+      display: block;
+      line-height: 1.6em;
+      padding: 0;
+      text-transform: none;
+    }
+
+
+
+
+
+// Show on Hover
+
+nav > ul > li:hover > .nav-sub {
+  opacity: 1;
+  visibility: visible;
+}
