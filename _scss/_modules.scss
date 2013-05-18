@@ -56,6 +56,10 @@
           white-space: nowrap;
         }
 
+          .no-rgba .movies > ul > li > a > span {
+            background-color: #e7e7e7;
+          }
+
           .no-touch .movies > ul > li > a:hover > span {
             background-color: lighten($color-purple, 46%);
           }
