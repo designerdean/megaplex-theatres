@@ -11,7 +11,7 @@
     margin-right: 0.5em;
   }
 
-// Movies Box
+// Movies Box - Grid View (Default)
 // ==========================================================================
 
 .movies {
@@ -64,7 +64,15 @@
             background-color: lighten($color-purple, 46%);
           }
 
-// Homepage-Specific Styling of Movies Box
+// Movies Box - List View
+// ==========================================================================
+
+.movies.list {
+  
+}
+
+// Movies Box - Homepage-Specific Styling
+// ==========================================================================
 
 .select-location + .movies {
   @include border-radius(0.8em 0 0.8em 0.8em);
