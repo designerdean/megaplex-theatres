@@ -44,17 +44,6 @@
         text-decoration: none;
       }
 
-        // .poster-thumb {
-        //   @include single-transition(border-color, 0.2s, linear);
-        //   // border: 0.3em solid lighten($color-purple, 22%);
-        //   border: 0.3em solid rgba(#e7e7e7, 0.9);
-        //   display: block;
-        // }
-
-        //   .no-touch .movies a:hover .poster-thumb {
-        //     border-color: lighten($color-purple, 46%);
-        //   }
-
         .movies > ul > li > a > span {
           @include font-source-semibold;
           @include single-transition(background-color, 0.2s, linear);
