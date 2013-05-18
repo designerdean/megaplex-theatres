@@ -46,7 +46,7 @@ nav {
 
 .nav-sub {
   @include single-transition(all, 0.3s, linear);
-  background-color: #a1aaab;
+  background-color: #dddddd;
   border-top: 0.5em solid $color-gold;
   border-bottom: 0.5em solid $color-gold;
   opacity: 0;
@@ -63,11 +63,16 @@ nav {
   }
 
     .nav-sub > ul > li {
-      @include font-source-light;
+      @include font-source-regular;
       display: block;
       line-height: 1.6em;
       padding: 0;
       text-transform: none;
+    }
+
+    .nav-sub a,
+    .nav-sub a:visited {
+      color: #333333;
     }
 
 // Show on Hover

@@ -602,7 +602,7 @@ nav > ul > li > b {
   -ms-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  background-color: #a1aaab;
+  background-color: #dddddd;
   border-top: 0.5em solid #ffcb07;
   border-bottom: 0.5em solid #ffcb07;
   opacity: 0;
@@ -623,14 +623,20 @@ nav > ul > li > b {
 .nav-sub > ul > li {
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   display: block;
   line-height: 1.6em;
   padding: 0;
   text-transform: none;
 }
 
-/* line 75, ../_scss/_nav.scss */
+/* line 74, ../_scss/_nav.scss */
+.nav-sub a,
+.nav-sub a:visited {
+  color: #333333;
+}
+
+/* line 80, ../_scss/_nav.scss */
 nav > ul > li:hover > .nav-sub {
   opacity: 1;
   visibility: visible;
