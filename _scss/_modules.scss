@@ -44,6 +44,11 @@
         text-decoration: none;
       }
 
+        .movies > ul > li > a > img {
+          // @include box-shadow(0 0 0.2em rgba(#000000, 0.5));
+          // border: 1px solid #000000;
+        }
+
         .movies > ul > li > a > span {
           @include font-source-semibold;
           @include single-transition(background-color, 0.2s, linear);
@@ -84,7 +89,7 @@
   @include border-radius(0.8em 0 0.8em 0.8em);
   background: image-url("locations/blurry/ogden-the-junction.jpg") no-repeat bottom center;
     @include background-size(cover);
-  border-top: 0.7em solid $color-purple;
+  // border-top: 0.7em solid $color-purple;
 }
 
 // Icon Lists
