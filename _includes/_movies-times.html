@@ -1,102 +1,295 @@
 <label>Date:</label>
 
-
-
-
-<input class="datepicker" type="text" placeholder="Try me…" readonly="">
+<!-- Date Picker -->
+<input class="datepicker" type="text" placeholder="Select Date" readonly="">
 <script type="text/javascript">
-  $('.datepicker').pickadate()
+  $('.datepicker').pickadate({
+      disable: [
+          true,
+          [2013,5,14]
+      ]
+  })
 </script>
 
+<br>
+<br>
 
+<div class="movie-times">
 
+  <!-- After Earth -->
 
+  <div class="movie-times-item">
 
+    <a href="{{ site.baseurl }}work-in-progress" class="movie-times-poster">
+      <img src="{{ site.baseurl }}images/movies/small/after-earth.jpg" alt="Movie poster for After Earth">
+    </a>
 
+    <aside class="movie-times-info">
+      <a href="{{ site.baseurl }}work-in-progress">After Earth</a>
+      <ol class="boxy-list">
+        <li class="boxy-list-item">11:15 AM</li>
+        <li class="boxy-list-item">12:15 PM</li>
+        <li class="boxy-list-item">2:45 PM</li>
+        <li class="boxy-list-item">4:25 PM</li>
+        <li class="boxy-list-item">6:00 PM</li>
+        <li class="boxy-list-item">7:45 PM</li>
+      </ol>
+      <span aria-hidden="true" data-icon="&#x33;" class="rating"></span>
+    </aside>
 
-<div class="movies-times">
+  </div>
 
-  <ul>
-    <li>
-      <img src="{{ site.baseurl }}images/movies/small/after-earth.jpg" alt="Movie poster for After Earth" class="poster-thumb">
-      <div>
-        <a href="{{ site.baseurl }}work-in-progress">After Earth</a>
-        <ol class="boxy-list">
-          <li class="boxy-list-item">11:15 AM</li>
-          <li class="boxy-list-item">12:15 PM</li>
-          <li class="boxy-list-item">2:45 PM</li>
-          <li class="boxy-list-item">4:25 PM</li>
-          <li class="boxy-list-item">6:00 PM</li>
-          <li class="boxy-list-item">7:45 PM</li>
-        </ol>
-      </div>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}work-in-progress">
-        <img src="{{ site.baseurl }}images/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" alt="Movie poster for Cloudy with a Chance of Meatballs 2" class="poster-thumb">
-        <span>Cloudy with a Chance of Meatballs 2</span>
-      </a>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}movies/the-great-gatsby">
-        <img src="{{ site.baseurl }}images/movies/small/the-great-gatsby.jpg" alt="Movie poster for The Great Gatsby" class="poster-thumb">
-        <span>The Great Gatsby</span>
-      </a>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}work-in-progress">
-        <img src="{{ site.baseurl }}images/movies/small/the-hangover-part-iii.jpg" alt="Movie poster for The Hangover" class="poster-thumb">
-        <span>The Hangover Part III</span>
-      </a>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}movies/the-hunger-games-catching-fire">
-        <img src="{{ site.baseurl }}images/movies/small/the-hunger-games-catching-fire.jpg" alt="Movie poster for The Hunger Games: Catching Fire" class="poster-thumb">
-        <span>The Hunger Games: Catching Fire</span>
-      </a>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}work-in-progress">
-        <img src="{{ site.baseurl }}images/movies/small/iron-man-3.jpg" alt="Movie poster for Iron Man 3" class="poster-thumb">
-        <span>Iron Man 3</span>
-      </a>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}work-in-progress">
-        <img src="{{ site.baseurl }}images/movies/small/the-lone-ranger.jpg" alt="Movie poster for The Lone Ranger" class="poster-thumb">
-        <span>The Lone Ranger</span>
-      </a>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}movies/man-of-steel">
-        <img src="{{ site.baseurl }}images/movies/small/man-of-steel.jpg" alt="Movie poster for Man of Steel" class="poster-thumb">
-        <span>Man of Steel</span>
-      </a>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}work-in-progress">
-        <img src="{{ site.baseurl }}images/movies/small/monsters-university.jpg" alt="Movie poster for Monsters University" class="poster-thumb">
-        <span>Monsters University</span>
-      </a>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}work-in-progress">
-        <img src="{{ site.baseurl }}images/movies/small/oblivion.jpg" alt="Movie poster for Oblivion" class="poster-thumb">
-        <span>Oblivion</span>
-      </a>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}movies/star-trek-into-darkness">
-        <img src="{{ site.baseurl }}images/movies/small/star-trek-into-darkness.jpg" alt="Movie poster for Star Trek Into Darkness" class="poster-thumb">
-        <span>Star Trek Into Darkness</span>
-      </a>
-    </li>
-    <li>
-      <a href="{{ site.baseurl }}work-in-progress">
-        <img src="{{ site.baseurl }}images/movies/small/the-wolverine.jpg" alt="Movie poster for The Wolverine" class="poster-thumb">
-        <span>The Wolverine</span>
-      </a>
-    </li>
-  </ul>
+  <!-- Cloudy with a Chance of Meatballs -->
+
+  <div class="movie-times-item">
+
+    <a href="{{ site.baseurl }}work-in-progress" class="movie-times-poster">
+      <img src="{{ site.baseurl }}images/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" alt="Movie poster for Cloudy with a Chance of Meatballs 2">
+    </a>
+
+    <aside class="movie-times-info">
+      <a href="{{ site.baseurl }}work-in-progress">Cloudy with a Chance of Meatballs 2</a>
+      <ol class="boxy-list">
+        <li class="boxy-list-item">11:15 AM</li>
+        <li class="boxy-list-item">12:15 PM</li>
+        <li class="boxy-list-item">2:45 PM</li>
+        <li class="boxy-list-item">4:25 PM</li>
+        <li class="boxy-list-item">6:00 PM</li>
+        <li class="boxy-list-item">7:45 PM</li>
+      </ol>
+      <span aria-hidden="true" data-icon="&#x47;" class="rating"></span>
+    </aside>
+
+  </div>
+
+  <!-- The Great Gatsby -->
+
+  <div class="movie-times-item">
+
+    <a href="{{ site.baseurl }}movies/the-great-gatsby" class="movie-times-poster">
+      <img src="{{ site.baseurl }}images/movies/small/the-great-gatsby.jpg" alt="Movie poster for The Great Gatsby">
+    </a>
+
+    <aside class="movie-times-info">
+      <a href="{{ site.baseurl }}movies/the-great-gatsby">The Great Gatsby</a>
+      <ol class="boxy-list">
+        <li class="boxy-list-item">11:15 AM</li>
+        <li class="boxy-list-item">12:15 PM</li>
+        <li class="boxy-list-item">2:45 PM</li>
+        <li class="boxy-list-item">4:25 PM</li>
+        <li class="boxy-list-item">6:00 PM</li>
+        <li class="boxy-list-item">7:45 PM</li>
+      </ol>
+      <span aria-hidden="true" data-icon="&#x33;" class="rating"></span>
+    </aside>
+
+  </div>
+
+  <!-- The Hangover Part III -->
+
+  <div class="movie-times-item">
+
+    <a href="{{ site.baseurl }}work-in-progress" class="movie-times-poster">
+      <img src="{{ site.baseurl }}images/movies/small/the-hangover-part-iii.jpg" alt="Movie poster for The Hangover Part III">
+    </a>
+
+    <aside class="movie-times-info">
+      <a href="{{ site.baseurl }}work-in-progress">The Hangover Part III</a>
+      <ol class="boxy-list">
+        <li class="boxy-list-item">11:15 AM</li>
+        <li class="boxy-list-item">12:15 PM</li>
+        <li class="boxy-list-item">2:45 PM</li>
+        <li class="boxy-list-item">4:25 PM</li>
+        <li class="boxy-list-item">6:00 PM</li>
+        <li class="boxy-list-item">7:45 PM</li>
+      </ol>
+      <span aria-hidden="true" data-icon="&#x52;" class="rating"></span>
+    </aside>
+
+  </div>
+
+  <!-- The Hunger Games: Catching Fire -->
+
+  <div class="movie-times-item">
+
+    <a href="{{ site.baseurl }}movies/the-hunger-games-catching-fire" class="movie-times-poster">
+      <img src="{{ site.baseurl }}images/movies/small/the-hunger-games-catching-fire.jpg" alt="Movie poster for The Hunger Games: Catching Fire">
+    </a>
+
+    <aside class="movie-times-info">
+      <a href="{{ site.baseurl }}movies/the-hunger-games-catching-fire">The Hunger Games: Catching Fire</a>
+      <ol class="boxy-list">
+        <li class="boxy-list-item">11:15 AM</li>
+        <li class="boxy-list-item">12:15 PM</li>
+        <li class="boxy-list-item">2:45 PM</li>
+        <li class="boxy-list-item">4:25 PM</li>
+        <li class="boxy-list-item">6:00 PM</li>
+        <li class="boxy-list-item">7:45 PM</li>
+      </ol>
+      <span aria-hidden="true" data-icon="&#x33;" class="rating"></span>
+    </aside>
+
+  </div>
+
+  <!-- Iron Man 3 -->
+
+  <div class="movie-times-item">
+
+    <a href="{{ site.baseurl }}work-in-progress" class="movie-times-poster">
+      <img src="{{ site.baseurl }}images/movies/small/iron-man-3.jpg" alt="Movie poster for Iron Man 3">
+    </a>
+
+    <aside class="movie-times-info">
+      <a href="{{ site.baseurl }}work-in-progress">Iron Man 3</a>
+      <ol class="boxy-list">
+        <li class="boxy-list-item">11:15 AM</li>
+        <li class="boxy-list-item">12:15 PM</li>
+        <li class="boxy-list-item">2:45 PM</li>
+        <li class="boxy-list-item">4:25 PM</li>
+        <li class="boxy-list-item">6:00 PM</li>
+        <li class="boxy-list-item">7:45 PM</li>
+      </ol>
+      <span aria-hidden="true" data-icon="&#x33;" class="rating"></span>
+    </aside>
+
+  </div>
+
+  <!-- The Lone Ranger -->
+
+  <div class="movie-times-item">
+
+    <a href="{{ site.baseurl }}work-in-progress" class="movie-times-poster">
+      <img src="{{ site.baseurl }}images/movies/small/the-lone-ranger.jpg" alt="Movie poster for The Lone Ranger">
+    </a>
+
+    <aside class="movie-times-info">
+      <a href="{{ site.baseurl }}work-in-progress">The Lone Ranger</a>
+      <ol class="boxy-list">
+        <li class="boxy-list-item">11:15 AM</li>
+        <li class="boxy-list-item">12:15 PM</li>
+        <li class="boxy-list-item">2:45 PM</li>
+        <li class="boxy-list-item">4:25 PM</li>
+        <li class="boxy-list-item">6:00 PM</li>
+        <li class="boxy-list-item">7:45 PM</li>
+      </ol>
+      <span aria-hidden="true" data-icon="&#x33;" class="rating"></span>
+    </aside>
+
+  </div>
+
+  <!-- Man of Steel -->
+
+  <div class="movie-times-item">
+
+    <a href="{{ site.baseurl }}movies/man-of-steel" class="movie-times-poster">
+      <img src="{{ site.baseurl }}images/movies/small/man-of-steel.jpg" alt="Movie poster for Man of Steel">
+    </a>
+
+    <aside class="movie-times-info">
+      <a href="{{ site.baseurl }}movies/man-of-steel">Man of Steel</a>
+      <ol class="boxy-list">
+        <li class="boxy-list-item">11:15 AM</li>
+        <li class="boxy-list-item">12:15 PM</li>
+        <li class="boxy-list-item">2:45 PM</li>
+        <li class="boxy-list-item">4:25 PM</li>
+        <li class="boxy-list-item">6:00 PM</li>
+        <li class="boxy-list-item">7:45 PM</li>
+      </ol>
+      <span aria-hidden="true" data-icon="&#x33;" class="rating"></span>
+    </aside>
+
+  </div>
+
+  <!-- Monsters University -->
+
+  <div class="movie-times-item">
+
+    <a href="{{ site.baseurl }}work-in-progress" class="movie-times-poster">
+      <img src="{{ site.baseurl }}images/movies/small/monsters-university.jpg" alt="Movie poster for Monsters University">
+    </a>
+
+    <aside class="movie-times-info">
+      <a href="{{ site.baseurl }}work-in-progress">Monsters University</a>
+      <ol class="boxy-list">
+        <li class="boxy-list-item">11:15 AM</li>
+        <li class="boxy-list-item">12:15 PM</li>
+        <li class="boxy-list-item">2:45 PM</li>
+        <li class="boxy-list-item">4:25 PM</li>
+        <li class="boxy-list-item">6:00 PM</li>
+        <li class="boxy-list-item">7:45 PM</li>
+      </ol>
+      <span aria-hidden="true" data-icon="&#x47;" class="rating"></span>
+    </aside>
+
+  </div>
+
+  <!-- Oblivion -->
+
+  <div class="movie-times-item">
+
+    <a href="{{ site.baseurl }}work-in-progress" class="movie-times-poster">
+      <img src="{{ site.baseurl }}images/movies/small/oblivion.jpg" alt="Movie poster for Oblivion">
+    </a>
+
+    <aside class="movie-times-info">
+      <a href="{{ site.baseurl }}work-in-progress">Oblivion</a>
+      <ol class="boxy-list">
+        <li class="boxy-list-item">11:15 AM</li>
+        <li class="boxy-list-item">12:15 PM</li>
+        <li class="boxy-list-item">2:45 PM</li>
+        <li class="boxy-list-item">4:25 PM</li>
+        <li class="boxy-list-item">6:00 PM</li>
+        <li class="boxy-list-item">7:45 PM</li>
+      </ol>
+      <span aria-hidden="true" data-icon="&#x33;" class="rating"></span>
+    </aside>
+
+  </div>
+
+  <!-- Star Trek Into Darkness -->
+
+  <div class="movie-times-item">
+
+    <a href="{{ site.baseurl }}movies/star-trek-into-darkness" class="movie-times-poster">
+      <img src="{{ site.baseurl }}images/movies/small/star-trek-into-darkness.jpg" alt="Movie poster for Star Trek Into Darkness">
+    </a>
+
+    <aside class="movie-times-info">
+      <a href="{{ site.baseurl }}movies/star-trek-into-darkness">Star Trek Into Darkness</a>
+      <ol class="boxy-list">
+        <li class="boxy-list-item">11:15 AM</li>
+        <li class="boxy-list-item">12:15 PM</li>
+        <li class="boxy-list-item">2:45 PM</li>
+        <li class="boxy-list-item">4:25 PM</li>
+        <li class="boxy-list-item">6:00 PM</li>
+        <li class="boxy-list-item">7:45 PM</li>
+      </ol>
+      <span aria-hidden="true" data-icon="&#x33;" class="rating"></span>
+    </aside>
+
+  </div>
+
+  <!-- The Wolverine -->
+
+  <div class="movie-times-item">
+
+    <a href="{{ site.baseurl }}work-in-progress" class="movie-times-poster">
+      <img src="{{ site.baseurl }}images/movies/small/the-wolverine.jpg" alt="Movie poster for The Wolverine">
+    </a>
+
+    <aside class="movie-times-info">
+      <a href="{{ site.baseurl }}work-in-progress">The Wolverine</a>
+      <ol class="boxy-list">
+        <li class="boxy-list-item">11:15 AM</li>
+        <li class="boxy-list-item">12:15 PM</li>
+        <li class="boxy-list-item">2:45 PM</li>
+        <li class="boxy-list-item">4:25 PM</li>
+        <li class="boxy-list-item">6:00 PM</li>
+        <li class="boxy-list-item">7:45 PM</li>
+      </ol>
+      <span aria-hidden="true" data-icon="&#x33;" class="rating"></span>
+    </aside>
+
+  </div>
 
 </div>

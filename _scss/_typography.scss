@@ -51,7 +51,7 @@ body {
 // Headings
 // ==========================================================================
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, %faux-heading {
   @include font-etica-regular;
   color: $color-purple;
   letter-spacing: 1px;

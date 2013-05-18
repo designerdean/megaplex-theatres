@@ -124,14 +124,8 @@ input[type="search"] {
 }
 
   .tickets .label-large {
-    @include font-etica-regular;
-    color: $color-purple;
-    display: block;
+    @extend %faux-heading;
     font-size: 1.3em;
-    letter-spacing: 1px;
-    line-height: 1em;
-    margin-bottom: 0.5em;
-    text-transform: uppercase;
   }
 
 .tickets .calendar + a,
@@ -204,7 +198,6 @@ input[type="search"] {
 }
 
   .tickets-location {
-    // @include font-etica-semibold;
     color: #e5e5e5;
     cursor: pointer;
     display: block;

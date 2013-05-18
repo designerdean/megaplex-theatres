@@ -99,9 +99,36 @@
 // Movies with Times
 // ==========================================================================
 
-.movies-times {
+.movie-times {
 
 }
+
+  .movie-times-item {
+    float: left;
+    margin-bottom: 2em;
+    width: 50%;
+  }
+
+    .movie-times-poster {
+      float: left;
+      margin-right: 1em;
+      width: 30%;
+    }
+
+    .movie-times-info {
+      float: left;
+      width: 50%;
+    }
+
+      .movie-times-info > a,
+      .movie-times-info > a:visited {
+        @extend %faux-heading;
+        font-size: 1.5em;
+      }
+
+      .movie-times-info > .rating {
+        font-size: 2em;
+      }
 
 // Hot Deals (Promo List on Homepage)
 // ==========================================================================
@@ -140,13 +167,13 @@
       margin-bottom: 0.8em;
     }
 
-  .rating {
+  .rating-container {
     display: block;
     margin-bottom: 2em;
     padding: 0 0.5em;
   }
 
-    .rating > span {
+    .rating-container > span {
       display: table-cell;
       font-size: 2em;
       height: 100%;
@@ -155,7 +182,7 @@
       vertical-align: middle;
     }
 
-    .rating > p {
+    .rating-container > p {
       display: table-cell;
       font-size: 0.8em;
       height: 100%;
@@ -302,18 +329,6 @@ hr {
 // .picker__holder *:after {
 //   @extend %default-box-model;
 //   & img {max-width: none;}
-// }
-
-
-// .picker *,
-// .picker *:before,
-// .picker *:after {
-//   @extend %default-box-model;
-//   & img {max-width: none;}
-// }
-
-// .picker {
-
 // }
 
 // Google Maps

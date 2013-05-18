@@ -15,8 +15,17 @@
             <em>14</em>
             <i>Fri</i>
           </span>
-          <input class="datepicker" type="text" placeholder="Choose Date" readonly="">
           <!-- <a href="">Choose Date</a> -->
+          <!-- Date Picker -->
+          <input class="datepicker" type="text" placeholder="Choose Date" readonly="">
+          <script type="text/javascript">
+            $('.datepicker').pickadate({
+                disable: [
+                    true,
+                    [2013,5,14]
+                ]
+            })
+          </script>
         </div>
 
         <!-- Where -->
@@ -130,12 +139,3 @@
     </form>
   </div>
 </section>
-
-<script type="text/javascript">
-  $('.datepicker').pickadate({
-      disable: [
-          true,
-          [2013,5,14]
-      ]
-  })
-</script>

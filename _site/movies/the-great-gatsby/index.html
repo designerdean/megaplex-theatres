@@ -109,7 +109,7 @@
 
     <div class="poster-container">
       <img src="/images/movies/large/the-great-gatsby.jpg" alt="Movie poster for The Great Gatsby" class="poster">
-      <div class="rating">
+      <div class="rating-container">
         <span aria-hidden="true" data-icon="&#x33;"></span>
         <p>Rated PG-13 for some violent images, sexual content, smoking, partying and brief language.</p>
       </div>
@@ -160,8 +160,17 @@
             <em>14</em>
             <i>Fri</i>
           </span>
-          <input class="datepicker" type="text" placeholder="Choose Date" readonly="">
           <!-- <a href="">Choose Date</a> -->
+          <!-- Date Picker -->
+          <input class="datepicker" type="text" placeholder="Choose Date" readonly="">
+          <script type="text/javascript">
+            $('.datepicker').pickadate({
+                disable: [
+                    true,
+                    [2013,5,14]
+                ]
+            })
+          </script>
         </div>
 
         <!-- Where -->
@@ -275,15 +284,6 @@
     </form>
   </div>
 </section>
-
-<script type="text/javascript">
-  $('.datepicker').pickadate({
-      disable: [
-          true,
-          [2013,5,14]
-      ]
-  })
-</script>
 
 
 </div>
