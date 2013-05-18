@@ -88,5 +88,21 @@ blockquote {
 }
 
 dl {
+  @extend %clear-after;
   margin-bottom: 0.8em;
 }
+
+  dl > dt {
+    @include font-source-semibold;
+    display: inline;
+    float: left;
+    width: 50%;
+  }
+
+  dl > dd {
+    display: inline;
+    float: left;
+    text-align: right;
+    width: 50%;
+  }
+

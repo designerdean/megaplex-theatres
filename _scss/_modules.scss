@@ -66,19 +66,20 @@
             background-color: lighten($color-purple, 46%);
           }
 
-// Latest Section on Homepage (container for Hot Deals & What's Up)
+// Icon Lists
 // ==========================================================================
 
-.latest {
+.icon-list {
+  font-size: 1.2em;
   list-style-type: none;
   margin-bottom: 1em;
-} 
+}
 
-  .latest > li {
+  .icon-list > li {
     position: relative;
   }
 
-    .latest > li > .latest-item {
+    .icon-list .icon-list-item {
       @include border-radius(0.8em);
       @include single-transition(background, 0.3s, linear);
       display: block;
@@ -86,32 +87,41 @@
       text-decoration: none;
     }
 
-      .no-touch .latest > li > a:hover {
+      .no-touch .icon-list > li > a:hover {
         background-color: #e5e5e5;
       }
 
 // Icon
 
-.latest span {
+.icon-list span {
   @include single-transition(color, 0.3s, linear);
+  color: $color-purple;
   display: table-cell;
-  font-size: 2em;
+  font-size: 1.8em;
   height: 100%;
   line-height: 0;
   padding: 0.1em;
   vertical-align: middle;
 }
 
+  .icon-list span.twitter {
+    color: $color-twitter;
+  }
+
+  .icon-list span.facebook {
+    color: $color-facebook;
+  }
+
 // Title & Description
 
-.latest p {
+.icon-list .icon-list-content {
   display: table-cell;
   height: 100%;
   padding-left: 1em;
   vertical-align: middle;
 }
 
-  .latest b {
+  .icon-list b {
     @include single-transition(color, 0.2s, linear);
     @include font-source-semibold;
     color: $color-purple;
@@ -121,11 +131,11 @@
     margin-bottom: 0.1em;
   }
 
-    .no-touch .latest > li > a:hover b {
+    .no-touch .icon-list > li > a:hover b {
       color: lighten($color-purple, 10%);
     }
 
-  .latest i {
+  .icon-list .icon-list-cta {
     @include font-source-semibold;
     font-style: normal;
     text-decoration: underline;
@@ -140,16 +150,15 @@
   border-right: 4px solid #dddddd;
 }
 
-  .latest.deals {
+  .icon-list.large {
     font-size: 1.4em;
   }
 
-    .latest.deals span {
-      color: $color-purple;
+    .icon-list.large span {
       font-size: 4em;
     }
 
-      .no-touch .latest.deals > li > a:hover span {
+      .no-touch .icon-list.large > li > a:hover span {
         color: lighten($color-purple, 10%);
       }
 
@@ -162,30 +171,6 @@
   border-left: 4px solid #dddddd;
   margin-left: -4px;
 }
-
-  .latest.social {
-    font-size: 1.2em;
-  }
-
-    .latest.social span {
-      font-size: 1.8em;
-    }
-
-      .latest.social span.twitter {
-        color: $color-twitter;
-      }
-
-        // .no-touch .latest.social > li > a:hover span.twitter {
-        //   color: lighten($color-twitter, 10%);
-        // }
-
-      .latest.social span.facebook {
-        color: $color-facebook;
-      }
-
-        // .no-touch .latest.social > li > a:hover span.facebook {
-        //   color: lighten($color-facebook, 10%);
-        // }
 
 // Individual Movie Page - Left Content Area
 // ==========================================================================
@@ -234,23 +219,23 @@
     width: 55%;
   }
 
-    .movie dl {
-      @extend %clear-after;
-    }
+    // .movie dl {
+    //   @extend %clear-after;
+    // }
 
-    .movie dl dt {
-      @include font-source-semibold;
-      display: inline;
-      float: left;
-      width: 50%;
-    }
+    // .movie dl dt {
+    //   @include font-source-semibold;
+    //   display: inline;
+    //   float: left;
+    //   width: 50%;
+    // }
 
-    .movie dl dd {
-      display: inline;
-      float: left;
-      text-align: right;
-      width: 50%;
-    }
+    // .movie dl dd {
+    //   display: inline;
+    //   float: left;
+    //   text-align: right;
+    //   width: 50%;
+    // }
 
     .movie > .description > .button-row {
       margin-bottom: 2em;
@@ -490,18 +475,26 @@
 
 .location {
   @extend .wide;
-  @extend .left;  
+  @extend .left;
 }
 
 // Individual Location Page - Right Sidebar
 // ==========================================================================
 
-.tickets {
-  @extend .narrow;
-  @extend .right;
-  padding: 5em 0;
-  position: relative;
+.address {
+
 }
+
+.phone {
+
+}
+
+
+  .address > span,
+  .phone > span {
+    float: left;
+    font-size: 4em;
+  }
 
 // Horizontal Rules
 // ==========================================================================
