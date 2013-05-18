@@ -18,9 +18,11 @@
   @extend %clear-after;
   @include border-radius(0.8em 0 0.8em 0.8em);
   @include font-source-light;
-  background: $color-purple image-url("locations/ogden-the-junction.jpg") no-repeat bottom center;
+  background: image-url("locations/ogden-the-junction-blurry.jpg") no-repeat bottom center;
+    @include background-size(cover);
+  border-top: 0.7em solid $color-purple;
   color: #ffffff;
-  margin: -0.7em 0 4em 0;
+  margin: 0 0 4em 0;
   padding: 1.5em 1em;
   position: relative;
   text-align: center;
@@ -255,7 +257,6 @@
       text-align: left;
     }
 
-
 // Individual Movie Page - Right Sidebar
 // ==========================================================================
 
@@ -327,7 +328,7 @@
     }
 
   .tickets .calendar + a,
-  .tickets .location + a {
+  .tickets .tickets-location + a {
     display: block;
     margin-top: 0.2em;
     text-align: center;
@@ -335,7 +336,7 @@
 
 // When
 
-.when {
+.tickets-when {
   float: left;
   vertical-align: middle;
   width: 34%;
@@ -372,7 +373,7 @@
 
 // Where
 
-.where {
+.tickets-where {
   @extend %clear-after;
   @extend .right;
   float: left;
@@ -381,7 +382,7 @@
   width: 66%;
 }
 
-  .location {
+  .tickets-location {
     @include font-etica-semibold;
     background-color: #bac4c5;
     color: #4d4d4d;
@@ -395,11 +396,11 @@
 
 // Radios for Format & Time Sections
 
-.tickets .process-list {
+.tickets .tickets-list {
   margin-top: 1em;
 }
 
-  .tickets .process-list > li {
+  .tickets .tickets-list > li {
     @include border-radius(0.4em);
     @include single-transition(all, 0.1s, linear);
     background-color: $color-background;
@@ -410,17 +411,17 @@
     padding: 0.3em 0.5em 0.2em 0.5em;
   }
 
-    .no-touch .tickets .process-list > li:hover {
+    .no-touch .tickets .tickets-list > li:hover {
       @include border-radius(0.7em);
       background-color: #ffffff;
     }
 
-    .tickets .process-list > .selected {
+    .tickets .tickets-list > .selected {
       background-color: $color-purple;
       color: #ffffff;
     }
 
-      .no-touch .tickets .process-list > .selected:hover {
+      .no-touch .tickets .tickets-list > .selected:hover {
         @include border-radius(0.4em);
         background-color: $color-purple;
         color: #ffffff;
@@ -429,7 +430,7 @@
 
 // Format
 
-.format {
+.tickets-format {
   border-top: 0.3em dashed $color-background;
   clear: both;
   padding: 1.2em 0;
@@ -444,13 +445,13 @@
 
 // Quantity
 
-.quantity {
+.tickets-quantity {
   border-top: 0.3em dashed $color-background;
   padding: 1.2em 0;
   text-align: center;
 }
 
-  .quantity > label {
+  .tickets-quantity > label {
     @include font-etica-regular;
     color: $color-purple;
     display: inline;
@@ -463,14 +464,14 @@
 
 // Misc
 
-.hint {
+.tickets-hint {
   margin-top: 0.5em;
   margin-bottom: 0;
   text-align: right;
 }
 
-  .hint a,
-  .hint a:visited {
+  .tickets-hint a,
+  .tickets-hint a:visited {
 
   }
 
@@ -482,6 +483,24 @@
   clear: both;
   margin-top: 2em;
   padding: 1.5em 2em;
+}
+
+// Individual Location Page - Left Content Area
+// ==========================================================================
+
+.location {
+  @extend .wide;
+  @extend .left;  
+}
+
+// Individual Location Page - Right Sidebar
+// ==========================================================================
+
+.tickets {
+  @extend .narrow;
+  @extend .right;
+  padding: 5em 0;
+  position: relative;
 }
 
 // Horizontal Rules
