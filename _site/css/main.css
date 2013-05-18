@@ -380,25 +380,25 @@ dl > dd {
   -ms-transition: all 0.1s linear;
   -o-transition: all 0.1s linear;
   transition: all 0.1s linear;
-  background-color: #f6f8f8;
-  cursor: pointer;
+  background-color: #ffffff;
   display: inline-block;
   font-size: 1.2em;
   margin: 0 0.5em 0.5em 0;
   padding: 0.3em 0.5em 0.2em 0.5em;
 }
 
-/* line 220, ../_scss/_typography.scss */
-.boxy-list > input[type="radio"]:checked + label {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  background-color: #6d2b90;
-  color: #ffffff;
+/* line 215, ../_scss/_typography.scss */
+.tickets .boxy-list-item {
+  background-color: #f6f8f8;
 }
 
-/* line 226, ../_scss/_typography.scss */
-.no-touch .boxy-list-item:hover {
+/* line 225, ../_scss/_typography.scss */
+label.boxy-list-item {
+  cursor: pointer;
+}
+
+/* line 231, ../_scss/_typography.scss */
+.no-touch label.boxy-list-item:hover {
   -webkit-border-radius: 0.7em;
   -moz-border-radius: 0.7em;
   -ms-border-radius: 0.7em;
@@ -407,8 +407,17 @@ dl > dd {
   background-color: #ffffff;
 }
 
-/* line 231, ../_scss/_typography.scss */
-.no-touch .boxy-list-item.selected:hover {
+/* line 238, ../_scss/_typography.scss */
+.boxy-list > input[type="radio"]:checked + label {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: #6d2b90;
+  color: #ffffff;
+}
+
+/* line 246, ../_scss/_typography.scss */
+.no-touch label.boxy-list-item.selected:hover {
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
   -ms-border-radius: 0.4em;
@@ -1371,14 +1380,14 @@ hr {
   margin: 0;
 }
 
-/* line 341, ../_scss/_modules.scss */
+/* line 345, ../_scss/_modules.scss */
 .map * img,
 .map *:before img,
 .map *:after img {
   max-width: none;
 }
 
-/* line 347, ../_scss/_modules.scss */
+/* line 351, ../_scss/_modules.scss */
 .ancient {
   background: #666666;
   border-bottom: 1px solid #ffffff;
@@ -1393,7 +1402,7 @@ hr {
   z-index: 1000000;
 }
 
-/* line 362, ../_scss/_modules.scss */
+/* line 366, ../_scss/_modules.scss */
 .ancient a,
 .ancient a:visited {
   color: #ffffff;

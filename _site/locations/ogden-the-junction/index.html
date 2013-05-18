@@ -139,21 +139,24 @@
 
 <h3>Now showing at Ogden - The Junction</h3>
 
-<label>Date:</label>
-
 <!-- Date Picker -->
-<input class="datepicker" type="text" placeholder="Select Date" readonly="">
-<script type="text/javascript">
-  $('.datepicker').pickadate({
-      disable: [
-          true,
-          [2013,5,14]
-      ]
-  })
-</script>
 
-<br>
-<br>
+<div class="row">
+
+  <div class="picker-container">
+    <label id="search-label" for="picker-label">Date:</label>
+    <input id="picker-label" class="datepicker" type="text" placeholder="14 June, 2013" readonly="">
+    <script type="text/javascript">
+      $('.datepicker').pickadate({
+          disable: [
+              true,
+              [2013,5,14]
+          ]
+      })
+    </script>
+  </div>
+
+</div>
 
 <div class="movie-times">
 
@@ -313,7 +316,7 @@
         <li class="boxy-list-item">6:00 PM</li>
         <li class="boxy-list-item">7:45 PM</li>
       </ol>
-      <span aria-hidden="true" data-icon="&#x33;" class="rating"></span>
+      <span aria-hidden="true" data-icon="&#x50;" class="rating"></span>
     </aside>
 
   </div>

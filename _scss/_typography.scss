@@ -205,33 +205,47 @@ dl {
   .boxy-list-item {
     @include border-radius(0.4em);
     @include single-transition(all, 0.1s, linear);
-    background-color: $color-background;
-    cursor: pointer;
+    background-color: #ffffff;
     display: inline-block;
     font-size: 1.2em;
     margin: 0 0.5em 0.5em 0;
     padding: 0.3em 0.5em 0.2em 0.5em;
   }
 
-    .boxy-list > input[type="radio"] {
-      @extend .screen-reader;
+    .tickets .boxy-list-item {
+      background-color: $color-background;
     }
 
-    .boxy-list > input[type="radio"]:checked + label {
-      @include user-select(none);
-      background-color: $color-purple;
-      color: #ffffff;
-    }
+// With Radio Buttons
 
-    .no-touch .boxy-list-item:hover {
-      @include border-radius(0.7em);
-      background-color: #ffffff;
-    }
+.boxy-list > input[type="radio"] {
+  @extend .screen-reader;
+}
 
-      .no-touch .boxy-list-item.selected:hover {
-        @include border-radius(0.4em);
-        background-color: $color-purple;
-        color: #ffffff;
-        cursor: default;
-      }
+label.boxy-list-item {
+  cursor: pointer;
+}
 
+  // Hover
+
+  .no-touch label.boxy-list-item:hover {
+    @include border-radius(0.7em);
+    background-color: #ffffff;
+  }
+
+  // Selected
+
+  .boxy-list > input[type="radio"]:checked + label {
+    @include user-select(none);
+    background-color: $color-purple;
+    color: #ffffff;
+  }
+
+  // Selected Hover
+
+  .no-touch label.boxy-list-item.selected:hover {
+    @include border-radius(0.4em);
+    background-color: $color-purple;
+    color: #ffffff;
+    cursor: default;
+  }
