@@ -436,7 +436,12 @@ header {
   width: 24em;
 }
 
-/* line 23, ../_scss/_header.scss */
+/* line 20, ../_scss/_header.scss */
+.no-svg #logo {
+  background: url('../images/no-svg/logo.png?1368838855') no-repeat top left;
+}
+
+/* line 27, ../_scss/_header.scss */
 .tagline {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -448,7 +453,7 @@ header {
   vertical-align: middle;
 }
 
-/* line 32, ../_scss/_header.scss */
+/* line 36, ../_scss/_header.scss */
 .tagline > b {
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
@@ -459,13 +464,13 @@ header {
   line-height: 1.3em;
 }
 
-/* line 41, ../_scss/_header.scss */
+/* line 45, ../_scss/_header.scss */
 .tagline a,
 .tagline a:visited {
   color: #888888;
 }
 
-/* line 48, ../_scss/_header.scss */
+/* line 52, ../_scss/_header.scss */
 .utilities {
   position: absolute;
   top: 0.5em;
@@ -473,18 +478,18 @@ header {
   text-align: right;
 }
 
-/* line 55, ../_scss/_header.scss */
+/* line 59, ../_scss/_header.scss */
 .utilities > p {
   float: left;
   padding: 0.25em 1em 0 0;
 }
 
-/* line 60, ../_scss/_header.scss */
+/* line 64, ../_scss/_header.scss */
 .utilities > form {
   float: right;
 }
 
-/* line 64, ../_scss/_header.scss */
+/* line 68, ../_scss/_header.scss */
 .clarify-field {
   clear: both;
   display: block;

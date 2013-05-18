@@ -17,6 +17,10 @@ header {
     width: 24em;
   }
 
+    .no-svg #logo {
+      background: image-url("no-svg/logo.png") no-repeat top left;
+    }
+
 // Tagline / Reasons Ad Blurb
 // ==========================================================================
 
