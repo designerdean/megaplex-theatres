@@ -152,13 +152,13 @@
 
         <div class="tickets-when">
           <label class="label-large" for="datepicker">When</label>
-          <span class="calendar">
+          <input type="text" id="datepicker" class="calendar" placeholder="Choose a Date" readonly>
+          <em class="trigger-focus" onclick="document.getElementById('datepicker').focus();">Choose a Date</em>
+          <!-- <span class="calendar">
             <i>Jun</i>
             <em>14</em>
             <i>Fri</i>
-          </span>
-          <!-- <a href="">Choose a Date</a> -->
-          <input type="text" id="datepicker" class="datepicker input-link" placeholder="Choose a Date" readonly="">
+          </span> -->
         </div>
 
         <!-- Where -->
@@ -171,8 +171,7 @@
               Ogden, UT
             </span>
           </span>
-          <!-- <a href="">Choose a Location</a> -->
-          <input type="text" id="location-picker" class="input-link" placeholder="Choose a Location" readonly="">
+          <em class="trigger-focus">Choose a Location</em>
         </div>
   
         <!-- Format -->
@@ -350,9 +349,21 @@
 
     <script>
       $(function() {
-        $( "#datepicker" ).datepicker();
+        $( "#datepicker" ).datepicker({
+          dateFormat: "MM d DD"
+        });
       });
     </script>
+
+    <!--
+    <script>
+      $(function() {
+        $( "#datepicker" ).datepicker({
+          Format: "MM d DD"
+        });
+      });
+    </script>
+    -->
 
   </body>
 </html>

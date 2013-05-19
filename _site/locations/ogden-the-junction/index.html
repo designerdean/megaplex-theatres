@@ -499,9 +499,21 @@
 
     <script>
       $(function() {
-        $( "#datepicker" ).datepicker();
+        $( "#datepicker" ).datepicker({
+          dateFormat: "MM d DD"
+        });
       });
     </script>
+
+    <!--
+    <script>
+      $(function() {
+        $( "#datepicker" ).datepicker({
+          Format: "MM d DD"
+        });
+      });
+    </script>
+    -->
 
   </body>
 </html>

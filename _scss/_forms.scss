@@ -2,26 +2,21 @@
 // ==========================================================================
 
 // Placeholder Styling
-@mixin input-placeholder($color, $text-decoration) {
+@mixin input-placeholder($color) {
   &.placeholder {
     color: $color;
-    text-decoration: $text-decoration;
   }
   &::-moz-placeholder {
     color: $color;
-    text-decoration: $text-decoration;
   }
   &:-moz-placeholder {
     color: $color;
-    text-decoration: $text-decoration;
   }
   &:-ms-input-placeholder {
     color: $color;
-    text-decoration: $text-decoration;
   }
   &::-webkit-input-placeholder {
     color: $color;
-    text-decoration: $text-decoration;
   }
 }
 
@@ -141,31 +136,25 @@ input[type="search"] {
     font-size: 1.3em;
   }
 
-input[type="text"].input-link {
-  @include input-placeholder(#333333, underline);
-  background-color: transparent;
+.trigger-focus {
   cursor: pointer;
   display: block;
-  height: auto;
-  padding: 0;
   text-align: center;
   text-decoration: underline;
-  width: 100%;
-  &:focus{
-    border-color: transparent;
-  }
 }
 
 // When
 
 .tickets-when {
   float: left;
+  margin-bottom: 1.2em;
   vertical-align: middle;
   width: 34%;
 }
 
-  .calendar {
+  input[type="text"].calendar {
     @include font-etica-regular;
+    @include input-placeholder(#4d4d4d);
     background-color: #bac4c5;
     color: #4d4d4d;
     cursor: pointer;
@@ -175,6 +164,10 @@ input[type="text"].input-link {
     padding: 1em 1em 0.9em 1em;
     text-align: center;
     text-transform: uppercase;
+
+    @include border-radius(0);
+    font-size: 1.8em;
+    width: 100%;
   }
 
     .calendar > i {
