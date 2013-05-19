@@ -1170,75 +1170,70 @@ footer > .locations > a > span {
   -ms-border-radius: 0.8em 0 0.8em 0.8em;
   -o-border-radius: 0.8em 0 0.8em 0.8em;
   border-radius: 0.8em 0 0.8em 0.8em;
-  background: url('../images/locations/blurry/ogden-the-junction.jpg?1368899028') no-repeat bottom center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
-/* line 106, ../_scss/_modules.scss */
+/* line 105, ../_scss/_modules.scss */
 .movie-times-item {
   float: left;
   margin-bottom: 2em;
   width: 50%;
 }
 
-/* line 112, ../_scss/_modules.scss */
+/* line 111, ../_scss/_modules.scss */
 .movie-times-poster {
   float: left;
   margin-right: 1em;
   width: 30%;
 }
 
-/* line 118, ../_scss/_modules.scss */
+/* line 117, ../_scss/_modules.scss */
 .movie-times-info {
   float: left;
   width: 50%;
 }
 
-/* line 124, ../_scss/_modules.scss */
+/* line 123, ../_scss/_modules.scss */
 .movie-times-info > a,
 .movie-times-info > a:visited {
   font-size: 1.5em;
 }
 
-/* line 129, ../_scss/_modules.scss */
+/* line 128, ../_scss/_modules.scss */
 .movie-times-info > .rating {
   font-size: 2em;
 }
 
-/* line 136, ../_scss/_modules.scss */
+/* line 135, ../_scss/_modules.scss */
 .hot-deals {
   border-right: 4px solid #dddddd;
 }
 
-/* line 145, ../_scss/_modules.scss */
+/* line 144, ../_scss/_modules.scss */
 .whats-up {
   border-left: 4px solid #dddddd;
   margin-left: -4px;
 }
 
-/* line 160, ../_scss/_modules.scss */
+/* line 159, ../_scss/_modules.scss */
 .poster-container {
   display: block;
   float: left;
   width: 45%;
 }
 
-/* line 166, ../_scss/_modules.scss */
+/* line 165, ../_scss/_modules.scss */
 .poster {
   margin-bottom: 0.8em;
 }
 
-/* line 170, ../_scss/_modules.scss */
+/* line 169, ../_scss/_modules.scss */
 .rating-container {
   display: block;
   margin-bottom: 2em;
   padding: 0 0.5em;
 }
 
-/* line 176, ../_scss/_modules.scss */
+/* line 175, ../_scss/_modules.scss */
 .rating-container > span {
   display: table-cell;
   font-size: 2em;
@@ -1248,7 +1243,7 @@ footer > .locations > a > span {
   vertical-align: middle;
 }
 
-/* line 185, ../_scss/_modules.scss */
+/* line 184, ../_scss/_modules.scss */
 .rating-container > p {
   display: table-cell;
   font-size: 0.8em;
@@ -1257,26 +1252,26 @@ footer > .locations > a > span {
   vertical-align: middle;
 }
 
-/* line 193, ../_scss/_modules.scss */
+/* line 192, ../_scss/_modules.scss */
 .movie > .description {
   float: left;
   padding-left: 1.5em;
   width: 55%;
 }
 
-/* line 199, ../_scss/_modules.scss */
+/* line 198, ../_scss/_modules.scss */
 .movie > .description > .button-row {
   margin-bottom: 2em;
   text-align: left;
 }
 
-/* line 207, ../_scss/_modules.scss */
+/* line 206, ../_scss/_modules.scss */
 .tickets {
   padding: 5em 0;
   position: relative;
 }
 
-/* line 215, ../_scss/_modules.scss */
+/* line 214, ../_scss/_modules.scss */
 .tickets:before,
 .tickets:after {
   content: "";
@@ -1288,7 +1283,7 @@ footer > .locations > a > span {
   z-index: -1;
 }
 
-/* line 225, ../_scss/_modules.scss */
+/* line 224, ../_scss/_modules.scss */
 .tickets:before {
   background: url('../images/ticket-edges.svg?1368839636') no-repeat;
   -webkit-background-size: cover;
@@ -1299,7 +1294,7 @@ footer > .locations > a > span {
   top: 0;
 }
 
-/* line 232, ../_scss/_modules.scss */
+/* line 231, ../_scss/_modules.scss */
 .tickets:after {
   background: url('../images/ticket-edges.svg?1368839636') no-repeat;
   -webkit-background-size: cover;
@@ -1310,14 +1305,14 @@ footer > .locations > a > span {
   bottom: 0;
 }
 
-/* line 239, ../_scss/_modules.scss */
+/* line 238, ../_scss/_modules.scss */
 .tickets > div {
   background-color: #dddddd;
   min-height: 40em;
   padding: 1em 2em;
 }
 
-/* line 245, ../_scss/_modules.scss */
+/* line 244, ../_scss/_modules.scss */
 .tickets > div > h3 {
   padding-top: 0.5em;
   position: absolute;
@@ -1328,7 +1323,7 @@ footer > .locations > a > span {
   width: 100%;
 }
 
-/* line 258, ../_scss/_modules.scss */
+/* line 257, ../_scss/_modules.scss */
 .ad {
   background-color: #dddddd;
   clear: both;
@@ -1336,14 +1331,14 @@ footer > .locations > a > span {
   padding: 1.5em 2em;
 }
 
-/* line 286, ../_scss/_modules.scss */
+/* line 285, ../_scss/_modules.scss */
 .address > span,
 .phone > span {
   float: left;
   font-size: 4em;
 }
 
-/* line 294, ../_scss/_modules.scss */
+/* line 293, ../_scss/_modules.scss */
 hr {
   display: block;
   height: 1px;
@@ -1353,7 +1348,7 @@ hr {
   padding: 0;
 }
 
-/* line 303, ../_scss/_modules.scss */
+/* line 302, ../_scss/_modules.scss */
 .filmstrip {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -1366,28 +1361,28 @@ hr {
   line-height: 3em;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 303, ../_scss/_modules.scss */
+  /* line 302, ../_scss/_modules.scss */
   .filmstrip {
     background-image: url('../images/texture-noise-2@2x.png?1368290288');
     background-size: 100px 100px;
   }
 }
 
-/* line 314, ../_scss/_modules.scss */
+/* line 313, ../_scss/_modules.scss */
 .filmstrip > hr {
   border-top: 0.2em dashed #f6f8f8;
   height: 0.1em;
   margin: 0;
 }
 
-/* line 345, ../_scss/_modules.scss */
+/* line 344, ../_scss/_modules.scss */
 .map * img,
 .map *:before img,
 .map *:after img {
   max-width: none;
 }
 
-/* line 351, ../_scss/_modules.scss */
+/* line 350, ../_scss/_modules.scss */
 .ancient {
   background: #666666;
   border-bottom: 1px solid #ffffff;
@@ -1402,7 +1397,7 @@ hr {
   z-index: 1000000;
 }
 
-/* line 366, ../_scss/_modules.scss */
+/* line 365, ../_scss/_modules.scss */
 .ancient a,
 .ancient a:visited {
   color: #ffffff;
