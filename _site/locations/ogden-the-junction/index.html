@@ -500,8 +500,14 @@
     <script>
       $(function() {
         $( "#datepicker" ).datepicker({
-          dateFormat: "MM d DD"
+          dateFormat: "MM d D"
         });
+      });
+    </script>
+
+    <script>
+      $(function() {
+        $(".calendar").datepicker('setDate', new Date());
       });
     </script>
 

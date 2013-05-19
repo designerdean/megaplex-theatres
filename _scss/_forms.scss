@@ -161,12 +161,14 @@ input[type="search"] {
     display: block;
     letter-spacing: 1px;
     margin-bottom: 0.2em;
-    padding: 1em 1em 0.9em 1em;
+    // padding: 1em 1em 0.9em 1em;
     text-align: center;
     text-transform: uppercase;
+    white-space: pre-line;
 
     @include border-radius(0);
     font-size: 1.8em;
+    padding: 0.5em;
     width: 100%;
   }
 
