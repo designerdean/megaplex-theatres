@@ -135,7 +135,7 @@
 .hot-deals {
   @extend .wide;
   @extend .left;
-  border-right: 4px solid #dddddd;
+  border-right: 4px solid $color-base-2;
 }
 
 // What's Up (Social Media Posts on Homepage)
@@ -144,7 +144,7 @@
 .whats-up {
   @extend .narrow;
   @extend .right;
-  border-left: 4px solid #dddddd;
+  border-left: 4px solid $color-base-2;
   margin-left: -4px;
 }
 
@@ -236,7 +236,7 @@
     }
 
   .tickets > div {
-    background-color: #dddddd;
+    background-color: $color-base-2;
     min-height: 40em;
     padding: 1em 2em;
   }
@@ -255,7 +255,7 @@
 // ==========================================================================
 
 .ad {
-  background-color: #dddddd;
+  background-color: $color-base-2;
   clear: both;
   margin-top: 2em;
   padding: 1.5em 2em;
@@ -301,17 +301,17 @@ hr {
 
   .filmstrip {
     @include font-etica-regular;
-    background: #dddddd image-url("texture-noise-2.png") repeat top left;
+    background: $color-base-2 image-url("texture-noise-2.png") repeat top left;
       @include image-2x("texture-noise-2@2x.png", 100px, 100px);
-    border-top: 0.7em solid #dddddd;
-    border-bottom: 0.7em solid #dddddd;
+    border-top: 0.7em solid $color-base-2;
+    border-bottom: 0.7em solid $color-base-2;
     font-size: 16px; // For responsive sizing
     margin: 0 -5.6% 2em -5.6%;
     line-height: 3em;
   }
 
     .filmstrip > hr {
-      border-top: 0.2em dashed $color-background;
+      border-top: 0.2em dashed $color-base-1;
       height: 0.1em;
       margin: 0;
     }

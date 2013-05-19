@@ -7,7 +7,7 @@ header {
   #logo {
     background: image-url("logo.svg") no-repeat top left;
       @include background-size(contain);
-    border-right: 4px solid #dddddd;
+    border-right: 4px solid $color-base-2;
     display: inline-block;
     float: left;
     font-size: 10px;

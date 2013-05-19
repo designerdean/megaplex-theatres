@@ -6,7 +6,7 @@
 }
 
 html {
-  background: $color-background image-url("texture-noise-1.png") repeat top left;
+  background: $color-base-1 image-url("texture-noise-1.png") repeat top left;
     @include image-2x("texture-noise-1@2x.png", 100px, 100px);
   height: 100%;
 }

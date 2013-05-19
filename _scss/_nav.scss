@@ -45,7 +45,7 @@ nav {
 
 .nav-sub {
   @include single-transition(all, 0.3s, linear);
-  background-color: #dddddd;
+  background-color: $color-base-2;
   border-top: 0.5em solid $color-gold;
   border-bottom: 0.5em solid $color-gold;
   opacity: 0;

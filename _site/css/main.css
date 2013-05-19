@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 58, ../_scss/_bits.scss */
-.wrapper:after, .content:after, header:after, nav:after, footer:after, .row:after, .wide:after, .hot-deals:after, .movie:after, .location:after, dl:after, .tickets-where:after, .select-location:after, .movies:after {
+.wrapper:after, .content:after, header:after, nav:after, footer:after, .row:after, .picker-container:after, .wide:after, .hot-deals:after, .movie:after, .location:after, dl:after, .tickets-where:after, .select-location:after, .movies:after {
   content: "";
   display: table;
   clear: both;
@@ -127,7 +127,7 @@ body {
 }
 
 /* line 34, ../_scss/_grid.scss */
-.row {
+.row, .picker-container {
   margin-bottom: 2em;
 }
 
@@ -189,7 +189,7 @@ body {
 }
 
 /* line 54, ../_scss/_typography.scss */
-h1, h2, h3, h4, h5, h6, .tickets .label-large, .movie-times-info > a,
+h1, h2, h3, h4, h5, h6, .tickets .label-large, .picker-container > label, .movie-times-info > a,
 .movie-times-info > a:visited {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -520,19 +520,52 @@ textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
-  border-radius: 0;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+  border-radius: 0.4em;
+  -webkit-transition: border-color 0.3s linear, width 0.1s linear;
+  -moz-transition: border-color 0.3s linear, width 0.1s linear;
+  -ms-transition: border-color 0.3s linear, width 0.1s linear;
+  -o-transition: border-color 0.3s linear, width 0.1s linear;
+  transition: border-color 0.3s linear, width 0.1s linear;
+  background-color: #ffffff;
   border: 0;
+  border: 2px solid #dddddd;
+  color: #333333;
+  font-size: 1em;
+  height: 2.2em;
   margin: 0;
   outline: 0;
-  padding: 0.4em 0;
+  padding: 0 0.6em;
   word-break: normal;
 }
+/* line 60, ../_scss/_forms.scss */
+input[type="email"]
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="url"]:focus,
+textarea:focus {
+  border-color: #ffcb07;
+}
 
-/* line 58, ../_scss/_forms.scss */
+/* line 67, ../_scss/_forms.scss */
+input[type="search"] {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-appearance: textfield;
+}
+
+/* line 73, ../_scss/_forms.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 81, ../_scss/_forms.scss */
 input[type="button"],
 input[type="submit"],
 input[type="cancel"] {
@@ -548,47 +581,27 @@ input[type="cancel"] {
   white-space: nowrap;
 }
 
-/* line 67, ../_scss/_forms.scss */
+/* line 90, ../_scss/_forms.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 74, ../_scss/_forms.scss */
+/* line 97, ../_scss/_forms.scss */
 input[type="search"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  -webkit-border-radius: 0.7em;
-  -moz-border-radius: 0.7em;
-  -ms-border-radius: 0.7em;
-  -o-border-radius: 0.7em;
-  border-radius: 0.7em;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
   font-weight: 400;
-  -webkit-transition: border-color 0.3s linear, width 0.1s linear;
-  -moz-transition: border-color 0.3s linear, width 0.1s linear;
-  -ms-transition: border-color 0.3s linear, width 0.1s linear;
-  -o-transition: border-color 0.3s linear, width 0.1s linear;
-  transition: border-color 0.3s linear, width 0.1s linear;
-  background-color: #ffffff;
-  border: 2px solid #dddddd;
   font-size: 0.8em;
-  height: 2.2em;
-  padding: 0;
   width: 12em;
 }
 
-/* line 88, ../_scss/_forms.scss */
-input[type="search"]:focus {
-  border-color: #ffcb07;
-  width: 16em;
-}
-
-/* line 96, ../_scss/_forms.scss */
+/* line 108, ../_scss/_forms.scss */
 .select-location > select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -612,22 +625,22 @@ input[type="search"]:focus {
   text-align: left;
 }
 
-/* line 111, ../_scss/_forms.scss */
+/* line 123, ../_scss/_forms.scss */
 .no-svg .select-location > select {
   padding-right: 1.2em;
 }
 
-/* line 122, ../_scss/_forms.scss */
+/* line 134, ../_scss/_forms.scss */
 .tickets fieldset {
   margin-bottom: 1em;
 }
 
-/* line 126, ../_scss/_forms.scss */
+/* line 138, ../_scss/_forms.scss */
 .tickets .label-large {
   font-size: 1.3em;
 }
 
-/* line 132, ../_scss/_forms.scss */
+/* line 144, ../_scss/_forms.scss */
 .tickets .calendar + a,
 .tickets .tickets-location + a {
   display: block;
@@ -635,7 +648,7 @@ input[type="search"]:focus {
   text-align: center;
 }
 
-/* line 138, ../_scss/_forms.scss */
+/* line 150, ../_scss/_forms.scss */
 .tickets .calendar + input[type="text"] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -678,14 +691,14 @@ input[type="search"]:focus {
   text-decoration: underline;
 }
 
-/* line 154, ../_scss/_forms.scss */
+/* line 166, ../_scss/_forms.scss */
 .tickets-when {
   float: left;
   vertical-align: middle;
   width: 34%;
 }
 
-/* line 160, ../_scss/_forms.scss */
+/* line 172, ../_scss/_forms.scss */
 .calendar {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -701,7 +714,7 @@ input[type="search"]:focus {
   text-transform: uppercase;
 }
 
-/* line 174, ../_scss/_forms.scss */
+/* line 186, ../_scss/_forms.scss */
 .calendar > i {
   display: block;
   font-size: 1.8em;
@@ -709,7 +722,7 @@ input[type="search"]:focus {
   line-height: 0.8em;
 }
 
-/* line 181, ../_scss/_forms.scss */
+/* line 193, ../_scss/_forms.scss */
 .calendar > em {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -720,7 +733,7 @@ input[type="search"]:focus {
   margin: 0;
 }
 
-/* line 191, ../_scss/_forms.scss */
+/* line 203, ../_scss/_forms.scss */
 .tickets-where {
   float: left;
   margin-bottom: 1.2em;
@@ -728,7 +741,7 @@ input[type="search"]:focus {
   width: 66%;
 }
 
-/* line 200, ../_scss/_forms.scss */
+/* line 212, ../_scss/_forms.scss */
 .tickets-location {
   color: #e5e5e5;
   cursor: pointer;
@@ -739,19 +752,19 @@ input[type="search"]:focus {
   text-align: center;
 }
 
-/* line 210, ../_scss/_forms.scss */
+/* line 222, ../_scss/_forms.scss */
 .tickets-location.ogden-the-junction {
   background: url('../images/locations/small/ogden-the-junction.jpg?1368908104') no-repeat bottom center;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 210, ../_scss/_forms.scss */
+  /* line 222, ../_scss/_forms.scss */
   .tickets-location.ogden-the-junction {
     background-image: url('../images/locations/small/ogden-the-junction@2x.jpg?1368908104');
     background-size: 288px 165px;
   }
 }
 
-/* line 215, ../_scss/_forms.scss */
+/* line 227, ../_scss/_forms.scss */
 .tickets-location > span {
   background-color: rgba(0, 0, 0, 0.5);
   display: block;
@@ -764,42 +777,54 @@ input[type="search"]:focus {
   width: 100%;
 }
 
-/* line 227, ../_scss/_forms.scss */
+/* line 239, ../_scss/_forms.scss */
 .no-rgba .tickets-location > span {
   background-color: #000000;
 }
 
-/* line 233, ../_scss/_forms.scss */
+/* line 245, ../_scss/_forms.scss */
 .tickets-format {
   border-top: 0.3em dashed #f6f8f8;
   clear: both;
   padding: 1.2em 0;
 }
 
-/* line 241, ../_scss/_forms.scss */
+/* line 253, ../_scss/_forms.scss */
 .time {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
 }
 
-/* line 248, ../_scss/_forms.scss */
+/* line 260, ../_scss/_forms.scss */
 .tickets-quantity {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
   text-align: center;
 }
 
-/* line 254, ../_scss/_forms.scss */
+/* line 266, ../_scss/_forms.scss */
 .tickets-quantity > .label-large {
   display: inline;
   vertical-align: middle;
 }
 
-/* line 261, ../_scss/_forms.scss */
+/* line 273, ../_scss/_forms.scss */
 .tickets-hint {
   margin-top: 0.5em;
   margin-bottom: 0;
   text-align: right;
+}
+
+/* line 287, ../_scss/_forms.scss */
+.picker-container {
+  margin-top: 1.2em;
+}
+
+/* line 292, ../_scss/_forms.scss */
+.picker-container > label {
+  font-size: 1.3em;
+  margin-right: 0.3em;
+  vertical-align: middle;
 }
 
 /* line 1, ../_scss/_header.scss */
