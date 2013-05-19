@@ -20,12 +20,9 @@
     <script type="text/javascript" src="//use.typekit.net/kfx7mad.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-    <!-- Date Picker -->
-    <link rel="stylesheet" href="/css/vendor/picker.classic.css" />
-    <link rel="stylesheet" href="/css/vendor/picker.classic.date.css" />
-    <script src="/javascripts/vendor/picker.js"></script>
-    <script src="/javascripts/vendor/picker.date.js"></script>
-    <!-- <script src="/javascripts/vendor/picker.legacy.js"></script> -->
+    <!-- jQuery UI Datepicker -->
+    <script src="/javascripts/vendor/datepicker/jquery-ui-custom.js"></script>
+    <link rel="stylesheet" href="/css/vendor/datepicker/jquery-ui-custom.css" />
 
   </head>
 
@@ -154,36 +151,28 @@
         <!-- When -->
 
         <div class="tickets-when">
-          <label class="label-large">When</label>
+          <label class="label-large" for="datepicker">When</label>
           <span class="calendar">
             <i>Jun</i>
             <em>14</em>
             <i>Fri</i>
           </span>
           <!-- <a href="">Choose a Date</a> -->
-          <!-- Date Picker -->
-          <input class="datepicker" type="text" placeholder="Choose a Date" readonly="">
-          <script type="text/javascript">
-            $('.datepicker').pickadate({
-                disable: [
-                    true,
-                    [2013,5,14]
-                ]
-            })
-          </script>
+          <input type="text" id="datepicker" class="datepicker input-link" placeholder="Choose a Date" readonly="">
         </div>
 
         <!-- Where -->
 
         <div class="tickets-where">
-          <label class="label-large">Where</label>
+          <label class="label-large" for="location-picker">Where</label>
           <span class="tickets-location ogden-the-junction">
             <span>
               The Junction<br>
               Ogden, UT
             </span>
           </span>
-          <a href="">Choose a Location</a>
+          <!-- <a href="">Choose a Location</a> -->
+          <input type="text" id="location-picker" class="input-link" placeholder="Choose a Location" readonly="">
         </div>
   
         <!-- Format -->
@@ -357,6 +346,12 @@
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+    <script>
+      $(function() {
+        $( "#datepicker" ).datepicker();
+      });
     </script>
 
   </body>

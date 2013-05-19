@@ -46,6 +46,7 @@ input[type="url"],
 textarea {
   @include appearance(none);
   @include border-radius(0.4em);
+  @include font-source-regular;
   @include transition(border-color 0.3s linear, width 0.1s linear);
   background-color: #ffffff;
   border: 0;
@@ -140,25 +141,19 @@ input[type="search"] {
     font-size: 1.3em;
   }
 
-.tickets .calendar + a,
-.tickets .tickets-location + a {
-  display: block;
-  margin-top: 0.2em;
-  text-align: center;
-}
-
-.tickets .calendar + input[type="text"] {
-  @include appearance(none);
-  @include font-source-regular;
+input[type="text"].input-link {
   @include input-placeholder(#333333, underline);
   background-color: transparent;
-  color: #333333;
   cursor: pointer;
-  font-size: 1em;
-  line-height: 1.5;
+  display: block;
+  height: auto;
   padding: 0;
   text-align: center;
   text-decoration: underline;
+  width: 100%;
+  &:focus{
+    border-color: transparent;
+  }
 }
 
 // When
@@ -175,7 +170,6 @@ input[type="search"] {
     color: #4d4d4d;
     cursor: pointer;
     display: block;
-    // height: 8.6em;
     letter-spacing: 1px;
     margin-bottom: 0.2em;
     padding: 1em 1em 0.9em 1em;

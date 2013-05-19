@@ -20,12 +20,9 @@
     <script type="text/javascript" src="//use.typekit.net/kfx7mad.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-    <!-- Date Picker -->
-    <link rel="stylesheet" href="/css/vendor/picker.classic.css" />
-    <link rel="stylesheet" href="/css/vendor/picker.classic.date.css" />
-    <script src="/javascripts/vendor/picker.js"></script>
-    <script src="/javascripts/vendor/picker.date.js"></script>
-    <!-- <script src="/javascripts/vendor/picker.legacy.js"></script> -->
+    <!-- jQuery UI Datepicker -->
+    <script src="/javascripts/vendor/datepicker/jquery-ui-custom.js"></script>
+    <link rel="stylesheet" href="/css/vendor/datepicker/jquery-ui-custom.css" />
 
   </head>
 
@@ -174,6 +171,12 @@
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+    <script>
+      $(function() {
+        $( "#datepicker" ).datepicker();
+      });
     </script>
 
   </body>
