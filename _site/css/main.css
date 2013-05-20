@@ -1045,7 +1045,7 @@ nav a.active {
   border-top: 0.5em solid #ffcb07;
   border-bottom: 0.5em solid #ffcb07;
   opacity: 0;
-  padding: 1.3em 2em 0 2em;
+  padding: 1.3em 1em 0 1em;
   position: absolute;
   top: 100%;
   left: 0;
@@ -1069,13 +1069,13 @@ nav a.active {
   text-transform: none;
 }
 
-/* line 74, ../_scss/_nav.scss */
+/* line 73, ../_scss/_nav.scss */
 .nav-sub a,
 .nav-sub a:visited {
   padding: 0 0.5em;
 }
 
-/* line 84, ../_scss/_nav.scss */
+/* line 83, ../_scss/_nav.scss */
 nav > ul > li:hover > .nav-sub {
   opacity: 1;
   visibility: visible;

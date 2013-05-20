@@ -42,6 +42,27 @@
 
               {% endif %}
 
+              {% if p.sub-nav == "movies" %}
+
+                <div class="nav-sub">
+                  <ul>
+                    <li><a href="{{ site.baseurl }}work-in-progress">After Earth</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">Cloudy with a Chance of Meatballs 2</a></li>
+                    <li><a href="{{ site.baseurl }}movies/the-great-gatsby">The Great Gatsby</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">The Hangover Part III</a></li>
+                    <li><a href="{{ site.baseurl }}movies/the-hunger-games-catching-fire">The Hunger Games: Catching Fire</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">Iron Man 3</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">The Lone Ranger</a></li>
+                    <li><a href="{{ site.baseurl }}movies/man-of-steel">Man of Steel</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">Monsters University</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">Oblivion</a></li>
+                    <li><a href="{{ site.baseurl }}movies/star-trek-into-darkness">Star Trek Into Darkness</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">The Wolverine</a></li>
+                  </ul>
+                </div>
+
+              {% endif %}
+
           </li>
         {% endif %}
       {% endfor %}
