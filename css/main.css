@@ -123,7 +123,7 @@ body {
 
 /* line 26, ../_scss/_grid.scss */
 .content {
-  padding: 0 0 3em 0;
+  padding: 1.4em 0 3em 0;
 }
 
 /* line 34, ../_scss/_grid.scss */
@@ -490,6 +490,33 @@ a.button:visited {
 /* line 44, ../_scss/_buttons.scss */
 .button > span {
   margin-right: 0.4em;
+}
+
+/* line 50, ../_scss/_buttons.scss */
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: -1em;
+  padding-bottom: 0.5em;
+}
+/* line 49, ../../../../../../usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/typography/lists/_inline-block-list.scss */
+.breadcrumbs li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  white-space: nowrap;
+}
+/* line 7, ../../../../../../usr/local/Cellar/ruby/1.9.3-p286/lib/ruby/gems/1.9.1/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+.breadcrumbs li {
+  *display: inline;
 }
 
 /* line 1, ../_scss/_images.scss */
@@ -926,7 +953,6 @@ header {
 
 /* line 1, ../_scss/_nav.scss */
 nav {
-  margin-bottom: 1.4em;
   text-align: right;
   z-index: 1;
 }
