@@ -428,13 +428,13 @@ label.boxy-list-item {
   cursor: default;
 }
 
-/* line 2, ../_scss/_buttons.scss */
+/* line 2, ../_scss/_links.scss */
 a,
 a:visited {
   color: #333333;
 }
 
-/* line 8, ../_scss/_buttons.scss */
+/* line 8, ../_scss/_links.scss */
 .button,
 a.button,
 a.button:visited {
@@ -462,37 +462,37 @@ a.button:visited {
   white-space: nowrap;
 }
 
-/* line 24, ../_scss/_buttons.scss */
+/* line 24, ../_scss/_links.scss */
 .no-touch .button:hover,
 .no-touch a.button:hover {
   background-color: #ffdb53;
   color: #594600;
 }
 
-/* line 29, ../_scss/_buttons.scss */
+/* line 29, ../_scss/_links.scss */
 .button.pair {
   margin-right: 0.2em;
   padding-right: 1em;
   padding-left: 1em;
 }
 
-/* line 35, ../_scss/_buttons.scss */
+/* line 35, ../_scss/_links.scss */
 .button.pair + .button.pair {
   margin-left: 0.2em;
   margin-right: 0;
 }
 
-/* line 40, ../_scss/_buttons.scss */
+/* line 40, ../_scss/_links.scss */
 .button-row {
   text-align: center;
 }
 
-/* line 44, ../_scss/_buttons.scss */
+/* line 44, ../_scss/_links.scss */
 .button > span {
   margin-right: 0.4em;
 }
 
-/* line 50, ../_scss/_buttons.scss */
+/* line 50, ../_scss/_links.scss */
 .breadcrumbs {
   margin: 0;
   padding: 0;
@@ -519,12 +519,12 @@ a.button:visited {
   *display: inline;
 }
 
-/* line 56, ../_scss/_buttons.scss */
+/* line 56, ../_scss/_links.scss */
 .breadcrumbs > li {
   padding-right: 0.3em;
 }
 
-/* line 60, ../_scss/_buttons.scss */
+/* line 60, ../_scss/_links.scss */
 .breadcrumbs > li > a {
   padding-right: 0.3em;
 }
