@@ -792,92 +792,91 @@ input[type="text"].calendar.day {
 .tickets-location {
   color: #e5e5e5;
   cursor: pointer;
-  display: block;
+  display: table-row;
   height: 8.2em;
   margin-bottom: 0.2em;
-  position: relative;
   text-align: center;
 }
 
-/* line 217, ../_scss/_forms.scss */
+/* line 215, ../_scss/_forms.scss */
 .tickets-location.ogden-the-junction {
   background: url('../images/locations/small/ogden-the-junction.jpg?1368908104') no-repeat top center;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 217, ../_scss/_forms.scss */
+  /* line 215, ../_scss/_forms.scss */
   .tickets-location.ogden-the-junction {
     background-image: url('../images/locations/small/ogden-the-junction@2x.jpg?1368908104');
     background-size: 288px 165px;
   }
 }
 
-/* line 222, ../_scss/_forms.scss */
+/* line 220, ../_scss/_forms.scss */
 .tickets-location > span {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: block;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: table-cell;
   font-size: 1.8em;
   font-style: normal;
   line-height: 1.2em;
   padding: 0.4em;
   text-align: center;
   vertical-align: middle;
-  width: 100%;
+  width: 12em;
 }
 
-/* line 235, ../_scss/_forms.scss */
+/* line 236, ../_scss/_forms.scss */
 .no-rgba .tickets-location > span {
   background-color: #000000;
 }
 
-/* line 241, ../_scss/_forms.scss */
+/* line 242, ../_scss/_forms.scss */
 .tickets-format {
   border-top: 0.3em dashed #f6f8f8;
   clear: both;
   padding: 1.2em 0;
 }
 
-/* line 249, ../_scss/_forms.scss */
+/* line 250, ../_scss/_forms.scss */
 .time {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
 }
 
-/* line 256, ../_scss/_forms.scss */
+/* line 257, ../_scss/_forms.scss */
 .tickets-quantity {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
   text-align: center;
 }
 
-/* line 262, ../_scss/_forms.scss */
+/* line 263, ../_scss/_forms.scss */
 .tickets-quantity > .label-large {
   display: inline;
   vertical-align: middle;
 }
 
-/* line 269, ../_scss/_forms.scss */
+/* line 270, ../_scss/_forms.scss */
 .tickets-hint {
   margin-top: 0.5em;
   margin-bottom: 0;
   text-align: right;
 }
 
-/* line 283, ../_scss/_forms.scss */
+/* line 284, ../_scss/_forms.scss */
 .picker-container {
   margin-top: 1.2em;
 }
 
-/* line 288, ../_scss/_forms.scss */
+/* line 289, ../_scss/_forms.scss */
 .picker-container > label {
   font-size: 1.3em;
   margin-right: 0.3em;
   vertical-align: middle;
 }
 
-/* line 295, ../_scss/_forms.scss */
+/* line 296, ../_scss/_forms.scss */
 .picker-container > input[type="text"] {
   width: 15em;
 }

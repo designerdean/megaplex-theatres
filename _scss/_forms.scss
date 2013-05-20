@@ -206,11 +206,9 @@ input[type="search"] {
   .tickets-location {
     color: #e5e5e5;
     cursor: pointer;
-    display: block;
+    display: table-row;
     height: 8.2em;
     margin-bottom: 0.2em;
-    // padding-top: 0.8em;
-    position: relative;
     text-align: center;
   }
 
@@ -221,15 +219,18 @@ input[type="search"] {
 
     .tickets-location > span {
       @include user-select(none);
-      background-color: rgba(#000000, 0.5);
-      display: block;
+      background-color: rgba(#000000, 0.4);
+      // display: block;
+      display: table-cell;
       font-size: 1.8em;
       font-style: normal;
+      // height: 3.2em;
       line-height: 1.2em;
+      // margin-top: -1.6em;
       padding: 0.4em;
       text-align: center;
       vertical-align: middle;
-      width: 100%;
+      width: 12em;
     }
 
       .no-rgba .tickets-location > span {
