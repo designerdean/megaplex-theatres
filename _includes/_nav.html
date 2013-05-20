@@ -1,4 +1,3 @@
-
 <nav>
   <ul>
 
@@ -9,6 +8,40 @@
             <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
               {{ p.title }}
             </a>
+
+              {% if p.animal == "monkey" %}
+
+                <div class="nav-sub">
+                  <h5>Northern Utah</h5>
+                  <ul>
+                    <li><a href="{{ site.baseurl }}work-in-progress">Centerville - Legacy Crossing</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">Lehi - Thanksgiving Point</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">Logan - North Main</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">Logan - Providence Stadium</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">Logan - University Stadium</a></li>
+                    <li><a href="{{ site.baseurl }}locations/ogden-the-junction">Ogden - The Junction</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">Salt Lake City - The Gateway</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">Sandy - Jordan Commons</a></li>    
+                    <li><a href="{{ site.baseurl }}work-in-progress">South Jordan - The District</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">West Valley - Valley Fair Mall</a></li>
+                  </ul>
+                  <h5>Southern Utah</h5>
+                  <ul>
+                    <li><a href="{{ site.baseurl }}work-in-progress">Cedar City - Fiddler</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">Cedar City - Stadium</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">St. George - Main Street</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">St. George - Pineview Stadium</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">St. George - Sunset Stadium</a></li>
+                    <li><a href="{{ site.baseurl }}work-in-progress">St. George - Washington Red Cliffs</a></li>
+                  </ul>
+                  <h5>Nevada</h5>
+                  <ul>
+                    <li><a href="{{ site.baseurl }}work-in-progress">Mesquite - Stadium</a></li>
+                  </ul>
+                </div>
+
+              {% endif %}
+
           </li>
         {% endif %}
       {% endfor %}
@@ -17,10 +50,7 @@
   </ul>
 </nav>
 
-
-
-
-
+<!--
 <nav>
   <ul>
     <li><a href="{{ site.baseurl }}movies">Movies</a></li>
@@ -64,3 +94,4 @@
     <li><a href="{{ site.baseurl }}work-in-progress">Store</a></li>
   </ul>
 </nav>
+-->

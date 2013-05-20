@@ -18,29 +18,34 @@ nav {
       @include inline-block-list-item;
       color: #ffffff;
       letter-spacing: 1px;
-      padding: 0.4em 0.5em 0.3em 0.5em;
       position: relative;
       text-transform: uppercase;
     }
 
       nav a,
       nav a:visited {
-        @include single-transition(background, 0.3s, linear);
+        @include single-transition(background, 0.1s, linear);
         color: #ffffff;
         display: inline-block;
+        padding: 0.4em 0.5em 0.3em 0.5em;
         text-decoration: none;
       }
 
         .no-touch nav a:hover {
+          background-color: lighten($color-purple, 15%);
+          color: $color-base-1;
+        }
 
+        nav a.active {
+          background-color: $color-purple;
         }
 
 // Sub Nav
 // ==========================================================================
 
 .nav-sub {
-  @include single-transition(all, 0.3s, linear);
-  background-color: $color-base-2;
+  @include single-transition(all, 0.1s, linear);
+  background-color: $color-base-3;
   border-top: 0.5em solid $color-gold;
   border-bottom: 0.5em solid $color-gold;
   opacity: 0;
@@ -60,15 +65,19 @@ nav {
     .nav-sub > ul > li {
       @include font-source-regular;
       display: block;
-      line-height: 1.6em;
+      // line-height: 1.6em;
       padding: 0;
       text-transform: none;
     }
 
     .nav-sub a,
     .nav-sub a:visited {
-      color: #333333;
+      padding: 0 0.5em;
     }
+
+      .no-touch .nav-sub a:hover {
+        
+      }
 
 // Show on Hover
 

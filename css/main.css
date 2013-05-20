@@ -1001,7 +1001,6 @@ nav > ul > li {
   white-space: nowrap;
   color: #ffffff;
   letter-spacing: 1px;
-  padding: 0.4em 0.5em 0.3em 0.5em;
   position: relative;
   text-transform: uppercase;
 }
@@ -1010,27 +1009,39 @@ nav > ul > li {
   *display: inline;
 }
 
-/* line 27, ../_scss/_nav.scss */
+/* line 26, ../_scss/_nav.scss */
 nav a,
 nav a:visited {
-  -webkit-transition: background 0.3s linear;
-  -moz-transition: background 0.3s linear;
-  -ms-transition: background 0.3s linear;
-  -o-transition: background 0.3s linear;
-  transition: background 0.3s linear;
+  -webkit-transition: background 0.1s linear;
+  -moz-transition: background 0.1s linear;
+  -ms-transition: background 0.1s linear;
+  -o-transition: background 0.1s linear;
+  transition: background 0.1s linear;
   color: #ffffff;
   display: inline-block;
+  padding: 0.4em 0.5em 0.3em 0.5em;
   text-decoration: none;
 }
 
-/* line 41, ../_scss/_nav.scss */
+/* line 34, ../_scss/_nav.scss */
+.no-touch nav a:hover {
+  background-color: #9841c6;
+  color: #f6f8f8;
+}
+
+/* line 39, ../_scss/_nav.scss */
+nav a.active {
+  background-color: #6d2b90;
+}
+
+/* line 46, ../_scss/_nav.scss */
 .nav-sub {
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
-  -ms-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  transition: all 0.3s linear;
-  background-color: #dddddd;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  background-color: #a1aaab;
   border-top: 0.5em solid #ffcb07;
   border-bottom: 0.5em solid #ffcb07;
   opacity: 0;
@@ -1043,29 +1054,28 @@ nav a:visited {
   z-index: 1;
 }
 
-/* line 56, ../_scss/_nav.scss */
+/* line 61, ../_scss/_nav.scss */
 .nav-sub > ul {
   margin-bottom: 1.3em;
 }
 
-/* line 60, ../_scss/_nav.scss */
+/* line 65, ../_scss/_nav.scss */
 .nav-sub > ul > li {
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
   font-weight: 400;
   display: block;
-  line-height: 1.6em;
   padding: 0;
   text-transform: none;
 }
 
-/* line 69, ../_scss/_nav.scss */
+/* line 74, ../_scss/_nav.scss */
 .nav-sub a,
 .nav-sub a:visited {
-  color: #333333;
+  padding: 0 0.5em;
 }
 
-/* line 75, ../_scss/_nav.scss */
+/* line 84, ../_scss/_nav.scss */
 nav > ul > li:hover > .nav-sub {
   opacity: 1;
   visibility: visible;
