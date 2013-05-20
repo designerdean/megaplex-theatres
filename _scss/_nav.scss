@@ -1,6 +1,6 @@
 nav {
   @extend .wrapper;
-  // margin-bottom: 1.4em;
+  margin-bottom: 1.4em;
   text-align: right;
   z-index: 1;
 }
@@ -29,11 +29,6 @@ nav {
         color: #ffffff;
         display: inline-block;
         text-decoration: none;
-      }
-
-      nav > ul > li > b {
-        cursor: pointer;
-        font-weight: normal;
       }
 
         .no-touch nav a:hover {

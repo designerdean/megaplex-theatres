@@ -1,8 +1,31 @@
+
+<nav>
+  <ul>
+
+    {% for weight in (1..10) %}
+      {% for p in site.pages %}
+        {% if p.weight == weight %}
+          <li>
+            <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+              {{ p.title }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+  </ul>
+</nav>
+
+
+
+
+
 <nav>
   <ul>
     <li><a href="{{ site.baseurl }}movies">Movies</a></li>
     <li>
-      <b>Locations</b>
+      <a href="{{ site.baseurl }}locations">Locations</a>
 
       <div class="nav-sub">
         <h3>Northern Utah</h3>
