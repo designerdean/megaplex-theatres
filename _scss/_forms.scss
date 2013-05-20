@@ -137,7 +137,8 @@ input[type="search"] {
   }
 
   .ui-datepicker-trigger,
-  .trigger-focus {
+  .location-picker {
+    @include appearance(none);
     @include border-radius(0);
     @include font-source-regular;
     background: none;
@@ -147,8 +148,9 @@ input[type="search"] {
     display: block;
     font-size: 1em;
     margin: 0;
-    outline: 0;
-    text-align: center;
+    outline: none;
+    padding: 0.1em 0.5em;
+    text-align: left;
     text-decoration: underline;
     white-space: nowrap;
     width: 100%;
@@ -187,7 +189,7 @@ input[type="search"] {
       font-size: 5em;
       height: 1.4em;
       margin-top: -0.3em;
-      padding: 0.2em 0.2em 0.1em 0.2em;
+      padding: 0.2em 0 0.1em 0;
     }
 
 // Where
@@ -205,18 +207,20 @@ input[type="search"] {
     color: #e5e5e5;
     cursor: pointer;
     display: block;
-    height: 10.3em;
+    height: 8.2em;
     margin-bottom: 0.2em;
-    padding-top: 2.3em;
+    // padding-top: 0.8em;
+    position: relative;
     text-align: center;
   }
 
     .tickets-location.ogden-the-junction {
-      background: image-url("locations/small/ogden-the-junction.jpg") no-repeat bottom center;
+      background: image-url("locations/small/ogden-the-junction.jpg") no-repeat top center;
         @include image-2x("locations/small/ogden-the-junction@2x.jpg", 288px, 165px);
     }
 
     .tickets-location > span {
+      @include user-select(none);
       background-color: rgba(#000000, 0.5);
       display: block;
       font-size: 1.8em;
@@ -286,5 +290,9 @@ input[type="search"] {
     font-size: 1.3em;
     margin-right: 0.3em;
     vertical-align: middle;
+  }
+
+  .picker-container > input[type="text"] {
+    width: 15em;
   }
 

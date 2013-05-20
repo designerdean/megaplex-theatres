@@ -162,11 +162,15 @@
           <label class="label-large" for="location-picker">Where</label>
           <span class="tickets-location ogden-the-junction">
             <span>
-              The Junction<br>
-              Ogden, UT
+              Ogden<br>
+              The Junction
             </span>
           </span>
-          <button type="button" class="trigger-focus">Change Location</button>
+          <!-- <button type="button" class="trigger-focus">Change Location</button> -->
+          <select id="location-picker" class="location-picker">
+            <option value="Change Location" selected>Change Location</option>
+            <option value="Ogden - The Junction">Ogden - The Junction</option>
+          </select>
         </div>
   
         <!-- Format -->
@@ -268,6 +272,29 @@
   </div>
 </section>
 
+<!-- Date Picker -->
+  
+<script>
+  $(function() {
+    $( "#datepicker" ).datepicker({
+      // dateFormat: "M d D",
+      dateFormat: "d",
+      altField: "#alt",
+      altFormat: "M",
+      showOn: "both",
+      buttonText: "Change Date",
+      minDate: 0
+    });
+  });
+</script>
+
+<script>
+  $(function() {
+    $(".calendar").datepicker('setDate', new Date());
+  });
+</script>
+
+
 
 </div>
 
@@ -340,25 +367,6 @@
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
-    </script>
-
-    <script>
-      $(function() {
-        $( "#datepicker" ).datepicker({
-          // dateFormat: "M d D",
-          dateFormat: "d",
-          altField: "#alt",
-          altFormat: "M",
-          showOn: "both",
-          buttonText: "Choose"
-        });
-      });
-    </script>
-
-    <script>
-      $(function() {
-        $(".calendar").datepicker('setDate', new Date());
-      });
     </script>
 
   </body>

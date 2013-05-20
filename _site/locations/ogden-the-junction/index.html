@@ -425,6 +425,17 @@
 
 </div>
 
+<!-- Date Picker -->
+
+<script>
+  $(function() {
+    $( "#datepicker" ).datepicker({
+      dateFormat: "DD, MM d, yy",
+      minDate: 0
+    });
+  });
+</script>
+
 
     </div>
 
@@ -495,25 +506,6 @@
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
-    </script>
-
-    <script>
-      $(function() {
-        $( "#datepicker" ).datepicker({
-          // dateFormat: "M d D",
-          dateFormat: "d",
-          altField: "#alt",
-          altFormat: "M",
-          showOn: "both",
-          buttonText: "Choose"
-        });
-      });
-    </script>
-
-    <script>
-      $(function() {
-        $(".calendar").datepicker('setDate', new Date());
-      });
     </script>
 
   </body>
