@@ -519,6 +519,16 @@ a.button:visited {
   *display: inline;
 }
 
+/* line 56, ../_scss/_buttons.scss */
+.breadcrumbs > li {
+  padding-right: 0.3em;
+}
+
+/* line 60, ../_scss/_buttons.scss */
+.breadcrumbs > li > a {
+  padding-right: 0.3em;
+}
+
 /* line 1, ../_scss/_images.scss */
 img {
   max-width: 100%;
