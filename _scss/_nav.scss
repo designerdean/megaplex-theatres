@@ -7,7 +7,7 @@ nav {
 
   nav > ul {
     @include inline-block-list;
-    background-color: #a1aaab;
+    background-color: $color-base-3;
     float: right;
     font-size: 1.1em;
     overflow: visible;

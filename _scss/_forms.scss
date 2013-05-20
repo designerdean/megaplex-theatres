@@ -136,12 +136,23 @@ input[type="search"] {
     font-size: 1.3em;
   }
 
-.trigger-focus {
-  cursor: pointer;
-  display: block;
-  text-align: center;
-  text-decoration: underline;
-}
+  .ui-datepicker-trigger,
+  .trigger-focus {
+    @include border-radius(0);
+    @include font-source-regular;
+    background: none;
+    border: 0;
+    color: #333333;
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    margin: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: underline;
+    white-space: nowrap;
+    width: 100%;
+  }
 
 // When
 
@@ -153,39 +164,47 @@ input[type="search"] {
 }
 
   input[type="text"].calendar {
+    @include border-radius(0);
     @include font-etica-regular;
     @include input-placeholder(#4d4d4d);
-    background-color: #bac4c5;
-    color: #4d4d4d;
+    @include user-select(none);
+    background-color: $color-base-3;
+    border: 0;
+    color: $color-base-1;
     cursor: pointer;
     display: block;
+    font-size: 1.8em;
+    height: 1.5em;
     letter-spacing: 1px;
-    margin-bottom: 0.2em;
-    // padding: 1em 1em 0.9em 1em;
+    padding: 0.7em 0 0 0;
     text-align: center;
     text-transform: uppercase;
-    white-space: pre-line;
-
-    @include border-radius(0);
-    font-size: 1.8em;
-    padding: 0.5em;
     width: 100%;
   }
 
-    .calendar > i {
-      display: block;
-      font-size: 1.8em;
-      font-style: normal;
-      line-height: 0.8em;
+    input[type="text"].calendar.day {
+      @include font-etica-semibold;
+      font-size: 5em;
+      // height: 1.2em;
+      height: 1.4em;
+      margin-top: -0.3em;
+      padding: 0.2em 0.2em 0.1em 0.2em;
     }
 
-    .calendar > em {
-      @include font-etica-semibold;
-      display: block;
-      font-size: 5em;
-      line-height: 1.1em;
-      margin: 0;
-    }
+    // .calendar > i {
+    //   display: block;
+    //   font-size: 1.8em;
+    //   font-style: normal;
+    //   line-height: 0.8em;
+    // }
+
+    // .calendar > em {
+    //   @include font-etica-semibold;
+    //   display: block;
+    //   font-size: 5em;
+    //   line-height: 1.1em;
+    //   margin: 0;
+    // }
 
 // Where
 

@@ -176,7 +176,12 @@
     <script>
       $(function() {
         $( "#datepicker" ).datepicker({
-          dateFormat: "MM d D"
+          // dateFormat: "M d D",
+          dateFormat: "d",
+          altField: "#alt",
+          altFormat: "M",
+          showOn: "both",
+          buttonText: "Choose"
         });
       });
     </script>
@@ -186,16 +191,6 @@
         $(".calendar").datepicker('setDate', new Date());
       });
     </script>
-
-    <!--
-    <script>
-      $(function() {
-        $( "#datepicker" ).datepicker({
-          Format: "MM d DD"
-        });
-      });
-    </script>
-    -->
 
   </body>
 </html>

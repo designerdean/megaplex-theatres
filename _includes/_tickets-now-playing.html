@@ -10,8 +10,9 @@
 
         <div class="tickets-when">
           <label class="label-large" for="datepicker">When</label>
-          <input type="text" id="datepicker" class="calendar" readonly>
-          <em class="trigger-focus" onclick="document.getElementById('datepicker').focus();">Choose a Date</em>
+          <input type="text" id="alt" class="calendar month" readonly onclick="document.getElementById('datepicker').focus();">
+          <input type="text" id="datepicker" class="calendar day" readonly>
+          <!-- <em class="trigger-focus" onclick="document.getElementById('datepicker').focus();">Change Date</em> -->
           <!-- <span class="calendar">
             <i>Jun</i>
             <em>14</em>
@@ -29,7 +30,8 @@
               Ogden, UT
             </span>
           </span>
-          <em class="trigger-focus">Choose a Location</em>
+          <!-- <em class="trigger-focus">Change Location</em> -->
+          <button type="button" class="trigger-focus">Change Location</button>
         </div>
   
         <!-- Format -->
