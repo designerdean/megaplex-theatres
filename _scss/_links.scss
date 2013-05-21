@@ -3,63 +3,6 @@ a:visited {
   color: #333333;
 }
 
-.button,
-a.button,
-a.button:visited {
-  @include border-radius(0.7em);
-  @include font-etica-semibold;
-  @include transition(background-color 0.15s linear, color 0.15s linear);
-  background-color: lighten($color-gold, 15%);
-  color: #5e5e5e;
-  display: inline-block;
-  font-size: 1.3em;
-  letter-spacing: 1px;
-  padding: 0.5em 2em 0.4em 2em;
-  position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-
-  .no-touch .button:hover,
-  .no-touch a.button:hover {
-    background-color: lighten($color-gold, 5%);
-  }
-
-  // Purple Button
-  
-  .button.purple,
-  a.button.purple,
-  a.button.purple:visited {
-    @include font-etica-regular;
-    background-color: $color-purple;
-    color: #ffffff;
-  }
-
-    .no-touch .button.purple:hover,
-    .no-touch a.button.purple:hover {
-      background-color: lighten($color-purple, 5%);
-    }
-
-  .button.pair {
-    margin-right: 0.2em;
-    padding-right: 1em;
-    padding-left: 1em;
-  }
-
-  .button.pair + .button.pair {
-    margin-left: 0.2em;
-    margin-right: 0;
-  }
-
-.button-row {
-  text-align: center;
-}
-
-.button > span {
-  margin-right: 0.4em;
-}
-
 // Breadcrumbs
 
 .breadcrumbs {
