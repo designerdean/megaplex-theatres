@@ -79,8 +79,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   box-sizing: content-box;
 }
 
-/* line 69, ../_scss/_bits.scss */
-.screen-reader, .boxy-list > input[type="radio"] {
+/* line 70, ../_scss/_bits.scss */
+.screen-reader, .boxy-list > input[type="radio"],
+input[type="submit"].screen-reader,
+.boxy-list > input[type="submit"][type="radio"] {
   position: absolute;
   top: -9999px;
   left: -9999px;

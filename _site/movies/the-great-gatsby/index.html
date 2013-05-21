@@ -55,7 +55,7 @@
       <form id="search-form">
         <label id="search-label" for="search-input" class="screen-reader">Search</label>
         <input id="search-input" type="search" aria-labelledby="search-label" class="search-field" placeholder="Search" value="">
-        <!-- <input type="submit" value="Search" class="button"> -->
+        <input type="submit" value="Submit Search" class="button screen-reader">
       </form>
     </div>
 
@@ -660,8 +660,8 @@
         <!-- Quantity -->
 
         <div class="tickets-quantity">
-          <label class="label-large">Select Quantity:</label>
-          <select>
+          <label class="label-large" for="select-quantity">Select Quantity:</label>
+          <select id="select-quantity">
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -688,7 +688,7 @@
         <!-- Button -->
 
         <p class="button-row">
-          <a href="/confirmation" class="button purple">Buy Tickets</a>
+          <a href="/confirmation" class="button purple" value="But Tickets">Buy Tickets</a>
         </p>
   
       </fieldset>
