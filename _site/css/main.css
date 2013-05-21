@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 58, ../_scss/_bits.scss */
-.wrapper:after, .content:after, header:after, nav:after, footer:after, .row:after, .picker-container:after, .hero:after, .wide:after, .hot-deals:after, .movie:after, dl:after, .modal-picker > ul:after, .tickets-where:after, .select-location:after, .movies:after {
+.wrapper:after, .content:after, header:after, nav:after, .row:after, .picker-container:after, .hero:after, .wide:after, .hot-deals:after, .movie:after, dl:after, .modal-picker > ul:after, .tickets-where:after, footer:after, .select-location:after, .movies:after {
   content: "";
   display: table;
   clear: both;
@@ -99,6 +99,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 html {
   background: #f6f8f8 url('../images/texture-noise-1.png?1368289825') repeat top left;
   height: 100%;
+  overflow-x: hidden;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
   /* line 8, ../_scss/_grid.scss */
@@ -108,47 +109,47 @@ html {
   }
 }
 
-/* line 14, ../_scss/_grid.scss */
+/* line 15, ../_scss/_grid.scss */
 body {
   height: 100%;
   overflow-x: hidden;
   padding: 0 5%;
 }
 
-/* line 20, ../_scss/_grid.scss */
-.wrapper, .content, header, nav, footer {
+/* line 21, ../_scss/_grid.scss */
+.wrapper, .content, header, nav {
   margin: 0 auto;
   max-width: 82em;
 }
 
-/* line 26, ../_scss/_grid.scss */
+/* line 27, ../_scss/_grid.scss */
 .content {
   padding: 0 0 3em 0;
 }
 
-/* line 34, ../_scss/_grid.scss */
+/* line 35, ../_scss/_grid.scss */
 .row, .picker-container, .hero {
   margin-bottom: 2em;
 }
 
-/* line 39, ../_scss/_grid.scss */
+/* line 40, ../_scss/_grid.scss */
 .wide, .hot-deals, .movie {
   float: left;
   width: 60%;
 }
 
-/* line 45, ../_scss/_grid.scss */
+/* line 46, ../_scss/_grid.scss */
 .narrow, .whats-up, .tickets {
   float: left;
   width: 40%;
 }
 
-/* line 50, ../_scss/_grid.scss */
+/* line 51, ../_scss/_grid.scss */
 .left, .hot-deals, .movie {
   padding-right: 3.5%;
 }
 
-/* line 54, ../_scss/_grid.scss */
+/* line 55, ../_scss/_grid.scss */
 .right, .tickets-where, .whats-up, .tickets {
   padding-left: 3.5%;
 }
@@ -694,22 +695,23 @@ input[type="search"] {
 /* line 130, ../_scss/_forms.scss */
 .modal-picker {
   background-color: #ffffff;
+  display: none;
   margin: 0 auto;
   max-width: 40em;
   padding: 1.5em 1em;
 }
 
-/* line 137, ../_scss/_forms.scss */
+/* line 138, ../_scss/_forms.scss */
 .modal-picker > h3 {
   text-align: center;
 }
 
-/* line 141, ../_scss/_forms.scss */
+/* line 142, ../_scss/_forms.scss */
 .modal-picker > ul {
   margin-bottom: 0;
 }
 
-/* line 146, ../_scss/_forms.scss */
+/* line 147, ../_scss/_forms.scss */
 .modal-picker > ul > li {
   display: inline-block;
   float: left;
@@ -717,17 +719,17 @@ input[type="search"] {
   width: 50%;
 }
 
-/* line 156, ../_scss/_forms.scss */
+/* line 160, ../_scss/_forms.scss */
 .tickets fieldset {
   margin-bottom: 1em;
 }
 
-/* line 160, ../_scss/_forms.scss */
+/* line 164, ../_scss/_forms.scss */
 .tickets .label-large {
   font-size: 1.3em;
 }
 
-/* line 166, ../_scss/_forms.scss */
+/* line 170, ../_scss/_forms.scss */
 .ui-datepicker-trigger,
 .location-picker {
   -webkit-appearance: none;
@@ -756,7 +758,7 @@ input[type="search"] {
   width: 100%;
 }
 
-/* line 187, ../_scss/_forms.scss */
+/* line 191, ../_scss/_forms.scss */
 .tickets-when {
   float: left;
   margin-bottom: 1.2em;
@@ -764,7 +766,7 @@ input[type="search"] {
   width: 34%;
 }
 
-/* line 194, ../_scss/_forms.scss */
+/* line 198, ../_scss/_forms.scss */
 input[type="text"].calendar {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -811,7 +813,7 @@ input[type="text"].calendar::-webkit-input-placeholder {
   color: #4d4d4d;
 }
 
-/* line 213, ../_scss/_forms.scss */
+/* line 217, ../_scss/_forms.scss */
 input[type="text"].calendar.day {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -822,7 +824,7 @@ input[type="text"].calendar.day {
   padding: 0.2em 0 0.1em 0;
 }
 
-/* line 223, ../_scss/_forms.scss */
+/* line 227, ../_scss/_forms.scss */
 .tickets-where {
   float: left;
   margin-bottom: 1.2em;
@@ -830,7 +832,7 @@ input[type="text"].calendar.day {
   width: 66%;
 }
 
-/* line 233, ../_scss/_forms.scss */
+/* line 237, ../_scss/_forms.scss */
 a.tickets-location,
 a.tickets-location:visited {
   color: #e5e5e5;
@@ -842,7 +844,7 @@ a.tickets-location:visited {
   text-decoration: none;
 }
 
-/* line 243, ../_scss/_forms.scss */
+/* line 247, ../_scss/_forms.scss */
 .tickets-location > span {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -858,7 +860,7 @@ a.tickets-location:visited {
   width: 10em;
 }
 
-/* line 256, ../_scss/_forms.scss */
+/* line 260, ../_scss/_forms.scss */
 .tickets-location > span:after {
   background-color: rgba(0, 0, 0, 0.4);
   content: "";
@@ -869,87 +871,87 @@ a.tickets-location:visited {
   left: 0;
 }
 
-/* line 266, ../_scss/_forms.scss */
+/* line 270, ../_scss/_forms.scss */
 .no-rgba .tickets-location > span:after {
   background: url('../images/no-rgba/black-40.png?1369104949') repeat;
 }
 
-/* line 270, ../_scss/_forms.scss */
+/* line 274, ../_scss/_forms.scss */
 .tickets-location > span > span {
   position: relative;
   z-index: 1;
 }
 
-/* line 277, ../_scss/_forms.scss */
+/* line 281, ../_scss/_forms.scss */
 .tickets-location .ogden-the-junction {
   background: url('../images/locations/small/ogden-the-junction.jpg?1368908104') no-repeat top center;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 277, ../_scss/_forms.scss */
+  /* line 281, ../_scss/_forms.scss */
   .tickets-location .ogden-the-junction {
     background-image: url('../images/locations/small/ogden-the-junction@2x.jpg?1368908104');
     background-size: 288px 165px;
   }
 }
 
-/* line 282, ../_scss/_forms.scss */
+/* line 286, ../_scss/_forms.scss */
 .tickets-location .sandy-jordan-commons {
   background: url('../images/locations/small/sandy-jordan-commons.jpg?1369110507') no-repeat top center;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 282, ../_scss/_forms.scss */
+  /* line 286, ../_scss/_forms.scss */
   .tickets-location .sandy-jordan-commons {
     background-image: url('../images/locations/small/sandy-jordan-commons@2x.jpg?1369110481');
     background-size: 288px 165px;
   }
 }
 
-/* line 289, ../_scss/_forms.scss */
+/* line 293, ../_scss/_forms.scss */
 .tickets-format {
   border-top: 0.3em dashed #f6f8f8;
   clear: both;
   padding: 1.2em 0;
 }
 
-/* line 297, ../_scss/_forms.scss */
+/* line 301, ../_scss/_forms.scss */
 .time {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
 }
 
-/* line 304, ../_scss/_forms.scss */
+/* line 308, ../_scss/_forms.scss */
 .tickets-quantity {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
   text-align: center;
 }
 
-/* line 310, ../_scss/_forms.scss */
+/* line 314, ../_scss/_forms.scss */
 .tickets-quantity > .label-large {
   display: inline;
   vertical-align: middle;
 }
 
-/* line 317, ../_scss/_forms.scss */
+/* line 321, ../_scss/_forms.scss */
 .tickets-hint {
   margin-top: 0.5em;
   margin-bottom: 0;
   text-align: right;
 }
 
-/* line 331, ../_scss/_forms.scss */
+/* line 335, ../_scss/_forms.scss */
 .picker-container {
   margin-top: 1.2em;
 }
 
-/* line 336, ../_scss/_forms.scss */
+/* line 340, ../_scss/_forms.scss */
 .picker-container > label {
   font-size: 1.3em;
   margin-right: 0.3em;
   vertical-align: middle;
 }
 
-/* line 343, ../_scss/_forms.scss */
+/* line 347, ../_scss/_forms.scss */
 .picker-container > input[type="text"] {
   width: 15em;
 }
@@ -1185,32 +1187,37 @@ footer {
   padding-bottom: 2em;
 }
 
-/* line 8, ../_scss/_footer.scss */
+/* line 9, ../_scss/_footer.scss */
+.no-svg footer {
+  background-image: url('../images/no-svg/filmstrip.svg');
+}
+
+/* line 13, ../_scss/_footer.scss */
 footer > div {
   font-size: 0.95em;
   float: right;
   padding: 1em 2em;
 }
 
-/* line 14, ../_scss/_footer.scss */
+/* line 19, ../_scss/_footer.scss */
 footer h6 {
   font-size: 1em;
   text-transform: uppercase;
 }
 
-/* line 20, ../_scss/_footer.scss */
+/* line 25, ../_scss/_footer.scss */
 footer a,
 footer a:visited {
   color: #999999;
   text-decoration: none;
 }
 
-/* line 27, ../_scss/_footer.scss */
+/* line 32, ../_scss/_footer.scss */
 footer > .locations {
   float: left;
 }
 
-/* line 31, ../_scss/_footer.scss */
+/* line 36, ../_scss/_footer.scss */
 footer > .locations > a > span {
   background: url('../images/slc.jpg?1368902374') no-repeat bottom center;
   -webkit-transition: color 0.1s linear;
@@ -1227,14 +1234,14 @@ footer > .locations > a > span {
   width: 4.5em;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 31, ../_scss/_footer.scss */
+  /* line 36, ../_scss/_footer.scss */
   footer > .locations > a > span {
     background-image: url('../images/slc@2x.jpg?1368902374');
     background-size: 324px 158px;
   }
 }
 
-/* line 44, ../_scss/_footer.scss */
+/* line 49, ../_scss/_footer.scss */
 .no-touch footer > .locations > a:hover > span {
   color: #ffffff;
 }
@@ -1541,39 +1548,21 @@ hr {
 
 /* line 321, ../_scss/_modules.scss */
 .filmstrip {
-  font-family: "lft-etica", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  background: #dddddd url('../images/texture-noise-2.png?1368290307') repeat top left;
-  border-top: 0.7em solid #dddddd;
-  border-bottom: 0.7em solid #dddddd;
-  font-size: 16px;
+  background: url('../images/filmstrip.svg?1369119048') repeat-x top left;
+  border-top: none;
+  height: 7.5em;
   margin: 0 -5.6% 2em -5.6%;
-  line-height: 3em;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 321, ../_scss/_modules.scss */
-  .filmstrip {
-    background-image: url('../images/texture-noise-2@2x.png?1368290288');
-    background-size: 100px 100px;
-  }
+  position: relative;
 }
 
-/* line 332, ../_scss/_modules.scss */
-.filmstrip > hr {
-  border-top: 0.2em dashed #f6f8f8;
-  height: 0.1em;
-  margin: 0;
-}
-
-/* line 363, ../_scss/_modules.scss */
+/* line 336, ../_scss/_modules.scss */
 .map * img,
 .map *:before img,
 .map *:after img {
   max-width: none;
 }
 
-/* line 369, ../_scss/_modules.scss */
+/* line 342, ../_scss/_modules.scss */
 .ancient {
   background: #666666;
   border-bottom: 1px solid #ffffff;
@@ -1588,7 +1577,7 @@ hr {
   z-index: 1000000;
 }
 
-/* line 384, ../_scss/_modules.scss */
+/* line 357, ../_scss/_modules.scss */
 .ancient a,
 .ancient a:visited {
   color: #ffffff;

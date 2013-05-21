@@ -21,16 +21,12 @@
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
     <!-- jQuery UI Datepicker -->
-    <script src="/javascripts/vendor/datepicker/jquery-ui-custom.js"></script>
-    <link rel="stylesheet" href="/css/vendor/datepicker/jquery-ui-custom.css" />
+    <script src="/javascripts/vendor/jquery-ui-custom.js"></script>
+    <link rel="stylesheet" href="/css/vendor/jquery-ui/jquery-ui-custom.css" />
 
     <!-- jQuery FancyBox Modal -->
-    <script src="/javascripts/vendor/modal/jquery.fancybox.js"></script>
-    <link rel="stylesheet" href="/css/vendor/modal/jquery.fancybox.css" />
-
-    <!-- jQuery Magnific Popup -->
-    <script src="/javascripts/vendor/modal-monkey/jquery.magnific.js"></script>
-    <link rel="stylesheet" href="/css/vendor/modal-monkey/magnific.css" />
+    <script src="/javascripts/vendor/jquery.fancybox.js"></script>
+    <link rel="stylesheet" href="/css/vendor/fancybox/jquery.fancybox.css" />
 
   </head>
 
@@ -598,7 +594,6 @@
             </span>
           </a>
           <a href="#locations" class="fancybox location-picker">Change Location</a>
-          <a href="#locations" class="location-picker">Monkey</a>
         </div>
   
 
@@ -702,7 +697,7 @@
 </section>
 
 <!-- When Picker Modal -->
-<div id="locations" class="modal-picker mfp-hide">
+<div id="locations" class="modal-picker">
   <h3>Choose a Location</h3>
   <ul>
     <li>
@@ -729,9 +724,6 @@
 </div>
 
 
-
-
-
 <!-- When Picker -->
 
 <script>
@@ -754,14 +746,8 @@
   });
 </script>
 
-<!-- Where Picker -->
 
-<script>
-  $('.location-picker').magnificPopup({
-    type:'inline',
-    midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-  });
-</script>
+<!-- Where Picker -->
 
 <script>
   $(function() {
@@ -780,16 +766,11 @@
 
 
 
-
 </div>
 
     </div>
 
-    <div class="filmstrip">
-  <hr><hr><hr>
-  <br>
-  <hr><hr><hr>
-</div>
+    <hr class="filmstrip">
 
 <footer>
 

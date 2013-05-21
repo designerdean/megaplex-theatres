@@ -129,6 +129,7 @@ input[type="search"] {
 
 .modal-picker {
   background-color: #ffffff;
+  display: none;
   margin: 0 auto;
   max-width: 40em;
   padding: 1.5em 1em;
@@ -149,6 +150,9 @@ input[type="search"] {
       padding: 1em;
       width: 50%;
     }
+
+.fancybox-wrap {
+}
 
 // Ticket-Selection Form
 // ==========================================================================

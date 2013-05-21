@@ -1,9 +1,14 @@
 footer {
   @extend %clear-after;
-  @extend .wrapper;
+  // @extend .wrapper;
   color: #999999;
+  // padding-top: 7.5em;
   padding-bottom: 2em;
 }
+
+  .no-svg footer {
+    background-image: image-url("no-svg/filmstrip.svg");
+  }
 
   footer > div {
     font-size: 0.95em;
