@@ -321,7 +321,7 @@ MagnificPopup.prototype = {
 
     if(mfp.fixedContentPos) {
       if(!mfp.isIE7) {
-        bodyStyles.overflowY = 'hidden';
+        bodyStyles.overflow = 'hidden';
       } else {
         // ie7 double-scroll bug
         $('body, html').css('overflow', 'hidden');
@@ -418,11 +418,11 @@ MagnificPopup.prototype = {
     mfp._removeClassFromMFP(classesToRemove);
 
     if(mfp.fixedContentPos) {
-      // var bodyStyles = {paddingRight: 0};
+      var bodyStyles = {paddingRight: 0};
       if(mfp.isIE7) {
         $('body, html').css('overflow', 'auto');
       } else {
-        bodyStyles.overflowY = 'visible';
+        bodyStyles.overflow = 'visible';
       }
       _body.css(bodyStyles);
     }

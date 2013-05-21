@@ -18,7 +18,7 @@ $ ->
 # Ticket-Selection Process: Location Picker
 
 $ ->
-  $(".magnific").magnificPopup(closeOnContentClick: true, overflowY: 'hidden')
+  $(".magnific").magnificPopup(closeOnContentClick: true)
   $("#locations a").on "click", (e) ->
     e.preventDefault()
     $this = $(this)

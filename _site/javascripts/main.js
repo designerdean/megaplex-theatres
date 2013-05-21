@@ -18,8 +18,7 @@
 
   $(function() {
     $(".magnific").magnificPopup({
-      closeOnContentClick: true,
-      overflowY: 'hidden'
+      closeOnContentClick: true
     });
     return $("#locations a").on("click", function(e) {
       var $this, newClass, newName, span;
