@@ -24,6 +24,10 @@
     <script src="/javascripts/vendor/datepicker/jquery-ui-custom.js"></script>
     <link rel="stylesheet" href="/css/vendor/datepicker/jquery-ui-custom.css" />
 
+    <!-- jQuery FancyBox Modal -->
+    <script src="/javascripts/vendor/modal/jquery.fancybox.js"></script>
+    <link rel="stylesheet" href="/css/vendor/modal/jquery.fancybox.css" />
+
   </head>
 
   <body>
@@ -37,22 +41,22 @@
   <a href="/work-in-progress" class="screen-reader">Learn about our Descriptive Video Service (DVS) for visually-impaired guests</a>
   <a href="#content" class="screen-reader">Skip to content</a>
 
-  <p class="tagline">
-    <b>Vintage theatre service, modern cinema technology.</b>
-    Why Megaplex? <a href="/work-in-progress">100% reserved seating</a>.
-  </p>
+  <div>
 
-  <div class="utilities">
-    <p><a href="/work-in-progress">Login</a> or <a href="/work-in-progress">Create an Account</a></p>
-    <form id="search-form">
-      <label id="search-label" for="search-input" class="screen-reader">Search</label>
-      <input id="search-input" type="search" aria-labelledby="search-label" class="search-field" placeholder="Search" value="">
-      <!-- <input type="submit" value="Search" class="button"> -->
-      <span class="clarify-field">for movies, locations, anything</span>
-    </form>
-  </div>
+    <p class="tagline">
+      <b>Vintage theatre service, modern cinema technology.</b>
+      Why Megaplex? <a href="/work-in-progress">100% reserved seating</a>.
+    </p>
 
-</header>
+    <div class="utilities">
+      <p><a href="/work-in-progress">Login</a> or <a href="/work-in-progress">Create an Account</a></p>
+      <form id="search-form">
+        <label id="search-label" for="search-input" class="screen-reader">Search</label>
+        <input id="search-input" type="search" aria-labelledby="search-label" class="search-field" placeholder="Search" value="">
+        <!-- <input type="submit" value="Search" class="button"> -->
+      </form>
+    </div>
+
     <nav>
   <ul>
 
@@ -508,6 +512,10 @@
   </ul>
 </nav>
 
+  </div>
+
+</header>
+
     <div id="content" class="content">
       <ol class="breadcrumbs">
   <li><a href="/">Home</a> &gt;</li>
@@ -523,9 +531,9 @@
 
     <div class="poster-container">
       <img src="/images/movies/large/the-great-gatsby.jpg" alt="Movie poster for The Great Gatsby" class="poster">
-      <div class="rating-container">
-        <span aria-hidden="true" data-icon="&#x33;"></span>
-        <p>Rated PG-13 for some violent images, sexual content, smoking, partying and brief language.</p>
+      <!-- Ad Space -->
+      <div class="ad">
+        This is ad space. It can be any height, short or tall.
       </div>
     </div>
 
@@ -543,16 +551,16 @@
         <dd><a href="/work-in-progress">Watch the trailer</a></dd>
       </dl>
       <hr>
+      <div class="rating-container">
+        <span aria-hidden="true" data-icon="&#x33;"></span>
+        <p>Rated PG-13 for some violent images, sexual content, smoking, partying and brief language.</p>
+      </div>
+      <hr>
       <h3>Share</h3>
       <p class="button-row">
         <a href="/work-in-progress" class="button pair"><span aria-hidden="true" data-icon="&#x74;" class="twitter"></span>Tweet</a>
         <a href="/work-in-progress" class="button pair"><span aria-hidden="true" data-icon="&#x66;" class="facebook"></span>Share</a>
       </p>
-    </div>
-
-    <!-- Ad Space -->
-    <div class="ad">
-      This is ad space. It can be any height, short or tall.
     </div>
 
   </section>
@@ -680,7 +688,7 @@
         <!-- Button -->
 
         <p class="button-row">
-          <a href="/confirmation" class="button">Buy Tickets</a>
+          <a href="/confirmation" class="button purple">Buy Tickets</a>
         </p>
   
       </fieldset>
@@ -710,7 +718,6 @@
     $(".calendar").datepicker('setDate', new Date());
   });
 </script>
-
 
 
 </div>

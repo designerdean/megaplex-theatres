@@ -5,3 +5,67 @@ title: Work in Progress
 
 <h1>Work in Progress</h1>
 {% include _soon.html %}
+
+<a href="#locations" class="fancybox">
+  <img src="{{ site.baseurl }}images/locations/small/ogden-the-junction.jpg" alt="Ogden - The Junction">
+</a>
+
+<ul id="locations" class="modal-grid">
+  <!--
+  <li>
+    <img src="{{ site.baseurl }}images/locations/small/ogden-the-junction.jpg" alt="Ogden - The Junction">
+    <figcaption>Ogden - The Junction</figcaption>
+  </li>
+  -->
+  <li>
+    <a href="{{ site.baseurl }}work-in-progress">
+      <img src="{{ site.baseurl }}images/movies/small/after-earth.jpg" alt="Movie poster for After Earth" class="poster-thumb">
+      <br>
+      <span>After Earth</span>
+    </a>
+  </li>
+  <li>
+    <a href="{{ site.baseurl }}work-in-progress">
+      <img src="{{ site.baseurl }}images/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" alt="Movie poster for Cloudy with a Chance of Meatballs 2" class="poster-thumb">
+      <br>
+      <span>Cloudy with a Chance of Meatballs 2</span>
+    </a>
+  </li>
+  <li>
+    <a href="{{ site.baseurl }}movies/the-great-gatsby">
+      <img src="{{ site.baseurl }}images/movies/small/the-great-gatsby.jpg" alt="Movie poster for The Great Gatsby" class="poster-thumb">
+      <br>
+      <span>The Great Gatsby</span>
+    </a>
+  </li>
+  <li>
+    <a href="{{ site.baseurl }}work-in-progress">
+      <img src="{{ site.baseurl }}images/movies/small/the-hangover-part-iii.jpg" alt="Movie poster for The Hangover" class="poster-thumb">
+      <br>
+      <span>The Hangover Part III</span>
+    </a>
+  </li>
+  <li>
+    <a href="{{ site.baseurl }}movies/the-hunger-games-catching-fire">
+      <img src="{{ site.baseurl }}images/movies/small/the-hunger-games-catching-fire.jpg" alt="Movie poster for The Hunger Games: Catching Fire" class="poster-thumb">
+      <br>
+      <span>The Hunger Games: Catching Fire</span>
+    </a>
+  </li>
+</ul>
+
+<script>
+  $(function() {
+    var fancybox = $(".fancybox").fancybox();
+
+    $('#locations a').on('click', function(e) {
+      e.preventDefault();
+      var $this = $(this),
+          img = $this.find('img'),
+          src = img.attr('src'),
+          alt = img.attr('alt');
+      $('.fancybox').find('img').attr('src', src).attr('alt', alt);
+      $.fancybox.close(true);
+    });
+  });
+</script>

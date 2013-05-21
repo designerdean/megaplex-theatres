@@ -29,13 +29,14 @@
   .movies > ul {
     font-size: 0.8em;
     list-style-type: none;
+    margin-bottom: 0;
   }
 
     .movies > ul > li {
       display: inline-block;
       margin: 0 0.25%;
-      padding: 0.8em 0.8%;
-      width: 15.5%;
+      padding: 0.8em 0.4em;
+      width: 15.7%;
     }
 
       .movies a,
@@ -171,8 +172,7 @@
 
   .rating-container {
     display: block;
-    margin-bottom: 2em;
-    padding: 0 0.5em;
+    margin-bottom: 1em;
   }
 
     .rating-container > span {
@@ -189,6 +189,7 @@
       font-size: 0.8em;
       height: 100%;
       line-height: 1.3em;
+      margin-bottom: 0;
       vertical-align: middle;
     }
 
@@ -260,17 +261,32 @@
 .ad {
   background-color: $color-base-2;
   clear: both;
-  margin-top: 2em;
-  padding: 1.5em 2em;
+  color: #666666;
+  padding: 1.5em;
 }
 
 // Individual Location Page - Left Content Area
 // ==========================================================================
 
-.location {
-  @extend .wide;
-  @extend .left;
+.hero {
+  @extend .row;
+  background-color: $color-base-2;
 }
+
+  .hero > img {
+    float: left;
+    margin-right: 2em;
+  }
+
+  .hero .icon-list {
+    margin: 0 4% 0 0;
+    padding-top: 0.7em;
+  }
+
+    .hero .icon-list .icon-list-item {
+      padding-top: 0.8em;
+      padding-bottom: 0.8em;
+    }
 
 // Individual Location Page - Right Sidebar
 // ==========================================================================

@@ -24,6 +24,10 @@
     <script src="/javascripts/vendor/datepicker/jquery-ui-custom.js"></script>
     <link rel="stylesheet" href="/css/vendor/datepicker/jquery-ui-custom.css" />
 
+    <!-- jQuery FancyBox Modal -->
+    <script src="/javascripts/vendor/modal/jquery.fancybox.js"></script>
+    <link rel="stylesheet" href="/css/vendor/modal/jquery.fancybox.css" />
+
   </head>
 
   <body>
@@ -37,22 +41,22 @@
   <a href="/work-in-progress" class="screen-reader">Learn about our Descriptive Video Service (DVS) for visually-impaired guests</a>
   <a href="#content" class="screen-reader">Skip to content</a>
 
-  <p class="tagline">
-    <b>Vintage theatre service, modern cinema technology.</b>
-    Why Megaplex? <a href="/work-in-progress">100% reserved seating</a>.
-  </p>
+  <div>
 
-  <div class="utilities">
-    <p><a href="/work-in-progress">Login</a> or <a href="/work-in-progress">Create an Account</a></p>
-    <form id="search-form">
-      <label id="search-label" for="search-input" class="screen-reader">Search</label>
-      <input id="search-input" type="search" aria-labelledby="search-label" class="search-field" placeholder="Search" value="">
-      <!-- <input type="submit" value="Search" class="button"> -->
-      <span class="clarify-field">for movies, locations, anything</span>
-    </form>
-  </div>
+    <p class="tagline">
+      <b>Vintage theatre service, modern cinema technology.</b>
+      Why Megaplex? <a href="/work-in-progress">100% reserved seating</a>.
+    </p>
 
-</header>
+    <div class="utilities">
+      <p><a href="/work-in-progress">Login</a> or <a href="/work-in-progress">Create an Account</a></p>
+      <form id="search-form">
+        <label id="search-label" for="search-input" class="screen-reader">Search</label>
+        <input id="search-input" type="search" aria-labelledby="search-label" class="search-field" placeholder="Search" value="">
+        <!-- <input type="submit" value="Search" class="button"> -->
+      </form>
+    </div>
+
     <nav>
   <ul>
 
@@ -508,9 +512,77 @@
   </ul>
 </nav>
 
+  </div>
+
+</header>
+
     <div id="content" class="content">
       <h1>Work in Progress</h1>
 <p>This website is still a work in progress, and this page appears to be unfinished. Please come back at a later date, or <a href="/">return to the homepage</a>.</p>
+
+<a href="#locations" class="fancybox">
+  <img src="/images/locations/small/ogden-the-junction.jpg" alt="Ogden - The Junction">
+</a>
+
+<ul id="locations" class="modal-grid">
+  <!--
+  <li>
+    <img src="/images/locations/small/ogden-the-junction.jpg" alt="Ogden - The Junction">
+    <figcaption>Ogden - The Junction</figcaption>
+  </li>
+  -->
+  <li>
+    <a href="/work-in-progress">
+      <img src="/images/movies/small/after-earth.jpg" alt="Movie poster for After Earth" class="poster-thumb">
+      <br>
+      <span>After Earth</span>
+    </a>
+  </li>
+  <li>
+    <a href="/work-in-progress">
+      <img src="/images/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" alt="Movie poster for Cloudy with a Chance of Meatballs 2" class="poster-thumb">
+      <br>
+      <span>Cloudy with a Chance of Meatballs 2</span>
+    </a>
+  </li>
+  <li>
+    <a href="/movies/the-great-gatsby">
+      <img src="/images/movies/small/the-great-gatsby.jpg" alt="Movie poster for The Great Gatsby" class="poster-thumb">
+      <br>
+      <span>The Great Gatsby</span>
+    </a>
+  </li>
+  <li>
+    <a href="/work-in-progress">
+      <img src="/images/movies/small/the-hangover-part-iii.jpg" alt="Movie poster for The Hangover" class="poster-thumb">
+      <br>
+      <span>The Hangover Part III</span>
+    </a>
+  </li>
+  <li>
+    <a href="/movies/the-hunger-games-catching-fire">
+      <img src="/images/movies/small/the-hunger-games-catching-fire.jpg" alt="Movie poster for The Hunger Games: Catching Fire" class="poster-thumb">
+      <br>
+      <span>The Hunger Games: Catching Fire</span>
+    </a>
+  </li>
+</ul>
+
+<script>
+  $(function() {
+    var fancybox = $(".fancybox").fancybox();
+
+    $('#locations a').on('click', function(e) {
+      e.preventDefault();
+      var $this = $(this),
+          img = $this.find('img'),
+          src = img.attr('src'),
+          alt = img.attr('alt');
+      $('.fancybox').find('img').attr('src', src).attr('alt', alt);
+      $.fancybox.close(true);
+    });
+  });
+</script>
 
     </div>
 

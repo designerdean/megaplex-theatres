@@ -24,6 +24,10 @@
     <script src="/javascripts/vendor/datepicker/jquery-ui-custom.js"></script>
     <link rel="stylesheet" href="/css/vendor/datepicker/jquery-ui-custom.css" />
 
+    <!-- jQuery FancyBox Modal -->
+    <script src="/javascripts/vendor/modal/jquery.fancybox.js"></script>
+    <link rel="stylesheet" href="/css/vendor/modal/jquery.fancybox.css" />
+
   </head>
 
   <body>
@@ -37,22 +41,22 @@
   <a href="/work-in-progress" class="screen-reader">Learn about our Descriptive Video Service (DVS) for visually-impaired guests</a>
   <a href="#content" class="screen-reader">Skip to content</a>
 
-  <p class="tagline">
-    <b>Vintage theatre service, modern cinema technology.</b>
-    Why Megaplex? <a href="/work-in-progress">100% reserved seating</a>.
-  </p>
+  <div>
 
-  <div class="utilities">
-    <p><a href="/work-in-progress">Login</a> or <a href="/work-in-progress">Create an Account</a></p>
-    <form id="search-form">
-      <label id="search-label" for="search-input" class="screen-reader">Search</label>
-      <input id="search-input" type="search" aria-labelledby="search-label" class="search-field" placeholder="Search" value="">
-      <!-- <input type="submit" value="Search" class="button"> -->
-      <span class="clarify-field">for movies, locations, anything</span>
-    </form>
-  </div>
+    <p class="tagline">
+      <b>Vintage theatre service, modern cinema technology.</b>
+      Why Megaplex? <a href="/work-in-progress">100% reserved seating</a>.
+    </p>
 
-</header>
+    <div class="utilities">
+      <p><a href="/work-in-progress">Login</a> or <a href="/work-in-progress">Create an Account</a></p>
+      <form id="search-form">
+        <label id="search-label" for="search-input" class="screen-reader">Search</label>
+        <input id="search-input" type="search" aria-labelledby="search-label" class="search-field" placeholder="Search" value="">
+        <!-- <input type="submit" value="Search" class="button"> -->
+      </form>
+    </div>
+
     <nav>
   <ul>
 
@@ -508,6 +512,10 @@
   </ul>
 </nav>
 
+  </div>
+
+</header>
+
     <div id="content" class="content">
       <ol class="breadcrumbs">
   <li><a href="/">Home</a> &gt;</li>
@@ -517,37 +525,33 @@
 
 <h1>Ogden - The Junction</h1>
 
-<div class="row">
+<div class="hero">
 
-  <section class="wide left">
-    <img src="/images/locations/clear/ogden-the-junction.jpg" alt="Photograph of the Megaplex location at Ogden - The Junction" class="poster">
-  </section>
+  <img src="/images/locations/large/ogden-the-junction.jpg" alt="Photograph of the Megaplex location at Ogden - The Junction">
 
-  <section class="narrow">
-    <ul class="icon-list large">
-      <li class="icon-list-item">
-        <span aria-hidden="true" data-icon="&#x25bd;"></span>
-        <p class="icon-list-content">
-          <b>Address</b>
-          2351 Kiesel Avenue<br>
-          Ogden, UT 84401<br>
-          <a href="https://maps.google.com/maps?q=Megaplex+Theatres+at+The+Junction,+Kiesel+Avenue,+Ogden,+UT&hl=en&ll=41.224747,-111.971519&spn=0.010022,0.015525&sll=41.223016,-111.97189&sspn=0.010023,0.015525&oq=megaplex+theatre&hq=Megaplex+Theatres+at+The+Junction,&hnear=Kiesel+Ave,+Ogden,+Utah&t=m&z=17&iwloc=A" target="_blank" class="icon-list-cta">Map it</a>
-        </p>
-      </li>
-      <li class="icon-list-item">
-        <span aria-hidden="true" data-icon="&#x260e;"></span>
-        <div class="icon-list-content">
-          <b>Telephone</b>
-          <dl>
-            <dt>Guest Services:</dt>
-            <dd>801 528 5800</dd>
-            <dt>Move Time Info:</dt>
-            <dd>801 304 4636</dd>
-          </dl>
-        </div>
-      </li>
-    </ul>
-  </section>
+  <ul class="icon-list large">
+    <li class="icon-list-item">
+      <span aria-hidden="true" data-icon="&#x25bd;"></span>
+      <p class="icon-list-content">
+        <b>Address</b>
+        2351 Kiesel Avenue<br>
+        Ogden, UT 84401<br>
+        <a href="https://maps.google.com/maps?q=Megaplex+Theatres+at+The+Junction,+Kiesel+Avenue,+Ogden,+UT&hl=en&ll=41.224747,-111.971519&spn=0.010022,0.015525&sll=41.223016,-111.97189&sspn=0.010023,0.015525&oq=megaplex+theatre&hq=Megaplex+Theatres+at+The+Junction,&hnear=Kiesel+Ave,+Ogden,+Utah&t=m&z=17&iwloc=A" target="_blank" class="icon-list-cta">Map it</a>
+      </p>
+    </li>
+    <li class="icon-list-item">
+      <span aria-hidden="true" data-icon="&#x260e;"></span>
+      <div class="icon-list-content">
+        <b>Telephone</b>
+        <dl>
+          <dt>Guest Services:</dt>
+          <dd>801 528 5800</dd>
+          <dt>Move Time Info:</dt>
+          <dd>801 304 4636</dd>
+        </dl>
+      </div>
+    </li>
+  </ul>
 
 </div>
 

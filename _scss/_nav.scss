@@ -2,6 +2,7 @@ nav {
   @extend .wrapper;
   margin-bottom: 1.4em;
   text-align: right;
+  width: 100%;
   z-index: 1;
 }
 
@@ -11,24 +12,30 @@ nav {
     float: right;
     font-size: 1.1em;
     overflow: visible;
-    padding: 0 0.7em;
+    padding: 0 1%;
+    width: 100%;
   }
 
     nav > ul > li {
       @include inline-block-list-item;
       color: #ffffff;
+      display: block;
+      float: left;
       letter-spacing: 1px;
       position: relative;
       text-transform: uppercase;
+      width: 14.28571428571429%;
     }
 
       nav a,
       nav a:visited {
         @include single-transition(background, 0.1s, linear);
         color: #ffffff;
-        display: inline-block;
-        padding: 0.4em 0.5em 0.3em 0.5em;
+        display: block;
+        padding: 0.4em 0 0.3em 0;
+        text-align: center;
         text-decoration: none;
+        width: 100%;
       }
 
         .no-touch nav a:hover {
@@ -72,6 +79,7 @@ nav {
     .nav-sub a,
     .nav-sub a:visited {
       padding: 0 0.5em;
+      text-align: left;
     }
 
       .no-touch .nav-sub a:hover {
