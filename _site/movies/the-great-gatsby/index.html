@@ -28,6 +28,9 @@
     <script src="/javascripts/vendor/jquery.fancybox.js"></script>
     <link rel="stylesheet" href="/css/vendor/fancybox/jquery.fancybox.css" />
 
+    <!-- Site JS -->
+    <script src="/javascripts/main.js"></script>
+
   </head>
 
   <body>
@@ -576,9 +579,9 @@
         <!-- When -->
 
         <div class="tickets-when">
-          <label class="label-large" for="datepicker">When</label>
-          <input type="text" id="datepicker-alt" class="calendar month" readonly onclick="document.getElementById('datepicker').focus();">
-          <input type="text" id="datepicker" class="calendar day" readonly>
+          <label class="label-large" for="datepicker-day">When</label>
+          <input type="text" id="datepicker-month" class="calendar month" readonly onclick="document.getElementById('datepicker').focus();">
+          <input type="text" id="datepicker-day" class="calendar day" readonly>
         </div>
 
         <!-- Where -->
@@ -724,50 +727,6 @@
 </div>
 
 
-<!-- When Picker -->
-
-<script>
-  $(function() {
-    $( "#datepicker" ).datepicker({
-      // dateFormat: "M d D",
-      dateFormat: "d",
-      altField: "#datepicker-alt",
-      altFormat: "M",
-      showOn: "both",
-      buttonText: "Change Date",
-      minDate: 0
-    });
-  });
-</script>
-
-<script>
-  $(function() {
-    $(".calendar").datepicker('setDate', new Date());
-  });
-</script>
-
-
-<!-- Where Picker -->
-
-<script>
-  $(function() {
-    var fancybox = $(".fancybox").fancybox();
-
-    $('#locations a').on('click', function(e) {
-      e.preventDefault();
-      var $this = $(this),
-          span = $this.find('span'),
-          newClass = span.attr('class'),
-          newName = span.find('span').html();
-          // figcaption = $this.find('figcaption');
-      $('#location-picker > span').attr('class', newClass).find('span').html(newName);
-      $.fancybox.close(true);
-    });
-  });
-</script>
-
-
-
 </div>
 
     </div>
@@ -829,13 +788,14 @@
 
 </footer>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
     </script>
+     -->
 
   </body>
 </html>
