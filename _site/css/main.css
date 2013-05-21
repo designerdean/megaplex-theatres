@@ -1134,50 +1134,43 @@ nav a.active {
 
 /* line 53, ../_scss/_nav.scss */
 .nav-sub {
-  -webkit-transition: all 0.1s linear;
-  -moz-transition: all 0.1s linear;
-  -ms-transition: all 0.1s linear;
-  -o-transition: all 0.1s linear;
-  transition: all 0.1s linear;
   background-color: #a8a4aa;
   border-top: 0.5em solid #ffcb07;
   border-bottom: 0.5em solid #ffcb07;
-  opacity: 0;
+  display: none;
   padding: 1.3em 1em 0 1em;
   position: absolute;
   top: 100%;
   left: 0;
   text-align: left;
-  visibility: hidden;
   z-index: 1;
 }
 
-/* line 68, ../_scss/_nav.scss */
+/* line 66, ../_scss/_nav.scss */
 .nav-sub > ul {
   margin-bottom: 1.3em;
 }
 
-/* line 72, ../_scss/_nav.scss */
+/* line 70, ../_scss/_nav.scss */
 .nav-sub > ul > li {
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   display: block;
   padding: 0;
   text-transform: none;
 }
 
-/* line 80, ../_scss/_nav.scss */
+/* line 78, ../_scss/_nav.scss */
 .nav-sub a,
 .nav-sub a:visited {
   padding: 0 0.5em;
   text-align: left;
 }
 
-/* line 91, ../_scss/_nav.scss */
+/* line 89, ../_scss/_nav.scss */
 nav > ul > li:hover > .nav-sub {
-  opacity: 1;
-  visibility: visible;
+  display: block;
 }
 
 /* line 1, ../_scss/_footer.scss */

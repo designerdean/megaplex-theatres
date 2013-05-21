@@ -51,17 +51,15 @@ nav {
 // ==========================================================================
 
 .nav-sub {
-  @include single-transition(all, 0.1s, linear);
   background-color: $color-base-3;
   border-top: 0.5em solid $color-gold;
   border-bottom: 0.5em solid $color-gold;
-  opacity: 0;
+  display: none;
   padding: 1.3em 1em 0 1em;
   position: absolute;
     top: 100%;
     left: 0;
   text-align: left;
-  visibility: hidden;
   z-index: 1;
 }
 
@@ -70,7 +68,7 @@ nav {
   }
 
     .nav-sub > ul > li {
-      @include font-source-regular;
+      @include font-source-light;
       display: block;
       padding: 0;
       text-transform: none;
@@ -89,6 +87,5 @@ nav {
 // Show on Hover
 
 nav > ul > li:hover > .nav-sub {
-  opacity: 1;
-  visibility: visible;
+  display: block;
 }
