@@ -111,7 +111,6 @@ html {
 /* line 14, ../_scss/_grid.scss */
 body {
   height: 100%;
-  overflow-x: hidden;
   padding: 0 5%;
 }
 
@@ -809,95 +808,114 @@ input[type="text"].calendar.day {
   width: 66%;
 }
 
-/* line 213, ../_scss/_forms.scss */
-.tickets-location {
+/* line 214, ../_scss/_forms.scss */
+a.tickets-location,
+a.tickets-location:visited {
   color: #e5e5e5;
   cursor: pointer;
   display: table-row;
   height: 8.2em;
   margin-bottom: 0.2em;
   text-align: center;
+  text-decoration: none;
 }
 
-/* line 222, ../_scss/_forms.scss */
-.tickets-location.ogden-the-junction {
-  background: url('../images/locations/small/ogden-the-junction.jpg?1368908104') no-repeat top center;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 222, ../_scss/_forms.scss */
-  .tickets-location.ogden-the-junction {
-    background-image: url('../images/locations/small/ogden-the-junction@2x.jpg?1368908104');
-    background-size: 288px 165px;
-  }
-}
-
-/* line 227, ../_scss/_forms.scss */
+/* line 224, ../_scss/_forms.scss */
 .tickets-location > span {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  background-color: rgba(0, 0, 0, 0.4);
   display: table-cell;
   font-size: 1.8em;
   font-style: normal;
   line-height: 1.2em;
   padding: 0.4em;
+  position: relative;
   text-align: center;
   vertical-align: middle;
   width: 12em;
 }
 
-/* line 243, ../_scss/_forms.scss */
-.no-rgba .tickets-location > span {
-  background-color: #000000;
+/* line 237, ../_scss/_forms.scss */
+.tickets-location > span:after {
+  background-color: rgba(0, 0, 0, 0.4);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
-/* line 249, ../_scss/_forms.scss */
+/* line 247, ../_scss/_forms.scss */
+.no-rgba .tickets-location > span:after {
+  background: url('../images/no-rgba/black-40.png?1369104949') repeat;
+}
+
+/* line 251, ../_scss/_forms.scss */
+.tickets-location .ogden-the-junction {
+  background: url('../images/locations/small/ogden-the-junction.jpg?1368908104') no-repeat top center;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
+  /* line 251, ../_scss/_forms.scss */
+  .tickets-location .ogden-the-junction {
+    background-image: url('../images/locations/small/ogden-the-junction@2x.jpg?1368908104');
+    background-size: 288px 165px;
+  }
+}
+
+/* line 256, ../_scss/_forms.scss */
+.tickets-location > span > span {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 263, ../_scss/_forms.scss */
 .tickets-format {
   border-top: 0.3em dashed #f6f8f8;
   clear: both;
   padding: 1.2em 0;
 }
 
-/* line 257, ../_scss/_forms.scss */
+/* line 271, ../_scss/_forms.scss */
 .time {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
 }
 
-/* line 264, ../_scss/_forms.scss */
+/* line 278, ../_scss/_forms.scss */
 .tickets-quantity {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
   text-align: center;
 }
 
-/* line 270, ../_scss/_forms.scss */
+/* line 284, ../_scss/_forms.scss */
 .tickets-quantity > .label-large {
   display: inline;
   vertical-align: middle;
 }
 
-/* line 277, ../_scss/_forms.scss */
+/* line 291, ../_scss/_forms.scss */
 .tickets-hint {
   margin-top: 0.5em;
   margin-bottom: 0;
   text-align: right;
 }
 
-/* line 291, ../_scss/_forms.scss */
+/* line 305, ../_scss/_forms.scss */
 .picker-container {
   margin-top: 1.2em;
 }
 
-/* line 296, ../_scss/_forms.scss */
+/* line 310, ../_scss/_forms.scss */
 .picker-container > label {
   font-size: 1.3em;
   margin-right: 0.3em;
   vertical-align: middle;
 }
 
-/* line 303, ../_scss/_forms.scss */
+/* line 317, ../_scss/_forms.scss */
 .picker-container > input[type="text"] {
   width: 15em;
 }

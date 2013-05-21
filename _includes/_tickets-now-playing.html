@@ -10,7 +10,7 @@
 
         <div class="tickets-when">
           <label class="label-large" for="datepicker">When</label>
-          <input type="text" id="alt" class="calendar month" readonly onclick="document.getElementById('datepicker').focus();">
+          <input type="text" id="datepicker-alt" class="calendar month" readonly onclick="document.getElementById('datepicker').focus();">
           <input type="text" id="datepicker" class="calendar day" readonly>
         </div>
 
@@ -18,17 +18,15 @@
 
         <div class="tickets-where">
           <label class="label-large" for="location-picker">Where</label>
-          <span class="tickets-location ogden-the-junction">
-            <span>
-              Ogden<br>
-              The Junction
-            </span>
-          </span>
-          <!-- <button type="button" class="trigger-focus">Change Location</button> -->
-          <select id="location-picker" class="location-picker">
-            <option value="Change Location" selected>Change Location</option>
-            <option value="Ogden - The Junction">Ogden - The Junction</option>
-          </select>
+          <a href="#locations" id="location-picker" class="fancybox tickets-location">
+            <span class="ogden-the-junction">
+              <span>
+                Ogden<br>
+                The Junction
+              </span>
+            </span>            
+          </a>
+          <a href="#locations" class="fancybox location-picker">Change Location</a>
         </div>
   
         <!-- Format -->
@@ -130,14 +128,32 @@
   </div>
 </section>
 
-<!-- Date Picker -->
-  
+<!-- When Picker Modal -->
+
+<ul id="locations" class="modal-grid">
+  <li>
+    <a href="" class="ogden-the-junction">
+      <img src="{{ site.baseurl }}images/locations/small/ogden-the-junction.jpg" alt="Ogden - The Junction">
+      <figcaption>Ogden - The Junction</figcaption>
+    </a>
+  </li>
+  <li>
+    <a href="{{ site.baseurl }}work-in-progress" class="other-1">
+      <img src="{{ site.baseurl }}images/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" alt="Movie poster for Cloudy with a Chance of Meatballs 2">
+      <br>
+      <span>Cloudy with a Chance of Meatballs 2</span>
+    </a>
+  </li>
+</ul>
+
+<!-- When Picker -->
+
 <script>
   $(function() {
     $( "#datepicker" ).datepicker({
       // dateFormat: "M d D",
       dateFormat: "d",
-      altField: "#alt",
+      altField: "#datepicker-alt",
       altFormat: "M",
       showOn: "both",
       buttonText: "Change Date",
@@ -149,5 +165,22 @@
 <script>
   $(function() {
     $(".calendar").datepicker('setDate', new Date());
+  });
+</script>
+
+
+<!-- Where Picker -->
+
+<script>
+  $(function() {
+    var fancybox = $(".fancybox").fancybox();
+
+    $('#locations a').on('click', function(e) {
+      e.preventDefault();
+      var $this = $(this),
+          newClass = $this.attr('class');
+      $('#location-picker > span').attr('class', newClass);
+      $.fancybox.close(true);        
+    });
   });
 </script>
