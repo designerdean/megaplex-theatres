@@ -10,11 +10,10 @@ a.button:visited {
   @include font-etica-semibold;
   @include transition(background-color 0.15s linear, color 0.15s linear);
   background-color: lighten($color-gold, 15%);
-  // color: darken($color-gold, 28%);
   color: #5e5e5e;
   display: inline-block;
   font-size: 1.3em;
-  letter-spacing: 0.1em;
+  letter-spacing: 1px;
   padding: 0.5em 2em 0.4em 2em;
   position: relative;
   text-decoration: none;
@@ -22,17 +21,25 @@ a.button:visited {
   white-space: nowrap;
 }
 
-  .button.purple {
+  .no-touch .button:hover,
+  .no-touch a.button:hover {
+    background-color: lighten($color-gold, 5%);
+  }
+
+  // Purple Button
+  
+  .button.purple,
+  a.button.purple,
+  a.button.purple:visited {
     @include font-etica-regular;
     background-color: $color-purple;
     color: #ffffff;
   }
 
-  .no-touch .button:hover,
-  .no-touch a.button:hover {
-    background-color: lighten($color-gold, 15%);
-    color: darken($color-gold, 34%);
-  }
+    .no-touch .button.purple:hover,
+    .no-touch a.button.purple:hover {
+      background-color: lighten($color-purple, 5%);
+    }
 
   .button.pair {
     margin-right: 0.2em;

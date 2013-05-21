@@ -455,7 +455,7 @@ a.button:visited {
   color: #5e5e5e;
   display: inline-block;
   font-size: 1.3em;
-  letter-spacing: 0.1em;
+  letter-spacing: 1px;
   padding: 0.5em 2em 0.4em 2em;
   position: relative;
   text-decoration: none;
@@ -464,7 +464,15 @@ a.button:visited {
 }
 
 /* line 25, ../_scss/_links.scss */
-.button.purple {
+.no-touch .button:hover,
+.no-touch a.button:hover {
+  background-color: #ffd021;
+}
+
+/* line 33, ../_scss/_links.scss */
+.button.purple,
+a.button.purple,
+a.button.purple:visited {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -472,37 +480,36 @@ a.button:visited {
   color: #ffffff;
 }
 
-/* line 32, ../_scss/_links.scss */
-.no-touch .button:hover,
-.no-touch a.button:hover {
-  background-color: #ffdb53;
-  color: #594600;
+/* line 40, ../_scss/_links.scss */
+.no-touch .button.purple:hover,
+.no-touch a.button.purple:hover {
+  background-color: #7c31a4;
 }
 
-/* line 37, ../_scss/_links.scss */
+/* line 44, ../_scss/_links.scss */
 .button.pair {
   margin-right: 0.2em;
   padding-right: 1em;
   padding-left: 1em;
 }
 
-/* line 43, ../_scss/_links.scss */
+/* line 50, ../_scss/_links.scss */
 .button.pair + .button.pair {
   margin-left: 0.2em;
   margin-right: 0;
 }
 
-/* line 48, ../_scss/_links.scss */
+/* line 55, ../_scss/_links.scss */
 .button-row {
   text-align: center;
 }
 
-/* line 52, ../_scss/_links.scss */
+/* line 59, ../_scss/_links.scss */
 .button > span {
   margin-right: 0.4em;
 }
 
-/* line 58, ../_scss/_links.scss */
+/* line 65, ../_scss/_links.scss */
 .breadcrumbs {
   margin: 0;
   padding: 0;
@@ -528,17 +535,17 @@ a.button:visited {
   *display: inline;
 }
 
-/* line 63, ../_scss/_links.scss */
+/* line 70, ../_scss/_links.scss */
 .breadcrumbs > li {
   padding-right: 0.3em;
 }
 
-/* line 67, ../_scss/_links.scss */
+/* line 74, ../_scss/_links.scss */
 .breadcrumbs > li > a {
   padding-right: 0.3em;
 }
 
-/* line 71, ../_scss/_links.scss */
+/* line 78, ../_scss/_links.scss */
 .breadcrumbs a:visited {
   color: #6d2b90;
 }
