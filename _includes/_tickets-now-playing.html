@@ -27,8 +27,10 @@
             </span>
           </a>
           <a href="#locations" class="fancybox location-picker">Change Location</a>
+          <a href="#locations" class="location-picker">Monkey</a>
         </div>
   
+
         <!-- Format -->
 
         <div class="tickets-format">
@@ -129,7 +131,7 @@
 </section>
 
 <!-- When Picker Modal -->
-<div id="locations" class="modal-picker">
+<div id="locations" class="modal-picker mfp-hide">
   <h3>Choose a Location</h3>
   <ul>
     <li>
@@ -155,6 +157,10 @@
   </ul>
 </div>
 
+
+
+
+
 <!-- When Picker -->
 
 <script>
@@ -177,8 +183,14 @@
   });
 </script>
 
-
 <!-- Where Picker -->
+
+<script>
+  $('.location-picker').magnificPopup({
+    type:'inline',
+    midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+  });
+</script>
 
 <script>
   $(function() {
@@ -194,3 +206,5 @@
     });
   });
 </script>
+
+

@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 58, ../_scss/_bits.scss */
-.wrapper:after, .content:after, header:after, nav:after, footer:after, .row:after, .picker-container:after, .hero:after, .wide:after, .hot-deals:after, .movie:after, dl:after, .tickets-where:after, .select-location:after, .movies:after {
+.wrapper:after, .content:after, header:after, nav:after, footer:after, .row:after, .picker-container:after, .hero:after, .wide:after, .hot-deals:after, .movie:after, dl:after, .modal-picker > ul:after, .tickets-where:after, .select-location:after, .movies:after {
   content: "";
   display: table;
   clear: both;
@@ -693,38 +693,41 @@ input[type="search"] {
 
 /* line 130, ../_scss/_forms.scss */
 .modal-picker {
-  display: none;
+  background-color: #ffffff;
+  margin: 0 auto;
+  max-width: 40em;
+  padding: 1.5em 1em;
 }
 
-/* line 134, ../_scss/_forms.scss */
+/* line 137, ../_scss/_forms.scss */
 .modal-picker > h3 {
   text-align: center;
 }
 
-/* line 138, ../_scss/_forms.scss */
+/* line 141, ../_scss/_forms.scss */
 .modal-picker > ul {
   margin-bottom: 0;
 }
 
-/* line 142, ../_scss/_forms.scss */
+/* line 146, ../_scss/_forms.scss */
 .modal-picker > ul > li {
-  border: 1em solid #f9f9f9;
   display: inline-block;
   float: left;
+  padding: 1em;
   width: 50%;
 }
 
-/* line 152, ../_scss/_forms.scss */
+/* line 156, ../_scss/_forms.scss */
 .tickets fieldset {
   margin-bottom: 1em;
 }
 
-/* line 156, ../_scss/_forms.scss */
+/* line 160, ../_scss/_forms.scss */
 .tickets .label-large {
   font-size: 1.3em;
 }
 
-/* line 162, ../_scss/_forms.scss */
+/* line 166, ../_scss/_forms.scss */
 .ui-datepicker-trigger,
 .location-picker {
   -webkit-appearance: none;
@@ -753,7 +756,7 @@ input[type="search"] {
   width: 100%;
 }
 
-/* line 183, ../_scss/_forms.scss */
+/* line 187, ../_scss/_forms.scss */
 .tickets-when {
   float: left;
   margin-bottom: 1.2em;
@@ -761,7 +764,7 @@ input[type="search"] {
   width: 34%;
 }
 
-/* line 190, ../_scss/_forms.scss */
+/* line 194, ../_scss/_forms.scss */
 input[type="text"].calendar {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -808,7 +811,7 @@ input[type="text"].calendar::-webkit-input-placeholder {
   color: #4d4d4d;
 }
 
-/* line 209, ../_scss/_forms.scss */
+/* line 213, ../_scss/_forms.scss */
 input[type="text"].calendar.day {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -819,7 +822,7 @@ input[type="text"].calendar.day {
   padding: 0.2em 0 0.1em 0;
 }
 
-/* line 219, ../_scss/_forms.scss */
+/* line 223, ../_scss/_forms.scss */
 .tickets-where {
   float: left;
   margin-bottom: 1.2em;
@@ -827,7 +830,7 @@ input[type="text"].calendar.day {
   width: 66%;
 }
 
-/* line 229, ../_scss/_forms.scss */
+/* line 233, ../_scss/_forms.scss */
 a.tickets-location,
 a.tickets-location:visited {
   color: #e5e5e5;
@@ -839,7 +842,7 @@ a.tickets-location:visited {
   text-decoration: none;
 }
 
-/* line 239, ../_scss/_forms.scss */
+/* line 243, ../_scss/_forms.scss */
 .tickets-location > span {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -855,7 +858,7 @@ a.tickets-location:visited {
   width: 10em;
 }
 
-/* line 252, ../_scss/_forms.scss */
+/* line 256, ../_scss/_forms.scss */
 .tickets-location > span:after {
   background-color: rgba(0, 0, 0, 0.4);
   content: "";
@@ -866,87 +869,87 @@ a.tickets-location:visited {
   left: 0;
 }
 
-/* line 262, ../_scss/_forms.scss */
+/* line 266, ../_scss/_forms.scss */
 .no-rgba .tickets-location > span:after {
   background: url('../images/no-rgba/black-40.png?1369104949') repeat;
 }
 
-/* line 266, ../_scss/_forms.scss */
+/* line 270, ../_scss/_forms.scss */
 .tickets-location > span > span {
   position: relative;
   z-index: 1;
 }
 
-/* line 273, ../_scss/_forms.scss */
+/* line 277, ../_scss/_forms.scss */
 .tickets-location .ogden-the-junction {
   background: url('../images/locations/small/ogden-the-junction.jpg?1368908104') no-repeat top center;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 273, ../_scss/_forms.scss */
+  /* line 277, ../_scss/_forms.scss */
   .tickets-location .ogden-the-junction {
     background-image: url('../images/locations/small/ogden-the-junction@2x.jpg?1368908104');
     background-size: 288px 165px;
   }
 }
 
-/* line 278, ../_scss/_forms.scss */
+/* line 282, ../_scss/_forms.scss */
 .tickets-location .sandy-jordan-commons {
   background: url('../images/locations/small/sandy-jordan-commons.jpg?1369110507') no-repeat top center;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 278, ../_scss/_forms.scss */
+  /* line 282, ../_scss/_forms.scss */
   .tickets-location .sandy-jordan-commons {
     background-image: url('../images/locations/small/sandy-jordan-commons@2x.jpg?1369110481');
     background-size: 288px 165px;
   }
 }
 
-/* line 285, ../_scss/_forms.scss */
+/* line 289, ../_scss/_forms.scss */
 .tickets-format {
   border-top: 0.3em dashed #f6f8f8;
   clear: both;
   padding: 1.2em 0;
 }
 
-/* line 293, ../_scss/_forms.scss */
+/* line 297, ../_scss/_forms.scss */
 .time {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
 }
 
-/* line 300, ../_scss/_forms.scss */
+/* line 304, ../_scss/_forms.scss */
 .tickets-quantity {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
   text-align: center;
 }
 
-/* line 306, ../_scss/_forms.scss */
+/* line 310, ../_scss/_forms.scss */
 .tickets-quantity > .label-large {
   display: inline;
   vertical-align: middle;
 }
 
-/* line 313, ../_scss/_forms.scss */
+/* line 317, ../_scss/_forms.scss */
 .tickets-hint {
   margin-top: 0.5em;
   margin-bottom: 0;
   text-align: right;
 }
 
-/* line 327, ../_scss/_forms.scss */
+/* line 331, ../_scss/_forms.scss */
 .picker-container {
   margin-top: 1.2em;
 }
 
-/* line 332, ../_scss/_forms.scss */
+/* line 336, ../_scss/_forms.scss */
 .picker-container > label {
   font-size: 1.3em;
   margin-right: 0.3em;
   vertical-align: middle;
 }
 
-/* line 339, ../_scss/_forms.scss */
+/* line 343, ../_scss/_forms.scss */
 .picker-container > input[type="text"] {
   width: 15em;
 }

@@ -128,7 +128,10 @@ input[type="search"] {
 // ==========================================================================
 
 .modal-picker {
-  display: none;
+  background-color: #ffffff;
+  margin: 0 auto;
+  max-width: 40em;
+  padding: 1.5em 1em;
 }
 
   .modal-picker > h3 {
@@ -136,13 +139,14 @@ input[type="search"] {
   }
 
   .modal-picker > ul {
+    @extend %clear-after;
     margin-bottom: 0;
   }
 
     .modal-picker > ul > li {
-      border: 1em solid #f9f9f9;
       display: inline-block;
       float: left;
+      padding: 1em;
       width: 50%;
     }
 
