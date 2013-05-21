@@ -694,28 +694,37 @@ input[type="search"] {
 /* line 130, ../_scss/_forms.scss */
 .modal-picker {
   display: none;
+}
+
+/* line 134, ../_scss/_forms.scss */
+.modal-picker > h3 {
+  text-align: center;
+}
+
+/* line 138, ../_scss/_forms.scss */
+.modal-picker > ul {
   margin-bottom: 0;
 }
 
-/* line 135, ../_scss/_forms.scss */
-.modal-picker > li {
-  border: 2em solid red;
+/* line 142, ../_scss/_forms.scss */
+.modal-picker > ul > li {
+  border: 1em solid #f9f9f9;
   display: inline-block;
   float: left;
   width: 50%;
 }
 
-/* line 146, ../_scss/_forms.scss */
+/* line 152, ../_scss/_forms.scss */
 .tickets fieldset {
   margin-bottom: 1em;
 }
 
-/* line 150, ../_scss/_forms.scss */
+/* line 156, ../_scss/_forms.scss */
 .tickets .label-large {
   font-size: 1.3em;
 }
 
-/* line 156, ../_scss/_forms.scss */
+/* line 162, ../_scss/_forms.scss */
 .ui-datepicker-trigger,
 .location-picker {
   -webkit-appearance: none;
@@ -744,7 +753,7 @@ input[type="search"] {
   width: 100%;
 }
 
-/* line 177, ../_scss/_forms.scss */
+/* line 183, ../_scss/_forms.scss */
 .tickets-when {
   float: left;
   margin-bottom: 1.2em;
@@ -752,7 +761,7 @@ input[type="search"] {
   width: 34%;
 }
 
-/* line 184, ../_scss/_forms.scss */
+/* line 190, ../_scss/_forms.scss */
 input[type="text"].calendar {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -799,7 +808,7 @@ input[type="text"].calendar::-webkit-input-placeholder {
   color: #4d4d4d;
 }
 
-/* line 203, ../_scss/_forms.scss */
+/* line 209, ../_scss/_forms.scss */
 input[type="text"].calendar.day {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -810,7 +819,7 @@ input[type="text"].calendar.day {
   padding: 0.2em 0 0.1em 0;
 }
 
-/* line 213, ../_scss/_forms.scss */
+/* line 219, ../_scss/_forms.scss */
 .tickets-where {
   float: left;
   margin-bottom: 1.2em;
@@ -818,7 +827,7 @@ input[type="text"].calendar.day {
   width: 66%;
 }
 
-/* line 223, ../_scss/_forms.scss */
+/* line 229, ../_scss/_forms.scss */
 a.tickets-location,
 a.tickets-location:visited {
   color: #e5e5e5;
@@ -830,7 +839,7 @@ a.tickets-location:visited {
   text-decoration: none;
 }
 
-/* line 233, ../_scss/_forms.scss */
+/* line 239, ../_scss/_forms.scss */
 .tickets-location > span {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -843,10 +852,10 @@ a.tickets-location:visited {
   position: relative;
   text-align: center;
   vertical-align: middle;
-  width: 12em;
+  width: 10em;
 }
 
-/* line 246, ../_scss/_forms.scss */
+/* line 252, ../_scss/_forms.scss */
 .tickets-location > span:after {
   background-color: rgba(0, 0, 0, 0.4);
   content: "";
@@ -857,87 +866,87 @@ a.tickets-location:visited {
   left: 0;
 }
 
-/* line 256, ../_scss/_forms.scss */
+/* line 262, ../_scss/_forms.scss */
 .no-rgba .tickets-location > span:after {
   background: url('../images/no-rgba/black-40.png?1369104949') repeat;
 }
 
-/* line 260, ../_scss/_forms.scss */
+/* line 266, ../_scss/_forms.scss */
 .tickets-location > span > span {
   position: relative;
   z-index: 1;
 }
 
-/* line 267, ../_scss/_forms.scss */
+/* line 273, ../_scss/_forms.scss */
 .tickets-location .ogden-the-junction {
   background: url('../images/locations/small/ogden-the-junction.jpg?1368908104') no-repeat top center;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 267, ../_scss/_forms.scss */
+  /* line 273, ../_scss/_forms.scss */
   .tickets-location .ogden-the-junction {
     background-image: url('../images/locations/small/ogden-the-junction@2x.jpg?1368908104');
     background-size: 288px 165px;
   }
 }
 
-/* line 272, ../_scss/_forms.scss */
+/* line 278, ../_scss/_forms.scss */
 .tickets-location .sandy-jordan-commons {
   background: url('../images/locations/small/sandy-jordan-commons.jpg?1369110507') no-repeat top center;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 272, ../_scss/_forms.scss */
+  /* line 278, ../_scss/_forms.scss */
   .tickets-location .sandy-jordan-commons {
     background-image: url('../images/locations/small/sandy-jordan-commons@2x.jpg?1369110481');
     background-size: 288px 165px;
   }
 }
 
-/* line 279, ../_scss/_forms.scss */
+/* line 285, ../_scss/_forms.scss */
 .tickets-format {
   border-top: 0.3em dashed #f6f8f8;
   clear: both;
   padding: 1.2em 0;
 }
 
-/* line 287, ../_scss/_forms.scss */
+/* line 293, ../_scss/_forms.scss */
 .time {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
 }
 
-/* line 294, ../_scss/_forms.scss */
+/* line 300, ../_scss/_forms.scss */
 .tickets-quantity {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
   text-align: center;
 }
 
-/* line 300, ../_scss/_forms.scss */
+/* line 306, ../_scss/_forms.scss */
 .tickets-quantity > .label-large {
   display: inline;
   vertical-align: middle;
 }
 
-/* line 307, ../_scss/_forms.scss */
+/* line 313, ../_scss/_forms.scss */
 .tickets-hint {
   margin-top: 0.5em;
   margin-bottom: 0;
   text-align: right;
 }
 
-/* line 321, ../_scss/_forms.scss */
+/* line 327, ../_scss/_forms.scss */
 .picker-container {
   margin-top: 1.2em;
 }
 
-/* line 326, ../_scss/_forms.scss */
+/* line 332, ../_scss/_forms.scss */
 .picker-container > label {
   font-size: 1.3em;
   margin-right: 0.3em;
   vertical-align: middle;
 }
 
-/* line 333, ../_scss/_forms.scss */
+/* line 339, ../_scss/_forms.scss */
 .picker-container > input[type="text"] {
   width: 15em;
 }

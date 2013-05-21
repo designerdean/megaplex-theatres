@@ -129,16 +129,22 @@ input[type="search"] {
 
 .modal-picker {
   display: none;
-  margin-bottom: 0;
 }
 
-  .modal-picker > li {
-    border: 2em solid red;
-    display: inline-block;
-    float: left;
-    width: 50%;
+  .modal-picker > h3 {
+    text-align: center;
   }
 
+  .modal-picker > ul {
+    margin-bottom: 0;
+  }
+
+    .modal-picker > ul > li {
+      border: 1em solid #f9f9f9;
+      display: inline-block;
+      float: left;
+      width: 50%;
+    }
 
 // Ticket-Selection Form
 // ==========================================================================
@@ -240,7 +246,7 @@ input[type="search"] {
       position: relative;
       text-align: center;
       vertical-align: middle;
-      width: 12em;
+      width: 10em;
     }
 
       .tickets-location > span:after {
