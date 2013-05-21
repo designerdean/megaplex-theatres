@@ -26,7 +26,6 @@ $ ->
     newClass = span.attr("class")
     newName = span.find("span").html()
     
-    # figcaption = $this.find('figcaption');
     $("#location-picker > span").attr("class", newClass).find("span").html newName
     $.fancybox.close true
 
