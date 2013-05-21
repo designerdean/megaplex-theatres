@@ -1187,37 +1187,32 @@ footer {
   padding-bottom: 2em;
 }
 
-/* line 9, ../_scss/_footer.scss */
-.no-svg footer {
-  background-image: url('../images/no-svg/filmstrip.svg');
-}
-
-/* line 13, ../_scss/_footer.scss */
+/* line 7, ../_scss/_footer.scss */
 footer > div {
   font-size: 0.95em;
   float: right;
   padding: 1em 2em;
 }
 
-/* line 19, ../_scss/_footer.scss */
+/* line 13, ../_scss/_footer.scss */
 footer h6 {
   font-size: 1em;
   text-transform: uppercase;
 }
 
-/* line 25, ../_scss/_footer.scss */
+/* line 19, ../_scss/_footer.scss */
 footer a,
 footer a:visited {
   color: #999999;
   text-decoration: none;
 }
 
-/* line 32, ../_scss/_footer.scss */
+/* line 26, ../_scss/_footer.scss */
 footer > .locations {
   float: left;
 }
 
-/* line 36, ../_scss/_footer.scss */
+/* line 30, ../_scss/_footer.scss */
 footer > .locations > a > span {
   background: url('../images/slc.jpg?1368902374') no-repeat bottom center;
   -webkit-transition: color 0.1s linear;
@@ -1234,14 +1229,14 @@ footer > .locations > a > span {
   width: 4.5em;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 36, ../_scss/_footer.scss */
+  /* line 30, ../_scss/_footer.scss */
   footer > .locations > a > span {
     background-image: url('../images/slc@2x.jpg?1368902374');
     background-size: 324px 158px;
   }
 }
 
-/* line 49, ../_scss/_footer.scss */
+/* line 43, ../_scss/_footer.scss */
 .no-touch footer > .locations > a:hover > span {
   color: #ffffff;
 }
