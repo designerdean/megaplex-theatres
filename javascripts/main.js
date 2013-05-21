@@ -17,8 +17,10 @@
   });
 
   $(function() {
-    var fancybox;
-    fancybox = $(".fancybox").fancybox();
+    $(".magnific").magnificPopup({
+      closeOnContentClick: true,
+      overflowY: 'hidden'
+    });
     return $("#locations a").on("click", function(e) {
       var $this, newClass, newName, span;
       e.preventDefault();
@@ -26,8 +28,7 @@
       span = $this.find("span");
       newClass = span.attr("class");
       newName = span.find("span").html();
-      $("#location-picker > span").attr("class", newClass).find("span").html(newName);
-      return $.fancybox.close(true);
+      return $("#location-picker > span").attr("class", newClass).find("span").html(newName);
     });
   });
 

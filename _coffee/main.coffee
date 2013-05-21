@@ -18,16 +18,15 @@ $ ->
 # Ticket-Selection Process: Location Picker
 
 $ ->
-  fancybox = $(".fancybox").fancybox()
+  $(".magnific").magnificPopup(closeOnContentClick: true, overflowY: 'hidden')
   $("#locations a").on "click", (e) ->
     e.preventDefault()
     $this = $(this)
     span = $this.find("span")
     newClass = span.attr("class")
     newName = span.find("span").html()
-    
+
     $("#location-picker > span").attr("class", newClass).find("span").html newName
-    $.fancybox.close true
 
 
 # Location-Specific Page: Date Picker
