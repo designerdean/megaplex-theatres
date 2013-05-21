@@ -591,7 +591,7 @@
                 Ogden<br>
                 The Junction
               </span>
-            </span>            
+            </span>
           </a>
           <a href="#locations" class="fancybox location-picker">Change Location</a>
         </div>
@@ -697,18 +697,25 @@
 
 <!-- When Picker Modal -->
 
-<ul id="locations" class="modal-grid">
+<ul id="locations" class="modal-picker">
   <li>
-    <a href="" class="ogden-the-junction">
-      <img src="/images/locations/small/ogden-the-junction.jpg" alt="Ogden - The Junction">
-      <figcaption>Ogden - The Junction</figcaption>
+    <a href="#locations" class="tickets-location">
+      <span class="ogden-the-junction">
+        <span>
+          Ogden<br>
+          The Junction
+        </span>
+      </span>
     </a>
   </li>
   <li>
-    <a href="/work-in-progress" class="other-1">
-      <img src="/images/movies/small/cloudy-with-a-chance-of-meatballs-2.jpg" alt="Movie poster for Cloudy with a Chance of Meatballs 2">
-      <br>
-      <span>Cloudy with a Chance of Meatballs 2</span>
+    <a href="#locations" class="tickets-location">
+      <span class="sandy-jordan-commons">
+        <span>
+          Sandy<br>
+          Jordan Commons
+        </span>
+      </span>
     </a>
   </li>
 </ul>
@@ -745,9 +752,10 @@
     $('#locations a').on('click', function(e) {
       e.preventDefault();
       var $this = $(this),
-          newClass = $this.attr('class');
+          newClass = $this.find('span').attr('class');
+          // figcaption = $this.find('figcaption');
       $('#location-picker > span').attr('class', newClass);
-      $.fancybox.close(true);        
+      $.fancybox.close(true);
     });
   });
 </script>

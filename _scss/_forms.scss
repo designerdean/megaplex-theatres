@@ -127,9 +127,18 @@ input[type="search"] {
 // Locations Modal
 // ==========================================================================
 
-.modal-grid {
+.modal-picker {
   display: none;
+  margin-bottom: 0;
 }
+
+  .modal-picker > li {
+    border: 2em solid red;
+    display: inline-block;
+    float: left;
+    width: 50%;
+  }
+
 
 // Ticket-Selection Form
 // ==========================================================================
@@ -248,14 +257,21 @@ input[type="search"] {
           background: image-url("no-rgba/black-40.png") repeat;
         }
 
+      .tickets-location > span > span {
+        position: relative;
+        z-index: 1;
+      }
+
+      // Different Locations
+
       .tickets-location .ogden-the-junction {
         background: image-url("locations/small/ogden-the-junction.jpg") no-repeat top center;
           @include image-2x("locations/small/ogden-the-junction@2x.jpg", 288px, 165px);
       }
 
-      .tickets-location > span > span {
-        position: relative;
-        z-index: 1;
+      .tickets-location .sandy-jordan-commons {
+        background: image-url("locations/small/sandy-jordan-commons.jpg") no-repeat top center;
+          @include image-2x("locations/small/sandy-jordan-commons@2x.jpg", 288px, 165px);
       }
 
 // Format
