@@ -7,12 +7,16 @@ header {
   #logo {
     background: image-url("logo.svg") no-repeat top left;
       @include background-size(contain);
-    display: inline-block;
-    float: left;
-    font-size: 10px;
+    display: block;
+    font-size: 10px; // for responsive sizing
     height: 10em;
+    margin: 0 auto;
     text-indent: -10000em;
     width: 24em;
+    @include at-least(mama-bear) {
+      display: inline-block;
+      float: left;
+    };
   }
 
     .no-svg #logo {

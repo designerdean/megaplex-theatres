@@ -309,6 +309,7 @@ input[type="search"] {
       .tickets-location > span:after {
         background-color: rgba(#000000, 0.4);
         content: "";
+        display: block;
         position: absolute;
           top: 0;
           right: 0;

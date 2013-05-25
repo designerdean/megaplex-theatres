@@ -856,6 +856,7 @@ a.tickets-location:visited {
 .tickets-location > span:after {
   background-color: rgba(0, 0, 0, 0.4);
   content: "";
+  display: block;
   position: absolute;
   top: 0;
   right: 0;
@@ -863,87 +864,87 @@ a.tickets-location:visited {
   left: 0;
 }
 
-/* line 319, ../_scss/_forms.scss */
+/* line 320, ../_scss/_forms.scss */
 .no-rgba .tickets-location > span:after {
   background: url('../images/no-rgba/black-40.png?1369104949') repeat;
 }
 
-/* line 323, ../_scss/_forms.scss */
+/* line 324, ../_scss/_forms.scss */
 .tickets-location > span > span {
   position: relative;
   z-index: 1;
 }
 
-/* line 330, ../_scss/_forms.scss */
+/* line 331, ../_scss/_forms.scss */
 .tickets-location .ogden-the-junction {
   background: url('../images/locations/small/ogden-the-junction.jpg?1368908104') no-repeat top center;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 330, ../_scss/_forms.scss */
+  /* line 331, ../_scss/_forms.scss */
   .tickets-location .ogden-the-junction {
     background-image: url('../images/locations/small/ogden-the-junction@2x.jpg?1368908104');
     background-size: 288px 165px;
   }
 }
 
-/* line 335, ../_scss/_forms.scss */
+/* line 336, ../_scss/_forms.scss */
 .tickets-location .sandy-jordan-commons {
   background: url('../images/locations/small/sandy-jordan-commons.jpg?1369110507') no-repeat top center;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 335, ../_scss/_forms.scss */
+  /* line 336, ../_scss/_forms.scss */
   .tickets-location .sandy-jordan-commons {
     background-image: url('../images/locations/small/sandy-jordan-commons@2x.jpg?1369110481');
     background-size: 288px 165px;
   }
 }
 
-/* line 342, ../_scss/_forms.scss */
+/* line 343, ../_scss/_forms.scss */
 .tickets-format {
   border-top: 0.3em dashed #f6f8f8;
   clear: both;
   padding: 1.2em 0;
 }
 
-/* line 350, ../_scss/_forms.scss */
+/* line 351, ../_scss/_forms.scss */
 .time {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
 }
 
-/* line 357, ../_scss/_forms.scss */
+/* line 358, ../_scss/_forms.scss */
 .tickets-quantity {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
   text-align: center;
 }
 
-/* line 363, ../_scss/_forms.scss */
+/* line 364, ../_scss/_forms.scss */
 .tickets-quantity > .label-large {
   display: inline;
   vertical-align: middle;
 }
 
-/* line 370, ../_scss/_forms.scss */
+/* line 371, ../_scss/_forms.scss */
 .tickets-hint {
   margin-top: 0.5em;
   margin-bottom: 0;
   text-align: right;
 }
 
-/* line 384, ../_scss/_forms.scss */
+/* line 385, ../_scss/_forms.scss */
 .picker-container {
   margin-top: 1.2em;
 }
 
-/* line 389, ../_scss/_forms.scss */
+/* line 390, ../_scss/_forms.scss */
 .picker-container > label {
   font-size: 1.3em;
   margin-right: 0.3em;
   vertical-align: middle;
 }
 
-/* line 396, ../_scss/_forms.scss */
+/* line 397, ../_scss/_forms.scss */
 .picker-container > input[type="text"] {
   width: 15em;
 }
@@ -961,26 +962,40 @@ header {
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
-  display: inline-block;
-  float: left;
+  display: block;
   font-size: 10px;
   height: 10em;
+  margin: 0 auto;
   text-indent: -10000em;
   width: 24em;
 }
+@media (min-width: 50em) {
+  /* line 7, ../_scss/_header.scss */
+  #logo {
+    display: inline-block;
+    float: left;
+  }
+}
+@media (min-width: mama-bear) {
+  /* line 7, ../_scss/_header.scss */
+  #logo {
+    display: inline-block;
+    float: left;
+  }
+}
 
-/* line 18, ../_scss/_header.scss */
+/* line 22, ../_scss/_header.scss */
 .no-svg #logo {
   background: url('../images/no-svg/logo.png?1368838855') no-repeat top left;
 }
 
-/* line 22, ../_scss/_header.scss */
+/* line 26, ../_scss/_header.scss */
 header > div {
   float: right;
   width: 78%;
 }
 
-/* line 30, ../_scss/_header.scss */
+/* line 34, ../_scss/_header.scss */
 .tagline {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -990,7 +1005,7 @@ header > div {
   vertical-align: middle;
 }
 
-/* line 38, ../_scss/_header.scss */
+/* line 42, ../_scss/_header.scss */
 .tagline > b {
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
@@ -1001,13 +1016,13 @@ header > div {
   line-height: 1.3em;
 }
 
-/* line 47, ../_scss/_header.scss */
+/* line 51, ../_scss/_header.scss */
 .tagline a,
 .tagline a:visited {
   color: #888888;
 }
 
-/* line 54, ../_scss/_header.scss */
+/* line 58, ../_scss/_header.scss */
 .utilities {
   position: absolute;
   top: 0.5em;
@@ -1015,19 +1030,19 @@ header > div {
   text-align: right;
 }
 
-/* line 61, ../_scss/_header.scss */
+/* line 65, ../_scss/_header.scss */
 .utilities > p {
   float: left;
   margin-bottom: 0;
   padding: 0.25em 0.8em 0 0;
 }
 
-/* line 67, ../_scss/_header.scss */
+/* line 71, ../_scss/_header.scss */
 .utilities > form {
   float: right;
 }
 
-/* line 71, ../_scss/_header.scss */
+/* line 75, ../_scss/_header.scss */
 .clarify-field {
   clear: both;
   display: block;
