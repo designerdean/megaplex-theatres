@@ -214,6 +214,7 @@
 
   .tickets:before,
   .tickets:after {
+    background-repeat: no-repeat;
     content: "";
     display: inline-block;
     height: 5em;
@@ -224,14 +225,14 @@
   }
 
     .tickets:before {
-      background: image-url("ticket-edges.svg") no-repeat;
+      background-image: image-url("ticket-edges.svg");
         @include background-size(cover);
       background-position: top right;
       top: 0;
     }
 
     .tickets:after {
-      background: image-url("ticket-edges.svg") no-repeat;
+      background-image: image-url("ticket-edges.svg");
         @include background-size(cover);
       background-position: bottom right;
       bottom: 0;
