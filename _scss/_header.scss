@@ -1,21 +1,29 @@
 header {
   @extend .wrapper;
-  padding: 1em 0 2em 0;
+  padding: 3em 0 2em 0;
   position: relative;
+  @include at-least(mama-bear) {
+    padding-top: 1em;
+  }
 }
 
   #logo {
     background: image-url("logo.svg") no-repeat top left;
       @include background-size(contain);
     display: block;
-    font-size: 10px; // for responsive sizing
+    font-size: 8px; // for responsive sizing
     height: 10em;
-    margin: 0 auto;
+    margin: 0 auto 2em auto;
     text-indent: -10000em;
     width: 24em;
-    @include at-least(mama-bear) {
+    @include at-least(40em) {
       display: inline-block;
       float: left;
+      margin: 0 0 3em 0;
+    }
+    @include at-least(mama-bear) {
+      font-size: 10px;
+      margin-bottom: 2em;
     };
   }
 
@@ -24,28 +32,55 @@ header {
     }
 
 header > div {
-  float: right;
-  width: 78%;
+  text-align: center;
+  // float: right;
+  // width: 78%;
 }
 
 // Tagline / Reasons Ad Blurb
 // ==========================================================================
 
 .tagline {
-  @include font-etica-regular;
+  // @include font-etica-regular;
   color: #888888;
-  display: inline-block;
-  // float: left;
+  line-height: 1.3em;
+  text-align: center;
   vertical-align: middle;
+  @include at-least(40em) {
+    float: right;
+    margin-top: 1.5em;
+    text-align: right;
+  }
+  @include at-least(mama-bear) {
+    font-size: 1.1em;
+    margin-top: 2.5em;
+  }
+  @include at-least(papa-bear) {
+    float: right;
+    margin: 0 0 1em 0;
+    text-align: left;
+    width: 77%;
+  }
 }
 
   .tagline > b {
     @include font-source-semibold;
     color: #333333;
     display: block;
-    font-size: 1.2em;
-    line-height: 1.3em;
+    // font-size: 0.9em;
+    // font-size: 1.2em;
+    // line-height: 1.3em;
+    @include at-least(mama-bear) {
+      font-size: 1.1em;
+    }
   }
+
+    .tagline > b > em {
+      display: block;
+      @include at-least(goldilocks){
+        display: inline;
+      }
+    }
 
     .tagline a,
     .tagline a:visited {
@@ -56,20 +91,43 @@ header > div {
 // ==========================================================================
 
 .utilities {
-  position: absolute;
-    top: 0.5em;
-    right: 0;
-  text-align: right;
+  
+  @include at-least(40em) {
+    padding: 0.5em 0 0 0;
+    position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+    text-align: left;
+  }
+  @include at-least(mama-bear) {
+    left: auto;
+    text-align: right;
+  }
 }
 
   .utilities > p {
-    float: left;
-    margin-bottom: 0;
-    padding: 0.25em 0.8em 0 0;
+    // float: left;
+    // margin-bottom: 0;
+    // padding: 0.25em 0.8em 0 0;
+    @include at-least(40em) {
+      float: left;
+      padding-top: 0.25em;
+    }
+    @include at-least(mama-bear) {
+      padding-right: 0.8em;
+    }
   }
 
   .utilities > form {
-    float: right;
+    // float: right;
+    position: absolute;
+      top: 0.5em;
+      right: 0;
+    @include at-least(40em) {
+      float: right;
+      position: static;
+    }
   }
 
     .clarify-field {

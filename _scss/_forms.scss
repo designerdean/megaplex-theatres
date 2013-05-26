@@ -158,7 +158,10 @@ input[type="search"] {
   @include box-sizing(content-box);
   @include font-source-regular;
   font-size: 0.8em;
-  width: 12em;
+  width: 4em;
+  @include at-least(goldilocks) {
+    width: 12em;
+  }
 }
 
 // Location Select Box
