@@ -33,15 +33,12 @@ header {
 
 header > div {
   text-align: center;
-  // float: right;
-  // width: 78%;
 }
 
 // Tagline / Reasons Ad Blurb
 // ==========================================================================
 
 .tagline {
-  // @include font-etica-regular;
   color: #888888;
   line-height: 1.3em;
   text-align: center;
@@ -67,9 +64,6 @@ header > div {
     @include font-source-semibold;
     color: #333333;
     display: block;
-    // font-size: 0.9em;
-    // font-size: 1.2em;
-    // line-height: 1.3em;
     @include at-least(mama-bear) {
       font-size: 1.1em;
     }
@@ -107,9 +101,6 @@ header > div {
 }
 
   .utilities > p {
-    // float: left;
-    // margin-bottom: 0;
-    // padding: 0.25em 0.8em 0 0;
     @include at-least(40em) {
       float: left;
       padding-top: 0.25em;
@@ -120,7 +111,6 @@ header > div {
   }
 
   .utilities > form {
-    // float: right;
     position: absolute;
       top: 0.5em;
       right: 0;
@@ -133,7 +123,6 @@ header > div {
     .clarify-field {
       clear: both;
       display: block;
-      // float: right;
       font-size: 0.75em;
       margin-top: 0.3em;
     }

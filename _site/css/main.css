@@ -1047,7 +1047,7 @@ header > div {
   text-align: center;
 }
 
-/* line 43, ../_scss/_header.scss */
+/* line 41, ../_scss/_header.scss */
 .tagline {
   color: #888888;
   line-height: 1.3em;
@@ -1055,7 +1055,7 @@ header > div {
   vertical-align: middle;
 }
 @media (min-width: 40em) {
-  /* line 43, ../_scss/_header.scss */
+  /* line 41, ../_scss/_header.scss */
   .tagline {
     float: right;
     margin-top: 1.5em;
@@ -1063,21 +1063,21 @@ header > div {
   }
 }
 @media (min-width: 50em) {
-  /* line 43, ../_scss/_header.scss */
+  /* line 41, ../_scss/_header.scss */
   .tagline {
     font-size: 1.1em;
     margin-top: 2.5em;
   }
 }
 @media (min-width: mama-bear) {
-  /* line 43, ../_scss/_header.scss */
+  /* line 41, ../_scss/_header.scss */
   .tagline {
     font-size: 1.1em;
     margin-top: 2.5em;
   }
 }
 @media (min-width: 75em) {
-  /* line 43, ../_scss/_header.scss */
+  /* line 41, ../_scss/_header.scss */
   .tagline {
     float: right;
     margin: 0 0 1em 0;
@@ -1086,7 +1086,7 @@ header > div {
   }
 }
 
-/* line 66, ../_scss/_header.scss */
+/* line 63, ../_scss/_header.scss */
 .tagline > b {
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
@@ -1095,43 +1095,43 @@ header > div {
   display: block;
 }
 @media (min-width: 50em) {
-  /* line 66, ../_scss/_header.scss */
+  /* line 63, ../_scss/_header.scss */
   .tagline > b {
     font-size: 1.1em;
   }
 }
 @media (min-width: mama-bear) {
-  /* line 66, ../_scss/_header.scss */
+  /* line 63, ../_scss/_header.scss */
   .tagline > b {
     font-size: 1.1em;
   }
 }
 
-/* line 78, ../_scss/_header.scss */
+/* line 72, ../_scss/_header.scss */
 .tagline > b > em {
   display: block;
 }
 @media (min-width: 30em) {
-  /* line 78, ../_scss/_header.scss */
+  /* line 72, ../_scss/_header.scss */
   .tagline > b > em {
     display: inline;
   }
 }
 @media (min-width: goldilocks) {
-  /* line 78, ../_scss/_header.scss */
+  /* line 72, ../_scss/_header.scss */
   .tagline > b > em {
     display: inline;
   }
 }
 
-/* line 86, ../_scss/_header.scss */
+/* line 80, ../_scss/_header.scss */
 .tagline a,
 .tagline a:visited {
   color: #888888;
 }
 
 @media (min-width: 40em) {
-  /* line 93, ../_scss/_header.scss */
+  /* line 87, ../_scss/_header.scss */
   .utilities {
     padding: 0.5em 0 0 0;
     position: absolute;
@@ -1142,14 +1142,14 @@ header > div {
   }
 }
 @media (min-width: 50em) {
-  /* line 93, ../_scss/_header.scss */
+  /* line 87, ../_scss/_header.scss */
   .utilities {
     left: auto;
     text-align: right;
   }
 }
 @media (min-width: mama-bear) {
-  /* line 93, ../_scss/_header.scss */
+  /* line 87, ../_scss/_header.scss */
   .utilities {
     left: auto;
     text-align: right;
@@ -1157,40 +1157,40 @@ header > div {
 }
 
 @media (min-width: 40em) {
-  /* line 109, ../_scss/_header.scss */
+  /* line 103, ../_scss/_header.scss */
   .utilities > p {
     float: left;
     padding-top: 0.25em;
   }
 }
 @media (min-width: 50em) {
-  /* line 109, ../_scss/_header.scss */
+  /* line 103, ../_scss/_header.scss */
   .utilities > p {
     padding-right: 0.8em;
   }
 }
 @media (min-width: mama-bear) {
-  /* line 109, ../_scss/_header.scss */
+  /* line 103, ../_scss/_header.scss */
   .utilities > p {
     padding-right: 0.8em;
   }
 }
 
-/* line 122, ../_scss/_header.scss */
+/* line 113, ../_scss/_header.scss */
 .utilities > form {
   position: absolute;
   top: 0.5em;
   right: 0;
 }
 @media (min-width: 40em) {
-  /* line 122, ../_scss/_header.scss */
+  /* line 113, ../_scss/_header.scss */
   .utilities > form {
     float: right;
     position: static;
   }
 }
 
-/* line 133, ../_scss/_header.scss */
+/* line 123, ../_scss/_header.scss */
 .clarify-field {
   clear: both;
   display: block;
