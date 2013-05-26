@@ -22,11 +22,11 @@ $ ->
   $("#locations a").on "click", (e) ->
     e.preventDefault()
     $this = $(this)
-    span = $this.find("span")
-    newClass = span.attr("class")
-    newName = span.find("span").html()
+    # span = $this.find("span")
+    newClass = $this.attr("class")
+    newName = $this.find("span").html()
 
-    $("#location-picker > span").attr("class", newClass).find("span").html newName
+    $("#location-picker").attr("class", newClass).find("span").html newName
 
 
 # Location-Specific Page: Date Picker

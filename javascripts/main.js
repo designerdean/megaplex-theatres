@@ -21,13 +21,12 @@
       closeOnContentClick: true
     });
     return $("#locations a").on("click", function(e) {
-      var $this, newClass, newName, span;
+      var $this, newClass, newName;
       e.preventDefault();
       $this = $(this);
-      span = $this.find("span");
-      newClass = span.attr("class");
-      newName = span.find("span").html();
-      return $("#location-picker > span").attr("class", newClass).find("span").html(newName);
+      newClass = $this.attr("class");
+      newName = $this.find("span").html();
+      return $("#location-picker").attr("class", newClass).find("span").html(newName);
     });
   });
 

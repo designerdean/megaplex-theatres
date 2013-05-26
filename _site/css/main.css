@@ -848,31 +848,34 @@ a.tickets-location,
 a.tickets-location:visited {
   color: #e5e5e5;
   cursor: pointer;
-  display: table-row;
+  display: inline-block;
   height: 8.2em;
   margin-bottom: 0.2em;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* line 315, ../_scss/_forms.scss */
-.tickets-location > span {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  display: table-cell;
-  font-size: 1.8em;
-  font-style: normal;
-  line-height: 1.2em;
-  padding: 0.4em;
   position: relative;
   text-align: center;
-  vertical-align: middle;
-  width: 10em;
+  text-decoration: none;
+  width: 100%;
 }
 
-/* line 328, ../_scss/_forms.scss */
-.tickets-location > span:after {
+/* line 317, ../_scss/_forms.scss */
+a.tickets-location:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  margin-right: -0.25em;
+  vertical-align: middle;
+}
+
+/* line 325, ../_scss/_forms.scss */
+a.tickets-location > span {
+  display: inline-block;
+  font-size: 1.8em;
+  line-height: 1.2em;
+  vertical-align: middle;
+}
+
+/* line 332, ../_scss/_forms.scss */
+a.tickets-location > span:before {
   background-color: rgba(0, 0, 0, 0.4);
   content: "";
   position: absolute;
@@ -880,89 +883,89 @@ a.tickets-location:visited {
   right: 0;
   bottom: 0;
   left: 0;
+  z-index: 0;
 }
 
-/* line 338, ../_scss/_forms.scss */
-.no-rgba .tickets-location > span:after {
+/* line 343, ../_scss/_forms.scss */
+.no-rgba a.tickets-location > span:after {
   background: url('../images/no-rgba/black-40.png?1369104949') repeat;
 }
 
-/* line 342, ../_scss/_forms.scss */
-.tickets-location > span > span {
+/* line 347, ../_scss/_forms.scss */
+a.tickets-location > span > span {
   position: relative;
-  z-index: 1;
 }
 
-/* line 349, ../_scss/_forms.scss */
-.tickets-location .ogden-the-junction {
+/* line 353, ../_scss/_forms.scss */
+.tickets-location.ogden-the-junction {
   background: url('../images/locations/small/ogden-the-junction.jpg?1368908104') no-repeat top center;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 349, ../_scss/_forms.scss */
-  .tickets-location .ogden-the-junction {
+  /* line 353, ../_scss/_forms.scss */
+  .tickets-location.ogden-the-junction {
     background-image: url('../images/locations/small/ogden-the-junction@2x.jpg?1368908104');
     background-size: 288px 165px;
   }
 }
 
-/* line 354, ../_scss/_forms.scss */
-.tickets-location .sandy-jordan-commons {
+/* line 358, ../_scss/_forms.scss */
+.tickets-location.sandy-jordan-commons {
   background: url('../images/locations/small/sandy-jordan-commons.jpg?1369110507') no-repeat top center;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 354, ../_scss/_forms.scss */
-  .tickets-location .sandy-jordan-commons {
+  /* line 358, ../_scss/_forms.scss */
+  .tickets-location.sandy-jordan-commons {
     background-image: url('../images/locations/small/sandy-jordan-commons@2x.jpg?1369110481');
     background-size: 288px 165px;
   }
 }
 
-/* line 361, ../_scss/_forms.scss */
+/* line 365, ../_scss/_forms.scss */
 .tickets-format {
   border-top: 0.3em dashed #f6f8f8;
   clear: both;
   padding: 1.2em 0;
 }
 
-/* line 369, ../_scss/_forms.scss */
+/* line 373, ../_scss/_forms.scss */
 .time {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
 }
 
-/* line 376, ../_scss/_forms.scss */
+/* line 380, ../_scss/_forms.scss */
 .tickets-quantity {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
   text-align: center;
 }
 
-/* line 382, ../_scss/_forms.scss */
+/* line 386, ../_scss/_forms.scss */
 .tickets-quantity > .label-large {
   display: inline;
   vertical-align: middle;
 }
 
-/* line 389, ../_scss/_forms.scss */
+/* line 393, ../_scss/_forms.scss */
 .tickets-hint {
   margin-top: 0.5em;
   margin-bottom: 0;
   text-align: right;
 }
 
-/* line 403, ../_scss/_forms.scss */
+/* line 407, ../_scss/_forms.scss */
 .picker-container {
   margin-top: 1.2em;
 }
 
-/* line 408, ../_scss/_forms.scss */
+/* line 412, ../_scss/_forms.scss */
 .picker-container > label {
   font-size: 1.3em;
   margin-right: 0.3em;
   vertical-align: middle;
 }
 
-/* line 415, ../_scss/_forms.scss */
+/* line 419, ../_scss/_forms.scss */
 .picker-container > input[type="text"] {
   width: 15em;
 }
