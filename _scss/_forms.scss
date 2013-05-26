@@ -74,6 +74,16 @@ textarea {
   resize: vertical;
 }
 
+// Select
+
+select {
+  font-size: 100%;
+  margin: 0;
+  text-transform: none;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
 // Buttons
 
 input[type="button"],
