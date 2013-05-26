@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 58, ../_scss/_bits.scss */
-.wrapper:after, .content:after, header:after, nav:after, .row:after, .picker-container:after, .hero:after, .wide:after, .hot-deals:after, .movie:after, dl:after, .modal-picker > ul:after, .tickets-where:after, footer:after, .select-location:after, .movies:after {
+.wrapper:after, .content:after, header:after, nav:after, footer:after, .row:after, .picker-container:after, .hero:after, .wide:after, .hot-deals:after, .movie:after, dl:after, .modal-picker > ul:after, .tickets-where:after, .select-location:after, .movies:after {
   content: "";
   display: table;
   clear: both;
@@ -119,7 +119,7 @@ body {
 }
 
 /* line 21, ../_scss/_grid.scss */
-.wrapper, .content, header, nav {
+.wrapper, .content, header, nav, footer {
   margin: 0 auto;
   max-width: 82em;
 }
@@ -1208,32 +1208,32 @@ footer {
   padding-bottom: 2em;
 }
 
-/* line 7, ../_scss/_footer.scss */
+/* line 8, ../_scss/_footer.scss */
 footer > div {
   font-size: 0.95em;
   float: right;
   padding: 1em 2em;
 }
 
-/* line 13, ../_scss/_footer.scss */
+/* line 14, ../_scss/_footer.scss */
 footer h6 {
   font-size: 1em;
   text-transform: uppercase;
 }
 
-/* line 19, ../_scss/_footer.scss */
+/* line 20, ../_scss/_footer.scss */
 footer a,
 footer a:visited {
   color: #999999;
   text-decoration: none;
 }
 
-/* line 26, ../_scss/_footer.scss */
+/* line 27, ../_scss/_footer.scss */
 footer > .locations {
   float: left;
 }
 
-/* line 30, ../_scss/_footer.scss */
+/* line 31, ../_scss/_footer.scss */
 footer > .locations > a > span {
   background: url('../images/slc.jpg?1368902374') no-repeat bottom center;
   -webkit-transition: color 0.1s linear;
@@ -1250,14 +1250,14 @@ footer > .locations > a > span {
   width: 4.5em;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 30, ../_scss/_footer.scss */
+  /* line 31, ../_scss/_footer.scss */
   footer > .locations > a > span {
     background-image: url('../images/slc@2x.jpg?1368902374');
     background-size: 324px 158px;
   }
 }
 
-/* line 43, ../_scss/_footer.scss */
+/* line 44, ../_scss/_footer.scss */
 .no-touch footer > .locations > a:hover > span {
   color: #ffffff;
 }

@@ -1,5 +1,6 @@
 footer {
   @extend %clear-after;
+  @extend .wrapper;
   color: #999999;
   padding-bottom: 2em;
 }

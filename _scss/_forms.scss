@@ -348,17 +348,17 @@ input[type="search"] {
         position: relative;
       }
 
-      // Different Locations
+    // Different Locations
 
-      .tickets-location.ogden-the-junction {
-        background: image-url("locations/small/ogden-the-junction.jpg") no-repeat top center;
-          @include image-2x("locations/small/ogden-the-junction@2x.jpg", 288px, 165px);
-      }
+    .tickets-location.ogden-the-junction {
+      background: image-url("locations/small/ogden-the-junction.jpg") no-repeat top center;
+        @include image-2x("locations/small/ogden-the-junction@2x.jpg", 288px, 165px);
+    }
 
-      .tickets-location.sandy-jordan-commons {
-        background: image-url("locations/small/sandy-jordan-commons.jpg") no-repeat top center;
-          @include image-2x("locations/small/sandy-jordan-commons@2x.jpg", 288px, 165px);
-      }
+    .tickets-location.sandy-jordan-commons {
+      background: image-url("locations/small/sandy-jordan-commons.jpg") no-repeat top center;
+        @include image-2x("locations/small/sandy-jordan-commons@2x.jpg", 288px, 165px);
+    }
 
 // Format
 
