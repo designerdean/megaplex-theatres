@@ -177,6 +177,13 @@ input[type="search"] {
 
   }
 
+  .select-location > select option,
+  .select-location > select optgroup {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 0 0.5em;
+  }
+
 // Locations Modal
 // ==========================================================================
 
@@ -309,7 +316,6 @@ input[type="search"] {
       .tickets-location > span:after {
         background-color: rgba(#000000, 0.4);
         content: "";
-        display: block;
         position: absolute;
           top: 0;
           right: 0;
