@@ -38,3 +38,16 @@ $ ->
 
 $ ->
   $("#datepicker").datepicker "setDate", new Date()
+
+# Responsive Nav Drawer
+
+$ ->
+
+  $('.menu').click ->
+
+    height = $('nav > ul').outerHeight()
+    nav = $("nav")
+    if nav.height() == 0 
+      nav.css('height',height)
+    else
+      nav.css('height','0')

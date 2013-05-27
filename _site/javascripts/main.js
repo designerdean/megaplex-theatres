@@ -41,4 +41,17 @@
     return $("#datepicker").datepicker("setDate", new Date());
   });
 
+  $(function() {
+    return $('.menu').click(function() {
+      var height, nav;
+      height = $('nav > ul').outerHeight();
+      nav = $("nav");
+      if (nav.height() === 0) {
+        return nav.css('height', height);
+      } else {
+        return nav.css('height', '0');
+      }
+    });
+  });
+
 }).call(this);

@@ -2,7 +2,7 @@
 
 nav {
   @extend .wrapper;
-  @include single-transition(height, 0.2s, linear);
+  @include single-transition(height, 0.1s, ease-in-out);
   height: 0;
   overflow: hidden;
   text-align: right;
@@ -23,7 +23,6 @@ nav {
 }
 
   nav > ul {
-    // @include inline-block-list;
     @extend %clear-after;
     overflow: visible;
     padding: 0.1em;
@@ -39,7 +38,6 @@ nav {
   }
 
     nav > ul > li {
-      // @include inline-block-list-item;
       border-top: 0.1em solid $color-base-1;
       border-bottom: 0.1em solid $color-base-1;
       color: #ffffff;

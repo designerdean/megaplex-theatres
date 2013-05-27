@@ -156,6 +156,7 @@ a.button:visited {
 a.button-icon,
 .button-icon {
   @include border-radius(0.4em);
+  @include user-select(none);
   background-color: $color-base-3;
   color: $color-base-1;
   cursor: pointer;
