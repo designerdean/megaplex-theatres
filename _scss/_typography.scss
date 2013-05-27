@@ -54,18 +54,27 @@ body {
 h1, h2, h3, h4, h5, h6, %faux-heading {
   @include font-etica-regular;
   color: $color-purple;
+  display: block;
   letter-spacing: 1px;
   line-height: 1em;
   margin-bottom: 0.5em;
+  text-align: center;
   text-transform: uppercase;
+  @include at-least(40em) {
+    text-align: left;
+  }
+  > span {
+    display: block;
+    @include at-least(40em) {
+      display: inline;
+    }
+  }
 }
 
   h1, h2 {
     font-size: 1.5em;
-    text-align: center;
     @include at-least(40em) {
       font-size: 1.8em;
-      text-align: left;
     }
     @include at-least(papa-bear) {
       font-size: 2.2em;
@@ -76,7 +85,7 @@ h1, h2, h3, h4, h5, h6, %faux-heading {
     font-size: 1.5em;
   }
 
-  h4, h5, h6 {
+  h4, h5, h6, %faux-heading {
     font-size: 1.3em;
   }
 
@@ -97,30 +106,49 @@ blockquote {
 
 dl {
   @extend %clear-after;
-  margin-bottom: 0.8em;
+  text-align: center;
+  @include at-least(mama-bear) {
+    text-align: left;
+  }
+  @include at-least(papa-bear) {
+    margin-bottom: 0.8em;
+  }
 }
 
   dl > dt {
     @include font-source-semibold;
-    display: inline;
-    float: left;
-    width: 50%;
+    @include at-least(papa-bear) {
+      display: inline;
+      float: left;
+      width: 50%;
+    }
   }
 
   dl > dd {
-    display: inline;
-    float: left;
-    text-align: right;
-    width: 50%;
+    @include at-least(papa-bear) {
+      display: inline;
+      float: left;
+      text-align: right;
+      width: 50%;
+    }
   }
 
 // Icon Lists
 // ==========================================================================
 
 .icon-list {
-  font-size: 1.2em;
+  clear: both;
   list-style-type: none;
   margin-bottom: 1em;
+  @include at-least(goldilocks) {
+    font-size: 1.2em;
+  }
+  @include at-least(mama-bear) {
+    font-size: 1em;
+  }
+  @include at-least(papa-bear) {
+    font-size: 1.2em;
+  }
 }
 
   .icon-list > li {
@@ -131,8 +159,11 @@ dl {
       @include border-radius(0.8em);
       @include single-transition(background, 0.3s, linear);
       display: block;
-      padding: 1.2em 1em;
+      padding: 0.5em;
       text-decoration: none;
+      @include at-least(goldilocks) {
+        padding: 1.2em 1em;
+      }
     }
 
       .no-touch .icon-list > li > a:hover {
@@ -145,11 +176,14 @@ dl {
   @include single-transition(color, 0.3s, linear);
   color: $color-purple;
   display: table-cell;
-  font-size: 1.8em;
+  font-size: 1.5em;
   height: 100%;
   line-height: 0;
   padding: 0.1em;
   vertical-align: middle;
+  @include at-least(papa-bear) {
+    font-size: 1.8em;
+  }
 }
 
   .icon-list span.twitter {
@@ -165,6 +199,7 @@ dl {
 .icon-list .icon-list-content {
   display: table-cell;
   height: 100%;
+  margin: 0;
   padding-left: 1em;
   vertical-align: middle;
 }
@@ -192,22 +227,53 @@ dl {
 // Large Style
 
 .icon-list.large {
-  font-size: 1.4em;
+  text-align: center;
+  @include at-least(goldilocks) {
+    text-align: left;
+  }
+  @include at-least(mama-bear) {
+    font-size: 1.2em;
+  }
+  @include at-least(papa-bear) {
+    font-size: 1.4em;
+  }
 }
 
   .icon-list.large span {
-    font-size: 4em;
+    display: block;
+    font-size: 3.2em;
+    margin-bottom: 0.1em;
+    @include at-least(goldilocks) {
+      display: table-cell;
+      margin-bottom: 0;
+    }
+    @include at-least(mama-bear) {
+      font-size: 4em;
+    }
+    @include at-least(papa-bear) {
+      margin-bottom: 0;
+    }
   }
 
     .no-touch .icon-list.large > li > a:hover span {
       color: lighten($color-purple, 10%);
     }
 
+  .icon-list.large .icon-list-content {
+    display: block;
+    padding-left: 0;
+    @include at-least(goldilocks) {
+      display: table-cell;
+      padding-left: 1em;
+    }
+  }
+
 // Boxy Style Lists (Format/Time Sections)
 // ==========================================================================
 
 .boxy-list {
   margin-top: 1em;
+  margin-bottom: 0;
 }
 
   .boxy-list-item {

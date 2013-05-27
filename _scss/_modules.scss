@@ -42,10 +42,13 @@
   @include font-source-light;
   background-color: $color-purple;
   color: #ffffff;
-  margin: 0 0 4em 0;
+  margin: 0 0 3em 0;
   padding: 1.5em 1em;
   position: relative;
   text-align: center;
+  @include at-least(mama-bear) {
+    margin-bottom: 4em;
+  }
 }
 
   .movies > ul {
@@ -139,26 +142,50 @@
 }
 
   .movie-times-item {
-    float: left;
+    @extend %clear-after;
     margin-bottom: 2em;
-    width: 50%;
+    text-align: center;
+    @include at-least(goldilocks) {
+      float: left;
+      text-align: left;
+      width: 50%;
+    }
   }
 
+    .movie-times-item:nth-child(2n+1) {
+      @include at-least(goldilocks) {
+        clear: both;
+        padding-right: 0.7em;
+      }
+    }
+
+    .movie-times-item:nth-child(2n+2) {
+      @include at-least(goldilocks) {
+        padding-left: 0.7em;
+      }
+    }
+
     .movie-times-poster {
-      float: left;
-      margin-right: 1em;
-      width: 30%;
+      display: inline-block;
+      margin-bottom: 1em;
+      @include at-least(papa-bear) {
+        float: left;
+        margin-right: 1em;
+        width: 30%;
+      }
     }
 
     .movie-times-info {
-      float: left;
-      width: 50%;
+      // float: left;
+      // width: 50%;
     }
 
       .movie-times-info > a,
       .movie-times-info > a:visited {
         @extend %faux-heading;
-        font-size: 1.5em;
+        @include at-least(goldilocks) {
+          text-align: left;
+        }
       }
 
       .movie-times-info > .rating {
@@ -171,7 +198,15 @@
 .hot-deals {
   @extend .wide;
   @extend .left;
-  border-right: 4px solid $color-base-2;
+  border-bottom: 4px solid $color-base-2;
+  margin-bottom: 1.6em;
+  padding-bottom: 2em;
+  @include at-least(mama-bear) {
+    border-right: 4px solid $color-base-2;
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }
 
 // What's Up (Social Media Posts on Homepage)
@@ -180,8 +215,10 @@
 .whats-up {
   @extend .narrow;
   @extend .right;
-  border-left: 4px solid $color-base-2;
-  margin-left: -4px;
+  @include at-least(mama-bear) {
+    border-left: 4px solid $color-base-2;
+    margin-left: -4px;
+  }
 }
 
 // Individual Movie Page - Left Content Area
@@ -307,19 +344,77 @@
 }
 
   .hero > img {
-    float: left;
-    margin-right: 3em;
+    display: block;
+    margin: 0 auto;
+    @include at-least(papa-bear) {
+      float: left;
+      margin-right: 3em;
+    }
   }
 
   .hero .icon-list {
-    margin: 0 4% 0 0;
-    padding-top: 0.7em;
+    margin: 0;
+    padding-top: 0;
+    // text-align: center;
+    @include at-least(goldilocks) {
+      // font-size: 1em;
+      // margin-right: 4%;
+      // padding-top: 0.7em;
+      text-align: center;
+    }
+    @include at-least(mama-bear) {
+      font-size: 1.2em;
+      text-align: center;
+    }
+    @include at-least(papa-bear) {
+      text-align: left;
+    }
   }
 
     .hero .icon-list .icon-list-item {
-      padding-top: 0.8em;
-      padding-bottom: 0.8em;
+      // padding-top: 0.8em;
+      // padding-bottom: 0.8em;
+      @include at-least(goldilocks) {
+        // display: block;
+        float: left;
+        margin: 0 auto;
+        // padding-bottom: 0;
+        width: 50%;
+      }
+      @include at-least(mama-bear) {
+        display: inline-block;
+        float: none;
+        text-align: left;
+        width: auto;
+      }
     }
+
+      .hero .icon-list span {
+        // display: block;
+        // text-align: center;
+        @include at-least(goldilocks) {
+          // font-size: 2.2em;
+          display: block;
+        }
+        @include at-least(mama-bear) {
+          display: table-cell;
+          font-size: 3em;
+        }
+      }
+
+      .hero .icon-list .icon-list-content {
+        // display: block;
+        // padding-left: 0;
+        @include at-least(goldilocks) {
+          display: block;
+          padding-left: 0;
+          // text-align: left;
+        }
+        @include at-least(mama-bear) {
+          display: table-cell;
+          padding-left: 1em;
+        }
+      }
 
 // Individual Location Page - Right Sidebar
 // ==========================================================================

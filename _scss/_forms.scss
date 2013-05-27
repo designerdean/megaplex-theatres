@@ -101,7 +101,6 @@ a.button:visited {
   color: #5e5e5e;
   cursor: pointer;
   display: inline-block;
-  font-size: 1.3em;
   letter-spacing: 1px;
   line-height: 1.5em;
   outline: none;
@@ -110,6 +109,9 @@ a.button:visited {
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
+  @include at-least(mama-bear) {
+    font-size: 1.3em;
+  }
 }
 
   .no-touch .button:hover,
@@ -237,7 +239,6 @@ a.button-icon,
 
   .tickets .label-large {
     @extend %faux-heading;
-    font-size: 1.3em;
   }
 
   .ui-datepicker-trigger,
@@ -415,11 +416,14 @@ a.button-icon,
 .picker-container {
   @extend .row;
   margin-top: 1.2em;
+  text-align: center;
+  @include at-least(40em) {
+    text-align: left;
+  }
 }
 
   .picker-container > label {
     @extend %faux-heading;
-    font-size: 1.3em;
     margin-right: 0.3em;
     vertical-align: middle;
   }

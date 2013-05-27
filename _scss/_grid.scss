@@ -26,7 +26,7 @@ body {
 
 .content {
   @extend .wrapper;
-  padding: 0 0 3em 0;
+  padding: 0 0 2em 0;
 }
 
 // Rows & Columns
@@ -39,19 +39,27 @@ body {
 
   .wide {
     @extend %clear-after;
-    float: left;
-    width: 60%;
+    @include at-least(mama-bear) {
+      float: left;
+      width: 60%;
+    }
   }
 
   .narrow {
-    float: left;
-    width: 40%;
+    @include at-least(mama-bear) {
+      float: left;
+      width: 40%;
+    }
   }
 
   .left {
-    padding-right: 3.5%;
+    @include at-least(mama-bear) {
+      padding-right: 3.5%;
+    }
   }
 
   .right {
-    padding-left: 3.5%;
+    @include at-least(mama-bear) {
+      padding-left: 3.5%;
+    }
   }

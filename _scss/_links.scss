@@ -8,6 +8,10 @@ a:visited {
 .breadcrumbs {
   @include inline-block-list;
   padding-bottom: 0.5em;
+  text-align: center;
+  @include at-least(40em) {
+    text-align: left;
+  }
 }
 
   .breadcrumbs > li {
