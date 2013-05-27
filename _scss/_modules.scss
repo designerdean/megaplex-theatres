@@ -57,7 +57,16 @@
       display: inline-block;
       margin: 0 0.25%;
       padding: 0.8em 0.4em;
-      width: 15.7%;
+      width: 48%;
+      @include at-least(goldilocks) {
+        width: 30%;
+      }
+      @include at-least(mama-bear) {
+        width: 24%;
+      }
+      @include at-least(64em) {
+        width: 15.7%;
+      }
     }
 
       .movies a,

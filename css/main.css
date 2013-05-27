@@ -1570,17 +1570,47 @@ footer > .locations > a > span {
   display: inline-block;
   margin: 0 0.25%;
   padding: 0.8em 0.4em;
-  width: 15.7%;
+  width: 48%;
+}
+@media (min-width: 30em) {
+  /* line 56, ../_scss/_modules.scss */
+  .movies > ul > li {
+    width: 30%;
+  }
+}
+@media (min-width: goldilocks) {
+  /* line 56, ../_scss/_modules.scss */
+  .movies > ul > li {
+    width: 30%;
+  }
+}
+@media (min-width: 50em) {
+  /* line 56, ../_scss/_modules.scss */
+  .movies > ul > li {
+    width: 24%;
+  }
+}
+@media (min-width: mama-bear) {
+  /* line 56, ../_scss/_modules.scss */
+  .movies > ul > li {
+    width: 24%;
+  }
+}
+@media (min-width: 64em) {
+  /* line 56, ../_scss/_modules.scss */
+  .movies > ul > li {
+    width: 15.7%;
+  }
 }
 
-/* line 64, ../_scss/_modules.scss */
+/* line 73, ../_scss/_modules.scss */
 .movies a,
 .movies a:visited {
   color: #ffffff;
   text-decoration: none;
 }
 
-/* line 73, ../_scss/_modules.scss */
+/* line 82, ../_scss/_modules.scss */
 .movies > ul > li > a > span {
   font-family: "source-sans-pro", sans-serif;
   font-style: normal;
@@ -1599,29 +1629,29 @@ footer > .locations > a > span {
   white-space: nowrap;
 }
 
-/* line 89, ../_scss/_modules.scss */
+/* line 98, ../_scss/_modules.scss */
 .no-rgba .movies > ul > li > a > span {
   background-color: #e7e7e7;
 }
 
-/* line 93, ../_scss/_modules.scss */
+/* line 102, ../_scss/_modules.scss */
 .no-touch .movies > ul > li > a:hover > span {
   background-color: #dabbeb;
 }
 
-/* line 100, ../_scss/_modules.scss */
+/* line 109, ../_scss/_modules.scss */
 .movies.list {
   background-color: transparent;
 }
 
-/* line 108, ../_scss/_modules.scss */
+/* line 117, ../_scss/_modules.scss */
 .movies.list > ul > li {
   display: block;
   text-align: left;
   width: auto;
 }
 
-/* line 117, ../_scss/_modules.scss */
+/* line 126, ../_scss/_modules.scss */
 .select-location + .movies {
   -webkit-border-radius: 0.8em;
   -moz-border-radius: 0.8em;
@@ -1630,7 +1660,7 @@ footer > .locations > a > span {
   border-radius: 0.8em;
 }
 @media (min-width: 40em) {
-  /* line 117, ../_scss/_modules.scss */
+  /* line 126, ../_scss/_modules.scss */
   .select-location + .movies {
     -moz-border-radius-topright: 0;
     -webkit-border-top-right-radius: 0;
@@ -1638,67 +1668,67 @@ footer > .locations > a > span {
   }
 }
 
-/* line 131, ../_scss/_modules.scss */
+/* line 140, ../_scss/_modules.scss */
 .movie-times-item {
   float: left;
   margin-bottom: 2em;
   width: 50%;
 }
 
-/* line 137, ../_scss/_modules.scss */
+/* line 146, ../_scss/_modules.scss */
 .movie-times-poster {
   float: left;
   margin-right: 1em;
   width: 30%;
 }
 
-/* line 143, ../_scss/_modules.scss */
+/* line 152, ../_scss/_modules.scss */
 .movie-times-info {
   float: left;
   width: 50%;
 }
 
-/* line 149, ../_scss/_modules.scss */
+/* line 158, ../_scss/_modules.scss */
 .movie-times-info > a,
 .movie-times-info > a:visited {
   font-size: 1.5em;
 }
 
-/* line 154, ../_scss/_modules.scss */
+/* line 163, ../_scss/_modules.scss */
 .movie-times-info > .rating {
   font-size: 2em;
 }
 
-/* line 161, ../_scss/_modules.scss */
+/* line 170, ../_scss/_modules.scss */
 .hot-deals {
   border-right: 4px solid #dddddd;
 }
 
-/* line 170, ../_scss/_modules.scss */
+/* line 179, ../_scss/_modules.scss */
 .whats-up {
   border-left: 4px solid #dddddd;
   margin-left: -4px;
 }
 
-/* line 185, ../_scss/_modules.scss */
+/* line 194, ../_scss/_modules.scss */
 .poster-container {
   display: block;
   float: left;
   width: 45%;
 }
 
-/* line 191, ../_scss/_modules.scss */
+/* line 200, ../_scss/_modules.scss */
 .poster {
   margin-bottom: 0.8em;
 }
 
-/* line 195, ../_scss/_modules.scss */
+/* line 204, ../_scss/_modules.scss */
 .rating-container {
   display: block;
   margin-bottom: 1em;
 }
 
-/* line 200, ../_scss/_modules.scss */
+/* line 209, ../_scss/_modules.scss */
 .rating-container > span {
   display: table-cell;
   font-size: 2em;
@@ -1708,7 +1738,7 @@ footer > .locations > a > span {
   vertical-align: middle;
 }
 
-/* line 209, ../_scss/_modules.scss */
+/* line 218, ../_scss/_modules.scss */
 .rating-container > p {
   display: table-cell;
   font-size: 0.8em;
@@ -1718,26 +1748,26 @@ footer > .locations > a > span {
   vertical-align: middle;
 }
 
-/* line 218, ../_scss/_modules.scss */
+/* line 227, ../_scss/_modules.scss */
 .movie > .description {
   float: left;
   padding-left: 1.5em;
   width: 55%;
 }
 
-/* line 224, ../_scss/_modules.scss */
+/* line 233, ../_scss/_modules.scss */
 .movie > .description > .button-row {
   margin-bottom: 2em;
   text-align: left;
 }
 
-/* line 232, ../_scss/_modules.scss */
+/* line 241, ../_scss/_modules.scss */
 .tickets {
   padding: 5em 0;
   position: relative;
 }
 
-/* line 240, ../_scss/_modules.scss */
+/* line 249, ../_scss/_modules.scss */
 .tickets:before,
 .tickets:after {
   background-repeat: no-repeat;
@@ -1750,7 +1780,7 @@ footer > .locations > a > span {
   z-index: -1;
 }
 
-/* line 251, ../_scss/_modules.scss */
+/* line 260, ../_scss/_modules.scss */
 .tickets:before {
   background-image: url('../images/ticket-edges.svg?1369538854');
   -webkit-background-size: cover;
@@ -1761,7 +1791,7 @@ footer > .locations > a > span {
   top: 0;
 }
 
-/* line 258, ../_scss/_modules.scss */
+/* line 267, ../_scss/_modules.scss */
 .tickets:after {
   background-image: url('../images/ticket-edges.svg?1369538854');
   -webkit-background-size: cover;
@@ -1772,14 +1802,14 @@ footer > .locations > a > span {
   bottom: 0;
 }
 
-/* line 265, ../_scss/_modules.scss */
+/* line 274, ../_scss/_modules.scss */
 .tickets > div {
   background-color: #dddddd;
   min-height: 40em;
   padding: 1em 2em;
 }
 
-/* line 271, ../_scss/_modules.scss */
+/* line 280, ../_scss/_modules.scss */
 .tickets > div > h3 {
   padding-top: 0.5em;
   position: absolute;
@@ -1790,7 +1820,7 @@ footer > .locations > a > span {
   width: 100%;
 }
 
-/* line 284, ../_scss/_modules.scss */
+/* line 293, ../_scss/_modules.scss */
 .ad {
   background-color: #dddddd;
   clear: both;
@@ -1798,37 +1828,37 @@ footer > .locations > a > span {
   padding: 1.5em;
 }
 
-/* line 294, ../_scss/_modules.scss */
+/* line 303, ../_scss/_modules.scss */
 .hero {
   background-color: #dddddd;
 }
 
-/* line 299, ../_scss/_modules.scss */
+/* line 308, ../_scss/_modules.scss */
 .hero > img {
   float: left;
   margin-right: 3em;
 }
 
-/* line 304, ../_scss/_modules.scss */
+/* line 313, ../_scss/_modules.scss */
 .hero .icon-list {
   margin: 0 4% 0 0;
   padding-top: 0.7em;
 }
 
-/* line 309, ../_scss/_modules.scss */
+/* line 318, ../_scss/_modules.scss */
 .hero .icon-list .icon-list-item {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
 }
 
-/* line 326, ../_scss/_modules.scss */
+/* line 335, ../_scss/_modules.scss */
 .address > span,
 .phone > span {
   float: left;
   font-size: 4em;
 }
 
-/* line 334, ../_scss/_modules.scss */
+/* line 343, ../_scss/_modules.scss */
 hr {
   display: block;
   height: 1px;
@@ -1838,7 +1868,7 @@ hr {
   padding: 0;
 }
 
-/* line 343, ../_scss/_modules.scss */
+/* line 352, ../_scss/_modules.scss */
 .filmstrip {
   background: url('../images/filmstrip.svg?1369119048') repeat-x top left;
   border-top: none;
@@ -1847,14 +1877,14 @@ hr {
   position: relative;
 }
 
-/* line 358, ../_scss/_modules.scss */
+/* line 367, ../_scss/_modules.scss */
 .map * img,
 .map *:before img,
 .map *:after img {
   max-width: none;
 }
 
-/* line 364, ../_scss/_modules.scss */
+/* line 373, ../_scss/_modules.scss */
 .ancient {
   background: #666666;
   border-bottom: 1px solid #ffffff;
@@ -1869,7 +1899,7 @@ hr {
   z-index: 1000000;
 }
 
-/* line 379, ../_scss/_modules.scss */
+/* line 388, ../_scss/_modules.scss */
 .ancient a,
 .ancient a:visited {
   color: #ffffff;
