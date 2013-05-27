@@ -1,7 +1,10 @@
 header {
   @extend .wrapper;
-  padding: 3em 0 2em 0;
+  padding: 0.6em 0 2em 0;
   position: relative;
+  @include at-least(40em) {
+    padding-top: 3em;
+  }
   @include at-least(mama-bear) {
     padding-top: 1em;
   }
@@ -35,15 +38,18 @@ header > div {
   text-align: center;
 }
 
-// Tagline / Reasons Ad Blurb
+// Tagline / Reasons Ad Blurbs
 // ==========================================================================
 
-.tagline {
+.publicity {
   color: #888888;
+  display: inline-block;
+  float: left;
   line-height: 1.3em;
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
   @include at-least(40em) {
+    display: block;
     float: right;
     margin-top: 1.5em;
     text-align: right;
@@ -60,24 +66,28 @@ header > div {
   }
 }
 
-  .tagline > b {
+  .tagline {
     @include font-source-semibold;
     color: #333333;
     display: block;
-    @include at-least(mama-bear) {
-      font-size: 1.1em;
-    }
   }
 
-    .tagline > b > em {
+    .tagline > em {
       display: block;
-      @include at-least(goldilocks){
+      @include at-least(40em) {
         display: inline;
       }
     }
 
-    .tagline a,
-    .tagline a:visited {
+  .why {
+    display: none;
+    @include at-least(40em) {
+      display: block;
+    }
+  }
+
+    .why a,
+    .why a:visited {
       color: #888888;
     }
 
@@ -85,8 +95,9 @@ header > div {
 // ==========================================================================
 
 .utilities {
-  
+  float: right;
   @include at-least(40em) {
+    float: none;
     padding: 0.5em 0 0 0;
     position: absolute;
       top: 0;
@@ -101,7 +112,9 @@ header > div {
 }
 
   .utilities > p {
+    display: none;
     @include at-least(40em) {
+      display: block;
       float: left;
       padding-top: 0.25em;
     }
@@ -111,18 +124,27 @@ header > div {
   }
 
   .utilities > form {
-    position: absolute;
-      top: 0.5em;
-      right: 0;
     @include at-least(40em) {
       float: right;
-      position: static;
     }
   }
 
-    .clarify-field {
-      clear: both;
-      display: block;
-      font-size: 0.75em;
-      margin-top: 0.3em;
+    .utilities > form > label {
+      @extend .button-icon;
+      @include border-radius(0 0.4em 0.4em 0);
+      margin-left: 1px;
+      @include at-least(40em) {
+        @include border-radius(0.4em);
+      }
     }
+
+    .utilities > form > input[type="search"] {
+      display: none;
+    }
+
+    // .clarify-field {
+    //   clear: both;
+    //   display: block;
+    //   font-size: 0.75em;
+    //   margin-top: 0.3em;
+    // }

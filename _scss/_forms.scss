@@ -150,6 +150,20 @@ a.button:visited {
   margin-right: 0.4em;
 }
 
+// Gray Icon Buttons
+
+.button-icon {
+  @include border-radius(0.4em);
+  background-color: $color-base-3;
+  color: $color-base-1;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.25em;
+  margin-top: 0.2em;
+  padding: 0.1em 0.5em 0 0.5em;
+  vertical-align: top;
+}
+
 // Search in Header
 // ==========================================================================
 

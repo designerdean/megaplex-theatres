@@ -1,9 +1,29 @@
+// Responsive Menu Button
+
+#menu {
+  @extend .button-icon;
+  @include border-radius(0.4em 0 0 0.4em);
+  margin-right: 1px;
+  float: right;
+  @include at-least(40em) {
+    display: none;
+  }
+}
+
+// Nav
+
 nav {
   @extend .wrapper;
-  margin-bottom: 1.4em;
+  @include single-transition(height, 0.2s, linear);
+  // height: 0;
+  overflow: hidden;
   text-align: right;
   width: 100%;
   z-index: 1;
+  @include at-least(40em) {
+    background-color: lime;
+    margin-bottom: 1.4em;
+  }
   @include at-least(papa-bear) {
     float: right;
     width: 77%;
@@ -11,35 +31,77 @@ nav {
 }
 
   nav > ul {
-    @include inline-block-list;
-    background-color: $color-base-3;
-    float: right;
-    font-size: 1.1em;
+    // @include inline-block-list;
+    @extend %clear-after;
     overflow: visible;
-    padding: 0 1%;
+    padding: 0.1em;
     width: 100%;
+    @include at-least(40em) {
+      background-color: $color-base-3;
+      float: right;
+      padding: 0 1%;
+    }
+    @include at-least(60em) {
+      background-color: $color-purple;
+      font-size: 1.1em;
+    }
   }
 
     nav > ul > li {
-      @include inline-block-list-item;
+      // @include inline-block-list-item;
+      border-top: 0.1em solid $color-base-1;
+      border-bottom: 0.1em solid $color-base-1;
       color: #ffffff;
-      display: block;
+      display: inline-block;
       float: left;
       letter-spacing: 1px;
       position: relative;
       text-transform: uppercase;
-      width: 14.28571428571429%;
+      white-space: nowrap;
+      width: 50%;
+      @include at-least(40em) {
+        display: block;
+        float: left;
+        width: 14.28571428571429%;
+      }
     }
+
+      nav > ul > li:nth-child(2n+1) {
+        border-right: 0.1em solid $color-base-1;
+      }
+
+      nav > ul > li:nth-child(2n+2) {
+        border-left: 0.1em solid $color-base-1;
+      }
+
+      nav > ul > li:last-child {
+        @include at-least(40em) {
+          display: none;
+        }
+      }
+
+        nav > ul > li:last-child:before {
+          font-family: 'Icomoon';
+          font-size: 0.9em;
+          content: "\2A4D";
+          position: absolute;
+            top: 0.55em;
+            right: 0.6em;
+        }
 
       nav a,
       nav a:visited {
         @include single-transition(background, 0.1s, linear);
+        background-color: $color-base-3;
         color: #ffffff;
         display: block;
-        padding: 0.4em 0 0.3em 0;
+        padding: 0.5em 0 0.3em 0;
         text-align: center;
         text-decoration: none;
         width: 100%;
+        @include at-least(40em) {
+          padding-top: 0.4em;
+        }
       }
 
         .no-touch nav a:hover {
@@ -84,12 +146,10 @@ nav {
       text-align: left;
     }
 
-      .no-touch .nav-sub a:hover {
-        
-      }
-
 // Show on Hover
 
 nav > ul > li:hover > .nav-sub {
-  display: block;
+  @include at-least(40em) {
+    display: block;
+  }
 }
