@@ -61,7 +61,15 @@ h1, h2, h3, h4, h5, h6, %faux-heading {
 }
 
   h1, h2 {
-    font-size: 2.2em;
+    font-size: 1.5em;
+    text-align: center;
+    @include at-least(40em) {
+      font-size: 1.8em;
+      text-align: left;
+    }
+    @include at-least(papa-bear) {
+      font-size: 2.2em;
+    }
   }
 
   h3 {

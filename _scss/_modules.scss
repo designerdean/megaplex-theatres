@@ -3,12 +3,33 @@
 
 .select-location {
   @extend %clear-after;
-  margin-top: -3em;
   text-align: right;
+  @include at-least(mama-bear) {
+    margin-top: -3em;
+  }
 }
 
   .select-location > label {
+    @extend .screen-reader;
     margin-right: 0.5em;
+    @include at-least(papa-bear) {
+      position: static;
+    }
+  }
+
+  .select-location > select {
+    display: block;
+    font-size: 0.8em;
+    margin: 0 auto;
+    max-width: 80%;
+    @include at-least(40em) {
+      display: inline;
+      font-size: 0.9em;
+      margin: 0;
+    }
+    @include at-least(mama-bear) {
+      font-size: 1em;
+    }
   }
 
 // Movies - Grid View (Default)
@@ -94,7 +115,10 @@
 // ==========================================================================
 
 .select-location + .movies {
-  @include border-radius(0.8em 0 0.8em 0.8em);
+  @include border-radius(0.8em);
+  @include at-least(40em) {
+    @include border-top-right-radius(0);    
+  }
 }
 
 // Movies with Times
