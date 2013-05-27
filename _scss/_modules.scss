@@ -5,27 +5,28 @@
   @extend %clear-after;
   text-align: right;
   @include at-least(mama-bear) {
-    margin-top: -3em;
+    margin-top: -2.8em;
   }
 }
 
   .select-location > label {
     @extend .screen-reader;
     margin-right: 0.5em;
-    @include at-least(papa-bear) {
+    @include at-least(55em) {
       position: static;
     }
   }
 
   .select-location > select {
     display: block;
-    font-size: 0.8em;
+    font-size: 0.8em; // Smaller than 16px font makes iOS zoom in when activating the select box :(
     margin: 0 auto;
     max-width: 80%;
     @include at-least(40em) {
       display: inline;
       font-size: 0.9em;
       margin: 0;
+      max-width: none;
     }
     @include at-least(mama-bear) {
       font-size: 1em;
