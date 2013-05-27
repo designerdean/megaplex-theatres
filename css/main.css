@@ -2405,14 +2405,7 @@ footer > .locations > a > span {
   }
 }
 
-/* line 431, ../_scss/_modules.scss */
-.address > span,
-.phone > span {
-  float: left;
-  font-size: 4em;
-}
-
-/* line 439, ../_scss/_modules.scss */
+/* line 422, ../_scss/_modules.scss */
 hr {
   display: block;
   height: 1px;
@@ -2422,7 +2415,7 @@ hr {
   padding: 0;
 }
 
-/* line 448, ../_scss/_modules.scss */
+/* line 431, ../_scss/_modules.scss */
 .filmstrip {
   background: url('../images/filmstrip.svg?1369119048') repeat-x top left;
   border-top: none;
@@ -2431,14 +2424,14 @@ hr {
   position: relative;
 }
 
-/* line 463, ../_scss/_modules.scss */
+/* line 446, ../_scss/_modules.scss */
 .map * img,
 .map *:before img,
 .map *:after img {
   max-width: none;
 }
 
-/* line 469, ../_scss/_modules.scss */
+/* line 452, ../_scss/_modules.scss */
 .ancient {
   background: #666666;
   border-bottom: 1px solid #ffffff;
@@ -2453,7 +2446,7 @@ hr {
   z-index: 1000000;
 }
 
-/* line 484, ../_scss/_modules.scss */
+/* line 467, ../_scss/_modules.scss */
 .ancient a,
 .ancient a:visited {
   color: #ffffff;
