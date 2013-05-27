@@ -238,7 +238,7 @@
       margin: 0 auto 0.8em auto;
       max-width: 15em;
       @include at-least(mama-bear) {
-        max-width: none;
+        max-width: 100%;
       }
     }
 
@@ -275,7 +275,7 @@
 
     .movie > .description > .button-row {
       margin-bottom: 2em;
-      @include at-least(mama-bear) {
+      @include at-least(40em) {
         text-align: left;
       }
     }
@@ -286,8 +286,12 @@
 .tickets {
   @extend .narrow;
   @extend .right;
-  padding: 5em 0;
+  background-color: $color-base-2;
   position: relative;
+  @include at-least(mama-bear) {
+    background-color: transparent;
+    padding: 5em 0;
+  }
 }
 
   .tickets:before,
@@ -319,17 +323,23 @@
   .tickets > div {
     background-color: $color-base-2;
     min-height: 40em;
-    padding: 1em 2em;
+    padding: 1em 1.5em;
+    @include at-least(mama-bear) {
+      padding-right: 2em;
+      padding-left: 2em;
+    }
   }
 
     .tickets > div > h3 {
       padding-top: 0.5em;
-      position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-      text-align: center;
-      width: 100%;
+      @include at-least(mama-bear) {
+        position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+        text-align: center;
+        width: 100%;
+      }
     }
 
 // Ads

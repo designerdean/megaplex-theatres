@@ -2168,13 +2168,13 @@ footer > .locations > a > span {
 @media (min-width: 50em) {
   /* line 236, ../_scss/_modules.scss */
   .poster {
-    max-width: none;
+    max-width: 100%;
   }
 }
 @media (min-width: mama-bear) {
   /* line 236, ../_scss/_modules.scss */
   .poster {
-    max-width: none;
+    max-width: 100%;
   }
 }
 
@@ -2225,13 +2225,7 @@ footer > .locations > a > span {
 .movie > .description > .button-row {
   margin-bottom: 2em;
 }
-@media (min-width: 50em) {
-  /* line 276, ../_scss/_modules.scss */
-  .movie > .description > .button-row {
-    text-align: left;
-  }
-}
-@media (min-width: mama-bear) {
+@media (min-width: 40em) {
   /* line 276, ../_scss/_modules.scss */
   .movie > .description > .button-row {
     text-align: left;
@@ -2240,11 +2234,25 @@ footer > .locations > a > span {
 
 /* line 286, ../_scss/_modules.scss */
 .tickets {
-  padding: 5em 0;
+  background-color: #dddddd;
   position: relative;
 }
+@media (min-width: 50em) {
+  /* line 286, ../_scss/_modules.scss */
+  .tickets {
+    background-color: transparent;
+    padding: 5em 0;
+  }
+}
+@media (min-width: mama-bear) {
+  /* line 286, ../_scss/_modules.scss */
+  .tickets {
+    background-color: transparent;
+    padding: 5em 0;
+  }
+}
 
-/* line 294, ../_scss/_modules.scss */
+/* line 298, ../_scss/_modules.scss */
 .tickets:before,
 .tickets:after {
   background-repeat: no-repeat;
@@ -2257,7 +2265,7 @@ footer > .locations > a > span {
   z-index: -1;
 }
 
-/* line 305, ../_scss/_modules.scss */
+/* line 309, ../_scss/_modules.scss */
 .tickets:before {
   background-image: url('../images/ticket-edges.svg?1369538854');
   -webkit-background-size: cover;
@@ -2268,7 +2276,7 @@ footer > .locations > a > span {
   top: 0;
 }
 
-/* line 312, ../_scss/_modules.scss */
+/* line 316, ../_scss/_modules.scss */
 .tickets:after {
   background-image: url('../images/ticket-edges.svg?1369538854');
   -webkit-background-size: cover;
@@ -2279,25 +2287,55 @@ footer > .locations > a > span {
   bottom: 0;
 }
 
-/* line 319, ../_scss/_modules.scss */
+/* line 323, ../_scss/_modules.scss */
 .tickets > div {
   background-color: #dddddd;
   min-height: 40em;
-  padding: 1em 2em;
+  padding: 1em 1.5em;
+}
+@media (min-width: 50em) {
+  /* line 323, ../_scss/_modules.scss */
+  .tickets > div {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+}
+@media (min-width: mama-bear) {
+  /* line 323, ../_scss/_modules.scss */
+  .tickets > div {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
 }
 
-/* line 325, ../_scss/_modules.scss */
+/* line 333, ../_scss/_modules.scss */
 .tickets > div > h3 {
   padding-top: 0.5em;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  text-align: center;
-  width: 100%;
+}
+@media (min-width: 50em) {
+  /* line 333, ../_scss/_modules.scss */
+  .tickets > div > h3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (min-width: mama-bear) {
+  /* line 333, ../_scss/_modules.scss */
+  .tickets > div > h3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+  }
 }
 
-/* line 338, ../_scss/_modules.scss */
+/* line 348, ../_scss/_modules.scss */
 .ad {
   background-color: #dddddd;
   clear: both;
@@ -2307,76 +2345,76 @@ footer > .locations > a > span {
   text-align: center;
 }
 @media (min-width: 50em) {
-  /* line 338, ../_scss/_modules.scss */
+  /* line 348, ../_scss/_modules.scss */
   .ad {
     text-align: left;
   }
 }
 @media (min-width: mama-bear) {
-  /* line 338, ../_scss/_modules.scss */
+  /* line 348, ../_scss/_modules.scss */
   .ad {
     text-align: left;
   }
 }
 
-/* line 353, ../_scss/_modules.scss */
+/* line 363, ../_scss/_modules.scss */
 .hero {
   background-color: #dddddd;
 }
 
-/* line 358, ../_scss/_modules.scss */
+/* line 368, ../_scss/_modules.scss */
 .hero > img {
   display: block;
   margin: 0 auto;
 }
 @media (min-width: 75em) {
-  /* line 358, ../_scss/_modules.scss */
+  /* line 368, ../_scss/_modules.scss */
   .hero > img {
     float: left;
     margin-right: 3em;
   }
 }
 
-/* line 367, ../_scss/_modules.scss */
+/* line 377, ../_scss/_modules.scss */
 .hero .icon-list {
   margin: 0;
   padding-top: 0;
 }
 @media (min-width: 30em) {
-  /* line 367, ../_scss/_modules.scss */
+  /* line 377, ../_scss/_modules.scss */
   .hero .icon-list {
     text-align: center;
   }
 }
 @media (min-width: goldilocks) {
-  /* line 367, ../_scss/_modules.scss */
+  /* line 377, ../_scss/_modules.scss */
   .hero .icon-list {
     text-align: center;
   }
 }
 @media (min-width: 50em) {
-  /* line 367, ../_scss/_modules.scss */
+  /* line 377, ../_scss/_modules.scss */
   .hero .icon-list {
     font-size: 1.2em;
     text-align: center;
   }
 }
 @media (min-width: mama-bear) {
-  /* line 367, ../_scss/_modules.scss */
+  /* line 377, ../_scss/_modules.scss */
   .hero .icon-list {
     font-size: 1.2em;
     text-align: center;
   }
 }
 @media (min-width: 75em) {
-  /* line 367, ../_scss/_modules.scss */
+  /* line 377, ../_scss/_modules.scss */
   .hero .icon-list {
     text-align: left;
   }
 }
 
 @media (min-width: 30em) {
-  /* line 386, ../_scss/_modules.scss */
+  /* line 396, ../_scss/_modules.scss */
   .hero .icon-list .icon-list-item {
     float: left;
     margin: 0 auto;
@@ -2384,7 +2422,7 @@ footer > .locations > a > span {
   }
 }
 @media (min-width: goldilocks) {
-  /* line 386, ../_scss/_modules.scss */
+  /* line 396, ../_scss/_modules.scss */
   .hero .icon-list .icon-list-item {
     float: left;
     margin: 0 auto;
@@ -2392,7 +2430,7 @@ footer > .locations > a > span {
   }
 }
 @media (min-width: 50em) {
-  /* line 386, ../_scss/_modules.scss */
+  /* line 396, ../_scss/_modules.scss */
   .hero .icon-list .icon-list-item {
     display: inline-block;
     float: none;
@@ -2401,7 +2439,7 @@ footer > .locations > a > span {
   }
 }
 @media (min-width: mama-bear) {
-  /* line 386, ../_scss/_modules.scss */
+  /* line 396, ../_scss/_modules.scss */
   .hero .icon-list .icon-list-item {
     display: inline-block;
     float: none;
@@ -2411,26 +2449,26 @@ footer > .locations > a > span {
 }
 
 @media (min-width: 30em) {
-  /* line 404, ../_scss/_modules.scss */
+  /* line 414, ../_scss/_modules.scss */
   .hero .icon-list span {
     display: block;
   }
 }
 @media (min-width: goldilocks) {
-  /* line 404, ../_scss/_modules.scss */
+  /* line 414, ../_scss/_modules.scss */
   .hero .icon-list span {
     display: block;
   }
 }
 @media (min-width: 50em) {
-  /* line 404, ../_scss/_modules.scss */
+  /* line 414, ../_scss/_modules.scss */
   .hero .icon-list span {
     display: table-cell;
     font-size: 3em;
   }
 }
 @media (min-width: mama-bear) {
-  /* line 404, ../_scss/_modules.scss */
+  /* line 414, ../_scss/_modules.scss */
   .hero .icon-list span {
     display: table-cell;
     font-size: 3em;
@@ -2438,35 +2476,35 @@ footer > .locations > a > span {
 }
 
 @media (min-width: 30em) {
-  /* line 417, ../_scss/_modules.scss */
+  /* line 427, ../_scss/_modules.scss */
   .hero .icon-list .icon-list-content {
     display: block;
     padding-left: 0;
   }
 }
 @media (min-width: goldilocks) {
-  /* line 417, ../_scss/_modules.scss */
+  /* line 427, ../_scss/_modules.scss */
   .hero .icon-list .icon-list-content {
     display: block;
     padding-left: 0;
   }
 }
 @media (min-width: 50em) {
-  /* line 417, ../_scss/_modules.scss */
+  /* line 427, ../_scss/_modules.scss */
   .hero .icon-list .icon-list-content {
     display: table-cell;
     padding-left: 1em;
   }
 }
 @media (min-width: mama-bear) {
-  /* line 417, ../_scss/_modules.scss */
+  /* line 427, ../_scss/_modules.scss */
   .hero .icon-list .icon-list-content {
     display: table-cell;
     padding-left: 1em;
   }
 }
 
-/* line 434, ../_scss/_modules.scss */
+/* line 444, ../_scss/_modules.scss */
 hr {
   display: block;
   height: 1px;
@@ -2476,7 +2514,7 @@ hr {
   padding: 0;
 }
 
-/* line 443, ../_scss/_modules.scss */
+/* line 453, ../_scss/_modules.scss */
 .filmstrip {
   background: url('../images/filmstrip.svg?1369119048') repeat-x top left;
   border-top: none;
@@ -2485,14 +2523,14 @@ hr {
   position: relative;
 }
 
-/* line 458, ../_scss/_modules.scss */
+/* line 468, ../_scss/_modules.scss */
 .map * img,
 .map *:before img,
 .map *:after img {
   max-width: none;
 }
 
-/* line 464, ../_scss/_modules.scss */
+/* line 474, ../_scss/_modules.scss */
 .ancient {
   background: #666666;
   border-bottom: 1px solid #ffffff;
@@ -2507,7 +2545,7 @@ hr {
   z-index: 1000000;
 }
 
-/* line 479, ../_scss/_modules.scss */
+/* line 489, ../_scss/_modules.scss */
 .ancient a,
 .ancient a:visited {
   color: #ffffff;
