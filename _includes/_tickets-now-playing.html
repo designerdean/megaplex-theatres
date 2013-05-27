@@ -6,27 +6,47 @@
     <form action="{{ site.baseurl }}confirmation">
       <fieldset>
 
-        <!-- When -->
+        <!-- Simple (Small Screens) When & Where -->
 
-        <div class="tickets-when">
-          <label class="label-large" for="datepicker-day">When</label>
-          <input type="text" id="datepicker-month" class="calendar month" readonly onclick="document.getElementById('datepicker').focus();">
-          <input type="text" id="datepicker-day" class="calendar day" readonly>
+        <div class="tickets-simple">
+          <div>
+            <label class="label-large" for="datepicker-simple">When</label>
+            <input type="date">
+          </div>
+          <br>
+          <div>
+            <label class="label-large" for="location-picker">Where</label>
+            {% include _select-location.html %}
+          </div>
         </div>
 
-        <!-- Where -->
+        <!-- Complex When & Where -->
 
-        <div class="tickets-where">
-          <label class="label-large" for="location-picker">Where</label>
-          <a href="#locations" id="location-picker" class="magnific tickets-location ogden-the-junction">
-            <span>
+        <div class="tickets-complex">
+
+          <!-- When -->
+
+          <div class="tickets-when">
+            <label class="label-large" for="datepicker-day">When</label>
+            <input type="text" id="datepicker-month" class="calendar month" readonly onclick="document.getElementById('datepicker').focus();">
+            <input type="text" id="datepicker-day" class="calendar day" readonly>
+          </div>
+
+          <!-- Where -->
+
+          <div class="tickets-where">
+            <label class="label-large" for="location-picker">Where</label>
+            <a href="#locations" id="location-picker" class="magnific tickets-location ogden-the-junction">
               <span>
-                Ogden<br>
-                The Junction
+                <span>
+                  Ogden<br>
+                  The Junction
+                </span>
               </span>
-            </span>
-          </a>
-          <a href="#locations" class="magnific location-picker">Change Location</a>
+            </a>
+            <a href="#locations" class="magnific location-picker">Change Location</a>
+          </div>
+
         </div>
   
         <!-- Format -->

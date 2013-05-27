@@ -331,6 +331,7 @@
   }
 
     .tickets > div > h3 {
+      margin-bottom: 1em;
       padding-top: 0.5em;
       @include at-least(mama-bear) {
         position: absolute;

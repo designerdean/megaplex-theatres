@@ -261,6 +261,23 @@ a.button-icon,
     width: 100%;
   }
 
+// Responsive Variations
+
+.tickets-simple {
+  display: block;
+  padding-bottom: 1.2em;
+  @include at-least(mama-bear) {
+    display: none;    
+  }
+}
+
+.tickets-complex {
+  display: none;
+  @include at-least(mama-bear) {
+    display: block;
+  }
+}
+
 // When
 
 .tickets-when {
