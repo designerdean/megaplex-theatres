@@ -227,12 +227,19 @@
 
   .poster-container {
     display: block;
-    float: left;
-    width: 45%;
+    @include at-least(mama-bear) {
+      float: left;
+      width: 45%;
+    }
   }
 
     .poster {
-      margin-bottom: 0.8em;
+      display: block;
+      margin: 0 auto 0.8em auto;
+      max-width: 15em;
+      @include at-least(mama-bear) {
+        max-width: none;
+      }
     }
 
   .rating-container {
@@ -259,14 +266,18 @@
     }
 
   .movie > .description {
-    float: left;
-    padding-left: 1.5em;
-    width: 55%;
+    @include at-least(mama-bear) {
+      float: left;
+      padding-left: 1.5em;
+      width: 55%;
+    }
   }
 
     .movie > .description > .button-row {
       margin-bottom: 2em;
-      text-align: left;
+      @include at-least(mama-bear) {
+        text-align: left;
+      }
     }
 
 // Individual Movie Page - Right Sidebar
@@ -328,7 +339,12 @@
   background-color: $color-base-2;
   clear: both;
   color: #666666;
-  padding: 1.5em;
+  margin-bottom: 1em;
+  padding: 1.5em 1.5em 1.3em 1.5em;
+  text-align: center;
+  @include at-least(mama-bear) {
+    text-align: left;
+  }
 }
 
 // Individual Location Page - Left Content Area
