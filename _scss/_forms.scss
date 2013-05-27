@@ -153,20 +153,22 @@ a.button:visited {
 
 // Gray Icon Buttons
 
-a.button-icon {
+a.button-icon,
+.button-icon {
   @include border-radius(0.4em);
   background-color: $color-base-3;
   color: $color-base-1;
   cursor: pointer;
   display: inline-block;
   font-size: 1.25em;
+  font-weight: normal;
   margin-top: 0.2em;
   padding: 0.1em 0.5em 0 0.5em;
   text-decoration: none;
   vertical-align: top;
 }
 
-  a.button-icon > i {
+  .button-icon > i {
     @extend .screen-reader;
   }
 

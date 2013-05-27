@@ -80,7 +80,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 70, ../_scss/_bits.scss */
-.screen-reader, .boxy-list > input[type="radio"], a.button-icon > i, a.menu > i, a.search > i,
+.screen-reader, .boxy-list > input[type="radio"], .button-icon > i, .menu > i, a.search > i,
 input[type="submit"].screen-reader,
 .boxy-list > input[type="submit"][type="radio"] {
   position: absolute;
@@ -651,8 +651,11 @@ a.button.purple:visited {
   margin-right: 0.4em;
 }
 
-/* line 156, ../_scss/_forms.scss */
-a.button-icon, a.menu, a.search {
+/* line 157, ../_scss/_forms.scss */
+a.button-icon, a.menu, a.search,
+.button-icon,
+.menu,
+a.search {
   -webkit-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
   -ms-border-radius: 0.4em;
@@ -663,13 +666,14 @@ a.button-icon, a.menu, a.search {
   cursor: pointer;
   display: inline-block;
   font-size: 1.25em;
+  font-weight: normal;
   margin-top: 0.2em;
   padding: 0.1em 0.5em 0 0.5em;
   text-decoration: none;
   vertical-align: top;
 }
 
-/* line 176, ../_scss/_forms.scss */
+/* line 178, ../_scss/_forms.scss */
 .select-location > select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -693,12 +697,12 @@ a.button-icon, a.menu, a.search {
   text-align: left;
 }
 
-/* line 191, ../_scss/_forms.scss */
+/* line 193, ../_scss/_forms.scss */
 .no-svg .select-location > select {
   padding-right: 1.2em;
 }
 
-/* line 200, ../_scss/_forms.scss */
+/* line 202, ../_scss/_forms.scss */
 .select-location > select option,
 .select-location > select optgroup {
   background-color: #ffffff;
@@ -706,7 +710,7 @@ a.button-icon, a.menu, a.search {
   padding: 0 0.5em;
 }
 
-/* line 209, ../_scss/_forms.scss */
+/* line 211, ../_scss/_forms.scss */
 .modal-picker {
   background-color: #f9f9f9;
   margin: 0 auto;
@@ -714,17 +718,17 @@ a.button-icon, a.menu, a.search {
   padding: 1.5em 1em;
 }
 
-/* line 216, ../_scss/_forms.scss */
+/* line 218, ../_scss/_forms.scss */
 .modal-picker > h3 {
   text-align: center;
 }
 
-/* line 220, ../_scss/_forms.scss */
+/* line 222, ../_scss/_forms.scss */
 .modal-picker > ul {
   margin-bottom: 0;
 }
 
-/* line 225, ../_scss/_forms.scss */
+/* line 227, ../_scss/_forms.scss */
 .modal-picker > ul > li {
   display: inline-block;
   float: left;
@@ -732,17 +736,17 @@ a.button-icon, a.menu, a.search {
   width: 50%;
 }
 
-/* line 235, ../_scss/_forms.scss */
+/* line 237, ../_scss/_forms.scss */
 .tickets fieldset {
   margin-bottom: 1em;
 }
 
-/* line 239, ../_scss/_forms.scss */
+/* line 241, ../_scss/_forms.scss */
 .tickets .label-large {
   font-size: 1.3em;
 }
 
-/* line 245, ../_scss/_forms.scss */
+/* line 247, ../_scss/_forms.scss */
 .ui-datepicker-trigger,
 .location-picker {
   -webkit-appearance: none;
@@ -771,7 +775,7 @@ a.button-icon, a.menu, a.search {
   width: 100%;
 }
 
-/* line 266, ../_scss/_forms.scss */
+/* line 268, ../_scss/_forms.scss */
 .tickets-when {
   float: left;
   margin-bottom: 1.2em;
@@ -779,7 +783,7 @@ a.button-icon, a.menu, a.search {
   width: 34%;
 }
 
-/* line 273, ../_scss/_forms.scss */
+/* line 275, ../_scss/_forms.scss */
 input[type="text"].calendar {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -828,7 +832,7 @@ input[type="text"].calendar::-webkit-input-placeholder {
   color: #4d4d4d;
 }
 
-/* line 294, ../_scss/_forms.scss */
+/* line 296, ../_scss/_forms.scss */
 input[type="text"].calendar.day {
   font-family: "lft-etica", sans-serif;
   font-style: normal;
@@ -839,7 +843,7 @@ input[type="text"].calendar.day {
   padding: 0.2em 0 0.1em 0;
 }
 
-/* line 304, ../_scss/_forms.scss */
+/* line 306, ../_scss/_forms.scss */
 .tickets-where {
   float: left;
   margin-bottom: 1.2em;
@@ -847,7 +851,7 @@ input[type="text"].calendar.day {
   width: 66%;
 }
 
-/* line 314, ../_scss/_forms.scss */
+/* line 316, ../_scss/_forms.scss */
 a.tickets-location,
 a.tickets-location:visited {
   color: #e5e5e5;
@@ -861,7 +865,7 @@ a.tickets-location:visited {
   width: 100%;
 }
 
-/* line 326, ../_scss/_forms.scss */
+/* line 328, ../_scss/_forms.scss */
 a.tickets-location:before {
   content: '';
   display: inline-block;
@@ -870,7 +874,7 @@ a.tickets-location:before {
   vertical-align: middle;
 }
 
-/* line 334, ../_scss/_forms.scss */
+/* line 336, ../_scss/_forms.scss */
 a.tickets-location > span {
   display: inline-block;
   font-size: 1.8em;
@@ -878,7 +882,7 @@ a.tickets-location > span {
   vertical-align: middle;
 }
 
-/* line 341, ../_scss/_forms.scss */
+/* line 343, ../_scss/_forms.scss */
 a.tickets-location > span:before {
   background-color: rgba(0, 0, 0, 0.4);
   content: "";
@@ -890,99 +894,99 @@ a.tickets-location > span:before {
   z-index: 0;
 }
 
-/* line 352, ../_scss/_forms.scss */
+/* line 354, ../_scss/_forms.scss */
 .no-rgba a.tickets-location > span:after {
   background: url('../images/no-rgba/black-40.png?1369104949') repeat;
 }
 
-/* line 356, ../_scss/_forms.scss */
+/* line 358, ../_scss/_forms.scss */
 a.tickets-location > span > span {
   position: relative;
 }
 
-/* line 362, ../_scss/_forms.scss */
+/* line 364, ../_scss/_forms.scss */
 .tickets-location.ogden-the-junction {
   background: url('../images/locations/small/ogden-the-junction.jpg?1368908104') no-repeat top center;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 362, ../_scss/_forms.scss */
+  /* line 364, ../_scss/_forms.scss */
   .tickets-location.ogden-the-junction {
     background-image: url('../images/locations/small/ogden-the-junction@2x.jpg?1368908104');
     background-size: 288px 165px;
   }
 }
 
-/* line 367, ../_scss/_forms.scss */
+/* line 369, ../_scss/_forms.scss */
 .tickets-location.sandy-jordan-commons {
   background: url('../images/locations/small/sandy-jordan-commons.jpg?1369110507') no-repeat top center;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 367, ../_scss/_forms.scss */
+  /* line 369, ../_scss/_forms.scss */
   .tickets-location.sandy-jordan-commons {
     background-image: url('../images/locations/small/sandy-jordan-commons@2x.jpg?1369110481');
     background-size: 288px 165px;
   }
 }
 
-/* line 374, ../_scss/_forms.scss */
+/* line 376, ../_scss/_forms.scss */
 .tickets-format {
   border-top: 0.3em dashed #f6f8f8;
   clear: both;
   padding: 1.2em 0;
 }
 
-/* line 382, ../_scss/_forms.scss */
+/* line 384, ../_scss/_forms.scss */
 .time {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
 }
 
-/* line 389, ../_scss/_forms.scss */
+/* line 391, ../_scss/_forms.scss */
 .tickets-quantity {
   border-top: 0.3em dashed #f6f8f8;
   padding: 1.2em 0;
   text-align: center;
 }
 
-/* line 395, ../_scss/_forms.scss */
+/* line 397, ../_scss/_forms.scss */
 .tickets-quantity > .label-large {
   display: inline;
   vertical-align: middle;
 }
 
-/* line 402, ../_scss/_forms.scss */
+/* line 404, ../_scss/_forms.scss */
 .tickets-hint {
   margin-top: 0.5em;
   margin-bottom: 0;
   text-align: right;
 }
 
-/* line 416, ../_scss/_forms.scss */
+/* line 418, ../_scss/_forms.scss */
 .picker-container {
   margin-top: 1.2em;
 }
 
-/* line 421, ../_scss/_forms.scss */
+/* line 423, ../_scss/_forms.scss */
 .picker-container > label {
   font-size: 1.3em;
   margin-right: 0.3em;
   vertical-align: middle;
 }
 
-/* line 428, ../_scss/_forms.scss */
+/* line 430, ../_scss/_forms.scss */
 .picker-container > input[type="text"] {
   width: 15em;
 }
 
 /* line 1, ../_scss/_header.scss */
 header {
-  padding: 0.6em 0 2em 0;
+  padding: 0.6em 0 1em 0;
   position: relative;
 }
 @media (min-width: 40em) {
   /* line 1, ../_scss/_header.scss */
   header {
-    padding-top: 1em;
+    padding: 1em 0 2em 0;
   }
 }
 
@@ -1153,7 +1157,7 @@ header > div {
 }
 
 /* line 123, ../_scss/_header.scss */
-a.menu {
+.menu {
   -moz-border-radius-topright: 0;
   -webkit-border-top-right-radius: 0;
   border-top-right-radius: 0;
@@ -1170,7 +1174,7 @@ a.menu {
 }
 @media (min-width: 40em) {
   /* line 123, ../_scss/_header.scss */
-  a.menu {
+  .menu {
     display: none;
   }
 }
@@ -1209,6 +1213,7 @@ nav {
   -ms-transition: height 0.2s linear;
   -o-transition: height 0.2s linear;
   transition: height 0.2s linear;
+  height: 0;
   overflow: hidden;
   text-align: right;
   width: 100%;

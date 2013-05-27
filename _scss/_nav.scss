@@ -3,7 +3,7 @@
 nav {
   @extend .wrapper;
   @include single-transition(height, 0.2s, linear);
-  // height: 0;
+  height: 0;
   overflow: hidden;
   text-align: right;
   width: 100%;

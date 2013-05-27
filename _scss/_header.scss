@@ -1,9 +1,9 @@
 header {
   @extend .wrapper;
-  padding: 0.6em 0 2em 0;
+  padding: 0.6em 0 1em 0;
   position: relative;
   @include at-least(40em) {
-    padding-top: 1em;
+    padding: 1em 0 2em 0;
   }
 }
 
@@ -120,7 +120,7 @@ header > div {
 
   // Menu Button
 
-  a.menu {
+  .menu {
     @extend .button-icon;
     @include border-right-radius(0);
     @include border-left-radius(0.4em);
