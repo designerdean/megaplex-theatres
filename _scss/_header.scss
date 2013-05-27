@@ -3,9 +3,6 @@ header {
   padding: 0.6em 0 2em 0;
   position: relative;
   @include at-least(40em) {
-    padding-top: 3em;
-  }
-  @include at-least(mama-bear) {
     padding-top: 1em;
   }
 }
@@ -51,12 +48,11 @@ header > div {
   @include at-least(40em) {
     display: block;
     float: right;
-    margin-top: 1.5em;
+    margin-top: 2.5em;
     text-align: right;
   }
   @include at-least(mama-bear) {
     font-size: 1.1em;
-    margin-top: 2.5em;
   }
   @include at-least(papa-bear) {
     float: right;
@@ -91,7 +87,7 @@ header > div {
       color: #888888;
     }
 
-// Login / Search Utilities
+// Utilities (Login / Search Button / Menu Button)
 // ==========================================================================
 
 .utilities {
@@ -102,11 +98,9 @@ header > div {
     position: absolute;
       top: 0;
       right: 0;
-      left: 0;
     text-align: left;
   }
   @include at-least(mama-bear) {
-    left: auto;
     text-align: right;
   }
 }
@@ -116,35 +110,35 @@ header > div {
     @include at-least(40em) {
       display: block;
       float: left;
-      padding-top: 0.25em;
+      padding-top: 0.5em;
+      padding-right: 0.5em;
     }
     @include at-least(mama-bear) {
-      padding-right: 0.8em;
+
     }
   }
 
-  .utilities > form {
+  // Menu Button
+
+  a.menu {
+    @extend .button-icon;
+    @include border-right-radius(0);
+    @include border-left-radius(0.4em);
+    margin-right: 1px;
     @include at-least(40em) {
-      float: right;
-    }
-  }
-
-    .utilities > form > label {
-      @extend .button-icon;
-      @include border-radius(0 0.4em 0.4em 0);
-      margin-left: 1px;
-      @include at-least(40em) {
-        @include border-radius(0.4em);
-      }
-    }
-
-    .utilities > form > input[type="search"] {
       display: none;
     }
+  }
 
-    // .clarify-field {
-    //   clear: both;
-    //   display: block;
-    //   font-size: 0.75em;
-    //   margin-top: 0.3em;
-    // }
+  // Search Button
+
+  a.search {
+    @extend .button-icon;
+    @include border-right-radius(0.4em);
+    @include border-left-radius(0);
+    margin-left: 1px;
+    @include at-least(40em) {
+      @include border-radius(0.4em);
+    }
+  }
+

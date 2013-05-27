@@ -62,6 +62,7 @@ textarea {
 
   input[type="search"] {
     @include box-sizing(content-box);
+    font-size: 0.8em;
     -webkit-appearance: textfield;
   }
 
@@ -152,7 +153,7 @@ a.button:visited {
 
 // Gray Icon Buttons
 
-.button-icon {
+a.button-icon {
   @include border-radius(0.4em);
   background-color: $color-base-3;
   color: $color-base-1;
@@ -161,22 +162,13 @@ a.button:visited {
   font-size: 1.25em;
   margin-top: 0.2em;
   padding: 0.1em 0.5em 0 0.5em;
+  text-decoration: none;
   vertical-align: top;
 }
 
-// Search in Header
-// ==========================================================================
-
-input[type="search"] {
-  @include appearance(none);
-  @include box-sizing(content-box);
-  @include font-source-regular;
-  font-size: 0.8em;
-  width: 4em;
-  @include at-least(goldilocks) {
-    width: 12em;
+  a.button-icon > i {
+    @extend .screen-reader;
   }
-}
 
 // Location Select Box
 // ==========================================================================
