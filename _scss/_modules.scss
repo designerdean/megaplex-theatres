@@ -362,82 +362,77 @@
 // ==========================================================================
 
 .hero {
-  @extend .row;
+  @extend %clear-after;
   background-color: $color-base-2;
+  margin-bottom: 2em;
+  position: relative;
 }
 
   .hero > img {
-    display: block;
-    margin: 0 auto;
+    @include at-least(mama-bear) {
+      display: block;
+      margin: 0 auto;
+    }
     @include at-least(papa-bear) {
-      float: left;
-      margin-right: 3em;
+      margin: 0;
     }
   }
 
   .hero .icon-list {
-    margin: 0;
-    padding-top: 0;
-    // text-align: center;
-    @include at-least(goldilocks) {
-      // font-size: 1em;
-      // margin-right: 4%;
-      // padding-top: 0.7em;
-      text-align: center;
-    }
-    @include at-least(mama-bear) {
-      font-size: 1.2em;
-      text-align: center;
-    }
+    margin-bottom: 0;
     @include at-least(papa-bear) {
-      text-align: left;
+      background-color: $color-base-2;
+      max-width: 44%;
+      padding: 0 0.5em 0 0.3em;
+      position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
     }
   }
 
     .hero .icon-list .icon-list-item {
-      // padding-top: 0.8em;
-      // padding-bottom: 0.8em;
       @include at-least(goldilocks) {
-        // display: block;
         float: left;
-        margin: 0 auto;
-        // padding-bottom: 0;
         width: 50%;
       }
-      @include at-least(mama-bear) {
-        display: inline-block;
+      @include at-least(papa-bear) {
         float: none;
-        text-align: left;
         width: auto;
       }
     }
 
       .hero .icon-list span {
-        // display: block;
-        // text-align: center;
         @include at-least(goldilocks) {
-          // font-size: 2.2em;
           display: block;
+          text-align: center;
         }
-        @include at-least(mama-bear) {
+        @include at-least(papa-bear) {
           display: table-cell;
-          font-size: 3em;
+          font-size: 3.2em;
+          text-align: left;
         }
       }
 
       .hero .icon-list .icon-list-content {
-        // display: block;
-        // padding-left: 0;
+        display: block;
+        text-align: center;
         @include at-least(goldilocks) {
-          display: block;
           padding-left: 0;
-          // text-align: left;
         }
-        @include at-least(mama-bear) {
+        @include at-least(papa-bear) {
           display: table-cell;
           padding-left: 1em;
+          text-align: left;
         }
       }
+
+        .hero .icon-list .icon-list-content dl {
+          text-align: center;
+          @include at-least(papa-bear) {
+            text-align: left;
+          }
+        }
 
 // Horizontal Rules
 // ==========================================================================

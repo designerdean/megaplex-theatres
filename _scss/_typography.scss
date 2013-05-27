@@ -113,7 +113,7 @@ blockquote {
 dl {
   @extend %clear-after;
   text-align: center;
-  @include at-least(mama-bear) {
+  @include at-least(goldilocks) {
     text-align: left;
   }
   @include at-least(papa-bear) {
