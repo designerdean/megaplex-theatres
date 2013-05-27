@@ -2,45 +2,75 @@ footer {
   @extend %clear-after;
   @extend .wrapper;
   color: #999999;
-  padding-bottom: 2em;
+  text-align: center;
+  @include at-least(40em) {
+    text-align: left;
+  }
 }
 
-  footer > div {
-    font-size: 0.95em;
-    float: right;
-    padding: 1em 2em;
+  footer > ul {
+    @include at-least(40em) {
+      float: left;
+      margin-left: 1em;
+      width: 40%;
+    }
+    @include at-least(mama-bear) {
+      float: right;
+      margin: 0;
+      width: auto;
+    }
   }
 
-    footer h6 {
-      font-size: 1em;
-      text-transform: uppercase;
+    footer > ul > li {
+      @include at-least(40em) {
+        display: inline;
+        margin: 0 0.5em 0 0;
+      }
+      @include at-least(mama-bear) {
+        display: block;
+        text-align: right;
+      }
     }
 
     footer a,
     footer a:visited {
-      color: #999999;
-      text-decoration: none;
+      color: #666666;
     }
 
 // Locations Block
 
 footer > .locations {
-  float: left;
+  display: block;
+  margin-bottom: 1em;
+  @include at-least(mama-bear) {
+    float: left;
+  }
 }
 
-  footer > .locations > a > span {
-    background: image-url("slc.jpg") no-repeat bottom center;
-      @include image-2x("slc@2x.jpg", 324px, 158px);
-    @include single-transition(color, 0.1s, linear);
-    color: #e5e5e5;
-    display: inline-block;
-    float: left;
-    font-size: 4.5em;
-    line-height: 2.2em;
-    text-align: center;
-    width: 4.5em;
+  footer > .locations > a,
+  footer > .locations > a:visited {
+    text-decoration: none;
   }
 
-    .no-touch footer > .locations > a:hover > span {
-      color: #ffffff;
+    footer > .locations > a > span {
+      background: image-url("slc.jpg") no-repeat bottom center;
+        @include image-2x("slc@2x.jpg", 324px, 158px);
+      @include single-transition(color, 0.1s, linear);
+      color: #e5e5e5;
+      display: block;
+      font-size: 4.5em;
+      line-height: 2.2em;
+      margin: 0 auto;
+      max-width: 100%;
+      text-align: center;
+      width: 4.5em;
+      @include at-least(40em) {
+        display: inline-block;
+        float: left;
+        margin: 0 0 0.5em 0;
+      }
     }
+
+      .no-touch footer > .locations > a:hover > span {
+        color: #ffffff;
+      }

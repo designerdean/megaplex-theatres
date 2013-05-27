@@ -1695,35 +1695,93 @@ nav a.active {
 /* line 1, ../_scss/_footer.scss */
 footer {
   color: #999999;
-  padding-bottom: 2em;
+  text-align: center;
+}
+@media (min-width: 40em) {
+  /* line 1, ../_scss/_footer.scss */
+  footer {
+    text-align: left;
+  }
 }
 
-/* line 8, ../_scss/_footer.scss */
-footer > div {
-  font-size: 0.95em;
-  float: right;
-  padding: 1em 2em;
+@media (min-width: 40em) {
+  /* line 11, ../_scss/_footer.scss */
+  footer > ul {
+    float: left;
+    margin-left: 1em;
+    width: 40%;
+  }
+}
+@media (min-width: 50em) {
+  /* line 11, ../_scss/_footer.scss */
+  footer > ul {
+    float: right;
+    margin: 0;
+    width: auto;
+  }
+}
+@media (min-width: mama-bear) {
+  /* line 11, ../_scss/_footer.scss */
+  footer > ul {
+    float: right;
+    margin: 0;
+    width: auto;
+  }
 }
 
-/* line 14, ../_scss/_footer.scss */
-footer h6 {
-  font-size: 1em;
-  text-transform: uppercase;
+@media (min-width: 40em) {
+  /* line 24, ../_scss/_footer.scss */
+  footer > ul > li {
+    display: inline;
+    margin: 0 0.5em 0 0;
+  }
+}
+@media (min-width: 50em) {
+  /* line 24, ../_scss/_footer.scss */
+  footer > ul > li {
+    display: block;
+    text-align: right;
+  }
+}
+@media (min-width: mama-bear) {
+  /* line 24, ../_scss/_footer.scss */
+  footer > ul > li {
+    display: block;
+    text-align: right;
+  }
 }
 
-/* line 20, ../_scss/_footer.scss */
+/* line 36, ../_scss/_footer.scss */
 footer a,
 footer a:visited {
-  color: #999999;
+  color: #666666;
+}
+
+/* line 42, ../_scss/_footer.scss */
+footer > .locations {
+  display: block;
+  margin-bottom: 1em;
+}
+@media (min-width: 50em) {
+  /* line 42, ../_scss/_footer.scss */
+  footer > .locations {
+    float: left;
+  }
+}
+@media (min-width: mama-bear) {
+  /* line 42, ../_scss/_footer.scss */
+  footer > .locations {
+    float: left;
+  }
+}
+
+/* line 51, ../_scss/_footer.scss */
+footer > .locations > a,
+footer > .locations > a:visited {
   text-decoration: none;
 }
 
-/* line 27, ../_scss/_footer.scss */
-footer > .locations {
-  float: left;
-}
-
-/* line 31, ../_scss/_footer.scss */
+/* line 55, ../_scss/_footer.scss */
 footer > .locations > a > span {
   background: url('../images/slc.jpg?1368902374') no-repeat bottom center;
   -webkit-transition: color 0.1s linear;
@@ -1732,22 +1790,31 @@ footer > .locations > a > span {
   -o-transition: color 0.1s linear;
   transition: color 0.1s linear;
   color: #e5e5e5;
-  display: inline-block;
-  float: left;
+  display: block;
   font-size: 4.5em;
   line-height: 2.2em;
+  margin: 0 auto;
+  max-width: 100%;
   text-align: center;
   width: 4.5em;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-  /* line 31, ../_scss/_footer.scss */
+  /* line 55, ../_scss/_footer.scss */
   footer > .locations > a > span {
     background-image: url('../images/slc@2x.jpg?1368902374');
     background-size: 324px 158px;
   }
 }
+@media (min-width: 40em) {
+  /* line 55, ../_scss/_footer.scss */
+  footer > .locations > a > span {
+    display: inline-block;
+    float: left;
+    margin: 0 0 0.5em 0;
+  }
+}
 
-/* line 44, ../_scss/_footer.scss */
+/* line 74, ../_scss/_footer.scss */
 .no-touch footer > .locations > a:hover > span {
   color: #ffffff;
 }
@@ -2360,7 +2427,7 @@ hr {
   background: url('../images/filmstrip.svg?1369119048') repeat-x top left;
   border-top: none;
   height: 7.5em;
-  margin: 0 -5.6% 2em -5.6%;
+  margin: 0 -5.6% 0 -5.6%;
   position: relative;
 }
 
