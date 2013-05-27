@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6, %faux-heading {
   color: $color-purple;
   display: block;
   letter-spacing: 1px;
-  line-height: 1em;
+  line-height: 1.1em;
   margin-bottom: 0.5em;
   text-align: center;
   text-transform: uppercase;
@@ -82,11 +82,17 @@ h1, h2, h3, h4, h5, h6, %faux-heading {
   }
 
   h3 {
-    font-size: 1.5em;
+    font-size: 1.3em;
+    @include at-least(40em) {
+      font-size: 1.5em;
+    }
   }
 
   h4, h5, h6, %faux-heading {
-    font-size: 1.3em;
+    font-size: 1.1em;
+    @include at-least(40em) {
+      font-size: 1.3em;
+    }
   }
 
 // Misc
@@ -281,9 +287,11 @@ dl {
     @include single-transition(all, 0.1s, linear);
     background-color: #ffffff;
     display: inline-block;
-    font-size: 1.2em;
     margin: 0 0.5em 0.5em 0;
     padding: 0.3em 0.5em 0.2em 0.5em;
+    @include at-least(mama-bear) {
+      font-size: 1.2em;
+    }
   }
 
     .tickets .boxy-list-item {

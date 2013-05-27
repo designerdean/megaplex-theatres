@@ -7,9 +7,11 @@ a:visited {
 
 .breadcrumbs {
   @include inline-block-list;
+  font-size: 0.8em;
   padding-bottom: 0.5em;
   text-align: center;
   @include at-least(40em) {
+    font-size: 1em;
     text-align: left;
   }
 }
